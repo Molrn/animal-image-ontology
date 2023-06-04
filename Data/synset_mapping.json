@@ -1,0 +1,9270 @@
+[
+    {
+        "inid": "n01440764",
+        "wnid": "01443405-n",
+        "synset": [
+            "tench",
+            "Tinca tinca"
+        ],
+        "wdid": "Q76280"
+    },
+    {
+        "inid": "n01443537",
+        "wnid": "01446178-n",
+        "synset": [
+            "goldfish",
+            "Carassius auratus"
+        ],
+        "wdid": "Q123141"
+    },
+    {
+        "inid": "n01484850",
+        "wnid": "01487491-n",
+        "synset": [
+            "great white shark",
+            "white shark",
+            "man-eater",
+            "man-eating shark",
+            "Carcharodon carcharias"
+        ],
+        "wdid": "Q129026"
+    },
+    {
+        "inid": "n01491361",
+        "wnid": "01494002-n",
+        "synset": [
+            "tiger shark",
+            "Galeocerdo cuvieri"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01494475",
+        "wnid": "01497116-n",
+        "synset": [
+            "hammerhead",
+            "hammerhead shark"
+        ],
+        "wdid": "Q726259"
+    },
+    {
+        "inid": "n01496331",
+        "wnid": "01498972-n",
+        "synset": [
+            "electric ray",
+            "crampfish",
+            "numbfish",
+            "torpedo"
+        ],
+        "wdid": "Q206675"
+    },
+    {
+        "inid": "n01498041",
+        "wnid": "01500682-n",
+        "synset": [
+            "stingray"
+        ],
+        "wdid": "Q902487"
+    },
+    {
+        "inid": "n01514668",
+        "wnid": "01517309-n",
+        "synset": [
+            "cock"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01514859",
+        "wnid": "01517500-n",
+        "synset": [
+            "hen"
+        ],
+        "wdid": "Q222951"
+    },
+    {
+        "inid": "n01518878",
+        "wnid": "01521519-n",
+        "synset": [
+            "ostrich",
+            "Struthio camelus"
+        ],
+        "wdid": "Q2576337"
+    },
+    {
+        "inid": "n01530575",
+        "wnid": "01533216-n",
+        "synset": [
+            "brambling",
+            "Fringilla montifringilla"
+        ],
+        "wdid": "Q188877"
+    },
+    {
+        "inid": "n01531178",
+        "wnid": "01533819-n",
+        "synset": [
+            "goldfinch",
+            "Carduelis carduelis"
+        ],
+        "wdid": "Q27757"
+    },
+    {
+        "inid": "n01532829",
+        "wnid": "01535470-n",
+        "synset": [
+            "house finch",
+            "linnet",
+            "Carpodacus mexicanus"
+        ],
+        "wdid": "Q374302"
+    },
+    {
+        "inid": "n01534433",
+        "wnid": "01537074-n",
+        "synset": [
+            "junco",
+            "snowbird"
+        ],
+        "wdid": "Q857319"
+    },
+    {
+        "inid": "n01537544",
+        "wnid": "01540185-n",
+        "synset": [
+            "indigo bunting",
+            "indigo finch",
+            "indigo bird",
+            "Passerina cyanea"
+        ],
+        "wdid": "Q1049642"
+    },
+    {
+        "inid": "n01558993",
+        "wnid": "01561634-n",
+        "synset": [
+            "robin",
+            "American robin",
+            "Turdus migratorius"
+        ],
+        "wdid": "Q460967"
+    },
+    {
+        "inid": "n01560419",
+        "wnid": "01563060-n",
+        "synset": [
+            "bulbul"
+        ],
+        "wdid": "Q188854"
+    },
+    {
+        "inid": "n01580077",
+        "wnid": "01582718-n",
+        "synset": [
+            "jay"
+        ],
+        "wdid": "Q311248"
+    },
+    {
+        "inid": "n01582220",
+        "wnid": "01584861-n",
+        "synset": [
+            "magpie"
+        ],
+        "wdid": "Q271634"
+    },
+    {
+        "inid": "n01592084",
+        "wnid": "01594725-n",
+        "synset": [
+            "chickadee"
+        ],
+        "wdid": "Q17053748"
+    },
+    {
+        "inid": "n01601694",
+        "wnid": "01604335-n",
+        "synset": [
+            "water ouzel",
+            "dipper"
+        ],
+        "wdid": "Q201831"
+    },
+    {
+        "inid": "n01608432",
+        "wnid": "13403644-n",
+        "synset": [
+            "kite"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01614925",
+        "wnid": "01617566-n",
+        "synset": [
+            "bald eagle",
+            "American eagle",
+            "Haliaeetus leucocephalus"
+        ],
+        "wdid": "Q127216"
+    },
+    {
+        "inid": "n01616318",
+        "wnid": "01618959-n",
+        "synset": [
+            "vulture"
+        ],
+        "wdid": "Q123120"
+    },
+    {
+        "inid": "n01622779",
+        "wnid": "01625420-n",
+        "synset": [
+            "great grey owl",
+            "great gray owl",
+            "Strix nebulosa"
+        ],
+        "wdid": "Q200724"
+    },
+    {
+        "inid": "n01629819",
+        "wnid": "01632460-n",
+        "synset": [
+            "European fire salamander",
+            "Salamandra salamandra"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01630670",
+        "wnid": "01633311-n",
+        "synset": [
+            "common newt",
+            "Triturus vulgaris"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01631663",
+        "wnid": "01634304-n",
+        "synset": [
+            "eft"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01632458",
+        "wnid": "01635099-n",
+        "synset": [
+            "spotted salamander",
+            "Ambystoma maculatum"
+        ],
+        "wdid": "Q2108247"
+    },
+    {
+        "inid": "n01632777",
+        "wnid": "01635418-n",
+        "synset": [
+            "axolotl",
+            "mud puppy",
+            "Ambystoma mexicanum"
+        ],
+        "wdid": "Q22718"
+    },
+    {
+        "inid": "n01641577",
+        "wnid": "01644218-n",
+        "synset": [
+            "bullfrog",
+            "Rana catesbeiana"
+        ],
+        "wdid": "Q159404"
+    },
+    {
+        "inid": "n01644373",
+        "wnid": "01647014-n",
+        "synset": [
+            "tree frog",
+            "tree-frog"
+        ],
+        "wdid": "Q1144302"
+    },
+    {
+        "inid": "n01644900",
+        "wnid": "01647541-n",
+        "synset": [
+            "tailed frog",
+            "bell toad",
+            "ribbed toad",
+            "tailed toad",
+            "Ascaphus trui"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01664065",
+        "wnid": "01666706-n",
+        "synset": [
+            "loggerhead",
+            "loggerhead turtle",
+            "Caretta caretta"
+        ],
+        "wdid": "Q203538"
+    },
+    {
+        "inid": "n01665541",
+        "wnid": "01668182-n",
+        "synset": [
+            "leatherback turtle",
+            "leatherback",
+            "leathery turtle",
+            "Dermochelys coriacea"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01667114",
+        "wnid": "01669755-n",
+        "synset": [
+            "mud turtle"
+        ],
+        "wdid": "Q2500468"
+    },
+    {
+        "inid": "n01667778",
+        "wnid": "01670419-n",
+        "synset": [
+            "terrapin"
+        ],
+        "wdid": "Q7703292"
+    },
+    {
+        "inid": "n01669191",
+        "wnid": "01671832-n",
+        "synset": [
+            "box turtle",
+            "box tortoise"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01675722",
+        "wnid": "01678363-n",
+        "synset": [
+            "banded gecko"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01677366",
+        "wnid": "01680007-n",
+        "synset": [
+            "common iguana",
+            "iguana",
+            "Iguana iguana"
+        ],
+        "wdid": "Q215376"
+    },
+    {
+        "inid": "n01682714",
+        "wnid": "01685355-n",
+        "synset": [
+            "American chameleon",
+            "anole",
+            "Anolis carolinensis"
+        ],
+        "wdid": "Q930252"
+    },
+    {
+        "inid": "n01685808",
+        "wnid": "01688449-n",
+        "synset": [
+            "whiptail",
+            "whiptail lizard"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01687978",
+        "wnid": "01690619-n",
+        "synset": [
+            "agama"
+        ],
+        "wdid": "Q1153386"
+    },
+    {
+        "inid": "n01688243",
+        "wnid": "01690884-n",
+        "synset": [
+            "frilled lizard",
+            "Chlamydosaurus kingi"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01689811",
+        "wnid": "01692452-n",
+        "synset": [
+            "alligator lizard"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01692333",
+        "wnid": "01694974-n",
+        "synset": [
+            "Gila monster",
+            "Heloderma suspectum"
+        ],
+        "wdid": "Q207058"
+    },
+    {
+        "inid": "n01693334",
+        "wnid": "01695975-n",
+        "synset": [
+            "green lizard",
+            "Lacerta viridis"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01694178",
+        "wnid": "01696819-n",
+        "synset": [
+            "African chameleon",
+            "Chamaeleo chamaeleon"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01695060",
+        "wnid": "01697701-n",
+        "synset": [
+            "Komodo dragon",
+            "Komodo lizard",
+            "dragon lizard",
+            "giant lizard",
+            "Varanus komodoensis"
+        ],
+        "wdid": "Q4504"
+    },
+    {
+        "inid": "n01697457",
+        "wnid": "01700098-n",
+        "synset": [
+            "African crocodile",
+            "Nile crocodile",
+            "Crocodylus niloticus"
+        ],
+        "wdid": "Q168745"
+    },
+    {
+        "inid": "n01698640",
+        "wnid": "01701281-n",
+        "synset": [
+            "American alligator",
+            "Alligator mississipiensis"
+        ],
+        "wdid": "Q193327"
+    },
+    {
+        "inid": "n01704323",
+        "wnid": "01706964-n",
+        "synset": [
+            "triceratops"
+        ],
+        "wdid": "Q14384"
+    },
+    {
+        "inid": "n01728572",
+        "wnid": "01731213-n",
+        "synset": [
+            "thunder snake",
+            "worm snake",
+            "Carphophis amoenus"
+        ],
+        "wdid": "Q2940133"
+    },
+    {
+        "inid": "n01728920",
+        "wnid": "01731561-n",
+        "synset": [
+            "ringneck snake",
+            "ring-necked snake",
+            "ring snake"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01729322",
+        "wnid": "01731963-n",
+        "synset": [
+            "hognose snake",
+            "puff adder",
+            "sand viper"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01729977",
+        "wnid": "01732618-n",
+        "synset": [
+            "green snake",
+            "grass snake"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01734418",
+        "wnid": "01737059-n",
+        "synset": [
+            "king snake",
+            "kingsnake"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01735189",
+        "wnid": "01737830-n",
+        "synset": [
+            "garter snake",
+            "grass snake"
+        ],
+        "wdid": "Q1149509"
+    },
+    {
+        "inid": "n01737021",
+        "wnid": "01739662-n",
+        "synset": [
+            "water snake"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01739381",
+        "wnid": "01742022-n",
+        "synset": [
+            "vine snake"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01740131",
+        "wnid": "01742772-n",
+        "synset": [
+            "night snake",
+            "Hypsiglena torquata"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01742172",
+        "wnid": "01744813-n",
+        "synset": [
+            "boa constrictor",
+            "Constrictor constrictor"
+        ],
+        "wdid": "Q215388"
+    },
+    {
+        "inid": "n01744401",
+        "wnid": "01747042-n",
+        "synset": [
+            "rock python",
+            "rock snake",
+            "Python sebae"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01748264",
+        "wnid": "01750905-n",
+        "synset": [
+            "Indian cobra",
+            "Naja naja"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01749939",
+        "wnid": "01752580-n",
+        "synset": [
+            "green mamba"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01751748",
+        "wnid": "01754389-n",
+        "synset": [
+            "sea snake"
+        ],
+        "wdid": "Q152504"
+    },
+    {
+        "inid": "n01753488",
+        "wnid": "01756129-n",
+        "synset": [
+            "horned viper",
+            "cerastes",
+            "sand viper",
+            "horned asp",
+            "Cerastes cornutus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01755581",
+        "wnid": "01758222-n",
+        "synset": [
+            "diamondback",
+            "diamondback rattlesnake",
+            "Crotalus adamanteus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01756291",
+        "wnid": "01758932-n",
+        "synset": [
+            "sidewinder",
+            "horned rattlesnake",
+            "Crotalus cerastes"
+        ],
+        "wdid": "Q1366532"
+    },
+    {
+        "inid": "n01768244",
+        "wnid": "01770885-n",
+        "synset": [
+            "trilobite"
+        ],
+        "wdid": "Q17170"
+    },
+    {
+        "inid": "n01770081",
+        "wnid": "01772722-n",
+        "synset": [
+            "harvestman",
+            "daddy longlegs",
+            "Phalangium opilio"
+        ],
+        "wdid": "Q19116"
+    },
+    {
+        "inid": "n01770081",
+        "wnid": "01772722-n",
+        "synset": [
+            "harvestman",
+            "daddy longlegs",
+            "Phalangium opilio"
+        ],
+        "wdid": "Q296602"
+    },
+    {
+        "inid": "n01770393",
+        "wnid": "01773034-n",
+        "synset": [
+            "scorpion"
+        ],
+        "wdid": "Q19125"
+    },
+    {
+        "inid": "n01773157",
+        "wnid": "01775798-n",
+        "synset": [
+            "black and gold garden spider",
+            "Argiope aurantia"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01773549",
+        "wnid": "01776190-n",
+        "synset": [
+            "barn spider",
+            "Araneus cavaticus"
+        ],
+        "wdid": "Q1306991"
+    },
+    {
+        "inid": "n01773797",
+        "wnid": "01776438-n",
+        "synset": [
+            "garden spider",
+            "Aranea diademata"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01774384",
+        "wnid": "01777025-n",
+        "synset": [
+            "black widow",
+            "Latrodectus mactans"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01774750",
+        "wnid": "01777391-n",
+        "synset": [
+            "tarantula"
+        ],
+        "wdid": "Q213383"
+    },
+    {
+        "inid": "n01775062",
+        "wnid": "01777703-n",
+        "synset": [
+            "wolf spider",
+            "hunting spider"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01776313",
+        "wnid": "01778954-n",
+        "synset": [
+            "tick"
+        ],
+        "wdid": "Q10304508"
+    },
+    {
+        "inid": "n01784675",
+        "wnid": "01787316-n",
+        "synset": [
+            "centipede"
+        ],
+        "wdid": "Q43447"
+    },
+    {
+        "inid": "n01795545",
+        "wnid": "01798186-n",
+        "synset": [
+            "black grouse"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01796340",
+        "wnid": "01798981-n",
+        "synset": [
+            "ptarmigan"
+        ],
+        "wdid": "Q205930"
+    },
+    {
+        "inid": "n01797886",
+        "wnid": "01800527-n",
+        "synset": [
+            "ruffed grouse",
+            "partridge",
+            "Bonasa umbellus"
+        ],
+        "wdid": "Q19058"
+    },
+    {
+        "inid": "n01798484",
+        "wnid": "01801125-n",
+        "synset": [
+            "prairie chicken",
+            "prairie grouse",
+            "prairie fowl"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01806143",
+        "wnid": "01808784-n",
+        "synset": [
+            "peacock"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01806567",
+        "wnid": "07662930-n",
+        "synset": [
+            "quail"
+        ],
+        "wdid": "Q6072584"
+    },
+    {
+        "inid": "n01807496",
+        "wnid": "07663105-n",
+        "synset": [
+            "partridge"
+        ],
+        "wdid": "Q732775"
+    },
+    {
+        "inid": "n01817953",
+        "wnid": "01820594-n",
+        "synset": [
+            "African grey",
+            "African gray",
+            "Psittacus erithacus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01818515",
+        "wnid": "01821156-n",
+        "synset": [
+            "macaw"
+        ],
+        "wdid": "Q213984"
+    },
+    {
+        "inid": "n01819313",
+        "wnid": "01821954-n",
+        "synset": [
+            "sulphur-crested cockatoo",
+            "Kakatoe galerita",
+            "Cacatua galerita"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01820546",
+        "wnid": "01823187-n",
+        "synset": [
+            "lorikeet"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01824575",
+        "wnid": "01827216-n",
+        "synset": [
+            "coucal"
+        ],
+        "wdid": "Q657775"
+    },
+    {
+        "inid": "n01828970",
+        "wnid": "01831611-n",
+        "synset": [
+            "bee eater"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01829413",
+        "wnid": "01832054-n",
+        "synset": [
+            "hornbill"
+        ],
+        "wdid": "Q26773"
+    },
+    {
+        "inid": "n01833805",
+        "wnid": "01836446-n",
+        "synset": [
+            "hummingbird"
+        ],
+        "wdid": "Q43624"
+    },
+    {
+        "inid": "n01843065",
+        "wnid": "01845706-n",
+        "synset": [
+            "jacamar"
+        ],
+        "wdid": "Q212942"
+    },
+    {
+        "inid": "n01843383",
+        "wnid": "01846024-n",
+        "synset": [
+            "toucan"
+        ],
+        "wdid": "Q1325045"
+    },
+    {
+        "inid": "n01847000",
+        "wnid": "01849641-n",
+        "synset": [
+            "drake"
+        ],
+        "wdid": "Q214264"
+    },
+    {
+        "inid": "n01855032",
+        "wnid": "01857673-n",
+        "synset": [
+            "red-breasted merganser",
+            "Mergus serrator"
+        ],
+        "wdid": "Q189609"
+    },
+    {
+        "inid": "n01855672",
+        "wnid": "01858313-n",
+        "synset": [
+            "goose"
+        ],
+        "wdid": "Q16529344"
+    },
+    {
+        "inid": "n01860187",
+        "wnid": "01862828-n",
+        "synset": [
+            "black swan",
+            "Cygnus atratus"
+        ],
+        "wdid": "Q131044"
+    },
+    {
+        "inid": "n01871265",
+        "wnid": "01873906-n",
+        "synset": [
+            "tusker"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01872401",
+        "wnid": "01875413-n",
+        "synset": [
+            "echidna",
+            "spiny anteater",
+            "anteater"
+        ],
+        "wdid": "Q21824"
+    },
+    {
+        "inid": "n01873310",
+        "wnid": "01875951-n",
+        "synset": [
+            "platypus",
+            "duckbill",
+            "duckbilled platypus",
+            "duck-billed platypus",
+            "Ornithorhynchus anatinus"
+        ],
+        "wdid": "Q15343"
+    },
+    {
+        "inid": "n01877812",
+        "wnid": "01880453-n",
+        "synset": [
+            "wallaby",
+            "brush kangaroo"
+        ],
+        "wdid": "Q623169"
+    },
+    {
+        "inid": "n01882714",
+        "wnid": "01885355-n",
+        "synset": [
+            "koala",
+            "koala bear",
+            "kangaroo bear",
+            "native bear",
+            "Phascolarctos cinereus"
+        ],
+        "wdid": "Q431978"
+    },
+    {
+        "inid": "n01883070",
+        "wnid": "01885711-n",
+        "synset": [
+            "wombat"
+        ],
+        "wdid": "Q23175"
+    },
+    {
+        "inid": "n01910747",
+        "wnid": "01913388-n",
+        "synset": [
+            "jellyfish"
+        ],
+        "wdid": "Q30178"
+    },
+    {
+        "inid": "n01914609",
+        "wnid": "01917250-n",
+        "synset": [
+            "sea anemone",
+            "anemone"
+        ],
+        "wdid": "Q147256"
+    },
+    {
+        "inid": "n01917289",
+        "wnid": "01919930-n",
+        "synset": [
+            "brain coral"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01924916",
+        "wnid": "01927557-n",
+        "synset": [
+            "flatworm",
+            "platyhelminth"
+        ],
+        "wdid": "Q124900"
+    },
+    {
+        "inid": "n01930112",
+        "wnid": "01932753-n",
+        "synset": [
+            "nematode",
+            "nematode worm",
+            "roundworm"
+        ],
+        "wdid": "Q5185"
+    },
+    {
+        "inid": "n01943899",
+        "wnid": "01946540-n",
+        "synset": [
+            "conch"
+        ],
+        "wdid": "Q62792"
+    },
+    {
+        "inid": "n01944390",
+        "wnid": "01947031-n",
+        "synset": [
+            "snail"
+        ],
+        "wdid": "Q308841"
+    },
+    {
+        "inid": "n01945685",
+        "wnid": "13741207-n",
+        "synset": [
+            "slug"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01950731",
+        "wnid": "01953372-n",
+        "synset": [
+            "sea slug",
+            "nudibranch"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01955084",
+        "wnid": "01957725-n",
+        "synset": [
+            "chiton",
+            "coat-of-mail shell",
+            "sea cradle",
+            "polyplacophore"
+        ],
+        "wdid": "Q188906"
+    },
+    {
+        "inid": "n01968897",
+        "wnid": "01971538-n",
+        "synset": [
+            "chambered nautilus",
+            "pearly nautilus",
+            "nautilus"
+        ],
+        "wdid": "Q223939"
+    },
+    {
+        "inid": "n01978287",
+        "wnid": "01980928-n",
+        "synset": [
+            "Dungeness crab",
+            "Cancer magister"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01978455",
+        "wnid": "01981096-n",
+        "synset": [
+            "rock crab",
+            "Cancer irroratus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01980166",
+        "wnid": "01982807-n",
+        "synset": [
+            "fiddler crab"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01981276",
+        "wnid": "01983917-n",
+        "synset": [
+            "king crab",
+            "Alaska crab",
+            "Alaskan king crab",
+            "Alaska king crab",
+            "Paralithodes camtschatica"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01983481",
+        "wnid": "01986122-n",
+        "synset": [
+            "American lobster",
+            "Northern lobster",
+            "Maine lobster",
+            "Homarus americanus"
+        ],
+        "wdid": "Q37668"
+    },
+    {
+        "inid": "n01984695",
+        "wnid": "01987336-n",
+        "synset": [
+            "spiny lobster",
+            "langouste",
+            "rock lobster",
+            "crawfish",
+            "crayfish",
+            "sea crawfish"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n01985128",
+        "wnid": "01987769-n",
+        "synset": [
+            "crayfish",
+            "crawfish",
+            "crawdad",
+            "crawdaddy"
+        ],
+        "wdid": "Q210959"
+    },
+    {
+        "inid": "n01986214",
+        "wnid": "01988855-n",
+        "synset": [
+            "hermit crab"
+        ],
+        "wdid": "Q273291"
+    },
+    {
+        "inid": "n01990800",
+        "wnid": "01993441-n",
+        "synset": [
+            "isopod"
+        ],
+        "wdid": "Q206338"
+    },
+    {
+        "inid": "n02002556",
+        "wnid": "02005210-n",
+        "synset": [
+            "white stork",
+            "Ciconia ciconia"
+        ],
+        "wdid": "Q25352"
+    },
+    {
+        "inid": "n02002724",
+        "wnid": "02005378-n",
+        "synset": [
+            "black stork",
+            "Ciconia nigra"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02006656",
+        "wnid": "02009310-n",
+        "synset": [
+            "spoonbill"
+        ],
+        "wdid": "Q171360"
+    },
+    {
+        "inid": "n02007558",
+        "wnid": "02010212-n",
+        "synset": [
+            "flamingo"
+        ],
+        "wdid": "Q208004"
+    },
+    {
+        "inid": "n02009229",
+        "wnid": "02011883-n",
+        "synset": [
+            "little blue heron",
+            "Egretta caerulea"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02009912",
+        "wnid": "02012566-n",
+        "synset": [
+            "American egret",
+            "great white heron",
+            "Egretta albus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02011460",
+        "wnid": "02014114-n",
+        "synset": [
+            "bittern"
+        ],
+        "wdid": "Q855133"
+    },
+    {
+        "inid": "n02012849",
+        "wnid": "03131358-n",
+        "synset": [
+            "crane"
+        ],
+        "wdid": "Q178692"
+    },
+    {
+        "inid": "n02012849",
+        "wnid": "03131358-n",
+        "synset": [
+            "crane"
+        ],
+        "wdid": "Q178692"
+    },
+    {
+        "inid": "n02013706",
+        "wnid": "02016360-n",
+        "synset": [
+            "limpkin",
+            "Aramus pictus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02017213",
+        "wnid": "02019867-n",
+        "synset": [
+            "European gallinule",
+            "Porphyrio porphyrio"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02018207",
+        "wnid": "02020861-n",
+        "synset": [
+            "American coot",
+            "marsh hen",
+            "mud hen",
+            "water hen",
+            "Fulica americana"
+        ],
+        "wdid": "Q470016"
+    },
+    {
+        "inid": "n02018795",
+        "wnid": "02021449-n",
+        "synset": [
+            "bustard"
+        ],
+        "wdid": "Q21755"
+    },
+    {
+        "inid": "n02025239",
+        "wnid": "02027893-n",
+        "synset": [
+            "ruddy turnstone",
+            "Arenaria interpres"
+        ],
+        "wdid": "Q26892"
+    },
+    {
+        "inid": "n02027492",
+        "wnid": "02030146-n",
+        "synset": [
+            "red-backed sandpiper",
+            "dunlin",
+            "Erolia alpina"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02028035",
+        "wnid": "02030689-n",
+        "synset": [
+            "redshank",
+            "Tringa totanus"
+        ],
+        "wdid": "Q18859"
+    },
+    {
+        "inid": "n02033041",
+        "wnid": "02035695-n",
+        "synset": [
+            "dowitcher"
+        ],
+        "wdid": "Q838747"
+    },
+    {
+        "inid": "n02037110",
+        "wnid": "02039764-n",
+        "synset": [
+            "oystercatcher",
+            "oyster catcher"
+        ],
+        "wdid": "Q25928"
+    },
+    {
+        "inid": "n02051845",
+        "wnid": "02054499-n",
+        "synset": [
+            "pelican"
+        ],
+        "wdid": "Q19413"
+    },
+    {
+        "inid": "n02056570",
+        "wnid": "02059224-n",
+        "synset": [
+            "king penguin",
+            "Aptenodytes patagonica"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02058221",
+        "wnid": "02060875-n",
+        "synset": [
+            "albatross",
+            "mollymawk"
+        ],
+        "wdid": "Q55805"
+    },
+    {
+        "inid": "n02066245",
+        "wnid": "02068898-n",
+        "synset": [
+            "grey whale",
+            "gray whale",
+            "devilfish",
+            "Eschrichtius gibbosus",
+            "Eschrichtius robustus"
+        ],
+        "wdid": "Q179154"
+    },
+    {
+        "inid": "n02071294",
+        "wnid": "02073946-n",
+        "synset": [
+            "killer whale",
+            "killer",
+            "orca",
+            "grampus",
+            "sea wolf",
+            "Orcinus orca"
+        ],
+        "wdid": "Q26843"
+    },
+    {
+        "inid": "n02074367",
+        "wnid": "02077019-n",
+        "synset": [
+            "dugong",
+            "Dugong dugon"
+        ],
+        "wdid": "Q129544"
+    },
+    {
+        "inid": "n02077923",
+        "wnid": "02080575-n",
+        "synset": [
+            "sea lion"
+        ],
+        "wdid": "Q333649"
+    },
+    {
+        "inid": "n02085620",
+        "wnid": "08760411-n",
+        "synset": [
+            "Chihuahua"
+        ],
+        "wdid": "Q61302"
+    },
+    {
+        "inid": "n02085782",
+        "wnid": "02088434-n",
+        "synset": [
+            "Japanese spaniel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02085936",
+        "wnid": "02088588-n",
+        "synset": [
+            "Maltese dog",
+            "Maltese terrier",
+            "Maltese"
+        ],
+        "wdid": "Q38751"
+    },
+    {
+        "inid": "n02086079",
+        "wnid": "02088731-n",
+        "synset": [
+            "Pekinese",
+            "Pekingese",
+            "Peke"
+        ],
+        "wdid": "Q38959"
+    },
+    {
+        "inid": "n02086240",
+        "wnid": "02088892-n",
+        "synset": [
+            "Shih-Tzu"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02086646",
+        "wnid": "02089298-n",
+        "synset": [
+            "Blenheim spaniel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02086910",
+        "wnid": "02089562-n",
+        "synset": [
+            "papillon"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02087046",
+        "wnid": "02089698-n",
+        "synset": [
+            "toy terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02087394",
+        "wnid": "02090046-n",
+        "synset": [
+            "Rhodesian ridgeback"
+        ],
+        "wdid": "Q39026"
+    },
+    {
+        "inid": "n02088094",
+        "wnid": "02090746-n",
+        "synset": [
+            "Afghan hound",
+            "Afghan"
+        ],
+        "wdid": "Q21080"
+    },
+    {
+        "inid": "n02088238",
+        "wnid": "02090890-n",
+        "synset": [
+            "basset",
+            "basset hound"
+        ],
+        "wdid": "Q37716"
+    },
+    {
+        "inid": "n02088364",
+        "wnid": "02091016-n",
+        "synset": [
+            "beagle"
+        ],
+        "wdid": "Q21102"
+    },
+    {
+        "inid": "n02088466",
+        "wnid": "02091118-n",
+        "synset": [
+            "bloodhound",
+            "sleuthhound"
+        ],
+        "wdid": "Q21098"
+    },
+    {
+        "inid": "n02088466",
+        "wnid": "02091118-n",
+        "synset": [
+            "bloodhound",
+            "sleuthhound"
+        ],
+        "wdid": "Q39401"
+    },
+    {
+        "inid": "n02088632",
+        "wnid": "02091284-n",
+        "synset": [
+            "bluetick"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02089078",
+        "wnid": "02091730-n",
+        "synset": [
+            "black-and-tan coonhound"
+        ],
+        "wdid": "Q37537"
+    },
+    {
+        "inid": "n02089867",
+        "wnid": "02092519-n",
+        "synset": [
+            "Walker hound",
+            "Walker foxhound"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02089973",
+        "wnid": "02092625-n",
+        "synset": [
+            "English foxhound"
+        ],
+        "wdid": "Q37789"
+    },
+    {
+        "inid": "n02090379",
+        "wnid": "02093031-n",
+        "synset": [
+            "redbone"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02090622",
+        "wnid": "02093274-n",
+        "synset": [
+            "borzoi",
+            "Russian wolfhound"
+        ],
+        "wdid": "Q37866"
+    },
+    {
+        "inid": "n02090721",
+        "wnid": "02093373-n",
+        "synset": [
+            "Irish wolfhound"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02091032",
+        "wnid": "02093684-n",
+        "synset": [
+            "Italian greyhound"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02091134",
+        "wnid": "02093786-n",
+        "synset": [
+            "whippet"
+        ],
+        "wdid": "Q39122"
+    },
+    {
+        "inid": "n02091244",
+        "wnid": "02093896-n",
+        "synset": [
+            "Ibizan hound",
+            "Ibizan Podenco"
+        ],
+        "wdid": "Q37755"
+    },
+    {
+        "inid": "n02091467",
+        "wnid": "02094119-n",
+        "synset": [
+            "Norwegian elkhound",
+            "elkhound"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02091635",
+        "wnid": "02094287-n",
+        "synset": [
+            "otterhound",
+            "otter hound"
+        ],
+        "wdid": "Q38922"
+    },
+    {
+        "inid": "n02091831",
+        "wnid": "02094483-n",
+        "synset": [
+            "Saluki",
+            "gazelle hound"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02092002",
+        "wnid": "02094654-n",
+        "synset": [
+            "Scottish deerhound",
+            "deerhound"
+        ],
+        "wdid": "Q37929"
+    },
+    {
+        "inid": "n02092339",
+        "wnid": "02094991-n",
+        "synset": [
+            "Weimaraner"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02093256",
+        "wnid": "02095908-n",
+        "synset": [
+            "Staffordshire bullterrier",
+            "Staffordshire bull terrier"
+        ],
+        "wdid": "Q39285"
+    },
+    {
+        "inid": "n02093428",
+        "wnid": "02096080-n",
+        "synset": [
+            "American Staffordshire terrier",
+            "Staffordshire terrier",
+            "American pit bull terrier",
+            "pit bull terrier"
+        ],
+        "wdid": "Q37688"
+    },
+    {
+        "inid": "n02093647",
+        "wnid": "02096299-n",
+        "synset": [
+            "Bedlington terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02093754",
+        "wnid": "02096406-n",
+        "synset": [
+            "Border terrier"
+        ],
+        "wdid": "Q37558"
+    },
+    {
+        "inid": "n02093859",
+        "wnid": "02096511-n",
+        "synset": [
+            "Kerry blue terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02093991",
+        "wnid": "02096643-n",
+        "synset": [
+            "Irish terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02094114",
+        "wnid": "02096766-n",
+        "synset": [
+            "Norfolk terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02094258",
+        "wnid": "02096910-n",
+        "synset": [
+            "Norwich terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02094433",
+        "wnid": "02097085-n",
+        "synset": [
+            "Yorkshire terrier"
+        ],
+        "wdid": "Q39330"
+    },
+    {
+        "inid": "n02095314",
+        "wnid": "02097966-n",
+        "synset": [
+            "wire-haired fox terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02095570",
+        "wnid": "02098222-n",
+        "synset": [
+            "Lakeland terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02095889",
+        "wnid": "02098541-n",
+        "synset": [
+            "Sealyham terrier",
+            "Sealyham"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02096051",
+        "wnid": "02098703-n",
+        "synset": [
+            "Airedale",
+            "Airedale terrier"
+        ],
+        "wdid": "Q37617"
+    },
+    {
+        "inid": "n02096177",
+        "wnid": "02098829-n",
+        "synset": [
+            "cairn",
+            "cairn terrier"
+        ],
+        "wdid": "Q37888"
+    },
+    {
+        "inid": "n02096294",
+        "wnid": "02098946-n",
+        "synset": [
+            "Australian terrier"
+        ],
+        "wdid": "Q37530"
+    },
+    {
+        "inid": "n02096437",
+        "wnid": "02099089-n",
+        "synset": [
+            "Dandie Dinmont",
+            "Dandie Dinmont terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02096585",
+        "wnid": "02099237-n",
+        "synset": [
+            "Boston bull",
+            "Boston terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02097047",
+        "wnid": "02099699-n",
+        "synset": [
+            "miniature schnauzer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02097130",
+        "wnid": "02099782-n",
+        "synset": [
+            "giant schnauzer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02097209",
+        "wnid": "02099861-n",
+        "synset": [
+            "standard schnauzer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02097298",
+        "wnid": "02099950-n",
+        "synset": [
+            "Scotch terrier",
+            "Scottish terrier",
+            "Scottie"
+        ],
+        "wdid": "Q39035"
+    },
+    {
+        "inid": "n02097474",
+        "wnid": "02100126-n",
+        "synset": [
+            "Tibetan terrier",
+            "chrysanthemum dog"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02097658",
+        "wnid": "02100310-n",
+        "synset": [
+            "silky terrier",
+            "Sydney silky"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02098105",
+        "wnid": "02100757-n",
+        "synset": [
+            "soft-coated wheaten terrier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02098286",
+        "wnid": "02100938-n",
+        "synset": [
+            "West Highland white terrier"
+        ],
+        "wdid": "Q17510"
+    },
+    {
+        "inid": "n02098413",
+        "wnid": "02101065-n",
+        "synset": [
+            "Lhasa",
+            "Lhasa apso"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02099267",
+        "wnid": "02101919-n",
+        "synset": [
+            "flat-coated retriever"
+        ],
+        "wdid": "Q29200"
+    },
+    {
+        "inid": "n02099429",
+        "wnid": "02102081-n",
+        "synset": [
+            "curly-coated retriever"
+        ],
+        "wdid": "Q38375"
+    },
+    {
+        "inid": "n02099601",
+        "wnid": "02102253-n",
+        "synset": [
+            "golden retriever"
+        ],
+        "wdid": "Q38686"
+    },
+    {
+        "inid": "n02099712",
+        "wnid": "02102364-n",
+        "synset": [
+            "Labrador retriever"
+        ],
+        "wdid": "Q38726"
+    },
+    {
+        "inid": "n02099849",
+        "wnid": "02102501-n",
+        "synset": [
+            "Chesapeake Bay retriever"
+        ],
+        "wdid": "Q29084"
+    },
+    {
+        "inid": "n02100236",
+        "wnid": "02102888-n",
+        "synset": [
+            "German short-haired pointer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02100583",
+        "wnid": "02103235-n",
+        "synset": [
+            "vizsla",
+            "Hungarian pointer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02100735",
+        "wnid": "02103387-n",
+        "synset": [
+            "English setter"
+        ],
+        "wdid": "Q38309"
+    },
+    {
+        "inid": "n02100877",
+        "wnid": "02103529-n",
+        "synset": [
+            "Irish setter",
+            "red setter"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02101006",
+        "wnid": "02103658-n",
+        "synset": [
+            "Gordon setter"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02101388",
+        "wnid": "02104040-n",
+        "synset": [
+            "Brittany spaniel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02101556",
+        "wnid": "02104208-n",
+        "synset": [
+            "clumber",
+            "clumber spaniel"
+        ],
+        "wdid": "Q37851"
+    },
+    {
+        "inid": "n02102040",
+        "wnid": "02104692-n",
+        "synset": [
+            "English springer",
+            "English springer spaniel"
+        ],
+        "wdid": "Q29022"
+    },
+    {
+        "inid": "n02102177",
+        "wnid": "02104829-n",
+        "synset": [
+            "Welsh springer spaniel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02102318",
+        "wnid": "02104970-n",
+        "synset": [
+            "cocker spaniel",
+            "English cocker spaniel",
+            "cocker"
+        ],
+        "wdid": "Q38533"
+    },
+    {
+        "inid": "n02102480",
+        "wnid": "02105132-n",
+        "synset": [
+            "Sussex spaniel"
+        ],
+        "wdid": "Q39138"
+    },
+    {
+        "inid": "n02102973",
+        "wnid": "02105625-n",
+        "synset": [
+            "Irish water spaniel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02104029",
+        "wnid": "02106681-n",
+        "synset": [
+            "kuvasz"
+        ],
+        "wdid": "Q38467"
+    },
+    {
+        "inid": "n02104365",
+        "wnid": "02107017-n",
+        "synset": [
+            "schipperke"
+        ],
+        "wdid": "Q39010"
+    },
+    {
+        "inid": "n02105056",
+        "wnid": "02107708-n",
+        "synset": [
+            "groenendael"
+        ],
+        "wdid": "Q38399"
+    },
+    {
+        "inid": "n02105162",
+        "wnid": "02107814-n",
+        "synset": [
+            "malinois"
+        ],
+        "wdid": "Q38494"
+    },
+    {
+        "inid": "n02105251",
+        "wnid": "02107903-n",
+        "synset": [
+            "briard"
+        ],
+        "wdid": "Q37821"
+    },
+    {
+        "inid": "n02105412",
+        "wnid": "02108064-n",
+        "synset": [
+            "kelpie"
+        ],
+        "wdid": "Q37520"
+    },
+    {
+        "inid": "n02105505",
+        "wnid": "02108157-n",
+        "synset": [
+            "komondor"
+        ],
+        "wdid": "Q38675"
+    },
+    {
+        "inid": "n02105641",
+        "wnid": "02108293-n",
+        "synset": [
+            "Old English sheepdog",
+            "bobtail"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02105855",
+        "wnid": "02108507-n",
+        "synset": [
+            "Shetland sheepdog",
+            "Shetland sheep dog",
+            "Shetland"
+        ],
+        "wdid": "Q39058"
+    },
+    {
+        "inid": "n02106030",
+        "wnid": "02108682-n",
+        "synset": [
+            "collie"
+        ],
+        "wdid": "Q1196071"
+    },
+    {
+        "inid": "n02106166",
+        "wnid": "02108818-n",
+        "synset": [
+            "Border collie"
+        ],
+        "wdid": "Q37710"
+    },
+    {
+        "inid": "n02106382",
+        "wnid": "02109034-n",
+        "synset": [
+            "Bouvier des Flandres",
+            "Bouviers des Flandres"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02106550",
+        "wnid": "02109202-n",
+        "synset": [
+            "Rottweiler"
+        ],
+        "wdid": "Q39093"
+    },
+    {
+        "inid": "n02106662",
+        "wnid": "02109314-n",
+        "synset": [
+            "German shepherd",
+            "German shepherd dog",
+            "German police dog",
+            "alsatian"
+        ],
+        "wdid": "Q38280"
+    },
+    {
+        "inid": "n02107142",
+        "wnid": "02109794-n",
+        "synset": [
+            "Doberman",
+            "Doberman pinscher"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02107312",
+        "wnid": "02109964-n",
+        "synset": [
+            "miniature pinscher"
+        ],
+        "wdid": "Q38990"
+    },
+    {
+        "inid": "n02107574",
+        "wnid": "02110226-n",
+        "synset": [
+            "Greater Swiss Mountain dog"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02107683",
+        "wnid": "02110335-n",
+        "synset": [
+            "Bernese mountain dog"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02107908",
+        "wnid": "02110560-n",
+        "synset": [
+            "Appenzeller"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02108000",
+        "wnid": "02110652-n",
+        "synset": [
+            "EntleBucher"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02108089",
+        "wnid": "02110741-n",
+        "synset": [
+            "boxer"
+        ],
+        "wdid": "Q38496"
+    },
+    {
+        "inid": "n02108422",
+        "wnid": "02111074-n",
+        "synset": [
+            "bull mastiff"
+        ],
+        "wdid": "Q38080"
+    },
+    {
+        "inid": "n02108551",
+        "wnid": "02111203-n",
+        "synset": [
+            "Tibetan mastiff"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02108915",
+        "wnid": "02111567-n",
+        "synset": [
+            "French bulldog"
+        ],
+        "wdid": "Q29149"
+    },
+    {
+        "inid": "n02109047",
+        "wnid": "02111699-n",
+        "synset": [
+            "Great Dane"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02109525",
+        "wnid": "02112177-n",
+        "synset": [
+            "Saint Bernard",
+            "St Bernard"
+        ],
+        "wdid": "Q38090"
+    },
+    {
+        "inid": "n02109961",
+        "wnid": "02112613-n",
+        "synset": [
+            "Eskimo dog",
+            "husky"
+        ],
+        "wdid": "Q3244349"
+    },
+    {
+        "inid": "n02110063",
+        "wnid": "02112715-n",
+        "synset": [
+            "malamute",
+            "malemute",
+            "Alaskan malamute"
+        ],
+        "wdid": "Q21206"
+    },
+    {
+        "inid": "n02110185",
+        "wnid": "02112837-n",
+        "synset": [
+            "Siberian husky"
+        ],
+        "wdid": "Q39295"
+    },
+    {
+        "inid": "n02110341",
+        "wnid": "02112993-n",
+        "synset": [
+            "dalmatian",
+            "coach dog",
+            "carriage dog"
+        ],
+        "wdid": "Q17504"
+    },
+    {
+        "inid": "n02110627",
+        "wnid": "02113279-n",
+        "synset": [
+            "affenpinscher",
+            "monkey pinscher",
+            "monkey dog"
+        ],
+        "wdid": "Q7254"
+    },
+    {
+        "inid": "n02110806",
+        "wnid": "02113458-n",
+        "synset": [
+            "basenji"
+        ],
+        "wdid": "Q37871"
+    },
+    {
+        "inid": "n02110958",
+        "wnid": "02113610-n",
+        "synset": [
+            "pug",
+            "pug-dog"
+        ],
+        "wdid": "Q38698"
+    },
+    {
+        "inid": "n02111129",
+        "wnid": "02113781-n",
+        "synset": [
+            "Leonberg"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02111277",
+        "wnid": "02113929-n",
+        "synset": [
+            "Newfoundland",
+            "Newfoundland dog"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02111500",
+        "wnid": "02114152-n",
+        "synset": [
+            "Great Pyrenees"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02111889",
+        "wnid": "02114541-n",
+        "synset": [
+            "Samoyed",
+            "Samoyede"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02112018",
+        "wnid": "02114670-n",
+        "synset": [
+            "Pomeranian"
+        ],
+        "wdid": "Q39579"
+    },
+    {
+        "inid": "n02112137",
+        "wnid": "02114789-n",
+        "synset": [
+            "chow",
+            "chow chow"
+        ],
+        "wdid": "Q29013"
+    },
+    {
+        "inid": "n02112350",
+        "wnid": "02115002-n",
+        "synset": [
+            "keeshond"
+        ],
+        "wdid": "Q38843"
+    },
+    {
+        "inid": "n02112706",
+        "wnid": "02115358-n",
+        "synset": [
+            "Brabancon griffon"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02113023",
+        "wnid": "02115675-n",
+        "synset": [
+            "Pembroke",
+            "Pembroke Welsh corgi"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02113186",
+        "wnid": "02115838-n",
+        "synset": [
+            "Cardigan",
+            "Cardigan Welsh corgi"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02113624",
+        "wnid": "02116276-n",
+        "synset": [
+            "toy poodle"
+        ],
+        "wdid": "Q11831662"
+    },
+    {
+        "inid": "n02113712",
+        "wnid": "02116364-n",
+        "synset": [
+            "miniature poodle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02113799",
+        "wnid": "02116451-n",
+        "synset": [
+            "standard poodle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02113978",
+        "wnid": "02116630-n",
+        "synset": [
+            "Mexican hairless"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02114367",
+        "wnid": "02117019-n",
+        "synset": [
+            "timber wolf",
+            "grey wolf",
+            "gray wolf",
+            "Canis lupus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02114548",
+        "wnid": "02117200-n",
+        "synset": [
+            "white wolf",
+            "Arctic wolf",
+            "Canis lupus tundrarum"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02114712",
+        "wnid": "02117364-n",
+        "synset": [
+            "red wolf",
+            "maned wolf",
+            "Canis rufus",
+            "Canis niger"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02114855",
+        "wnid": "02117507-n",
+        "synset": [
+            "coyote",
+            "prairie wolf",
+            "brush wolf",
+            "Canis latrans"
+        ],
+        "wdid": "Q44299"
+    },
+    {
+        "inid": "n02115641",
+        "wnid": "02118293-n",
+        "synset": [
+            "dingo",
+            "warrigal",
+            "warragal",
+            "Canis dingo"
+        ],
+        "wdid": "Q38584"
+    },
+    {
+        "inid": "n02115913",
+        "wnid": "02118565-n",
+        "synset": [
+            "dhole",
+            "Cuon alpinus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02116738",
+        "wnid": "02119390-n",
+        "synset": [
+            "African hunting dog",
+            "hyena dog",
+            "Cape hunting dog",
+            "Lycaon pictus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02117135",
+        "wnid": "02119787-n",
+        "synset": [
+            "hyena",
+            "hyaena"
+        ],
+        "wdid": "Q42046"
+    },
+    {
+        "inid": "n02119022",
+        "wnid": "02121674-n",
+        "synset": [
+            "red fox",
+            "Vulpes vulpes"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02119789",
+        "wnid": "02122441-n",
+        "synset": [
+            "kit fox",
+            "Vulpes macrotis"
+        ],
+        "wdid": "Q745751"
+    },
+    {
+        "inid": "n02120079",
+        "wnid": "02122731-n",
+        "synset": [
+            "Arctic fox",
+            "white fox",
+            "Alopex lagopus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02120505",
+        "wnid": "02123157-n",
+        "synset": [
+            "grey fox",
+            "gray fox",
+            "Urocyon cinereoargenteus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02123045",
+        "wnid": "02125697-n",
+        "synset": [
+            "tabby",
+            "tabby cat"
+        ],
+        "wdid": "Q1474329"
+    },
+    {
+        "inid": "n02123159",
+        "wnid": "02125811-n",
+        "synset": [
+            "tiger cat"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02123394",
+        "wnid": "02126046-n",
+        "synset": [
+            "Persian cat"
+        ],
+        "wdid": "Q42610"
+    },
+    {
+        "inid": "n02123597",
+        "wnid": "02126249-n",
+        "synset": [
+            "Siamese cat",
+            "Siamese"
+        ],
+        "wdid": "Q1177408"
+    },
+    {
+        "inid": "n02124075",
+        "wnid": "02126727-n",
+        "synset": [
+            "Egyptian cat"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02125311",
+        "wnid": "02127963-n",
+        "synset": [
+            "cougar",
+            "puma",
+            "catamount",
+            "mountain lion",
+            "painter",
+            "panther",
+            "Felis concolor"
+        ],
+        "wdid": "Q35255"
+    },
+    {
+        "inid": "n02125311",
+        "wnid": "02127963-n",
+        "synset": [
+            "cougar",
+            "puma",
+            "catamount",
+            "mountain lion",
+            "painter",
+            "panther",
+            "Felis concolor"
+        ],
+        "wdid": "Q207963"
+    },
+    {
+        "inid": "n02125311",
+        "wnid": "02127963-n",
+        "synset": [
+            "cougar",
+            "puma",
+            "catamount",
+            "mountain lion",
+            "painter",
+            "panther",
+            "Felis concolor"
+        ],
+        "wdid": "Q270748"
+    },
+    {
+        "inid": "n02127052",
+        "wnid": "02129704-n",
+        "synset": [
+            "lynx",
+            "catamount"
+        ],
+        "wdid": "Q43375"
+    },
+    {
+        "inid": "n02128385",
+        "wnid": "02131037-n",
+        "synset": [
+            "leopard",
+            "Panthera pardus"
+        ],
+        "wdid": "Q34706"
+    },
+    {
+        "inid": "n02128757",
+        "wnid": "02131409-n",
+        "synset": [
+            "snow leopard",
+            "ounce",
+            "Panthera uncia"
+        ],
+        "wdid": "Q30197"
+    },
+    {
+        "inid": "n02128925",
+        "wnid": "02131577-n",
+        "synset": [
+            "jaguar",
+            "panther",
+            "Panthera onca",
+            "Felis onca"
+        ],
+        "wdid": "Q35694"
+    },
+    {
+        "inid": "n02129165",
+        "wnid": "02131817-n",
+        "synset": [
+            "lion",
+            "king of beasts",
+            "Panthera leo"
+        ],
+        "wdid": "Q140"
+    },
+    {
+        "inid": "n02129604",
+        "wnid": "02132256-n",
+        "synset": [
+            "tiger",
+            "Panthera tigris"
+        ],
+        "wdid": "Q19939"
+    },
+    {
+        "inid": "n02130308",
+        "wnid": "02132960-n",
+        "synset": [
+            "cheetah",
+            "chetah",
+            "Acinonyx jubatus"
+        ],
+        "wdid": "Q481907"
+    },
+    {
+        "inid": "n02132136",
+        "wnid": "02134788-n",
+        "synset": [
+            "brown bear",
+            "bruin",
+            "Ursus arctos"
+        ],
+        "wdid": "Q36341"
+    },
+    {
+        "inid": "n02133161",
+        "wnid": "02135813-n",
+        "synset": [
+            "American black bear",
+            "black bear",
+            "Ursus americanus",
+            "Euarctos americanus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02134084",
+        "wnid": "02136736-n",
+        "synset": [
+            "ice bear",
+            "polar bear",
+            "Ursus Maritimus",
+            "Thalarctos maritimus"
+        ],
+        "wdid": "Q33609"
+    },
+    {
+        "inid": "n02134418",
+        "wnid": "02137070-n",
+        "synset": [
+            "sloth bear",
+            "Melursus ursinus",
+            "Ursus ursinus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02137549",
+        "wnid": "02140201-n",
+        "synset": [
+            "mongoose"
+        ],
+        "wdid": "Q80479"
+    },
+    {
+        "inid": "n02138441",
+        "wnid": "02141093-n",
+        "synset": [
+            "meerkat",
+            "mierkat"
+        ],
+        "wdid": "Q134015"
+    },
+    {
+        "inid": "n02165105",
+        "wnid": "02167757-n",
+        "synset": [
+            "tiger beetle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02165456",
+        "wnid": "02168108-n",
+        "synset": [
+            "ladybug",
+            "ladybeetle",
+            "lady beetle",
+            "ladybird",
+            "ladybird beetle"
+        ],
+        "wdid": "Q25327"
+    },
+    {
+        "inid": "n02167151",
+        "wnid": "02169803-n",
+        "synset": [
+            "ground beetle",
+            "carabid beetle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02168699",
+        "wnid": "02171351-n",
+        "synset": [
+            "long-horned beetle",
+            "longicorn",
+            "longicorn beetle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02169497",
+        "wnid": "02172149-n",
+        "synset": [
+            "leaf beetle",
+            "chrysomelid"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02172182",
+        "wnid": "02174834-n",
+        "synset": [
+            "dung beetle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02174001",
+        "wnid": "02176653-n",
+        "synset": [
+            "rhinoceros beetle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02177972",
+        "wnid": "02180624-n",
+        "synset": [
+            "weevil"
+        ],
+        "wdid": "Q383963"
+    },
+    {
+        "inid": "n02190166",
+        "wnid": "02192818-n",
+        "synset": [
+            "fly"
+        ],
+        "wdid": "Q25312"
+    },
+    {
+        "inid": "n02206856",
+        "wnid": "02209508-n",
+        "synset": [
+            "bee"
+        ],
+        "wdid": "Q102857"
+    },
+    {
+        "inid": "n02219486",
+        "wnid": "02222138-n",
+        "synset": [
+            "ant",
+            "emmet",
+            "pismire"
+        ],
+        "wdid": "Q7386"
+    },
+    {
+        "inid": "n02226429",
+        "wnid": "02229081-n",
+        "synset": [
+            "grasshopper",
+            "hopper"
+        ],
+        "wdid": "Q167810"
+    },
+    {
+        "inid": "n02229544",
+        "wnid": "02232196-n",
+        "synset": [
+            "cricket"
+        ],
+        "wdid": "Q27711"
+    },
+    {
+        "inid": "n02231487",
+        "wnid": "02234139-n",
+        "synset": [
+            "walking stick",
+            "walkingstick",
+            "stick insect"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02233338",
+        "wnid": "02235990-n",
+        "synset": [
+            "cockroach",
+            "roach"
+        ],
+        "wdid": "Q1073729"
+    },
+    {
+        "inid": "n02233338",
+        "wnid": "02235990-n",
+        "synset": [
+            "cockroach",
+            "roach"
+        ],
+        "wdid": "Q1661828"
+    },
+    {
+        "inid": "n02236044",
+        "wnid": "02238696-n",
+        "synset": [
+            "mantis",
+            "mantid"
+        ],
+        "wdid": "Q268319"
+    },
+    {
+        "inid": "n02256656",
+        "wnid": "02259308-n",
+        "synset": [
+            "cicada",
+            "cicala"
+        ],
+        "wdid": "Q130778"
+    },
+    {
+        "inid": "n02259212",
+        "wnid": "02261864-n",
+        "synset": [
+            "leafhopper"
+        ],
+        "wdid": "Q244452"
+    },
+    {
+        "inid": "n02264363",
+        "wnid": "02267015-n",
+        "synset": [
+            "lacewing",
+            "lacewing fly"
+        ],
+        "wdid": "Q623727"
+    },
+    {
+        "inid": "n02268443",
+        "wnid": "02271095-n",
+        "synset": [
+            "dragonfly",
+            "darning needle",
+            "devil's darning needle",
+            "sewing needle",
+            "snake feeder",
+            "snake doctor",
+            "mosquito hawk",
+            "skeeter hawk"
+        ],
+        "wdid": "Q80066"
+    },
+    {
+        "inid": "n02268443",
+        "wnid": "02271095-n",
+        "synset": [
+            "dragonfly",
+            "darning needle",
+            "devil's darning needle",
+            "sewing needle",
+            "snake feeder",
+            "snake doctor",
+            "mosquito hawk",
+            "skeeter hawk"
+        ],
+        "wdid": "Q312476"
+    },
+    {
+        "inid": "n02268853",
+        "wnid": "02271505-n",
+        "synset": [
+            "damselfly"
+        ],
+        "wdid": "Q230502"
+    },
+    {
+        "inid": "n02276258",
+        "wnid": "02278910-n",
+        "synset": [
+            "admiral"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02277742",
+        "wnid": "02280394-n",
+        "synset": [
+            "ringlet",
+            "ringlet butterfly"
+        ],
+        "wdid": "Q161520"
+    },
+    {
+        "inid": "n02279972",
+        "wnid": "02282624-n",
+        "synset": [
+            "monarch",
+            "monarch butterfly",
+            "milkweed butterfly",
+            "Danaus plexippus"
+        ],
+        "wdid": "Q212398"
+    },
+    {
+        "inid": "n02280649",
+        "wnid": "02283301-n",
+        "synset": [
+            "cabbage butterfly"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02281406",
+        "wnid": "02284058-n",
+        "synset": [
+            "sulphur butterfly",
+            "sulfur butterfly"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02281787",
+        "wnid": "02284439-n",
+        "synset": [
+            "lycaenid",
+            "lycaenid butterfly"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02317335",
+        "wnid": "02319987-n",
+        "synset": [
+            "starfish",
+            "sea star"
+        ],
+        "wdid": "Q25349"
+    },
+    {
+        "inid": "n02319095",
+        "wnid": "02321747-n",
+        "synset": [
+            "sea urchin"
+        ],
+        "wdid": "Q83483"
+    },
+    {
+        "inid": "n02321529",
+        "wnid": "02324181-n",
+        "synset": [
+            "sea cucumber",
+            "holothurian"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02325366",
+        "wnid": "02328018-n",
+        "synset": [
+            "wood rabbit",
+            "cottontail",
+            "cottontail rabbit"
+        ],
+        "wdid": "Q774716"
+    },
+    {
+        "inid": "n02326432",
+        "wnid": "02329084-n",
+        "synset": [
+            "hare"
+        ],
+        "wdid": "Q852187"
+    },
+    {
+        "inid": "n02328150",
+        "wnid": "02330802-n",
+        "synset": [
+            "Angora",
+            "Angora rabbit"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02342885",
+        "wnid": "02345537-n",
+        "synset": [
+            "hamster"
+        ],
+        "wdid": "Q6573"
+    },
+    {
+        "inid": "n02346627",
+        "wnid": "02349279-n",
+        "synset": [
+            "porcupine",
+            "hedgehog"
+        ],
+        "wdid": "Q1223829"
+    },
+    {
+        "inid": "n02356798",
+        "wnid": "02359450-n",
+        "synset": [
+            "fox squirrel",
+            "eastern fox squirrel",
+            "Sciurus niger"
+        ],
+        "wdid": "Q694296"
+    },
+    {
+        "inid": "n02361337",
+        "wnid": "02363989-n",
+        "synset": [
+            "marmot"
+        ],
+        "wdid": "Q131567"
+    },
+    {
+        "inid": "n02363005",
+        "wnid": "05269619-n",
+        "synset": [
+            "beaver"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02364673",
+        "wnid": "02367325-n",
+        "synset": [
+            "guinea pig",
+            "Cavia cobaya"
+        ],
+        "wdid": "Q79803"
+    },
+    {
+        "inid": "n02389026",
+        "wnid": "02391678-n",
+        "synset": [
+            "sorrel"
+        ],
+        "wdid": "Q1406070"
+    },
+    {
+        "inid": "n02391049",
+        "wnid": "02393701-n",
+        "synset": [
+            "zebra"
+        ],
+        "wdid": "Q32789"
+    },
+    {
+        "inid": "n02395406",
+        "wnid": "02398058-n",
+        "synset": [
+            "hog",
+            "pig",
+            "grunter",
+            "squealer",
+            "Sus scrofa"
+        ],
+        "wdid": "Q787"
+    },
+    {
+        "inid": "n02396427",
+        "wnid": "02399079-n",
+        "synset": [
+            "wild boar",
+            "boar",
+            "Sus scrofa"
+        ],
+        "wdid": "Q58697"
+    },
+    {
+        "inid": "n02397096",
+        "wnid": "02399748-n",
+        "synset": [
+            "warthog"
+        ],
+        "wdid": "Q183255"
+    },
+    {
+        "inid": "n02398521",
+        "wnid": "02401173-n",
+        "synset": [
+            "hippopotamus",
+            "hippo",
+            "river horse",
+            "Hippopotamus amphibius"
+        ],
+        "wdid": "Q34505"
+    },
+    {
+        "inid": "n02403003",
+        "wnid": "02405655-n",
+        "synset": [
+            "ox"
+        ],
+        "wdid": "Q473194"
+    },
+    {
+        "inid": "n02408429",
+        "wnid": "02411075-n",
+        "synset": [
+            "water buffalo",
+            "water ox",
+            "Asiatic buffalo",
+            "Bubalus bubalis"
+        ],
+        "wdid": "Q42710"
+    },
+    {
+        "inid": "n02410509",
+        "wnid": "02413155-n",
+        "synset": [
+            "bison"
+        ],
+        "wdid": "Q18099"
+    },
+    {
+        "inid": "n02412080",
+        "wnid": "02414726-n",
+        "synset": [
+            "ram",
+            "tup"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02415577",
+        "wnid": "02418223-n",
+        "synset": [
+            "bighorn",
+            "bighorn sheep",
+            "cimarron",
+            "Rocky Mountain bighorn",
+            "Rocky Mountain sheep",
+            "Ovis canadensis"
+        ],
+        "wdid": "Q189466"
+    },
+    {
+        "inid": "n02417914",
+        "wnid": "02420560-n",
+        "synset": [
+            "ibex",
+            "Capra ibex"
+        ],
+        "wdid": "Q168327"
+    },
+    {
+        "inid": "n02422106",
+        "wnid": "02424752-n",
+        "synset": [
+            "hartebeest"
+        ],
+        "wdid": "Q622880"
+    },
+    {
+        "inid": "n02422699",
+        "wnid": "02425345-n",
+        "synset": [
+            "impala",
+            "Aepyceros melampus"
+        ],
+        "wdid": "Q132576"
+    },
+    {
+        "inid": "n02423022",
+        "wnid": "02425668-n",
+        "synset": [
+            "gazelle"
+        ],
+        "wdid": "Q190858"
+    },
+    {
+        "inid": "n02437312",
+        "wnid": "02439943-n",
+        "synset": [
+            "Arabian camel",
+            "dromedary",
+            "Camelus dromedarius"
+        ],
+        "wdid": "Q71516"
+    },
+    {
+        "inid": "n02437616",
+        "wnid": "02440247-n",
+        "synset": [
+            "llama"
+        ],
+        "wdid": "Q42569"
+    },
+    {
+        "inid": "n02441942",
+        "wnid": "10791658-n",
+        "synset": [
+            "weasel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02442845",
+        "wnid": "14789676-n",
+        "synset": [
+            "mink"
+        ],
+        "wdid": "Q17700"
+    },
+    {
+        "inid": "n02443114",
+        "wnid": "02445745-n",
+        "synset": [
+            "polecat",
+            "fitch",
+            "foulmart",
+            "foumart",
+            "Mustela putorius"
+        ],
+        "wdid": "Q26582"
+    },
+    {
+        "inid": "n02443484",
+        "wnid": "02446115-n",
+        "synset": [
+            "black-footed ferret",
+            "ferret",
+            "Mustela nigripes"
+        ],
+        "wdid": "Q402885"
+    },
+    {
+        "inid": "n02444819",
+        "wnid": "14789964-n",
+        "synset": [
+            "otter"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02445715",
+        "wnid": "02448346-n",
+        "synset": [
+            "skunk",
+            "polecat",
+            "wood pussy"
+        ],
+        "wdid": "Q43604020"
+    },
+    {
+        "inid": "n02445715",
+        "wnid": "02448346-n",
+        "synset": [
+            "skunk",
+            "polecat",
+            "wood pussy"
+        ],
+        "wdid": "Q46600415"
+    },
+    {
+        "inid": "n02447366",
+        "wnid": "02449997-n",
+        "synset": [
+            "badger"
+        ],
+        "wdid": "Q27066"
+    },
+    {
+        "inid": "n02454379",
+        "wnid": "02457010-n",
+        "synset": [
+            "armadillo"
+        ],
+        "wdid": "Q104840543"
+    },
+    {
+        "inid": "n02457408",
+        "wnid": "02460039-n",
+        "synset": [
+            "three-toed sloth",
+            "ai",
+            "Bradypus tridactylus"
+        ],
+        "wdid": "Q185167"
+    },
+    {
+        "inid": "n02480495",
+        "wnid": "02483126-n",
+        "synset": [
+            "orangutan",
+            "orang",
+            "orangutang",
+            "Pongo pygmaeus"
+        ],
+        "wdid": "Q41050"
+    },
+    {
+        "inid": "n02480855",
+        "wnid": "02483486-n",
+        "synset": [
+            "gorilla",
+            "Gorilla gorilla"
+        ],
+        "wdid": "Q737838"
+    },
+    {
+        "inid": "n02481823",
+        "wnid": "02484454-n",
+        "synset": [
+            "chimpanzee",
+            "chimp",
+            "Pan troglodytes"
+        ],
+        "wdid": "Q4126704"
+    },
+    {
+        "inid": "n02483362",
+        "wnid": "02485993-n",
+        "synset": [
+            "gibbon",
+            "Hylobates lar"
+        ],
+        "wdid": "Q878467"
+    },
+    {
+        "inid": "n02483708",
+        "wnid": "02486339-n",
+        "synset": [
+            "siamang",
+            "Hylobates syndactylus",
+            "Symphalangus syndactylus"
+        ],
+        "wdid": "Q213889"
+    },
+    {
+        "inid": "n02484975",
+        "wnid": "02487606-n",
+        "synset": [
+            "guenon",
+            "guenon monkey"
+        ],
+        "wdid": "Q255571"
+    },
+    {
+        "inid": "n02486261",
+        "wnid": "02488892-n",
+        "synset": [
+            "patas",
+            "hussar monkey",
+            "Erythrocebus patas"
+        ],
+        "wdid": "Q504496"
+    },
+    {
+        "inid": "n02486410",
+        "wnid": "02489041-n",
+        "synset": [
+            "baboon"
+        ],
+        "wdid": "Q159429"
+    },
+    {
+        "inid": "n02487347",
+        "wnid": "02489978-n",
+        "synset": [
+            "macaque"
+        ],
+        "wdid": "Q177601"
+    },
+    {
+        "inid": "n02488291",
+        "wnid": "02490922-n",
+        "synset": [
+            "langur"
+        ],
+        "wdid": "Q732737"
+    },
+    {
+        "inid": "n02488702",
+        "wnid": "02491333-n",
+        "synset": [
+            "colobus",
+            "colobus monkey"
+        ],
+        "wdid": "Q358813"
+    },
+    {
+        "inid": "n02489166",
+        "wnid": "02491797-n",
+        "synset": [
+            "proboscis monkey",
+            "Nasalis larvatus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02490219",
+        "wnid": "02492850-n",
+        "synset": [
+            "marmoset"
+        ],
+        "wdid": "Q1064620"
+    },
+    {
+        "inid": "n02492035",
+        "wnid": "02494666-n",
+        "synset": [
+            "capuchin",
+            "ringtail",
+            "Cebus capucinus"
+        ],
+        "wdid": "Q326260"
+    },
+    {
+        "inid": "n02492660",
+        "wnid": "02495291-n",
+        "synset": [
+            "howler monkey",
+            "howler"
+        ],
+        "wdid": "Q504247"
+    },
+    {
+        "inid": "n02493509",
+        "wnid": "02496140-n",
+        "synset": [
+            "titi",
+            "titi monkey"
+        ],
+        "wdid": "Q19816406"
+    },
+    {
+        "inid": "n02493793",
+        "wnid": "02496424-n",
+        "synset": [
+            "spider monkey",
+            "Ateles geoffroyi"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02494079",
+        "wnid": "02496710-n",
+        "synset": [
+            "squirrel monkey",
+            "Saimiri sciureus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02497673",
+        "wnid": "02500304-n",
+        "synset": [
+            "Madagascar cat",
+            "ring-tailed lemur",
+            "Lemur catta"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02500267",
+        "wnid": "02502898-n",
+        "synset": [
+            "indri",
+            "indris",
+            "Indri indri",
+            "Indri brevicaudatus"
+        ],
+        "wdid": "Q203868"
+    },
+    {
+        "inid": "n02504013",
+        "wnid": "02506644-n",
+        "synset": [
+            "Indian elephant",
+            "Elephas maximus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02504458",
+        "wnid": "02507089-n",
+        "synset": [
+            "African elephant",
+            "Loxodonta africana"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02509815",
+        "wnid": "02512446-n",
+        "synset": [
+            "lesser panda",
+            "red panda",
+            "panda",
+            "bear cat",
+            "cat bear",
+            "Ailurus fulgens"
+        ],
+        "wdid": "Q41960"
+    },
+    {
+        "inid": "n02510455",
+        "wnid": "02513086-n",
+        "synset": [
+            "giant panda",
+            "panda",
+            "panda bear",
+            "coon bear",
+            "Ailuropoda melanoleuca"
+        ],
+        "wdid": "Q33602"
+    },
+    {
+        "inid": "n02514041",
+        "wnid": "02516672-n",
+        "synset": [
+            "barracouta",
+            "snoek"
+        ],
+        "wdid": "Q2306485"
+    },
+    {
+        "inid": "n02526121",
+        "wnid": "07799943-n",
+        "synset": [
+            "eel"
+        ],
+        "wdid": "Q128685"
+    },
+    {
+        "inid": "n02536864",
+        "wnid": "02539495-n",
+        "synset": [
+            "coho",
+            "cohoe",
+            "coho salmon",
+            "blue jack",
+            "silver salmon",
+            "Oncorhynchus kisutch"
+        ],
+        "wdid": "Q934874"
+    },
+    {
+        "inid": "n02606052",
+        "wnid": "02608682-n",
+        "synset": [
+            "rock beauty",
+            "Holocanthus tricolor"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02607072",
+        "wnid": "02609702-n",
+        "synset": [
+            "anemone fish"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02640242",
+        "wnid": "02642872-n",
+        "synset": [
+            "sturgeon"
+        ],
+        "wdid": "Q300955"
+    },
+    {
+        "inid": "n02641379",
+        "wnid": "02644009-n",
+        "synset": [
+            "gar",
+            "garfish",
+            "garpike",
+            "billfish",
+            "Lepisosteus osseus"
+        ],
+        "wdid": "Q3280549"
+    },
+    {
+        "inid": "n02641379",
+        "wnid": "02644009-n",
+        "synset": [
+            "gar",
+            "garfish",
+            "garpike",
+            "billfish",
+            "Lepisosteus osseus"
+        ],
+        "wdid": "Q14620149"
+    },
+    {
+        "inid": "n02643566",
+        "wnid": "02646196-n",
+        "synset": [
+            "lionfish"
+        ],
+        "wdid": "Q475711"
+    },
+    {
+        "inid": "n02655020",
+        "wnid": "02657650-n",
+        "synset": [
+            "puffer",
+            "pufferfish",
+            "blowfish",
+            "globefish"
+        ],
+        "wdid": "Q201701"
+    },
+    {
+        "inid": "n02666196",
+        "wnid": "02668977-n",
+        "synset": [
+            "abacus"
+        ],
+        "wdid": "Q208454"
+    },
+    {
+        "inid": "n02667093",
+        "wnid": "02669723-n",
+        "synset": [
+            "abaya"
+        ],
+        "wdid": "Q305718"
+    },
+    {
+        "inid": "n02669723",
+        "wnid": "02672353-n",
+        "synset": [
+            "academic gown",
+            "academic robe",
+            "judge's robe"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02672831",
+        "wnid": "",
+        "synset": [
+            "accordion",
+            "piano accordion",
+            "squeeze box"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02676566",
+        "wnid": "02679420-n",
+        "synset": [
+            "acoustic guitar"
+        ],
+        "wdid": "Q31561"
+    },
+    {
+        "inid": "n02687172",
+        "wnid": "02690031-n",
+        "synset": [
+            "aircraft carrier",
+            "carrier",
+            "flattop",
+            "attack aircraft carrier"
+        ],
+        "wdid": "Q17205"
+    },
+    {
+        "inid": "n02690373",
+        "wnid": "02693232-n",
+        "synset": [
+            "airliner"
+        ],
+        "wdid": "Q210932"
+    },
+    {
+        "inid": "n02692877",
+        "wnid": "02695736-n",
+        "synset": [
+            "airship",
+            "dirigible"
+        ],
+        "wdid": "Q133585"
+    },
+    {
+        "inid": "n02692877",
+        "wnid": "02695736-n",
+        "synset": [
+            "airship",
+            "dirigible"
+        ],
+        "wdid": "Q191430"
+    },
+    {
+        "inid": "n02699494",
+        "wnid": "02702353-n",
+        "synset": [
+            "altar"
+        ],
+        "wdid": "Q101687"
+    },
+    {
+        "inid": "n02701002",
+        "wnid": "02703861-n",
+        "synset": [
+            "ambulance"
+        ],
+        "wdid": "Q180481"
+    },
+    {
+        "inid": "n02704792",
+        "wnid": "02707651-n",
+        "synset": [
+            "amphibian",
+            "amphibious vehicle"
+        ],
+        "wdid": "Q474698"
+    },
+    {
+        "inid": "n02708093",
+        "wnid": "02710952-n",
+        "synset": [
+            "analog clock"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02727426",
+        "wnid": "02730351-n",
+        "synset": [
+            "apiary",
+            "bee house"
+        ],
+        "wdid": "Q857628"
+    },
+    {
+        "inid": "n02730930",
+        "wnid": "02733935-n",
+        "synset": [
+            "apron"
+        ],
+        "wdid": "Q273831"
+    },
+    {
+        "inid": "n02747177",
+        "wnid": "02750182-n",
+        "synset": [
+            "ashcan",
+            "trash can",
+            "garbage can",
+            "wastebin",
+            "ash bin",
+            "ash-bin",
+            "ashbin",
+            "dustbin",
+            "trash barrel",
+            "trash bin"
+        ],
+        "wdid": "Q216530"
+    },
+    {
+        "inid": "n02749479",
+        "wnid": "02752484-n",
+        "synset": [
+            "assault rifle",
+            "assault gun"
+        ],
+        "wdid": "Q177456"
+    },
+    {
+        "inid": "n02769748",
+        "wnid": "02772753-n",
+        "synset": [
+            "backpack",
+            "back pack",
+            "knapsack",
+            "packsack",
+            "rucksack",
+            "haversack"
+        ],
+        "wdid": "Q5843"
+    },
+    {
+        "inid": "n02769748",
+        "wnid": "02772753-n",
+        "synset": [
+            "backpack",
+            "back pack",
+            "knapsack",
+            "packsack",
+            "rucksack",
+            "haversack"
+        ],
+        "wdid": "Q1107811"
+    },
+    {
+        "inid": "n02776631",
+        "wnid": "02779636-n",
+        "synset": [
+            "bakery",
+            "bakeshop",
+            "bakehouse"
+        ],
+        "wdid": "Q274393"
+    },
+    {
+        "inid": "n02777292",
+        "wnid": "02780297-n",
+        "synset": [
+            "balance beam",
+            "beam"
+        ],
+        "wdid": "Q89579852"
+    },
+    {
+        "inid": "n02782093",
+        "wnid": "02785116-n",
+        "synset": [
+            "balloon"
+        ],
+        "wdid": "Q183951"
+    },
+    {
+        "inid": "n02783161",
+        "wnid": "02786184-n",
+        "synset": [
+            "ballpoint",
+            "ballpoint pen",
+            "ballpen",
+            "Biro"
+        ],
+        "wdid": "Q160137"
+    },
+    {
+        "inid": "n02786058",
+        "wnid": "02789081-n",
+        "synset": [
+            "Band Aid"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02787622",
+        "wnid": "02790645-n",
+        "synset": [
+            "banjo"
+        ],
+        "wdid": "Q258896"
+    },
+    {
+        "inid": "n02788148",
+        "wnid": "02791171-n",
+        "synset": [
+            "bannister",
+            "banister",
+            "balustrade",
+            "balusters",
+            "handrail"
+        ],
+        "wdid": "Q2051212"
+    },
+    {
+        "inid": "n02790996",
+        "wnid": "02794019-n",
+        "synset": [
+            "barbell"
+        ],
+        "wdid": "Q1043897"
+    },
+    {
+        "inid": "n02791124",
+        "wnid": "02794147-n",
+        "synset": [
+            "barber chair"
+        ],
+        "wdid": "Q2947719"
+    },
+    {
+        "inid": "n02791270",
+        "wnid": "02794293-n",
+        "synset": [
+            "barbershop"
+        ],
+        "wdid": "Q21980641"
+    },
+    {
+        "inid": "n02793495",
+        "wnid": "02796518-n",
+        "synset": [
+            "barn"
+        ],
+        "wdid": "Q1303167"
+    },
+    {
+        "inid": "n02794156",
+        "wnid": "02797179-n",
+        "synset": [
+            "barometer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02795169",
+        "wnid": "02798192-n",
+        "synset": [
+            "barrel",
+            "cask"
+        ],
+        "wdid": "Q10289"
+    },
+    {
+        "inid": "n02797295",
+        "wnid": "02800454-n",
+        "synset": [
+            "barrow",
+            "garden cart",
+            "lawn cart",
+            "wheelbarrow"
+        ],
+        "wdid": "Q175334"
+    },
+    {
+        "inid": "n02799071",
+        "wnid": "02802230-n",
+        "synset": [
+            "baseball"
+        ],
+        "wdid": "Q791187"
+    },
+    {
+        "inid": "n02802426",
+        "wnid": "02805592-n",
+        "synset": [
+            "basketball"
+        ],
+        "wdid": "Q810345"
+    },
+    {
+        "inid": "n02804414",
+        "wnid": "02807580-n",
+        "synset": [
+            "bassinet"
+        ],
+        "wdid": "Q1131270"
+    },
+    {
+        "inid": "n02804610",
+        "wnid": "02807776-n",
+        "synset": [
+            "bassoon"
+        ],
+        "wdid": "Q159998"
+    },
+    {
+        "inid": "n02807133",
+        "wnid": "02810318-n",
+        "synset": [
+            "bathing cap",
+            "swimming cap"
+        ],
+        "wdid": "Q798886"
+    },
+    {
+        "inid": "n02808304",
+        "wnid": "02811464-n",
+        "synset": [
+            "bath towel"
+        ],
+        "wdid": "Q10385865"
+    },
+    {
+        "inid": "n02808440",
+        "wnid": "",
+        "synset": [
+            "bathtub",
+            "bathing tub",
+            "bath",
+            "tub"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02814533",
+        "wnid": "02817668-n",
+        "synset": [
+            "beach wagon",
+            "station wagon",
+            "wagon",
+            "estate car",
+            "beach waggon",
+            "station waggon",
+            "waggon"
+        ],
+        "wdid": "Q188886"
+    },
+    {
+        "inid": "n02814860",
+        "wnid": "02817995-n",
+        "synset": [
+            "beacon",
+            "lighthouse",
+            "beacon light",
+            "pharos"
+        ],
+        "wdid": "Q39715"
+    },
+    {
+        "inid": "n02814860",
+        "wnid": "02817995-n",
+        "synset": [
+            "beacon",
+            "lighthouse",
+            "beacon light",
+            "pharos"
+        ],
+        "wdid": "Q98272210"
+    },
+    {
+        "inid": "n02815834",
+        "wnid": "02818969-n",
+        "synset": [
+            "beaker"
+        ],
+        "wdid": "Q187140"
+    },
+    {
+        "inid": "n02817516",
+        "wnid": "02820651-n",
+        "synset": [
+            "bearskin",
+            "busby",
+            "shako"
+        ],
+        "wdid": "Q450784"
+    },
+    {
+        "inid": "n02817516",
+        "wnid": "02820651-n",
+        "synset": [
+            "bearskin",
+            "busby",
+            "shako"
+        ],
+        "wdid": "Q1019110"
+    },
+    {
+        "inid": "n02823428",
+        "wnid": "02826570-n",
+        "synset": [
+            "beer bottle"
+        ],
+        "wdid": "Q23668"
+    },
+    {
+        "inid": "n02823750",
+        "wnid": "02826892-n",
+        "synset": [
+            "beer glass"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02825657",
+        "wnid": "02828820-n",
+        "synset": [
+            "bell cote",
+            "bell cot"
+        ],
+        "wdid": "Q4883086"
+    },
+    {
+        "inid": "n02834397",
+        "wnid": "02837602-n",
+        "synset": [
+            "bib"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02835271",
+        "wnid": "02838476-n",
+        "synset": [
+            "bicycle-built-for-two",
+            "tandem bicycle",
+            "tandem"
+        ],
+        "wdid": "Q948851"
+    },
+    {
+        "inid": "n02837789",
+        "wnid": "02841003-n",
+        "synset": [
+            "bikini",
+            "two-piece"
+        ],
+        "wdid": "Q14090"
+    },
+    {
+        "inid": "n02840245",
+        "wnid": "02843474-n",
+        "synset": [
+            "binder",
+            "ring-binder"
+        ],
+        "wdid": "Q421904"
+    },
+    {
+        "inid": "n02841315",
+        "wnid": "02844544-n",
+        "synset": [
+            "binoculars",
+            "field glasses",
+            "opera glasses"
+        ],
+        "wdid": "Q102626"
+    },
+    {
+        "inid": "n02843684",
+        "wnid": "02846922-n",
+        "synset": [
+            "birdhouse"
+        ],
+        "wdid": "Q744112"
+    },
+    {
+        "inid": "n02859443",
+        "wnid": "02862783-n",
+        "synset": [
+            "boathouse"
+        ],
+        "wdid": "Q1777951"
+    },
+    {
+        "inid": "n02860847",
+        "wnid": "02864187-n",
+        "synset": [
+            "bobsled",
+            "bobsleigh",
+            "bob"
+        ],
+        "wdid": "Q177275"
+    },
+    {
+        "inid": "n02865351",
+        "wnid": "02868691-n",
+        "synset": [
+            "bolo tie",
+            "bolo",
+            "bola tie",
+            "bola"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02869837",
+        "wnid": "02873198-n",
+        "synset": [
+            "bonnet",
+            "poke bonnet"
+        ],
+        "wdid": "Q913023"
+    },
+    {
+        "inid": "n02869837",
+        "wnid": "02873198-n",
+        "synset": [
+            "bonnet",
+            "poke bonnet"
+        ],
+        "wdid": "Q1149531"
+    },
+    {
+        "inid": "n02870880",
+        "wnid": "02874241-n",
+        "synset": [
+            "bookcase"
+        ],
+        "wdid": "Q215857"
+    },
+    {
+        "inid": "n02871525",
+        "wnid": "02874886-n",
+        "synset": [
+            "bookshop",
+            "bookstore",
+            "bookstall"
+        ],
+        "wdid": "Q200764"
+    },
+    {
+        "inid": "n02871525",
+        "wnid": "02874886-n",
+        "synset": [
+            "bookshop",
+            "bookstore",
+            "bookstall"
+        ],
+        "wdid": "Q998426"
+    },
+    {
+        "inid": "n02877765",
+        "wnid": "02881007-n",
+        "synset": [
+            "bottlecap"
+        ],
+        "wdid": "Q1440281"
+    },
+    {
+        "inid": "n02879718",
+        "wnid": "02882759-n",
+        "synset": [
+            "bow"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02883205",
+        "wnid": "02886446-n",
+        "synset": [
+            "bow tie",
+            "bow-tie",
+            "bowtie"
+        ],
+        "wdid": "Q14125"
+    },
+    {
+        "inid": "n02892201",
+        "wnid": "02895442-n",
+        "synset": [
+            "brass",
+            "memorial tablet",
+            "plaque"
+        ],
+        "wdid": "Q721747"
+    },
+    {
+        "inid": "n02892767",
+        "wnid": "02896008-n",
+        "synset": [
+            "brassiere",
+            "bra",
+            "bandeau"
+        ],
+        "wdid": "Q13716"
+    },
+    {
+        "inid": "n02892767",
+        "wnid": "02896008-n",
+        "synset": [
+            "brassiere",
+            "bra",
+            "bandeau"
+        ],
+        "wdid": "Q2025997"
+    },
+    {
+        "inid": "n02894605",
+        "wnid": "02897867-n",
+        "synset": [
+            "breakwater",
+            "groin",
+            "groyne",
+            "mole",
+            "bulwark",
+            "seawall",
+            "jetty"
+        ],
+        "wdid": "Q153084"
+    },
+    {
+        "inid": "n02894605",
+        "wnid": "02897867-n",
+        "synset": [
+            "breakwater",
+            "groin",
+            "groyne",
+            "mole",
+            "bulwark",
+            "seawall",
+            "jetty"
+        ],
+        "wdid": "Q215635"
+    },
+    {
+        "inid": "n02894605",
+        "wnid": "02897867-n",
+        "synset": [
+            "breakwater",
+            "groin",
+            "groyne",
+            "mole",
+            "bulwark",
+            "seawall",
+            "jetty"
+        ],
+        "wdid": "Q1359152"
+    },
+    {
+        "inid": "n02894605",
+        "wnid": "02897867-n",
+        "synset": [
+            "breakwater",
+            "groin",
+            "groyne",
+            "mole",
+            "bulwark",
+            "seawall",
+            "jetty"
+        ],
+        "wdid": "Q3082251"
+    },
+    {
+        "inid": "n02895154",
+        "wnid": "02898416-n",
+        "synset": [
+            "breastplate",
+            "aegis",
+            "egis"
+        ],
+        "wdid": "Q858236"
+    },
+    {
+        "inid": "n02906734",
+        "wnid": "02910059-n",
+        "synset": [
+            "broom"
+        ],
+        "wdid": "Q172833"
+    },
+    {
+        "inid": "n02909870",
+        "wnid": "02913195-n",
+        "synset": [
+            "bucket",
+            "pail"
+        ],
+        "wdid": "Q47107"
+    },
+    {
+        "inid": "n02910353",
+        "wnid": "02913678-n",
+        "synset": [
+            "buckle"
+        ],
+        "wdid": "Q1135567"
+    },
+    {
+        "inid": "n02916936",
+        "wnid": "02920282-n",
+        "synset": [
+            "bulletproof vest"
+        ],
+        "wdid": "Q391752"
+    },
+    {
+        "inid": "n02917067",
+        "wnid": "02920413-n",
+        "synset": [
+            "bullet train",
+            "bullet"
+        ],
+        "wdid": "Q211382"
+    },
+    {
+        "inid": "n02927161",
+        "wnid": "02930545-n",
+        "synset": [
+            "butcher shop",
+            "meat market"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02930766",
+        "wnid": "02934150-n",
+        "synset": [
+            "cab",
+            "hack",
+            "taxi",
+            "taxicab"
+        ],
+        "wdid": "Q82650"
+    },
+    {
+        "inid": "n02939185",
+        "wnid": "02942602-n",
+        "synset": [
+            "caldron",
+            "cauldron"
+        ],
+        "wdid": "Q1317634"
+    },
+    {
+        "inid": "n02948072",
+        "wnid": "02951508-n",
+        "synset": [
+            "candle",
+            "taper",
+            "wax light"
+        ],
+        "wdid": "Q12888135"
+    },
+    {
+        "inid": "n02950826",
+        "wnid": "02953692-n",
+        "synset": [
+            "cannon"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02951358",
+        "wnid": "02954794-n",
+        "synset": [
+            "canoe"
+        ],
+        "wdid": "Q171529"
+    },
+    {
+        "inid": "n02951585",
+        "wnid": "02955021-n",
+        "synset": [
+            "can opener",
+            "tin opener"
+        ],
+        "wdid": "Q12714"
+    },
+    {
+        "inid": "n02963159",
+        "wnid": "02966595-n",
+        "synset": [
+            "cardigan"
+        ],
+        "wdid": "Q877140"
+    },
+    {
+        "inid": "n02965783",
+        "wnid": "02969235-n",
+        "synset": [
+            "car mirror"
+        ],
+        "wdid": "Q47514915"
+    },
+    {
+        "inid": "n02966193",
+        "wnid": "02969645-n",
+        "synset": [
+            "carousel",
+            "carrousel",
+            "merry-go-round",
+            "roundabout",
+            "whirligig"
+        ],
+        "wdid": "Q208322"
+    },
+    {
+        "inid": "n02966687",
+        "wnid": "02970139-n",
+        "synset": [
+            "carpenter's kit",
+            "tool kit"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02971356",
+        "wnid": "02974815-n",
+        "synset": [
+            "carton"
+        ],
+        "wdid": "Q3444710"
+    },
+    {
+        "inid": "n02974003",
+        "wnid": "02977462-n",
+        "synset": [
+            "car wheel"
+        ],
+        "wdid": "Q786732"
+    },
+    {
+        "inid": "n02977058",
+        "wnid": "02980517-n",
+        "synset": [
+            "cash machine",
+            "cash dispenser",
+            "automated teller machine",
+            "automatic teller machine",
+            "automated teller",
+            "automatic teller",
+            "ATM"
+        ],
+        "wdid": "Q81235"
+    },
+    {
+        "inid": "n02978881",
+        "wnid": "02982340-n",
+        "synset": [
+            "cassette"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02979186",
+        "wnid": "02982645-n",
+        "synset": [
+            "cassette player"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n02980441",
+        "wnid": "02983900-n",
+        "synset": [
+            "castle"
+        ],
+        "wdid": "Q751876"
+    },
+    {
+        "inid": "n02981792",
+        "wnid": "02985251-n",
+        "synset": [
+            "catamaran"
+        ],
+        "wdid": "Q190403"
+    },
+    {
+        "inid": "n02988304",
+        "wnid": "02991759-n",
+        "synset": [
+            "CD player"
+        ],
+        "wdid": "Q1023100"
+    },
+    {
+        "inid": "n02992211",
+        "wnid": "02995666-n",
+        "synset": [
+            "cello",
+            "violoncello"
+        ],
+        "wdid": "Q8371"
+    },
+    {
+        "inid": "n02992529",
+        "wnid": "02995984-n",
+        "synset": [
+            "cellular telephone",
+            "cellular phone",
+            "cellphone",
+            "cell",
+            "mobile phone"
+        ],
+        "wdid": "Q17517"
+    },
+    {
+        "inid": "n02999410",
+        "wnid": "03003017-n",
+        "synset": [
+            "chain"
+        ],
+        "wdid": "Q5754749"
+    },
+    {
+        "inid": "n03000134",
+        "wnid": "03003738-n",
+        "synset": [
+            "chainlink fence"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03000247",
+        "wnid": "03003851-n",
+        "synset": [
+            "chain mail",
+            "ring mail",
+            "mail",
+            "chain armor",
+            "chain armour",
+            "ring armor",
+            "ring armour"
+        ],
+        "wdid": "Q659631"
+    },
+    {
+        "inid": "n03000684",
+        "wnid": "03004288-n",
+        "synset": [
+            "chain saw",
+            "chainsaw"
+        ],
+        "wdid": "Q208040"
+    },
+    {
+        "inid": "n03014705",
+        "wnid": "03018359-n",
+        "synset": [
+            "chest"
+        ],
+        "wdid": "Q366134"
+    },
+    {
+        "inid": "n03016953",
+        "wnid": "03020607-n",
+        "synset": [
+            "chiffonier",
+            "commode"
+        ],
+        "wdid": "Q2746233"
+    },
+    {
+        "inid": "n03017168",
+        "wnid": "03020822-n",
+        "synset": [
+            "chime",
+            "bell",
+            "gong"
+        ],
+        "wdid": "Q178812"
+    },
+    {
+        "inid": "n03018349",
+        "wnid": "03022003-n",
+        "synset": [
+            "china cabinet",
+            "china closet"
+        ],
+        "wdid": "Q56588168"
+    },
+    {
+        "inid": "n03026506",
+        "wnid": "03030189-n",
+        "synset": [
+            "Christmas stocking"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03028079",
+        "wnid": "03031762-n",
+        "synset": [
+            "church",
+            "church building"
+        ],
+        "wdid": "Q16970"
+    },
+    {
+        "inid": "n03032252",
+        "wnid": "03036237-n",
+        "synset": [
+            "cinema",
+            "movie theater",
+            "movie theatre",
+            "movie house",
+            "picture palace"
+        ],
+        "wdid": "Q41253"
+    },
+    {
+        "inid": "n03041632",
+        "wnid": "03045617-n",
+        "synset": [
+            "cleaver",
+            "meat cleaver",
+            "chopper"
+        ],
+        "wdid": "Q938509"
+    },
+    {
+        "inid": "n03042490",
+        "wnid": "03046475-n",
+        "synset": [
+            "cliff dwelling"
+        ],
+        "wdid": "Q899959"
+    },
+    {
+        "inid": "n03045698",
+        "wnid": "03049683-n",
+        "synset": [
+            "cloak"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03047690",
+        "wnid": "03051675-n",
+        "synset": [
+            "clog",
+            "geta",
+            "patten",
+            "sabot"
+        ],
+        "wdid": "Q372381"
+    },
+    {
+        "inid": "n03062245",
+        "wnid": "03066248-n",
+        "synset": [
+            "cocktail shaker"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03063599",
+        "wnid": "03067602-n",
+        "synset": [
+            "coffee mug"
+        ],
+        "wdid": "Q38110559"
+    },
+    {
+        "inid": "n03063689",
+        "wnid": "03067692-n",
+        "synset": [
+            "coffeepot"
+        ],
+        "wdid": "Q1721055"
+    },
+    {
+        "inid": "n03065424",
+        "wnid": "03069428-n",
+        "synset": [
+            "coil",
+            "spiral",
+            "volute",
+            "whorl",
+            "helix"
+        ],
+        "wdid": "Q201717"
+    },
+    {
+        "inid": "n03075370",
+        "wnid": "03079374-n",
+        "synset": [
+            "combination lock"
+        ],
+        "wdid": "Q2374786"
+    },
+    {
+        "inid": "n03085013",
+        "wnid": "03089055-n",
+        "synset": [
+            "computer keyboard",
+            "keypad"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03089624",
+        "wnid": "03094080-n",
+        "synset": [
+            "confectionery",
+            "confectionary",
+            "candy store"
+        ],
+        "wdid": "Q3574069"
+    },
+    {
+        "inid": "n03095699",
+        "wnid": "03100350-n",
+        "synset": [
+            "container ship",
+            "containership",
+            "container vessel"
+        ],
+        "wdid": "Q17210"
+    },
+    {
+        "inid": "n03100240",
+        "wnid": "03104891-n",
+        "synset": [
+            "convertible"
+        ],
+        "wdid": "Q55989"
+    },
+    {
+        "inid": "n03109150",
+        "wnid": "03113801-n",
+        "synset": [
+            "corkscrew",
+            "bottle screw"
+        ],
+        "wdid": "Q12337"
+    },
+    {
+        "inid": "n03110669",
+        "wnid": "03115320-n",
+        "synset": [
+            "cornet",
+            "horn",
+            "trumpet",
+            "trump"
+        ],
+        "wdid": "Q202027"
+    },
+    {
+        "inid": "n03110669",
+        "wnid": "03115320-n",
+        "synset": [
+            "cornet",
+            "horn",
+            "trumpet",
+            "trump"
+        ],
+        "wdid": "Q1126540"
+    },
+    {
+        "inid": "n03124043",
+        "wnid": "03128694-n",
+        "synset": [
+            "cowboy boot"
+        ],
+        "wdid": "Q1138187"
+    },
+    {
+        "inid": "n03124170",
+        "wnid": "03128821-n",
+        "synset": [
+            "cowboy hat",
+            "ten-gallon hat"
+        ],
+        "wdid": "Q1138175"
+    },
+    {
+        "inid": "n03125729",
+        "wnid": "03130380-n",
+        "synset": [
+            "cradle"
+        ],
+        "wdid": "Q21159303"
+    },
+    {
+        "inid": "n03126707",
+        "wnid": "03131358-n",
+        "synset": [
+            "crane"
+        ],
+        "wdid": "Q178692"
+    },
+    {
+        "inid": "n03126707",
+        "wnid": "03131358-n",
+        "synset": [
+            "crane"
+        ],
+        "wdid": "Q178692"
+    },
+    {
+        "inid": "n03127747",
+        "wnid": "03132398-n",
+        "synset": [
+            "crash helmet"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03127925",
+        "wnid": "03132576-n",
+        "synset": [
+            "crate"
+        ],
+        "wdid": "Q605384"
+    },
+    {
+        "inid": "n03131574",
+        "wnid": "03136225-n",
+        "synset": [
+            "crib",
+            "cot"
+        ],
+        "wdid": "Q412770"
+    },
+    {
+        "inid": "n03133878",
+        "wnid": "03138529-n",
+        "synset": [
+            "Crock Pot"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03134739",
+        "wnid": "03139390-n",
+        "synset": [
+            "croquet ball"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03141823",
+        "wnid": "03146474-n",
+        "synset": [
+            "crutch"
+        ],
+        "wdid": "Q268828"
+    },
+    {
+        "inid": "n03146219",
+        "wnid": "03150885-n",
+        "synset": [
+            "cuirass"
+        ],
+        "wdid": "Q182731"
+    },
+    {
+        "inid": "n03160309",
+        "wnid": "03164975-n",
+        "synset": [
+            "dam",
+            "dike",
+            "dyke"
+        ],
+        "wdid": "Q12323"
+    },
+    {
+        "inid": "n03160309",
+        "wnid": "03164975-n",
+        "synset": [
+            "dam",
+            "dike",
+            "dyke"
+        ],
+        "wdid": "Q105190"
+    },
+    {
+        "inid": "n03179701",
+        "wnid": "03184367-n",
+        "synset": [
+            "desk"
+        ],
+        "wdid": "Q1064858"
+    },
+    {
+        "inid": "n03180011",
+        "wnid": "03184677-n",
+        "synset": [
+            "desktop computer"
+        ],
+        "wdid": "Q56155"
+    },
+    {
+        "inid": "n03187595",
+        "wnid": "03192279-n",
+        "synset": [
+            "dial telephone",
+            "dial phone"
+        ],
+        "wdid": "Q47519477"
+    },
+    {
+        "inid": "n03188531",
+        "wnid": "03193215-n",
+        "synset": [
+            "diaper",
+            "nappy",
+            "napkin"
+        ],
+        "wdid": "Q187359"
+    },
+    {
+        "inid": "n03196217",
+        "wnid": "03200901-n",
+        "synset": [
+            "digital clock"
+        ],
+        "wdid": "Q1225105"
+    },
+    {
+        "inid": "n03197337",
+        "wnid": "03202021-n",
+        "synset": [
+            "digital watch"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03201208",
+        "wnid": "03205892-n",
+        "synset": [
+            "dining table",
+            "board"
+        ],
+        "wdid": "Q14748"
+    },
+    {
+        "inid": "n03207743",
+        "wnid": "03212464-n",
+        "synset": [
+            "dishrag",
+            "dishcloth"
+        ],
+        "wdid": "Q2748906"
+    },
+    {
+        "inid": "n03207941",
+        "wnid": "03212662-n",
+        "synset": [
+            "dishwasher",
+            "dish washer",
+            "dishwashing machine"
+        ],
+        "wdid": "Q186263"
+    },
+    {
+        "inid": "n03208938",
+        "wnid": "03213659-n",
+        "synset": [
+            "disk brake",
+            "disc brake"
+        ],
+        "wdid": "Q755174"
+    },
+    {
+        "inid": "n03216828",
+        "wnid": "03221531-n",
+        "synset": [
+            "dock",
+            "dockage",
+            "docking facility"
+        ],
+        "wdid": "Q124282"
+    },
+    {
+        "inid": "n03216828",
+        "wnid": "03221531-n",
+        "synset": [
+            "dock",
+            "dockage",
+            "docking facility"
+        ],
+        "wdid": "Q2240172"
+    },
+    {
+        "inid": "n03218198",
+        "wnid": "03222901-n",
+        "synset": [
+            "dogsled",
+            "dog sled",
+            "dog sleigh"
+        ],
+        "wdid": "Q1339732"
+    },
+    {
+        "inid": "n03220513",
+        "wnid": "13894711-n",
+        "synset": [
+            "dome"
+        ],
+        "wdid": "Q12493"
+    },
+    {
+        "inid": "n03223299",
+        "wnid": "03228002-n",
+        "synset": [
+            "doormat",
+            "welcome mat"
+        ],
+        "wdid": "Q1136834"
+    },
+    {
+        "inid": "n03240683",
+        "wnid": "03245386-n",
+        "synset": [
+            "drilling platform",
+            "offshore rig"
+        ],
+        "wdid": "Q689880"
+    },
+    {
+        "inid": "n03249569",
+        "wnid": "03254272-n",
+        "synset": [
+            "drum",
+            "membranophone",
+            "tympan"
+        ],
+        "wdid": "Q11404"
+    },
+    {
+        "inid": "n03250847",
+        "wnid": "07663479-n",
+        "synset": [
+            "drumstick"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03255030",
+        "wnid": "03259733-n",
+        "synset": [
+            "dumbbell"
+        ],
+        "wdid": "Q465453"
+    },
+    {
+        "inid": "n03259280",
+        "wnid": "03263983-n",
+        "synset": [
+            "Dutch oven"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03271574",
+        "wnid": "03276485-n",
+        "synset": [
+            "electric fan",
+            "blower"
+        ],
+        "wdid": "Q25841836"
+    },
+    {
+        "inid": "n03272010",
+        "wnid": "03276921-n",
+        "synset": [
+            "electric guitar"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03272562",
+        "wnid": "03277473-n",
+        "synset": [
+            "electric locomotive"
+        ],
+        "wdid": "Q625151"
+    },
+    {
+        "inid": "n03290653",
+        "wnid": "03295564-n",
+        "synset": [
+            "entertainment center"
+        ],
+        "wdid": "Q5380479"
+    },
+    {
+        "inid": "n03291819",
+        "wnid": "03296730-n",
+        "synset": [
+            "envelope"
+        ],
+        "wdid": "Q170124"
+    },
+    {
+        "inid": "n03297495",
+        "wnid": "03302424-n",
+        "synset": [
+            "espresso maker"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03314780",
+        "wnid": "03319725-n",
+        "synset": [
+            "face powder"
+        ],
+        "wdid": "Q1160505"
+    },
+    {
+        "inid": "n03325584",
+        "wnid": "03330529-n",
+        "synset": [
+            "feather boa",
+            "boa"
+        ],
+        "wdid": "Q887471"
+    },
+    {
+        "inid": "n03337140",
+        "wnid": "03342085-n",
+        "synset": [
+            "file",
+            "file cabinet",
+            "filing cabinet"
+        ],
+        "wdid": "Q1629107"
+    },
+    {
+        "inid": "n03344393",
+        "wnid": "03349239-n",
+        "synset": [
+            "fireboat"
+        ],
+        "wdid": "Q1190275"
+    },
+    {
+        "inid": "n03345487",
+        "wnid": "03350333-n",
+        "synset": [
+            "fire engine",
+            "fire truck"
+        ],
+        "wdid": "Q208281"
+    },
+    {
+        "inid": "n03347037",
+        "wnid": "03351883-n",
+        "synset": [
+            "fire screen",
+            "fireguard"
+        ],
+        "wdid": "Q3578987"
+    },
+    {
+        "inid": "n03355925",
+        "wnid": "03360771-n",
+        "synset": [
+            "flagpole",
+            "flagstaff"
+        ],
+        "wdid": "Q1971570"
+    },
+    {
+        "inid": "n03372029",
+        "wnid": "03376875-n",
+        "synset": [
+            "flute",
+            "transverse flute"
+        ],
+        "wdid": "Q11405"
+    },
+    {
+        "inid": "n03376595",
+        "wnid": "03381441-n",
+        "synset": [
+            "folding chair"
+        ],
+        "wdid": "Q1744391"
+    },
+    {
+        "inid": "n03379051",
+        "wnid": "03383897-n",
+        "synset": [
+            "football helmet"
+        ],
+        "wdid": "Q1245430"
+    },
+    {
+        "inid": "n03384352",
+        "wnid": "03389198-n",
+        "synset": [
+            "forklift"
+        ],
+        "wdid": "Q830071"
+    },
+    {
+        "inid": "n03388043",
+        "wnid": "03392889-n",
+        "synset": [
+            "fountain"
+        ],
+        "wdid": "Q483453"
+    },
+    {
+        "inid": "n03388183",
+        "wnid": "03393029-n",
+        "synset": [
+            "fountain pen"
+        ],
+        "wdid": "Q192401"
+    },
+    {
+        "inid": "n03388549",
+        "wnid": "03393395-n",
+        "synset": [
+            "four-poster"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03393912",
+        "wnid": "03398748-n",
+        "synset": [
+            "freight car"
+        ],
+        "wdid": "Q9166501"
+    },
+    {
+        "inid": "n03394916",
+        "wnid": "03399752-n",
+        "synset": [
+            "French horn",
+            "horn"
+        ],
+        "wdid": "Q163759"
+    },
+    {
+        "inid": "n03400231",
+        "wnid": "03405146-n",
+        "synset": [
+            "frying pan",
+            "frypan",
+            "skillet"
+        ],
+        "wdid": "Q127666"
+    },
+    {
+        "inid": "n03404251",
+        "wnid": "03409161-n",
+        "synset": [
+            "fur coat"
+        ],
+        "wdid": "Q25397898"
+    },
+    {
+        "inid": "n03417042",
+        "wnid": "03421952-n",
+        "synset": [
+            "garbage truck",
+            "dustcart"
+        ],
+        "wdid": "Q20463"
+    },
+    {
+        "inid": "n03424325",
+        "wnid": "03429235-n",
+        "synset": [
+            "gasmask",
+            "respirator",
+            "gas helmet"
+        ],
+        "wdid": "Q754396"
+    },
+    {
+        "inid": "n03425413",
+        "wnid": "03430323-n",
+        "synset": [
+            "gas pump",
+            "gasoline pump",
+            "petrol pump",
+            "island dispenser"
+        ],
+        "wdid": "Q147366"
+    },
+    {
+        "inid": "n03443371",
+        "wnid": "03448295-n",
+        "synset": [
+            "goblet"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03444034",
+        "wnid": "03448967-n",
+        "synset": [
+            "go-kart"
+        ],
+        "wdid": "Q15037754"
+    },
+    {
+        "inid": "n03445777",
+        "wnid": "03450710-n",
+        "synset": [
+            "golf ball"
+        ],
+        "wdid": "Q919777"
+    },
+    {
+        "inid": "n03445924",
+        "wnid": "03450857-n",
+        "synset": [
+            "golfcart",
+            "golf cart"
+        ],
+        "wdid": "Q1431095"
+    },
+    {
+        "inid": "n03447447",
+        "wnid": "03452391-n",
+        "synset": [
+            "gondola"
+        ],
+        "wdid": "Q182916"
+    },
+    {
+        "inid": "n03447721",
+        "wnid": "03452665-n",
+        "synset": [
+            "gong",
+            "tam-tam"
+        ],
+        "wdid": "Q208320"
+    },
+    {
+        "inid": "n03450230",
+        "wnid": "03455174-n",
+        "synset": [
+            "gown"
+        ],
+        "wdid": "Q1036729"
+    },
+    {
+        "inid": "n03452741",
+        "wnid": "03457685-n",
+        "synset": [
+            "grand piano",
+            "grand"
+        ],
+        "wdid": "Q1148709"
+    },
+    {
+        "inid": "n03457902",
+        "wnid": "",
+        "synset": [
+            "greenhouse",
+            "nursery",
+            "glasshouse"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03459775",
+        "wnid": "03464707-n",
+        "synset": [
+            "grille",
+            "radiator grille"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03461385",
+        "wnid": "03466317-n",
+        "synset": [
+            "grocery store",
+            "grocery",
+            "food market",
+            "market"
+        ],
+        "wdid": "Q1295201"
+    },
+    {
+        "inid": "n03467068",
+        "wnid": "03472000-n",
+        "synset": [
+            "guillotine"
+        ],
+        "wdid": "Q128015"
+    },
+    {
+        "inid": "n03476684",
+        "wnid": "03481807-n",
+        "synset": [
+            "hair slide"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03476991",
+        "wnid": "03482114-n",
+        "synset": [
+            "hair spray"
+        ],
+        "wdid": "Q1058689"
+    },
+    {
+        "inid": "n03478589",
+        "wnid": "03483672-n",
+        "synset": [
+            "half track"
+        ],
+        "wdid": "Q941081"
+    },
+    {
+        "inid": "n03481172",
+        "wnid": "03486255-n",
+        "synset": [
+            "hammer"
+        ],
+        "wdid": "Q25294"
+    },
+    {
+        "inid": "n03482405",
+        "wnid": "03487488-n",
+        "synset": [
+            "hamper"
+        ],
+        "wdid": "Q13479587"
+    },
+    {
+        "inid": "n03483316",
+        "wnid": "03488399-n",
+        "synset": [
+            "hand blower",
+            "blow dryer",
+            "blow drier",
+            "hair dryer",
+            "hair drier"
+        ],
+        "wdid": "Q15004"
+    },
+    {
+        "inid": "n03485407",
+        "wnid": "03490490-n",
+        "synset": [
+            "hand-held computer",
+            "hand-held microcomputer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03485794",
+        "wnid": "03490877-n",
+        "synset": [
+            "handkerchief",
+            "hankie",
+            "hanky",
+            "hankey"
+        ],
+        "wdid": "Q192411"
+    },
+    {
+        "inid": "n03492542",
+        "wnid": "03497643-n",
+        "synset": [
+            "hard disc",
+            "hard disk",
+            "fixed disk"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03494278",
+        "wnid": "03499379-n",
+        "synset": [
+            "harmonica",
+            "mouth organ",
+            "harp",
+            "mouth harp"
+        ],
+        "wdid": "Q51290"
+    },
+    {
+        "inid": "n03495258",
+        "wnid": "03500383-n",
+        "synset": [
+            "harp"
+        ],
+        "wdid": "Q47369"
+    },
+    {
+        "inid": "n03496892",
+        "wnid": "10180956-n",
+        "synset": [
+            "harvester",
+            "reaper"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03498962",
+        "wnid": "03504106-n",
+        "synset": [
+            "hatchet"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03527444",
+        "wnid": "03532624-n",
+        "synset": [
+            "holster"
+        ],
+        "wdid": "Q1475429"
+    },
+    {
+        "inid": "n03529860",
+        "wnid": "03535040-n",
+        "synset": [
+            "home theater",
+            "home theatre"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03530642",
+        "wnid": "09241222-n",
+        "synset": [
+            "honeycomb"
+        ],
+        "wdid": "Q123339"
+    },
+    {
+        "inid": "n03532672",
+        "wnid": "03537852-n",
+        "synset": [
+            "hook",
+            "claw"
+        ],
+        "wdid": "Q1575000"
+    },
+    {
+        "inid": "n03532672",
+        "wnid": "03537852-n",
+        "synset": [
+            "hook",
+            "claw"
+        ],
+        "wdid": "Q4243098"
+    },
+    {
+        "inid": "n03534580",
+        "wnid": "03539760-n",
+        "synset": [
+            "hoopskirt",
+            "crinoline"
+        ],
+        "wdid": "Q17130629"
+    },
+    {
+        "inid": "n03535780",
+        "wnid": "03540960-n",
+        "synset": [
+            "horizontal bar",
+            "high bar"
+        ],
+        "wdid": "Q623270"
+    },
+    {
+        "inid": "n03538406",
+        "wnid": "03543586-n",
+        "synset": [
+            "horse cart",
+            "horse-cart"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03544143",
+        "wnid": "03549323-n",
+        "synset": [
+            "hourglass"
+        ],
+        "wdid": "Q179904"
+    },
+    {
+        "inid": "n03584254",
+        "wnid": "03589423-n",
+        "synset": [
+            "iPod"
+        ],
+        "wdid": "Q9479"
+    },
+    {
+        "inid": "n03584829",
+        "wnid": "03589998-n",
+        "synset": [
+            "iron",
+            "smoothing iron"
+        ],
+        "wdid": "Q483634"
+    },
+    {
+        "inid": "n03590841",
+        "wnid": "03596028-n",
+        "synset": [
+            "jack-o'-lantern"
+        ],
+        "wdid": "Q221009"
+    },
+    {
+        "inid": "n03594734",
+        "wnid": "",
+        "synset": [
+            "jean",
+            "blue jean",
+            "denim"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03594945",
+        "wnid": "03600138-n",
+        "synset": [
+            "jeep",
+            "landrover"
+        ],
+        "wdid": "Q30113"
+    },
+    {
+        "inid": "n03594945",
+        "wnid": "03600138-n",
+        "synset": [
+            "jeep",
+            "landrover"
+        ],
+        "wdid": "Q35907"
+    },
+    {
+        "inid": "n03595614",
+        "wnid": "03600807-n",
+        "synset": [
+            "jersey",
+            "T-shirt",
+            "tee shirt"
+        ],
+        "wdid": "Q131151"
+    },
+    {
+        "inid": "n03598930",
+        "wnid": "03604123-n",
+        "synset": [
+            "jigsaw puzzle"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03599486",
+        "wnid": "03604679-n",
+        "synset": [
+            "jinrikisha",
+            "ricksha",
+            "rickshaw"
+        ],
+        "wdid": "Q182634"
+    },
+    {
+        "inid": "n03602883",
+        "wnid": "03608096-n",
+        "synset": [
+            "joystick"
+        ],
+        "wdid": "Q178805"
+    },
+    {
+        "inid": "n03617480",
+        "wnid": "03622689-n",
+        "synset": [
+            "kimono"
+        ],
+        "wdid": "Q483444"
+    },
+    {
+        "inid": "n03623198",
+        "wnid": "03628407-n",
+        "synset": [
+            "knee pad"
+        ],
+        "wdid": "Q681515"
+    },
+    {
+        "inid": "n03627232",
+        "wnid": "07976998-n",
+        "synset": [
+            "knot"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03630383",
+        "wnid": "03635674-n",
+        "synset": [
+            "lab coat",
+            "laboratory coat"
+        ],
+        "wdid": "Q1354040"
+    },
+    {
+        "inid": "n03633091",
+        "wnid": "03638382-n",
+        "synset": [
+            "ladle"
+        ],
+        "wdid": "Q193358"
+    },
+    {
+        "inid": "n03637318",
+        "wnid": "",
+        "synset": [
+            "lampshade",
+            "lamp shade"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03642806",
+        "wnid": "03648120-n",
+        "synset": [
+            "laptop",
+            "laptop computer"
+        ],
+        "wdid": "Q3962"
+    },
+    {
+        "inid": "n03649909",
+        "wnid": "03655235-n",
+        "synset": [
+            "lawn mower",
+            "mower"
+        ],
+        "wdid": "Q260521"
+    },
+    {
+        "inid": "n03657121",
+        "wnid": "03662447-n",
+        "synset": [
+            "lens cap",
+            "lens cover"
+        ],
+        "wdid": "Q2011752"
+    },
+    {
+        "inid": "n03658185",
+        "wnid": "03663511-n",
+        "synset": [
+            "letter opener",
+            "paper knife",
+            "paperknife"
+        ],
+        "wdid": "Q915110"
+    },
+    {
+        "inid": "n03661043",
+        "wnid": "03666235-n",
+        "synset": [
+            "library"
+        ],
+        "wdid": "Q7075"
+    },
+    {
+        "inid": "n03662601",
+        "wnid": "03667927-n",
+        "synset": [
+            "lifeboat"
+        ],
+        "wdid": "Q1746393"
+    },
+    {
+        "inid": "n03666591",
+        "wnid": "03671917-n",
+        "synset": [
+            "lighter",
+            "light",
+            "igniter",
+            "ignitor"
+        ],
+        "wdid": "Q20459"
+    },
+    {
+        "inid": "n03670208",
+        "wnid": "03675534-n",
+        "synset": [
+            "limousine",
+            "limo"
+        ],
+        "wdid": "Q188475"
+    },
+    {
+        "inid": "n03673027",
+        "wnid": "03678353-n",
+        "synset": [
+            "liner",
+            "ocean liner"
+        ],
+        "wdid": "Q2168617"
+    },
+    {
+        "inid": "n03676483",
+        "wnid": "03681809-n",
+        "synset": [
+            "lipstick",
+            "lip rouge"
+        ],
+        "wdid": "Q184191"
+    },
+    {
+        "inid": "n03680355",
+        "wnid": "03685681-n",
+        "synset": [
+            "Loafer"
+        ],
+        "wdid": "Q1888786"
+    },
+    {
+        "inid": "n03690938",
+        "wnid": "03696264-n",
+        "synset": [
+            "lotion"
+        ],
+        "wdid": "Q1871151"
+    },
+    {
+        "inid": "n03691459",
+        "wnid": "03696785-n",
+        "synset": [
+            "loudspeaker",
+            "speaker",
+            "speaker unit",
+            "loudspeaker system",
+            "speaker system"
+        ],
+        "wdid": "Q570"
+    },
+    {
+        "inid": "n03692522",
+        "wnid": "03697848-n",
+        "synset": [
+            "loupe",
+            "jeweler's loupe"
+        ],
+        "wdid": "Q2474207"
+    },
+    {
+        "inid": "n03697007",
+        "wnid": "03702341-n",
+        "synset": [
+            "lumbermill",
+            "sawmill"
+        ],
+        "wdid": "Q505213"
+    },
+    {
+        "inid": "n03706229",
+        "wnid": "03711768-n",
+        "synset": [
+            "magnetic compass"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03709823",
+        "wnid": "03715362-n",
+        "synset": [
+            "mailbag",
+            "postbag"
+        ],
+        "wdid": "Q1620264"
+    },
+    {
+        "inid": "n03710193",
+        "wnid": "03715732-n",
+        "synset": [
+            "mailbox",
+            "letter box"
+        ],
+        "wdid": "Q1587360"
+    },
+    {
+        "inid": "n03710637",
+        "wnid": "03716176-n",
+        "synset": [
+            "maillot"
+        ],
+        "wdid": "Q2027544"
+    },
+    {
+        "inid": "n03710721",
+        "wnid": "03716260-n",
+        "synset": [
+            "maillot",
+            "tank suit"
+        ],
+        "wdid": "Q2027544"
+    },
+    {
+        "inid": "n03717622",
+        "wnid": "03723161-n",
+        "synset": [
+            "manhole cover"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03720891",
+        "wnid": "03726382-n",
+        "synset": [
+            "maraca"
+        ],
+        "wdid": "Q39777"
+    },
+    {
+        "inid": "n03721384",
+        "wnid": "03726875-n",
+        "synset": [
+            "marimba",
+            "xylophone"
+        ],
+        "wdid": "Q165666"
+    },
+    {
+        "inid": "n03721384",
+        "wnid": "03726875-n",
+        "synset": [
+            "marimba",
+            "xylophone"
+        ],
+        "wdid": "Q220971"
+    },
+    {
+        "inid": "n03724870",
+        "wnid": "03730361-n",
+        "synset": [
+            "mask"
+        ],
+        "wdid": "Q161524"
+    },
+    {
+        "inid": "n03729826",
+        "wnid": "03735317-n",
+        "synset": [
+            "matchstick"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03733131",
+        "wnid": "03738622-n",
+        "synset": [
+            "maypole"
+        ],
+        "wdid": "Q76574"
+    },
+    {
+        "inid": "n03733281",
+        "wnid": "03738772-n",
+        "synset": [
+            "maze",
+            "labyrinth"
+        ],
+        "wdid": "Q48963"
+    },
+    {
+        "inid": "n03733281",
+        "wnid": "03738772-n",
+        "synset": [
+            "maze",
+            "labyrinth"
+        ],
+        "wdid": "Q606777"
+    },
+    {
+        "inid": "n03733805",
+        "wnid": "03739296-n",
+        "synset": [
+            "measuring cup"
+        ],
+        "wdid": "Q907099"
+    },
+    {
+        "inid": "n03742115",
+        "wnid": "03747606-n",
+        "synset": [
+            "medicine chest",
+            "medicine cabinet"
+        ],
+        "wdid": "Q4869069"
+    },
+    {
+        "inid": "n03743016",
+        "wnid": "03748507-n",
+        "synset": [
+            "megalith",
+            "megalithic structure"
+        ],
+        "wdid": "Q164240"
+    },
+    {
+        "inid": "n03759954",
+        "wnid": "",
+        "synset": [
+            "microphone",
+            "mike"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03761084",
+        "wnid": "03766619-n",
+        "synset": [
+            "microwave",
+            "microwave oven"
+        ],
+        "wdid": "Q127956"
+    },
+    {
+        "inid": "n03763968",
+        "wnid": "03769503-n",
+        "synset": [
+            "military uniform"
+        ],
+        "wdid": "Q1196123"
+    },
+    {
+        "inid": "n03764736",
+        "wnid": "03770271-n",
+        "synset": [
+            "milk can"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03769881",
+        "wnid": "03775416-n",
+        "synset": [
+            "minibus"
+        ],
+        "wdid": "Q946479"
+    },
+    {
+        "inid": "n03770439",
+        "wnid": "03775972-n",
+        "synset": [
+            "miniskirt",
+            "mini"
+        ],
+        "wdid": "Q230823"
+    },
+    {
+        "inid": "n03770679",
+        "wnid": "03776212-n",
+        "synset": [
+            "minivan"
+        ],
+        "wdid": "Q223189"
+    },
+    {
+        "inid": "n03773504",
+        "wnid": "03779037-n",
+        "synset": [
+            "missile"
+        ],
+        "wdid": "Q974850"
+    },
+    {
+        "inid": "n03775071",
+        "wnid": "03780604-n",
+        "synset": [
+            "mitten"
+        ],
+        "wdid": "Q1661108"
+    },
+    {
+        "inid": "n03775546",
+        "wnid": "03781079-n",
+        "synset": [
+            "mixing bowl"
+        ],
+        "wdid": "Q3007072"
+    },
+    {
+        "inid": "n03776460",
+        "wnid": "03781993-n",
+        "synset": [
+            "mobile home",
+            "manufactured home"
+        ],
+        "wdid": "Q1434998"
+    },
+    {
+        "inid": "n03777568",
+        "wnid": "03783101-n",
+        "synset": [
+            "Model T"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03777754",
+        "wnid": "03783287-n",
+        "synset": [
+            "modem"
+        ],
+        "wdid": "Q5607"
+    },
+    {
+        "inid": "n03781244",
+        "wnid": "03786777-n",
+        "synset": [
+            "monastery"
+        ],
+        "wdid": "Q44613"
+    },
+    {
+        "inid": "n03782006",
+        "wnid": "03787539-n",
+        "synset": [
+            "monitor"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03785016",
+        "wnid": "03790549-n",
+        "synset": [
+            "moped"
+        ],
+        "wdid": "Q201783"
+    },
+    {
+        "inid": "n03786901",
+        "wnid": "14980028-n",
+        "synset": [
+            "mortar"
+        ],
+        "wdid": "Q189566"
+    },
+    {
+        "inid": "n03787032",
+        "wnid": "03792565-n",
+        "synset": [
+            "mortarboard"
+        ],
+        "wdid": "Q920507"
+    },
+    {
+        "inid": "n03788195",
+        "wnid": "03793728-n",
+        "synset": [
+            "mosque"
+        ],
+        "wdid": "Q32815"
+    },
+    {
+        "inid": "n03788365",
+        "wnid": "03793898-n",
+        "synset": [
+            "mosquito net"
+        ],
+        "wdid": "Q696265"
+    },
+    {
+        "inid": "n03791053",
+        "wnid": "03796586-n",
+        "synset": [
+            "motor scooter",
+            "scooter"
+        ],
+        "wdid": "Q193234"
+    },
+    {
+        "inid": "n03792782",
+        "wnid": "03798315-n",
+        "synset": [
+            "mountain bike",
+            "all-terrain bike",
+            "off-roader"
+        ],
+        "wdid": "Q223705"
+    },
+    {
+        "inid": "n03792972",
+        "wnid": "03798505-n",
+        "synset": [
+            "mountain tent"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03793489",
+        "wnid": "03799022-n",
+        "synset": [
+            "mouse",
+            "computer mouse"
+        ],
+        "wdid": "Q7987"
+    },
+    {
+        "inid": "n03794056",
+        "wnid": "03799589-n",
+        "synset": [
+            "mousetrap"
+        ],
+        "wdid": "Q658353"
+    },
+    {
+        "inid": "n03796401",
+        "wnid": "03801923-n",
+        "synset": [
+            "moving van"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03803284",
+        "wnid": "02455095-n",
+        "synset": [
+            "muzzle"
+        ],
+        "wdid": "Q167896"
+    },
+    {
+        "inid": "n03804744",
+        "wnid": "05589324-n",
+        "synset": [
+            "nail"
+        ],
+        "wdid": "Q36864"
+    },
+    {
+        "inid": "n03814639",
+        "wnid": "03820179-n",
+        "synset": [
+            "neck brace"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03814906",
+        "wnid": "03820446-n",
+        "synset": [
+            "necklace"
+        ],
+        "wdid": "Q189299"
+    },
+    {
+        "inid": "n03825788",
+        "wnid": "03831328-n",
+        "synset": [
+            "nipple"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03832673",
+        "wnid": "03838213-n",
+        "synset": [
+            "notebook",
+            "notebook computer"
+        ],
+        "wdid": "Q3962"
+    },
+    {
+        "inid": "n03837869",
+        "wnid": "03843389-n",
+        "synset": [
+            "obelisk"
+        ],
+        "wdid": "Q170980"
+    },
+    {
+        "inid": "n03838899",
+        "wnid": "03844419-n",
+        "synset": [
+            "oboe",
+            "hautboy",
+            "hautbois"
+        ],
+        "wdid": "Q8377"
+    },
+    {
+        "inid": "n03840681",
+        "wnid": "03846201-n",
+        "synset": [
+            "ocarina",
+            "sweet potato"
+        ],
+        "wdid": "Q187780"
+    },
+    {
+        "inid": "n03841143",
+        "wnid": "03846663-n",
+        "synset": [
+            "odometer",
+            "hodometer",
+            "mileometer",
+            "milometer"
+        ],
+        "wdid": "Q745105"
+    },
+    {
+        "inid": "n03843555",
+        "wnid": "03849075-n",
+        "synset": [
+            "oil filter"
+        ],
+        "wdid": "Q296984"
+    },
+    {
+        "inid": "n03854065",
+        "wnid": "03859585-n",
+        "synset": [
+            "organ",
+            "pipe organ"
+        ],
+        "wdid": "Q1444"
+    },
+    {
+        "inid": "n03854065",
+        "wnid": "03859585-n",
+        "synset": [
+            "organ",
+            "pipe organ"
+        ],
+        "wdid": "Q281460"
+    },
+    {
+        "inid": "n03857828",
+        "wnid": "03863348-n",
+        "synset": [
+            "oscilloscope",
+            "scope",
+            "cathode-ray oscilloscope",
+            "CRO"
+        ],
+        "wdid": "Q174320"
+    },
+    {
+        "inid": "n03866082",
+        "wnid": "03871760-n",
+        "synset": [
+            "overskirt"
+        ],
+        "wdid": "Q7113974"
+    },
+    {
+        "inid": "n03868242",
+        "wnid": "03873920-n",
+        "synset": [
+            "oxcart"
+        ],
+        "wdid": "Q1190777"
+    },
+    {
+        "inid": "n03868863",
+        "wnid": "03874541-n",
+        "synset": [
+            "oxygen mask"
+        ],
+        "wdid": "Q1890958"
+    },
+    {
+        "inid": "n03871628",
+        "wnid": "07295804-n",
+        "synset": [
+            "packet"
+        ],
+        "wdid": "Q214111"
+    },
+    {
+        "inid": "n03873416",
+        "wnid": "03879094-n",
+        "synset": [
+            "paddle",
+            "boat paddle"
+        ],
+        "wdid": "Q599797"
+    },
+    {
+        "inid": "n03874293",
+        "wnid": "03879971-n",
+        "synset": [
+            "paddlewheel",
+            "paddle wheel"
+        ],
+        "wdid": "Q1874394"
+    },
+    {
+        "inid": "n03874599",
+        "wnid": "03880277-n",
+        "synset": [
+            "padlock"
+        ],
+        "wdid": "Q40607"
+    },
+    {
+        "inid": "n03876231",
+        "wnid": "03881909-n",
+        "synset": [
+            "paintbrush"
+        ],
+        "wdid": "Q193897"
+    },
+    {
+        "inid": "n03877472",
+        "wnid": "03883150-n",
+        "synset": [
+            "pajama",
+            "pyjama",
+            "pj's",
+            "jammies"
+        ],
+        "wdid": "Q193204"
+    },
+    {
+        "inid": "n03877845",
+        "wnid": "08069873-n",
+        "synset": [
+            "palace"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03884397",
+        "wnid": "03890094-n",
+        "synset": [
+            "panpipe",
+            "pandean pipe",
+            "syrinx"
+        ],
+        "wdid": "Q218802"
+    },
+    {
+        "inid": "n03887697",
+        "wnid": "03893394-n",
+        "synset": [
+            "paper towel"
+        ],
+        "wdid": "Q1151042"
+    },
+    {
+        "inid": "n03888257",
+        "wnid": "03893954-n",
+        "synset": [
+            "parachute",
+            "chute"
+        ],
+        "wdid": "Q482816"
+    },
+    {
+        "inid": "n03888605",
+        "wnid": "03894302-n",
+        "synset": [
+            "parallel bars",
+            "bars"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03891251",
+        "wnid": "03896948-n",
+        "synset": [
+            "park bench"
+        ],
+        "wdid": "Q16764362"
+    },
+    {
+        "inid": "n03891332",
+        "wnid": "03897029-n",
+        "synset": [
+            "parking meter"
+        ],
+        "wdid": "Q953960"
+    },
+    {
+        "inid": "n03895866",
+        "wnid": "03901563-n",
+        "synset": [
+            "passenger car",
+            "coach",
+            "carriage"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03899768",
+        "wnid": "03905846-n",
+        "synset": [
+            "patio",
+            "terrace"
+        ],
+        "wdid": "Q737988"
+    },
+    {
+        "inid": "n03899768",
+        "wnid": "03905846-n",
+        "synset": [
+            "patio",
+            "terrace"
+        ],
+        "wdid": "Q2577534"
+    },
+    {
+        "inid": "n03902125",
+        "wnid": "03908203-n",
+        "synset": [
+            "pay-phone",
+            "pay-station"
+        ],
+        "wdid": "Q900977"
+    },
+    {
+        "inid": "n03903868",
+        "wnid": "03909987-n",
+        "synset": [
+            "pedestal",
+            "plinth",
+            "footstall"
+        ],
+        "wdid": "Q12014132"
+    },
+    {
+        "inid": "n03908618",
+        "wnid": "03914737-n",
+        "synset": [
+            "pencil box",
+            "pencil case"
+        ],
+        "wdid": "Q596566"
+    },
+    {
+        "inid": "n03908714",
+        "wnid": "03914833-n",
+        "synset": [
+            "pencil sharpener"
+        ],
+        "wdid": "Q193811"
+    },
+    {
+        "inid": "n03916031",
+        "wnid": "03922150-n",
+        "synset": [
+            "perfume",
+            "essence"
+        ],
+        "wdid": "Q131746"
+    },
+    {
+        "inid": "n03920288",
+        "wnid": "03926410-n",
+        "synset": [
+            "Petri dish"
+        ],
+        "wdid": "Q81714"
+    },
+    {
+        "inid": "n03924679",
+        "wnid": "03930801-n",
+        "synset": [
+            "photocopier"
+        ],
+        "wdid": "Q185369"
+    },
+    {
+        "inid": "n03929660",
+        "wnid": "03935898-n",
+        "synset": [
+            "pick",
+            "plectrum",
+            "plectron"
+        ],
+        "wdid": "Q181890"
+    },
+    {
+        "inid": "n03929660",
+        "wnid": "03935898-n",
+        "synset": [
+            "pick",
+            "plectrum",
+            "plectron"
+        ],
+        "wdid": "Q7556928"
+    },
+    {
+        "inid": "n03929855",
+        "wnid": "03936093-n",
+        "synset": [
+            "pickelhaube"
+        ],
+        "wdid": "Q163733"
+    },
+    {
+        "inid": "n03930313",
+        "wnid": "03936551-n",
+        "synset": [
+            "picket fence",
+            "paling"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03930630",
+        "wnid": "03936868-n",
+        "synset": [
+            "pickup",
+            "pickup truck"
+        ],
+        "wdid": "Q215601"
+    },
+    {
+        "inid": "n03933933",
+        "wnid": "03940318-n",
+        "synset": [
+            "pier"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03935335",
+        "wnid": "03941611-n",
+        "synset": [
+            "piggy bank",
+            "penny bank"
+        ],
+        "wdid": "Q221994"
+    },
+    {
+        "inid": "n03937543",
+        "wnid": "03943819-n",
+        "synset": [
+            "pill bottle"
+        ],
+        "wdid": "Q47487920"
+    },
+    {
+        "inid": "n03938244",
+        "wnid": "03944520-n",
+        "synset": [
+            "pillow"
+        ],
+        "wdid": "Q99895"
+    },
+    {
+        "inid": "n03942813",
+        "wnid": "03949089-n",
+        "synset": [
+            "ping-pong ball"
+        ],
+        "wdid": "Q2436595"
+    },
+    {
+        "inid": "n03944341",
+        "wnid": "03950617-n",
+        "synset": [
+            "pinwheel"
+        ],
+        "wdid": "Q3087892"
+    },
+    {
+        "inid": "n03947888",
+        "wnid": "03954164-n",
+        "synset": [
+            "pirate",
+            "pirate ship"
+        ],
+        "wdid": "Q19385373"
+    },
+    {
+        "inid": "n03950228",
+        "wnid": "03956504-n",
+        "synset": [
+            "pitcher",
+            "ewer"
+        ],
+        "wdid": "Q132397"
+    },
+    {
+        "inid": "n03954731",
+        "wnid": "03961007-n",
+        "synset": [
+            "plane",
+            "carpenter's plane",
+            "woodworking plane"
+        ],
+        "wdid": "Q204260"
+    },
+    {
+        "inid": "n03956157",
+        "wnid": "03962433-n",
+        "synset": [
+            "planetarium"
+        ],
+        "wdid": "Q148319"
+    },
+    {
+        "inid": "n03958227",
+        "wnid": "03964521-n",
+        "synset": [
+            "plastic bag"
+        ],
+        "wdid": "Q498439"
+    },
+    {
+        "inid": "n03961711",
+        "wnid": "03968005-n",
+        "synset": [
+            "plate rack"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03967562",
+        "wnid": "03973894-n",
+        "synset": [
+            "plow",
+            "plough"
+        ],
+        "wdid": "Q11464"
+    },
+    {
+        "inid": "n03970156",
+        "wnid": "03976514-n",
+        "synset": [
+            "plunger",
+            "plumber's helper"
+        ],
+        "wdid": "Q906997"
+    },
+    {
+        "inid": "n03976467",
+        "wnid": "03982825-n",
+        "synset": [
+            "Polaroid camera",
+            "Polaroid Land camera"
+        ],
+        "wdid": "Q10856492"
+    },
+    {
+        "inid": "n03976657",
+        "wnid": "03983015-n",
+        "synset": [
+            "pole"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03977966",
+        "wnid": "03984324-n",
+        "synset": [
+            "police van",
+            "police wagon",
+            "paddy wagon",
+            "patrol wagon",
+            "wagon",
+            "black Maria"
+        ],
+        "wdid": "Q1023646"
+    },
+    {
+        "inid": "n03980874",
+        "wnid": "03987232-n",
+        "synset": [
+            "poncho"
+        ],
+        "wdid": "Q468794"
+    },
+    {
+        "inid": "n03982430",
+        "wnid": "03988788-n",
+        "synset": [
+            "pool table",
+            "billiard table",
+            "snooker table"
+        ],
+        "wdid": "Q3500725"
+    },
+    {
+        "inid": "n03983396",
+        "wnid": "03989754-n",
+        "synset": [
+            "pop bottle",
+            "soda bottle"
+        ],
+        "wdid": "Q48551563"
+    },
+    {
+        "inid": "n03991062",
+        "wnid": "03997420-n",
+        "synset": [
+            "pot",
+            "flowerpot"
+        ],
+        "wdid": "Q869381"
+    },
+    {
+        "inid": "n03992509",
+        "wnid": "03998867-n",
+        "synset": [
+            "potter's wheel"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03995372",
+        "wnid": "04001730-n",
+        "synset": [
+            "power drill"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n03998194",
+        "wnid": "04004552-n",
+        "synset": [
+            "prayer rug",
+            "prayer mat"
+        ],
+        "wdid": "Q956956"
+    },
+    {
+        "inid": "n04004767",
+        "wnid": "04011143-n",
+        "synset": [
+            "printer"
+        ],
+        "wdid": "Q82"
+    },
+    {
+        "inid": "n04005630",
+        "wnid": "04012006-n",
+        "synset": [
+            "prison",
+            "prison house"
+        ],
+        "wdid": "Q40357"
+    },
+    {
+        "inid": "n04008634",
+        "wnid": "04015010-n",
+        "synset": [
+            "projectile",
+            "missile"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04009552",
+        "wnid": "04016177-n",
+        "synset": [
+            "projector"
+        ],
+        "wdid": "Q2166744"
+    },
+    {
+        "inid": "n04019541",
+        "wnid": "04025935-n",
+        "synset": [
+            "puck",
+            "hockey puck"
+        ],
+        "wdid": "Q508918"
+    },
+    {
+        "inid": "n04023962",
+        "wnid": "04030356-n",
+        "synset": [
+            "punching bag",
+            "punch bag",
+            "punching ball",
+            "punchball"
+        ],
+        "wdid": "Q966668"
+    },
+    {
+        "inid": "n04026417",
+        "wnid": "13434467-n",
+        "synset": [
+            "purse"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04033901",
+        "wnid": "04040377-n",
+        "synset": [
+            "quill",
+            "quill pen"
+        ],
+        "wdid": "Q4063215"
+    },
+    {
+        "inid": "n04033995",
+        "wnid": "04040471-n",
+        "synset": [
+            "quilt",
+            "comforter",
+            "comfort",
+            "puff"
+        ],
+        "wdid": "Q5847"
+    },
+    {
+        "inid": "n04033995",
+        "wnid": "04040471-n",
+        "synset": [
+            "quilt",
+            "comforter",
+            "comfort",
+            "puff"
+        ],
+        "wdid": "Q1064538"
+    },
+    {
+        "inid": "n04037443",
+        "wnid": "04043919-n",
+        "synset": [
+            "racer",
+            "race car",
+            "racing car"
+        ],
+        "wdid": "Q673687"
+    },
+    {
+        "inid": "n04039381",
+        "wnid": "04045857-n",
+        "synset": [
+            "racket",
+            "racquet"
+        ],
+        "wdid": "Q240502"
+    },
+    {
+        "inid": "n04040759",
+        "wnid": "09426086-n",
+        "synset": [
+            "radiator"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04041544",
+        "wnid": "04048624-n",
+        "synset": [
+            "radio",
+            "wireless"
+        ],
+        "wdid": "Q872"
+    },
+    {
+        "inid": "n04044716",
+        "wnid": "04051796-n",
+        "synset": [
+            "radio telescope",
+            "radio reflector"
+        ],
+        "wdid": "Q184356"
+    },
+    {
+        "inid": "n04049303",
+        "wnid": "04056415-n",
+        "synset": [
+            "rain barrel"
+        ],
+        "wdid": "Q28659441"
+    },
+    {
+        "inid": "n04065272",
+        "wnid": "04072384-n",
+        "synset": [
+            "recreational vehicle",
+            "RV",
+            "R.V."
+        ],
+        "wdid": "Q19358748"
+    },
+    {
+        "inid": "n04067472",
+        "wnid": "04074770-n",
+        "synset": [
+            "reel"
+        ],
+        "wdid": "Q3173826"
+    },
+    {
+        "inid": "n04069434",
+        "wnid": "04076546-n",
+        "synset": [
+            "reflex camera"
+        ],
+        "wdid": "Q2858617"
+    },
+    {
+        "inid": "n04070727",
+        "wnid": "04077839-n",
+        "synset": [
+            "refrigerator",
+            "icebox"
+        ],
+        "wdid": "Q37828"
+    },
+    {
+        "inid": "n04070727",
+        "wnid": "04077839-n",
+        "synset": [
+            "refrigerator",
+            "icebox"
+        ],
+        "wdid": "Q3667020"
+    },
+    {
+        "inid": "n04074963",
+        "wnid": "04082075-n",
+        "synset": [
+            "remote control",
+            "remote"
+        ],
+        "wdid": "Q185091"
+    },
+    {
+        "inid": "n04081281",
+        "wnid": "04088393-n",
+        "synset": [
+            "restaurant",
+            "eating house",
+            "eating place",
+            "eatery"
+        ],
+        "wdid": "Q11707"
+    },
+    {
+        "inid": "n04086273",
+        "wnid": "04093385-n",
+        "synset": [
+            "revolver",
+            "six-gun",
+            "six-shooter"
+        ],
+        "wdid": "Q170382"
+    },
+    {
+        "inid": "n04090263",
+        "wnid": "04097375-n",
+        "synset": [
+            "rifle"
+        ],
+        "wdid": "Q124072"
+    },
+    {
+        "inid": "n04099969",
+        "wnid": "04107063-n",
+        "synset": [
+            "rocking chair",
+            "rocker"
+        ],
+        "wdid": "Q14963"
+    },
+    {
+        "inid": "n04111531",
+        "wnid": "04118625-n",
+        "synset": [
+            "rotisserie"
+        ],
+        "wdid": "Q22847"
+    },
+    {
+        "inid": "n04116512",
+        "wnid": "04123606-n",
+        "synset": [
+            "rubber eraser",
+            "rubber",
+            "pencil eraser"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04118538",
+        "wnid": "04125632-n",
+        "synset": [
+            "rugby ball"
+        ],
+        "wdid": "Q2881344"
+    },
+    {
+        "inid": "n04118776",
+        "wnid": "04125870-n",
+        "synset": [
+            "rule",
+            "ruler"
+        ],
+        "wdid": "Q104555"
+    },
+    {
+        "inid": "n04120489",
+        "wnid": "04127583-n",
+        "synset": [
+            "running shoe"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04125021",
+        "wnid": "04132122-n",
+        "synset": [
+            "safe"
+        ],
+        "wdid": "Q471898"
+    },
+    {
+        "inid": "n04127249",
+        "wnid": "04134350-n",
+        "synset": [
+            "safety pin"
+        ],
+        "wdid": "Q840333"
+    },
+    {
+        "inid": "n04131690",
+        "wnid": "04138773-n",
+        "synset": [
+            "saltshaker",
+            "salt shaker"
+        ],
+        "wdid": "Q1501968"
+    },
+    {
+        "inid": "n04133789",
+        "wnid": "04140872-n",
+        "synset": [
+            "sandal"
+        ],
+        "wdid": "Q131704"
+    },
+    {
+        "inid": "n04136333",
+        "wnid": "04143416-n",
+        "synset": [
+            "sarong"
+        ],
+        "wdid": "Q322781"
+    },
+    {
+        "inid": "n04141076",
+        "wnid": "04148141-n",
+        "synset": [
+            "sax",
+            "saxophone"
+        ],
+        "wdid": "Q9798"
+    },
+    {
+        "inid": "n04141327",
+        "wnid": "04148392-n",
+        "synset": [
+            "scabbard"
+        ],
+        "wdid": "Q661140"
+    },
+    {
+        "inid": "n04141975",
+        "wnid": "04149040-n",
+        "synset": [
+            "scale",
+            "weighing machine"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04146614",
+        "wnid": "04153679-n",
+        "synset": [
+            "school bus"
+        ],
+        "wdid": "Q58678"
+    },
+    {
+        "inid": "n04147183",
+        "wnid": "04154356-n",
+        "synset": [
+            "schooner"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04149813",
+        "wnid": "04156878-n",
+        "synset": [
+            "scoreboard"
+        ],
+        "wdid": "Q614379"
+    },
+    {
+        "inid": "n04152593",
+        "wnid": "04159676-n",
+        "synset": [
+            "screen",
+            "CRT screen"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04153751",
+        "wnid": "04161401-n",
+        "synset": [
+            "screw"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04154565",
+        "wnid": "04161626-n",
+        "synset": [
+            "screwdriver"
+        ],
+        "wdid": "Q161071"
+    },
+    {
+        "inid": "n04162706",
+        "wnid": "04169767-n",
+        "synset": [
+            "seat belt",
+            "seatbelt"
+        ],
+        "wdid": "Q200403"
+    },
+    {
+        "inid": "n04179913",
+        "wnid": "04186974-n",
+        "synset": [
+            "sewing machine"
+        ],
+        "wdid": "Q49013"
+    },
+    {
+        "inid": "n04192698",
+        "wnid": "04199741-n",
+        "synset": [
+            "shield",
+            "buckler"
+        ],
+        "wdid": "Q131559"
+    },
+    {
+        "inid": "n04192698",
+        "wnid": "04199741-n",
+        "synset": [
+            "shield",
+            "buckler"
+        ],
+        "wdid": "Q1766706"
+    },
+    {
+        "inid": "n04200800",
+        "wnid": "04207843-n",
+        "synset": [
+            "shoe shop",
+            "shoe-shop",
+            "shoe store"
+        ],
+        "wdid": "Q7500021"
+    },
+    {
+        "inid": "n04201297",
+        "wnid": "04208340-n",
+        "synset": [
+            "shoji"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04204238",
+        "wnid": "04211284-n",
+        "synset": [
+            "shopping basket"
+        ],
+        "wdid": "Q1308084"
+    },
+    {
+        "inid": "n04204347",
+        "wnid": "04211393-n",
+        "synset": [
+            "shopping cart"
+        ],
+        "wdid": "Q796894"
+    },
+    {
+        "inid": "n04208210",
+        "wnid": "04215277-n",
+        "synset": [
+            "shovel"
+        ],
+        "wdid": "Q7220961"
+    },
+    {
+        "inid": "n04209133",
+        "wnid": "04216200-n",
+        "synset": [
+            "shower cap"
+        ],
+        "wdid": "Q1267584"
+    },
+    {
+        "inid": "n04209239",
+        "wnid": "04216306-n",
+        "synset": [
+            "shower curtain"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04228054",
+        "wnid": "04235116-n",
+        "synset": [
+            "ski"
+        ],
+        "wdid": "Q172226"
+    },
+    {
+        "inid": "n04229816",
+        "wnid": "04236878-n",
+        "synset": [
+            "ski mask"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04235860",
+        "wnid": "04242966-n",
+        "synset": [
+            "sleeping bag"
+        ],
+        "wdid": "Q214638"
+    },
+    {
+        "inid": "n04238763",
+        "wnid": "04245869-n",
+        "synset": [
+            "slide rule",
+            "slipstick"
+        ],
+        "wdid": "Q190667"
+    },
+    {
+        "inid": "n04239074",
+        "wnid": "04246180-n",
+        "synset": [
+            "sliding door"
+        ],
+        "wdid": "Q2234382"
+    },
+    {
+        "inid": "n04243546",
+        "wnid": "04250674-n",
+        "synset": [
+            "slot",
+            "one-armed bandit"
+        ],
+        "wdid": "Q7541407"
+    },
+    {
+        "inid": "n04251144",
+        "wnid": "04258254-n",
+        "synset": [
+            "snorkel"
+        ],
+        "wdid": "Q13389713"
+    },
+    {
+        "inid": "n04252077",
+        "wnid": "04259187-n",
+        "synset": [
+            "snowmobile"
+        ],
+        "wdid": "Q17240"
+    },
+    {
+        "inid": "n04252225",
+        "wnid": "04259335-n",
+        "synset": [
+            "snowplow",
+            "snowplough"
+        ],
+        "wdid": "Q14976"
+    },
+    {
+        "inid": "n04254120",
+        "wnid": "04261230-n",
+        "synset": [
+            "soap dispenser"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04254680",
+        "wnid": "04261790-n",
+        "synset": [
+            "soccer ball"
+        ],
+        "wdid": "Q12252328"
+    },
+    {
+        "inid": "n04254777",
+        "wnid": "04261887-n",
+        "synset": [
+            "sock"
+        ],
+        "wdid": "Q43663"
+    },
+    {
+        "inid": "n04258138",
+        "wnid": "04265248-n",
+        "synset": [
+            "solar dish",
+            "solar collector",
+            "solar furnace"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04259630",
+        "wnid": "04266740-n",
+        "synset": [
+            "sombrero"
+        ],
+        "wdid": "Q326735"
+    },
+    {
+        "inid": "n04263257",
+        "wnid": "04270367-n",
+        "synset": [
+            "soup bowl"
+        ],
+        "wdid": "Q38132106"
+    },
+    {
+        "inid": "n04264628",
+        "wnid": "04271738-n",
+        "synset": [
+            "space bar"
+        ],
+        "wdid": "Q1072900"
+    },
+    {
+        "inid": "n04265275",
+        "wnid": "04272385-n",
+        "synset": [
+            "space heater"
+        ],
+        "wdid": "Q12069731"
+    },
+    {
+        "inid": "n04266014",
+        "wnid": "04273124-n",
+        "synset": [
+            "space shuttle"
+        ],
+        "wdid": "Q48806"
+    },
+    {
+        "inid": "n04270147",
+        "wnid": "04277257-n",
+        "synset": [
+            "spatula"
+        ],
+        "wdid": "Q15148"
+    },
+    {
+        "inid": "n04273569",
+        "wnid": "04280688-n",
+        "synset": [
+            "speedboat"
+        ],
+        "wdid": "Q622416"
+    },
+    {
+        "inid": "n04275548",
+        "wnid": "04282667-n",
+        "synset": [
+            "spider web",
+            "spider's web"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04277352",
+        "wnid": "05613253-n",
+        "synset": [
+            "spindle"
+        ],
+        "wdid": "Q918594"
+    },
+    {
+        "inid": "n04285008",
+        "wnid": "04292146-n",
+        "synset": [
+            "sports car",
+            "sport car"
+        ],
+        "wdid": "Q274586"
+    },
+    {
+        "inid": "n04286575",
+        "wnid": "04293713-n",
+        "synset": [
+            "spotlight",
+            "spot"
+        ],
+        "wdid": "Q82916"
+    },
+    {
+        "inid": "n04296562",
+        "wnid": "04303700-n",
+        "synset": [
+            "stage"
+        ],
+        "wdid": "Q194428"
+    },
+    {
+        "inid": "n04310018",
+        "wnid": "04317156-n",
+        "synset": [
+            "steam locomotive"
+        ],
+        "wdid": "Q171043"
+    },
+    {
+        "inid": "n04311004",
+        "wnid": "04318142-n",
+        "synset": [
+            "steel arch bridge"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04311174",
+        "wnid": "04318312-n",
+        "synset": [
+            "steel drum"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04317175",
+        "wnid": "04324313-n",
+        "synset": [
+            "stethoscope"
+        ],
+        "wdid": "Q162339"
+    },
+    {
+        "inid": "n04325704",
+        "wnid": "04332842-n",
+        "synset": [
+            "stole"
+        ],
+        "wdid": "Q4342445"
+    },
+    {
+        "inid": "n04326547",
+        "wnid": "04333685-n",
+        "synset": [
+            "stone wall"
+        ],
+        "wdid": "Q979531"
+    },
+    {
+        "inid": "n04328186",
+        "wnid": "04335324-n",
+        "synset": [
+            "stopwatch",
+            "stop watch"
+        ],
+        "wdid": "Q843994"
+    },
+    {
+        "inid": "n04330267",
+        "wnid": "04337405-n",
+        "synset": [
+            "stove"
+        ],
+        "wdid": "Q203789"
+    },
+    {
+        "inid": "n04332243",
+        "wnid": "04339381-n",
+        "synset": [
+            "strainer"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04335435",
+        "wnid": "04342573-n",
+        "synset": [
+            "streetcar",
+            "tram",
+            "tramcar",
+            "trolley",
+            "trolley car"
+        ],
+        "wdid": "Q3407658"
+    },
+    {
+        "inid": "n04336792",
+        "wnid": "04344295-n",
+        "synset": [
+            "stretcher"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04344873",
+        "wnid": "04351951-n",
+        "synset": [
+            "studio couch",
+            "day bed"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04346328",
+        "wnid": "04353406-n",
+        "synset": [
+            "stupa",
+            "tope"
+        ],
+        "wdid": "Q180987"
+    },
+    {
+        "inid": "n04347754",
+        "wnid": "04354832-n",
+        "synset": [
+            "submarine",
+            "pigboat",
+            "sub",
+            "U-boat"
+        ],
+        "wdid": "Q2811"
+    },
+    {
+        "inid": "n04347754",
+        "wnid": "04354832-n",
+        "synset": [
+            "submarine",
+            "pigboat",
+            "sub",
+            "U-boat"
+        ],
+        "wdid": "Q428661"
+    },
+    {
+        "inid": "n04350905",
+        "wnid": "04357983-n",
+        "synset": [
+            "suit",
+            "suit of clothes"
+        ],
+        "wdid": "Q614806"
+    },
+    {
+        "inid": "n04355338",
+        "wnid": "04362416-n",
+        "synset": [
+            "sundial"
+        ],
+        "wdid": "Q80793"
+    },
+    {
+        "inid": "n04355933",
+        "wnid": "04363011-n",
+        "synset": [
+            "sunglass"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04356056",
+        "wnid": "04363134-n",
+        "synset": [
+            "sunglasses",
+            "dark glasses",
+            "shades"
+        ],
+        "wdid": "Q217541"
+    },
+    {
+        "inid": "n04357314",
+        "wnid": "04364401-n",
+        "synset": [
+            "sunscreen",
+            "sunblock",
+            "sun blocker"
+        ],
+        "wdid": "Q827658"
+    },
+    {
+        "inid": "n04366367",
+        "wnid": "04373454-n",
+        "synset": [
+            "suspension bridge"
+        ],
+        "wdid": "Q12570"
+    },
+    {
+        "inid": "n04367480",
+        "wnid": "04374567-n",
+        "synset": [
+            "swab",
+            "swob",
+            "mop"
+        ],
+        "wdid": "Q828361"
+    },
+    {
+        "inid": "n04370456",
+        "wnid": "04377543-n",
+        "synset": [
+            "sweatshirt"
+        ],
+        "wdid": "Q19968163"
+    },
+    {
+        "inid": "n04371430",
+        "wnid": "04378517-n",
+        "synset": [
+            "swimming trunks",
+            "bathing trunks"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04371774",
+        "wnid": "14033417-n",
+        "synset": [
+            "swing"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04372370",
+        "wnid": "04379457-n",
+        "synset": [
+            "switch",
+            "electric switch",
+            "electrical switch"
+        ],
+        "wdid": "Q5320"
+    },
+    {
+        "inid": "n04376876",
+        "wnid": "04383963-n",
+        "synset": [
+            "syringe"
+        ],
+        "wdid": "Q273318"
+    },
+    {
+        "inid": "n04380533",
+        "wnid": "04387620-n",
+        "synset": [
+            "table lamp"
+        ],
+        "wdid": "Q36641511"
+    },
+    {
+        "inid": "n04389033",
+        "wnid": "04396120-n",
+        "synset": [
+            "tank",
+            "army tank",
+            "armored combat vehicle",
+            "armoured combat vehicle"
+        ],
+        "wdid": "Q12876"
+    },
+    {
+        "inid": "n04392985",
+        "wnid": "04400072-n",
+        "synset": [
+            "tape player"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04398044",
+        "wnid": "04405179-n",
+        "synset": [
+            "teapot"
+        ],
+        "wdid": "Q245005"
+    },
+    {
+        "inid": "n04399382",
+        "wnid": "04406517-n",
+        "synset": [
+            "teddy",
+            "teddy bear"
+        ],
+        "wdid": "Q213477"
+    },
+    {
+        "inid": "n04404412",
+        "wnid": "04411547-n",
+        "synset": [
+            "television",
+            "television system"
+        ],
+        "wdid": "Q289"
+    },
+    {
+        "inid": "n04409515",
+        "wnid": "04416650-n",
+        "synset": [
+            "tennis ball"
+        ],
+        "wdid": "Q246514"
+    },
+    {
+        "inid": "n04417672",
+        "wnid": "04424807-n",
+        "synset": [
+            "thatch",
+            "thatched roof"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04418357",
+        "wnid": "04425492-n",
+        "synset": [
+            "theater curtain",
+            "theatre curtain"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04423845",
+        "wnid": "04430980-n",
+        "synset": [
+            "thimble"
+        ],
+        "wdid": "Q322483"
+    },
+    {
+        "inid": "n04428191",
+        "wnid": "04435326-n",
+        "synset": [
+            "thresher",
+            "thrasher",
+            "threshing machine"
+        ],
+        "wdid": "Q506839"
+    },
+    {
+        "inid": "n04429376",
+        "wnid": "04436510-n",
+        "synset": [
+            "throne"
+        ],
+        "wdid": "Q189233"
+    },
+    {
+        "inid": "n04435653",
+        "wnid": "04442787-n",
+        "synset": [
+            "tile roof"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04442312",
+        "wnid": "04449446-n",
+        "synset": [
+            "toaster"
+        ],
+        "wdid": "Q14890"
+    },
+    {
+        "inid": "n04443257",
+        "wnid": "04450391-n",
+        "synset": [
+            "tobacco shop",
+            "tobacconist shop",
+            "tobacconist"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04447861",
+        "wnid": "04455132-n",
+        "synset": [
+            "toilet seat"
+        ],
+        "wdid": "Q116191"
+    },
+    {
+        "inid": "n04456115",
+        "wnid": "04463386-n",
+        "synset": [
+            "torch"
+        ],
+        "wdid": "Q327954"
+    },
+    {
+        "inid": "n04458633",
+        "wnid": "04465868-n",
+        "synset": [
+            "totem pole"
+        ],
+        "wdid": "Q83809"
+    },
+    {
+        "inid": "n04461696",
+        "wnid": "04468931-n",
+        "synset": [
+            "tow truck",
+            "tow car",
+            "wrecker"
+        ],
+        "wdid": "Q332050"
+    },
+    {
+        "inid": "n04462240",
+        "wnid": "04469475-n",
+        "synset": [
+            "toyshop"
+        ],
+        "wdid": "Q1318959"
+    },
+    {
+        "inid": "n04465501",
+        "wnid": "04472736-n",
+        "synset": [
+            "tractor"
+        ],
+        "wdid": "Q39495"
+    },
+    {
+        "inid": "n04467665",
+        "wnid": "04474900-n",
+        "synset": [
+            "trailer truck",
+            "tractor trailer",
+            "trucking rig",
+            "rig",
+            "articulated lorry",
+            "semi"
+        ],
+        "wdid": "Q1936841"
+    },
+    {
+        "inid": "n04476259",
+        "wnid": "04483494-n",
+        "synset": [
+            "tray"
+        ],
+        "wdid": "Q613972"
+    },
+    {
+        "inid": "n04479046",
+        "wnid": "04486281-n",
+        "synset": [
+            "trench coat"
+        ],
+        "wdid": "Q654290"
+    },
+    {
+        "inid": "n04482393",
+        "wnid": "04489649-n",
+        "synset": [
+            "tricycle",
+            "trike",
+            "velocipede"
+        ],
+        "wdid": "Q536135"
+    },
+    {
+        "inid": "n04483307",
+        "wnid": "04490563-n",
+        "synset": [
+            "trimaran"
+        ],
+        "wdid": "Q630415"
+    },
+    {
+        "inid": "n04485082",
+        "wnid": "04492338-n",
+        "synset": [
+            "tripod"
+        ],
+        "wdid": "Q1444534"
+    },
+    {
+        "inid": "n04486054",
+        "wnid": "04493310-n",
+        "synset": [
+            "triumphal arch"
+        ],
+        "wdid": "Q143912"
+    },
+    {
+        "inid": "n04487081",
+        "wnid": "04494337-n",
+        "synset": [
+            "trolleybus",
+            "trolley coach",
+            "trackless trolley"
+        ],
+        "wdid": "Q5639"
+    },
+    {
+        "inid": "n04487394",
+        "wnid": "04494650-n",
+        "synset": [
+            "trombone"
+        ],
+        "wdid": "Q8350"
+    },
+    {
+        "inid": "n04493381",
+        "wnid": "04500676-n",
+        "synset": [
+            "tub",
+            "vat"
+        ],
+        "wdid": "Q98950889"
+    },
+    {
+        "inid": "n04501370",
+        "wnid": "04508665-n",
+        "synset": [
+            "turnstile"
+        ],
+        "wdid": "Q1146283"
+    },
+    {
+        "inid": "n04505470",
+        "wnid": "04512765-n",
+        "synset": [
+            "typewriter keyboard"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04507155",
+        "wnid": "04514450-n",
+        "synset": [
+            "umbrella"
+        ],
+        "wdid": "Q41607"
+    },
+    {
+        "inid": "n04509417",
+        "wnid": "04516712-n",
+        "synset": [
+            "unicycle",
+            "monocycle"
+        ],
+        "wdid": "Q223924"
+    },
+    {
+        "inid": "n04515003",
+        "wnid": "04522298-n",
+        "synset": [
+            "upright",
+            "upright piano"
+        ],
+        "wdid": "Q3382191"
+    },
+    {
+        "inid": "n04517823",
+        "wnid": "04525118-n",
+        "synset": [
+            "vacuum",
+            "vacuum cleaner"
+        ],
+        "wdid": "Q101674"
+    },
+    {
+        "inid": "n04522168",
+        "wnid": "04529463-n",
+        "synset": [
+            "vase"
+        ],
+        "wdid": "Q191851"
+    },
+    {
+        "inid": "n04523525",
+        "wnid": "04530820-n",
+        "synset": [
+            "vault"
+        ],
+        "wdid": "Q189771"
+    },
+    {
+        "inid": "n04525038",
+        "wnid": "04532333-n",
+        "synset": [
+            "velvet"
+        ],
+        "wdid": "Q243519"
+    },
+    {
+        "inid": "n04525305",
+        "wnid": "04532600-n",
+        "synset": [
+            "vending machine"
+        ],
+        "wdid": "Q211584"
+    },
+    {
+        "inid": "n04532106",
+        "wnid": "04539401-n",
+        "synset": [
+            "vestment"
+        ],
+        "wdid": "Q6501052"
+    },
+    {
+        "inid": "n04532670",
+        "wnid": "04539965-n",
+        "synset": [
+            "viaduct"
+        ],
+        "wdid": "Q181348"
+    },
+    {
+        "inid": "n04536866",
+        "wnid": "04544161-n",
+        "synset": [
+            "violin",
+            "fiddle"
+        ],
+        "wdid": "Q8355"
+    },
+    {
+        "inid": "n04540053",
+        "wnid": "04547339-n",
+        "synset": [
+            "volleyball"
+        ],
+        "wdid": "Q927924"
+    },
+    {
+        "inid": "n04542943",
+        "wnid": "04550229-n",
+        "synset": [
+            "waffle iron"
+        ],
+        "wdid": "Q1139975"
+    },
+    {
+        "inid": "n04548280",
+        "wnid": "04555566-n",
+        "synset": [
+            "wall clock"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04548362",
+        "wnid": "04555648-n",
+        "synset": [
+            "wallet",
+            "billfold",
+            "notecase",
+            "pocketbook"
+        ],
+        "wdid": "Q131740"
+    },
+    {
+        "inid": "n04550184",
+        "wnid": "04557470-n",
+        "synset": [
+            "wardrobe",
+            "closet",
+            "press"
+        ],
+        "wdid": "Q106106"
+    },
+    {
+        "inid": "n04552348",
+        "wnid": "04559634-n",
+        "synset": [
+            "warplane",
+            "military plane"
+        ],
+        "wdid": "Q216916"
+    },
+    {
+        "inid": "n04553703",
+        "wnid": "04560989-n",
+        "synset": [
+            "washbasin",
+            "handbasin",
+            "washbowl",
+            "lavabo",
+            "wash-hand basin"
+        ],
+        "wdid": "Q140565"
+    },
+    {
+        "inid": "n04554684",
+        "wnid": "04561970-n",
+        "synset": [
+            "washer",
+            "automatic washer",
+            "washing machine"
+        ],
+        "wdid": "Q124441"
+    },
+    {
+        "inid": "n04557648",
+        "wnid": "04564934-n",
+        "synset": [
+            "water bottle"
+        ],
+        "wdid": "Q6817227"
+    },
+    {
+        "inid": "n04560804",
+        "wnid": "04568090-n",
+        "synset": [
+            "water jug"
+        ],
+        "wdid": "Q47493881"
+    },
+    {
+        "inid": "n04562935",
+        "wnid": "04570221-n",
+        "synset": [
+            "water tower"
+        ],
+        "wdid": "Q274153"
+    },
+    {
+        "inid": "n04579145",
+        "wnid": "04586431-n",
+        "synset": [
+            "whiskey jug"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04579432",
+        "wnid": "04586953-n",
+        "synset": [
+            "whistle"
+        ],
+        "wdid": "Q204917"
+    },
+    {
+        "inid": "n04584207",
+        "wnid": "04591493-n",
+        "synset": [
+            "wig"
+        ],
+        "wdid": "Q105507"
+    },
+    {
+        "inid": "n04589890",
+        "wnid": "04597193-n",
+        "synset": [
+            "window screen"
+        ],
+        "wdid": "Q910768"
+    },
+    {
+        "inid": "n04590129",
+        "wnid": "04597432-n",
+        "synset": [
+            "window shade"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04591157",
+        "wnid": "04598460-n",
+        "synset": [
+            "Windsor tie"
+        ],
+        "wdid": "Q47524465"
+    },
+    {
+        "inid": "n04591713",
+        "wnid": "04599016-n",
+        "synset": [
+            "wine bottle"
+        ],
+        "wdid": "Q23490"
+    },
+    {
+        "inid": "n04592741",
+        "wnid": "02154277-n",
+        "synset": [
+            "wing"
+        ],
+        "wdid": "Q1172934"
+    },
+    {
+        "inid": "n04596742",
+        "wnid": "04604069-n",
+        "synset": [
+            "wok"
+        ],
+        "wdid": "Q208364"
+    },
+    {
+        "inid": "n04597913",
+        "wnid": "04605337-n",
+        "synset": [
+            "wooden spoon"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04599235",
+        "wnid": "04606562-n",
+        "synset": [
+            "wool",
+            "woolen",
+            "woollen"
+        ],
+        "wdid": "Q1751888"
+    },
+    {
+        "inid": "n04604644",
+        "wnid": "04612002-n",
+        "synset": [
+            "worm fence",
+            "snake fence",
+            "snake-rail fence",
+            "Virginia fence"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04606251",
+        "wnid": "14447274-n",
+        "synset": [
+            "wreck"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04612504",
+        "wnid": "04619861-n",
+        "synset": [
+            "yawl"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n04613696",
+        "wnid": "04621053-n",
+        "synset": [
+            "yurt"
+        ],
+        "wdid": "Q15680"
+    },
+    {
+        "inid": "n06359193",
+        "wnid": "06370600-n",
+        "synset": [
+            "web site",
+            "website",
+            "internet site",
+            "site"
+        ],
+        "wdid": "Q35127"
+    },
+    {
+        "inid": "n06596364",
+        "wnid": "06608568-n",
+        "synset": [
+            "comic book"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n06785654",
+        "wnid": "06798511-n",
+        "synset": [
+            "crossword puzzle",
+            "crossword"
+        ],
+        "wdid": "Q83207"
+    },
+    {
+        "inid": "n06794110",
+        "wnid": "06806967-n",
+        "synset": [
+            "street sign"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n06874185",
+        "wnid": "06887235-n",
+        "synset": [
+            "traffic light",
+            "traffic signal",
+            "stoplight"
+        ],
+        "wdid": "Q8004"
+    },
+    {
+        "inid": "n07248320",
+        "wnid": "07262988-n",
+        "synset": [
+            "book jacket",
+            "dust cover",
+            "dust jacket",
+            "dust wrapper"
+        ],
+        "wdid": "Q1434845"
+    },
+    {
+        "inid": "n07565083",
+        "wnid": "07580648-n",
+        "synset": [
+            "menu"
+        ],
+        "wdid": "Q1071136"
+    },
+    {
+        "inid": "n07579787",
+        "wnid": "03966230-n",
+        "synset": [
+            "plate"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07583066",
+        "wnid": "07598631-n",
+        "synset": [
+            "guacamole"
+        ],
+        "wdid": "Q207968"
+    },
+    {
+        "inid": "n07584110",
+        "wnid": "07599675-n",
+        "synset": [
+            "consomme"
+        ],
+        "wdid": "Q2082064"
+    },
+    {
+        "inid": "n07590611",
+        "wnid": "07606182-n",
+        "synset": [
+            "hot pot",
+            "hotpot"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07613480",
+        "wnid": "07629089-n",
+        "synset": [
+            "trifle"
+        ],
+        "wdid": "Q616601"
+    },
+    {
+        "inid": "n07614500",
+        "wnid": "07630109-n",
+        "synset": [
+            "ice cream",
+            "icecream"
+        ],
+        "wdid": "Q13233"
+    },
+    {
+        "inid": "n07615774",
+        "wnid": "07631383-n",
+        "synset": [
+            "ice lolly",
+            "lolly",
+            "lollipop",
+            "popsicle"
+        ],
+        "wdid": "Q855373"
+    },
+    {
+        "inid": "n07684084",
+        "wnid": "07699829-n",
+        "synset": [
+            "French loaf"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07693725",
+        "wnid": "07709470-n",
+        "synset": [
+            "bagel",
+            "beigel"
+        ],
+        "wdid": "Q272502"
+    },
+    {
+        "inid": "n07695742",
+        "wnid": "07711487-n",
+        "synset": [
+            "pretzel"
+        ],
+        "wdid": "Q160525"
+    },
+    {
+        "inid": "n07697313",
+        "wnid": "07713058-n",
+        "synset": [
+            "cheeseburger"
+        ],
+        "wdid": "Q667478"
+    },
+    {
+        "inid": "n07697537",
+        "wnid": "07713282-n",
+        "synset": [
+            "hotdog",
+            "hot dog",
+            "red hot"
+        ],
+        "wdid": "Q181055"
+    },
+    {
+        "inid": "n07711569",
+        "wnid": "07727314-n",
+        "synset": [
+            "mashed potato"
+        ],
+        "wdid": "Q322787"
+    },
+    {
+        "inid": "n07714571",
+        "wnid": "07730316-n",
+        "synset": [
+            "head cabbage"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07714990",
+        "wnid": "07730735-n",
+        "synset": [
+            "broccoli"
+        ],
+        "wdid": "Q47722"
+    },
+    {
+        "inid": "n07715103",
+        "wnid": "07730848-n",
+        "synset": [
+            "cauliflower"
+        ],
+        "wdid": "Q7537"
+    },
+    {
+        "inid": "n07715103",
+        "wnid": "07730848-n",
+        "synset": [
+            "cauliflower"
+        ],
+        "wdid": "Q23900272"
+    },
+    {
+        "inid": "n07716358",
+        "wnid": "12180321-n",
+        "synset": [
+            "zucchini",
+            "courgette"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07716906",
+        "wnid": "12180820-n",
+        "synset": [
+            "spaghetti squash"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07717410",
+        "wnid": "12181374-n",
+        "synset": [
+            "acorn squash"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07717556",
+        "wnid": "07733301-n",
+        "synset": [
+            "butternut squash"
+        ],
+        "wdid": "Q4169287"
+    },
+    {
+        "inid": "n07718472",
+        "wnid": "07734217-n",
+        "synset": [
+            "cucumber",
+            "cuke"
+        ],
+        "wdid": "Q2735883"
+    },
+    {
+        "inid": "n07718747",
+        "wnid": "07734492-n",
+        "synset": [
+            "artichoke",
+            "globe artichoke"
+        ],
+        "wdid": "Q23041430"
+    },
+    {
+        "inid": "n07720875",
+        "wnid": "07736620-n",
+        "synset": [
+            "bell pepper"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07730033",
+        "wnid": "07746009-n",
+        "synset": [
+            "cardoon"
+        ],
+        "wdid": "Q7223635"
+    },
+    {
+        "inid": "n07734744",
+        "wnid": "13021801-n",
+        "synset": [
+            "mushroom"
+        ],
+        "wdid": "Q390456"
+    },
+    {
+        "inid": "n07742313",
+        "wnid": "07758289-n",
+        "synset": [
+            "Granny Smith"
+        ],
+        "wdid": "Q506040"
+    },
+    {
+        "inid": "n07745940",
+        "wnid": "07761916-n",
+        "synset": [
+            "strawberry"
+        ],
+        "wdid": "Q14458220"
+    },
+    {
+        "inid": "n07747607",
+        "wnid": "07763583-n",
+        "synset": [
+            "orange"
+        ],
+        "wdid": "Q13191"
+    },
+    {
+        "inid": "n07749582",
+        "wnid": "07765558-n",
+        "synset": [
+            "lemon"
+        ],
+        "wdid": "Q1093742"
+    },
+    {
+        "inid": "n07753113",
+        "wnid": "07769089-n",
+        "synset": [
+            "fig"
+        ],
+        "wdid": "Q2746643"
+    },
+    {
+        "inid": "n07753275",
+        "wnid": "07769251-n",
+        "synset": [
+            "pineapple",
+            "ananas"
+        ],
+        "wdid": "Q10817602"
+    },
+    {
+        "inid": "n07753592",
+        "wnid": "07769568-n",
+        "synset": [
+            "banana"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n07754684",
+        "wnid": "07770660-n",
+        "synset": [
+            "jackfruit",
+            "jak",
+            "jack"
+        ],
+        "wdid": "Q45757"
+    },
+    {
+        "inid": "n07754684",
+        "wnid": "07770660-n",
+        "synset": [
+            "jackfruit",
+            "jak",
+            "jack"
+        ],
+        "wdid": "Q16136843"
+    },
+    {
+        "inid": "n07760859",
+        "wnid": "07776835-n",
+        "synset": [
+            "custard apple"
+        ],
+        "wdid": "Q6648683"
+    },
+    {
+        "inid": "n07768694",
+        "wnid": "07784670-n",
+        "synset": [
+            "pomegranate"
+        ],
+        "wdid": "Q13222088"
+    },
+    {
+        "inid": "n07802026",
+        "wnid": "07818002-n",
+        "synset": [
+            "hay"
+        ],
+        "wdid": "Q336989"
+    },
+    {
+        "inid": "n07831146",
+        "wnid": "07847122-n",
+        "synset": [
+            "carbonara"
+        ],
+        "wdid": "Q876624"
+    },
+    {
+        "inid": "n07836838",
+        "wnid": "07852814-n",
+        "synset": [
+            "chocolate sauce",
+            "chocolate syrup"
+        ],
+        "wdid": "Q599901"
+    },
+    {
+        "inid": "n07860988",
+        "wnid": "07876964-n",
+        "synset": [
+            "dough"
+        ],
+        "wdid": "Q178024"
+    },
+    {
+        "inid": "n07871810",
+        "wnid": "07887786-n",
+        "synset": [
+            "meat loaf",
+            "meatloaf"
+        ],
+        "wdid": "Q3807565"
+    },
+    {
+        "inid": "n07873807",
+        "wnid": "07889783-n",
+        "synset": [
+            "pizza",
+            "pizza pie"
+        ],
+        "wdid": "Q177"
+    },
+    {
+        "inid": "n07875152",
+        "wnid": "07891128-n",
+        "synset": [
+            "potpie"
+        ],
+        "wdid": "Q4382275"
+    },
+    {
+        "inid": "n07880968",
+        "wnid": "07896943-n",
+        "synset": [
+            "burrito"
+        ],
+        "wdid": "Q390823"
+    },
+    {
+        "inid": "n07892512",
+        "wnid": "07908487-n",
+        "synset": [
+            "red wine"
+        ],
+        "wdid": "Q1827"
+    },
+    {
+        "inid": "n07920052",
+        "wnid": "07936292-n",
+        "synset": [
+            "espresso"
+        ],
+        "wdid": "Q180289"
+    },
+    {
+        "inid": "n07930864",
+        "wnid": "03152175-n",
+        "synset": [
+            "cup"
+        ],
+        "wdid": "Q81727"
+    },
+    {
+        "inid": "n07932039",
+        "wnid": "07948279-n",
+        "synset": [
+            "eggnog"
+        ],
+        "wdid": "Q477374"
+    },
+    {
+        "inid": "n09193705",
+        "wnid": "09216583-n",
+        "synset": [
+            "alp"
+        ],
+        "wdid": "Q1286"
+    },
+    {
+        "inid": "n09229709",
+        "wnid": "09252616-n",
+        "synset": [
+            "bubble"
+        ],
+        "wdid": "Q75794"
+    },
+    {
+        "inid": "n09246464",
+        "wnid": "09269370-n",
+        "synset": [
+            "cliff",
+            "drop",
+            "drop-off"
+        ],
+        "wdid": "Q107679"
+    },
+    {
+        "inid": "n09256479",
+        "wnid": "09279385-n",
+        "synset": [
+            "coral reef"
+        ],
+        "wdid": "Q11292"
+    },
+    {
+        "inid": "n09288635",
+        "wnid": "09311541-n",
+        "synset": [
+            "geyser"
+        ],
+        "wdid": "Q83471"
+    },
+    {
+        "inid": "n09332890",
+        "wnid": "09355796-n",
+        "synset": [
+            "lakeside",
+            "lakeshore"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n09399592",
+        "wnid": "09422467-n",
+        "synset": [
+            "promontory",
+            "headland",
+            "head",
+            "foreland"
+        ],
+        "wdid": "Q747957"
+    },
+    {
+        "inid": "n09399592",
+        "wnid": "09422467-n",
+        "synset": [
+            "promontory",
+            "headland",
+            "head",
+            "foreland"
+        ],
+        "wdid": "Q1245089"
+    },
+    {
+        "inid": "n09399592",
+        "wnid": "09422467-n",
+        "synset": [
+            "promontory",
+            "headland",
+            "head",
+            "foreland"
+        ],
+        "wdid": "Q3454845"
+    },
+    {
+        "inid": "n09421951",
+        "wnid": "09444829-n",
+        "synset": [
+            "sandbar",
+            "sand bar"
+        ],
+        "wdid": "Q478251"
+    },
+    {
+        "inid": "n09428293",
+        "wnid": "09451197-n",
+        "synset": [
+            "seashore",
+            "coast",
+            "seacoast",
+            "sea-coast"
+        ],
+        "wdid": "Q93352"
+    },
+    {
+        "inid": "n09468604",
+        "wnid": "09491734-n",
+        "synset": [
+            "valley",
+            "vale"
+        ],
+        "wdid": "Q39816"
+    },
+    {
+        "inid": "n09472597",
+        "wnid": "09495727-n",
+        "synset": [
+            "volcano"
+        ],
+        "wdid": "Q8072"
+    },
+    {
+        "inid": "n09835506",
+        "wnid": "09854894-n",
+        "synset": [
+            "ballplayer",
+            "baseball player"
+        ],
+        "wdid": "Q10871364"
+    },
+    {
+        "inid": "n10148035",
+        "wnid": "10167555-n",
+        "synset": [
+            "groom",
+            "bridegroom"
+        ],
+        "wdid": "Q854830"
+    },
+    {
+        "inid": "n10565667",
+        "wnid": "10585095-n",
+        "synset": [
+            "scuba diver"
+        ],
+        "wdid": "Q17504942"
+    },
+    {
+        "inid": "n11879895",
+        "wnid": "11900364-n",
+        "synset": [
+            "rapeseed"
+        ],
+        "wdid": "Q177932"
+    },
+    {
+        "inid": "n11939491",
+        "wnid": "11959960-n",
+        "synset": [
+            "daisy"
+        ],
+        "wdid": "Q27583"
+    },
+    {
+        "inid": "n12057211",
+        "wnid": "12077712-n",
+        "synset": [
+            "yellow lady's slipper",
+            "yellow lady-slipper",
+            "Cypripedium calceolus",
+            "Cypripedium parviflorum"
+        ],
+        "wdid": "Q2631281"
+    },
+    {
+        "inid": "n12144580",
+        "wnid": "12165097-n",
+        "synset": [
+            "corn"
+        ],
+        "wdid": "Q506139"
+    },
+    {
+        "inid": "n12267677",
+        "wnid": "12288194-n",
+        "synset": [
+            "acorn"
+        ],
+        "wdid": "Q3914781"
+    },
+    {
+        "inid": "n12620546",
+        "wnid": "12641307-n",
+        "synset": [
+            "hip",
+            "rose hip",
+            "rosehip"
+        ],
+        "wdid": "Q46740"
+    },
+    {
+        "inid": "n12768682",
+        "wnid": "12789442-n",
+        "synset": [
+            "buckeye",
+            "horse chestnut",
+            "conker"
+        ],
+        "wdid": "Q158752"
+    },
+    {
+        "inid": "n12768682",
+        "wnid": "12789442-n",
+        "synset": [
+            "buckeye",
+            "horse chestnut",
+            "conker"
+        ],
+        "wdid": "Q2993394"
+    },
+    {
+        "inid": "n12985857",
+        "wnid": "13006617-n",
+        "synset": [
+            "coral fungus"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n12998815",
+        "wnid": "13019575-n",
+        "synset": [
+            "agaric"
+        ],
+        "wdid": "Q2384195"
+    },
+    {
+        "inid": "n13037406",
+        "wnid": "13058166-n",
+        "synset": [
+            "gyromitra"
+        ],
+        "wdid": "Q900804"
+    },
+    {
+        "inid": "n13040303",
+        "wnid": "13061063-n",
+        "synset": [
+            "stinkhorn",
+            "carrion fungus"
+        ],
+        "wdid": "Q784850"
+    },
+    {
+        "inid": "n13044778",
+        "wnid": "13065538-n",
+        "synset": [
+            "earthstar"
+        ],
+        "wdid": null
+    },
+    {
+        "inid": "n13052670",
+        "wnid": "13073430-n",
+        "synset": [
+            "hen-of-the-woods",
+            "hen of the woods",
+            "Polyporus frondosus",
+            "Grifola frondosa"
+        ],
+        "wdid": "Q1165686"
+    },
+    {
+        "inid": "n13054560",
+        "wnid": "13075320-n",
+        "synset": [
+            "bolete"
+        ],
+        "wdid": "Q1969349"
+    },
+    {
+        "inid": "n13133613",
+        "wnid": "13154372-n",
+        "synset": [
+            "ear",
+            "spike",
+            "capitulum"
+        ],
+        "wdid": "Q147398"
+    },
+    {
+        "inid": "n15075141",
+        "wnid": "15099708-n",
+        "synset": [
+            "toilet tissue",
+            "toilet paper",
+            "bathroom tissue"
+        ],
+        "wdid": "Q5840"
+    }
+]
