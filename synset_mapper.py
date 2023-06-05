@@ -1,9 +1,8 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
+import list_dict_tools as LDtools
 from nltk.corpus import wordnet as wn
-import pandas as pd
 import os
 import json
-from typing import Callable
 
 def bulk_collect_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
     """Get the WikiData IDs of objects matching WordNet objects. 
@@ -67,64 +66,7 @@ def bulk_collect_wdids_from_inids(inids:list[str], step=400)->list[dict]:
         start_index = end_index
     return full_mapping
 
-def join_map_synset_dict(synsets:list[dict], map:list[dict], on:str):
-    """Left join two lists of dictionnaries (synsets, map) according to one column (0)  
-
-    Args:
-        synsets (list[dict]): Left part of the join (fully returned)
-        map (list[dict]): Right part of the join (matching returned)
-        on (str): column present in each record of both dicts
-
-    Returns:
-        list[dict]: joined list of dicts
-    """
-    synset_df = pd.DataFrame(synsets)
-    map_df = pd.DataFrame(map)
-    synset_df = synset_df.join(map_df.set_index(on), on)
-    synset_df = synset_df.where(pd.notnull(synset_df), None)
-    return synset_df.to_dict('records')
-
-def apply_to_all_synsets(synsets:list[dict], function:Callable, 
-                        arg_keys:list[str], return_key:str, 
-                        error_save_path:str='Data/temp_synset_mapping.json',
-                        inid_start:str=None)->list[dict]:
-    """Apply a function to all the synsets of a list. 
-    If an error occurs, the dictionnary is saved into a temporary file
-
-    Args:
-        synsets (list[dict]): List of synsets to apply the function to
-        function (Callable): function to apply to each synset
-        arg_keys (list[str]): keys of the arguments to five to the function. 
-            Key name must be the same as the function parameter
-        return_key (str): key of the dictionnary to save the result in. 
-            Function only will be executed of the key doesn't exist or has a None value
-        error_save_path (str, optional): Path of the file to save the dict into in case of an error. 
-            Defaults to 'Data/temp_synset_mapping.json'.
-
-    Returns:
-        list[dict]: list of synsets with the function applied to each 
-    """
-    start_index = 0
-    if inid_start:
-        start_index = next((i for i, s in enumerate(synsets) if s['inid']==inid_start), 0)
-    run_nb = 0
-    for synset in synsets[start_index:]:
-        if return_key not in synset or synset[return_key] is None:
-            run_nb += 1
-            arg_dict = {}
-            for key in arg_keys:
-                arg_dict[key] = synset[key]
-            try:
-                synset[return_key] = function(**arg_dict)
-            except Exception as e :
-                save_file = open(error_save_path, 'w')
-                json.dump(synsets, save_file)
-                save_file.close()
-                print(run_nb, synset['synset'], synset['inid'])
-                raise e
-    return synsets
-
-def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json'):
+def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json', inid_start:str=None):
     """Manually set the WikiData IDs of the synsets who don't have one
 
     Args:
@@ -133,13 +75,16 @@ def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json'):
             Defaults to 'Data/synset_mapping.json'.
     """
     synsets = get_synset_full_mapping(mapping_path)
-    synsets = apply_to_all_synsets(
+    start_index = 0
+    if inid_start:
+        start_index = next((i for i, s in enumerate(synsets) if s['inid']==inid_start), 0)
+    synsets = LDtools.apply_to_all_dicts(
         synsets,
         manual_wdid,
         ['synset'],
         'wdid',
         mapping_path,
-        inid_start='n04579145')
+        start_index)
 
     file = open(mapping_path, 'w')
     json.dump(synsets, file)
@@ -185,13 +130,13 @@ def generate_synset_full_mapping(input_path='Data/LOC_synset_mapping.txt', outpu
         })
 
     wnwd_map = bulk_collect_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
-    synsets = join_map_synset_dict(synsets, wnwd_map, 'wnid')
+    synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
     synsets_wn = [s for s in synsets if s['wdid'] is not None]
     synsets_in = [s for s in synsets if s['wdid'] is None]
     for s in synsets_in:
         del s['wdid']
     inwd_map = bulk_collect_wdids_from_inids([s['inid'] for s in synsets_in])
-    synsets_in = join_map_synset_dict(synsets_in, inwd_map, 'inid')
+    synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
     synsets = synsets_wn+synsets_in
 
     output_file = open(output_path, 'w')
