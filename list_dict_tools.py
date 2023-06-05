@@ -1,6 +1,8 @@
 from typing import Callable
 import json
 import pandas as pd
+import pprint
+from urllib.error import HTTPError
 
 def apply_to_all_dicts(dict_list:list[dict], function:Callable, 
                         arg_keys:list[str], return_key:str, 
@@ -36,6 +38,11 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
                 save_file = open(error_save_path, 'w')
                 json.dump(dict_list, save_file)
                 save_file.close()
+                print('Program ran '+str(run_nb)+' times')
+                print('Last dict : ')
+                pprint.pprint(dic)            
+                if type(e) == HTTPError:
+                    print('\n',e.headers)
                 raise e
     return dict_list
 

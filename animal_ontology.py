@@ -61,3 +61,8 @@ def is_animal(wdid:str)->bool:
     sparql.setQuery(query)
     return sparql.query().convert()['boolean']
 
+
+def get_animal_synset_mapping():
+    synsets = sm.get_synset_full_mapping()
+    return [s for s in synsets if s['is_animal']]
+
