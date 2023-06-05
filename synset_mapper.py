@@ -152,6 +152,7 @@ def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json', ini
         mapping_path (str, optional): Path of the file containing the synsets. 
             When the function generates an error, the computed synsets are stored in that file. 
             Defaults to 'Data/synset_mapping.json'.
+        inid_start (str, optional): ImageNet ID of the synsets to start from. Defaults to None.
     """
     synsets = get_synset_full_mapping(mapping_path)
     start_index = 0
@@ -223,7 +224,7 @@ def wd_label_search(search:str)->list[dict]:
             SELECT ?wdid ?desc
             WHERE {
                 VALUES ?prop { skos:altLabel rdfs:label }
-                ?wdid ?prop '"""+search+"""'@en;
+                ?wdid ?prop \""""+search+"""\"@en;
                 schema:description ?desc.
                 FILTER(LANG(?desc) = "en") 
             }
