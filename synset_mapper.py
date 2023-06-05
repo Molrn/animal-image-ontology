@@ -4,6 +4,85 @@ from nltk.corpus import wordnet as wn
 import os
 import json
 
+def get_synset_full_mapping(mapping_path='Data/synset_mapping.json')->list[dict]:
+    """Get the mapping of each synset in WikiData, ImageNet and WordNet
+
+    Args:
+        mapping_path (str, optional): Path of the file containing the mapping. 
+            If the file doesn't exist, the mapping file is created at this path. Defaults to 'Data/synset_mapping.json'.
+
+    Returns:
+        list[dict]: list of dict in format {synset:list[str], inid:str, wnid:str, wdid:str}
+    """
+    if not os.path.exists(mapping_path):
+        generate_synset_full_mapping(output_path=mapping_path)
+    mapping_file = open(mapping_path)
+    mapping_dict = json.load(mapping_file)
+    mapping_file.close()
+    return mapping_dict
+
+def generate_synset_full_mapping(input_path='Data/LOC_synset_mapping.txt', output_path='Data/synset_mapping.json'):
+    """Generate a json file mapping synsets in WikiData, ImageNet and WordNet
+
+    Args:
+        input_path (str, optional): path of the file containing a list of synsets and ImageNet IDs. Defaults to 'Data/LOC_synset_mapping.txt'.
+        output_path (str, optional): path of the file to generate the json mapping into. Defaults to 'Data/synset_mapping.json'.
+    """
+    input_file = open(input_path)
+    lines = input_file.readlines()
+    input_file.close()
+    synsets = []
+    wn_version = wn.get_version()
+    for line in lines:
+        line = line.replace('\n', '')
+        [inid, synset] = line.split(' ', 1)
+        synset = synset.split(', ') 
+        synsets.append({
+            'inid' : str(inid),
+            'wnid' : get_new_wnid(synset, wn_version),
+            'synset' : synset
+        })
+    wnwd_map = bulk_collect_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
+    synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
+    synsets_wn = [s for s in synsets if s['wdid'] is not None]
+    synsets_in = [s for s in synsets if s['wdid'] is None]
+    for s in synsets_in:
+        del s['wdid']
+    inwd_map = bulk_collect_wdids_from_inids([s['inid'] for s in synsets_in])
+    synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
+    synsets = synsets_wn+synsets_in
+
+    output_file = open(output_path, 'w')
+    json.dump(synsets,output_file)
+    output_file.close()
+
+def get_new_wnid(synset:list[str], wn_version=None):
+    """Get the WordNet ID of a synset in format WordNet 3.1
+
+    Args:
+        synset (list[str]): list of lemmas of the synset
+        wn_version (str, optional): WordNet version. Useful for performance issues in bulk operations. Defaults to None.
+
+    Raises:
+        ImportError: Raised if the current WordNet version is lower than 3.1 
+        ValueError: Raised if the synset isn't found
+
+    Returns:
+        str: WordNet ID of the synset in format WordNet 3.1
+    """
+    if (wn.get_version() if not wn_version else wn_version) < '3.1':
+        raise ImportError('Current WordNet version does not provide the requested operation\n'+
+                    '\tWordNet IDs compatible with WikiData only are available in versions 3.1 or higher\n'+
+                    '\tDatabase files for WordNet 3.1 are avaliable at this URL: https://wordnet.princeton.edu/download/current-version')
+    
+    compare_synset = [x.replace(' ', '_') for x in synset] 
+    synset_search_list = wn.synsets(compare_synset[0])
+    for search_item in synset_search_list:
+        if set(compare_synset) == set(search_item.lemma_names()): 
+            return str(search_item.offset()).zfill(8)+'-n'
+    print('Warning: Synset '+str(synset)+' not found')
+    return ''
+
 def bulk_collect_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
     """Get the WikiData IDs of objects matching WordNet objects. 
     Goes through the properties 'WordNet 3.1 Synset ID' (P8814)
@@ -89,86 +168,6 @@ def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json', ini
     file = open(mapping_path, 'w')
     json.dump(synsets, file)
     file.close()
-
-def get_synset_full_mapping(mapping_path='Data/synset_mapping.json')->list[dict]:
-    """Get the mapping of each synset in WikiData, ImageNet and WordNet
-
-    Args:
-        mapping_path (str, optional): Path of the file containing the mapping. 
-            If the file doesn't exist, the mapping file is created at this path. Defaults to 'Data/synset_mapping.json'.
-
-    Returns:
-        list[dict]: list of dict in format {synset:list[str], inid:str, wnid:str, wdid:str}
-    """
-    if not os.path.exists(mapping_path):
-        generate_synset_full_mapping(output_path=mapping_path)
-    mapping_file = open(mapping_path)
-    mapping_dict = json.load(mapping_file)
-    mapping_file.close()
-    return mapping_dict
-
-def generate_synset_full_mapping(input_path='Data/LOC_synset_mapping.txt', output_path='Data/synset_mapping.json'):
-    """Generate a json file mapping synsets in WikiData, ImageNet and WordNet
-
-    Args:
-        input_path (str, optional): path of the file containing a list of synsets and ImageNet IDs. Defaults to 'Data/LOC_synset_mapping.txt'.
-        output_path (str, optional): path of the file to generate the json mapping into. Defaults to 'Data/synset_mapping.json'.
-    """
-    input_file = open(input_path)
-    lines = input_file.readlines()
-    input_file.close()
-    synsets = []
-    wn_version = wn.get_version()
-    for line in lines:
-        line = line.replace('\n', '')
-        [inid, synset] = line.split(' ', 1)
-        synset = synset.split(', ') 
-        synsets.append({
-            'inid' : str(inid),
-            'wnid' : get_new_wnid(synset, wn_version),
-            'synset' : synset
-        })
-
-    wnwd_map = bulk_collect_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
-    synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
-    synsets_wn = [s for s in synsets if s['wdid'] is not None]
-    synsets_in = [s for s in synsets if s['wdid'] is None]
-    for s in synsets_in:
-        del s['wdid']
-    inwd_map = bulk_collect_wdids_from_inids([s['inid'] for s in synsets_in])
-    synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
-    synsets = synsets_wn+synsets_in
-
-    output_file = open(output_path, 'w')
-    json.dump(synsets,output_file)
-    output_file.close()
-
-def get_new_wnid(synset:list[str], wn_version=None):
-    """Get the WordNet ID of a synset in format WordNet 3.1
-
-    Args:
-        synset (list[str]): list of lemmas of the synset
-        wn_version (str, optional): WordNet version. Useful for performance issues in bulk operations. Defaults to None.
-
-    Raises:
-        ImportError: Raised if the current WordNet version is lower than 3.1 
-        ValueError: Raised if the synset isn't found
-
-    Returns:
-        str: WordNet ID of the synset in format WordNet 3.1
-    """
-    if (wn.get_version() if not wn_version else wn_version) < '3.1':
-        raise ImportError('Current WordNet version does not provide the requested operation\n'+
-                    '\tWordNet IDs compatible with WikiData only are available in versions 3.1 or higher\n'+
-                    '\tDatabase files for WordNet 3.1 are avaliable at this URL: https://wordnet.princeton.edu/download/current-version')
-    
-    compare_synset = [x.replace(' ', '_') for x in synset] 
-    synset_search_list = wn.synsets(compare_synset[0])
-    for search_item in synset_search_list:
-        if set(compare_synset) == set(search_item.lemma_names()): 
-            return str(search_item.offset()).zfill(8)+'-n'
-    print('Warning: Synset '+str(synset)+' not found')
-    return ''
 
 def manual_wdid(synset:list[str])->str:
     """Manually fetch the WikiData ID of a synset from its lemmas.
