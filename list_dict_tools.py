@@ -2,12 +2,12 @@ from typing import Callable
 import json
 import pandas as pd
 import pprint
-from urllib.error import HTTPError
+import time
 
 def apply_to_all_dicts(dict_list:list[dict], function:Callable, 
                         arg_keys:list[str], return_key:str, 
                         error_save_path:str='Data/temp_dict_list.json',
-                        start_index:int=0)->list[dict]:
+                        start_index:int=0, stop_index:int=None, delay:float=None)->list[dict]:
     """Apply a function to all the dicts of a list. 
         If an error occurs, the list is saved into a temporary file
 
@@ -20,13 +20,15 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
             Function only will be executed of the key doesn't exist or has a None value
         error_save_path (str, optional): Path of the file to save the dict into in case of an error. 
             Defaults to 'Data/temp_dict_list.json'.
-        start_index (int): index of the list to start the search from. Defaults to 0.
+        start_index (int, optional): index of the list to start the search from. Defaults to 0.
+        stop_index (int, optional): index of the list to stop the search at. Defaults to None.
+        delay (float, optional): time between each run, in seconds. Defaults to None.
 
     Returns:
         list[dict]: list of dicts with the function applied to each dict 
     """
     run_nb = 0
-    for dic in dict_list[start_index:]:
+    for dic in dict_list[start_index:stop_index]:
         if return_key not in dic or dic[return_key] is None:
             run_nb += 1
             arg_dict = {}
@@ -38,12 +40,12 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
                 save_file = open(error_save_path, 'w')
                 json.dump(dict_list, save_file)
                 save_file.close()
-                print('Program ran '+str(run_nb)+' times')
+                print('\nProgram successfully ran '+str(run_nb-1)+' times')
                 print('Last dict : ')
                 pprint.pprint(dic)            
-                if type(e) == HTTPError:
-                    print('\n',e.headers)
                 raise e
+            if delay:
+                time.sleep(delay)
     return dict_list
 
 def ld_join(left_list:list[dict], right_list:list[dict], on:str, join_type='inner'):
