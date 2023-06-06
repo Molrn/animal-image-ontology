@@ -1,5 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 import list_dict_tools as LDtools
+import sparql_tools as SPtools
 from nltk.corpus import wordnet as wn
 import os
 import json
@@ -42,13 +43,13 @@ def generate_synset_full_mapping(input_path='Data/LOC_synset_mapping.txt', outpu
             'wnid' : get_new_wnid(synset, wn_version),
             'synset' : synset
         })
-    wnwd_map = bulk_collect_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
+    wnwd_map = bulk_select_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
     synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
     synsets_wn = [s for s in synsets if s['wdid'] is not None]
     synsets_in = [s for s in synsets if s['wdid'] is None]
     for s in synsets_in:
         del s['wdid']
-    inwd_map = bulk_collect_wdids_from_inids([s['inid'] for s in synsets_in])
+    inwd_map = bulk_select_wdids_from_inids([s['inid'] for s in synsets_in])
     synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
     synsets = synsets_wn+synsets_in
 
@@ -83,7 +84,7 @@ def get_new_wnid(synset:list[str], wn_version=None):
     print('Warning: Synset '+str(synset)+' not found')
     return ''
 
-def bulk_collect_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
+def bulk_select_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
     """Get the WikiData IDs of objects matching WordNet objects. 
     Goes through the properties 'WordNet 3.1 Synset ID' (P8814)
 
@@ -94,26 +95,20 @@ def bulk_collect_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
     Returns:
         list[dict]: list of dict in format {wnid:str, wdid:str} 
     """
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setReturnFormat(JSON)
-    wnid_prop = 'wdt:P8814'
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
-    start_index = 0
-    full_mapping = []
-    while start_index < len(wnids):
-        end_index = min(start_index+step, len(wnids))
-        wnid_query_str = '"'+'" "'.join(wnids[start_index:end_index])+'"'
-        query = "SELECT ?wdid ?wnid WHERE { VALUES ?wnid { "+wnid_query_str+" }. ?wdid "+wnid_prop+" ?wnid }"
-        sparql.setQuery(query)
-        result = sparql.query().convert()['results']['bindings']
-        full_mapping += [{
-            'wnid' : r['wnid']['value'],
-            'wdid' : r['wdid']['value'].replace(wd_entity_uri, '')
-        } for r in result]
-        start_index = end_index
-    return full_mapping
+    query = """
+        SELECT ?wdid ?wnid 
+        WHERE {{ 
+            VALUES ?wnid {{ {} }}. 
+            ?wdid wdt:P8814 ?wnid 
+        }}
+        """
+    mapping = SPtools.bulk_select(wnids, query, ['wdid', 'wnid'], 'str', step)
+    wd_entity_uri = 'http://www.wikidata.org/entity/'    
+    for m in mapping:
+        m['wdid'] = m['wdid'].replace(wd_entity_uri, '')
+    return mapping
 
-def bulk_collect_wdids_from_inids(inids:list[str], step=400)->list[dict]:
+def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
     """Get the WikiData IDs of objects matching ImageNet IDs (WordNet ids version 3.0). 
     Goes through the properties 'exact match' (P2888)
 
@@ -124,26 +119,25 @@ def bulk_collect_wdids_from_inids(inids:list[str], step=400)->list[dict]:
     Returns:
         list[dict]: list of dict in format {inid:str, wdid:str} 
     """
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setReturnFormat(JSON)    
+  
     wd_entity_uri = 'http://www.wikidata.org/entity/'
-    wn_prefix = 'http://wordnet-rdf.princeton.edu/wn30/'
-    exact_match_prop = 'wdt:P2888'
-    start_index = 0
-    full_mapping = []
-    while start_index < len(inids):
-        end_index = min(start_index+step, len(inids))
-        wnid_query_str = 'wn:'+' wn:'.join([inid.replace('n', '')+'-n' for inid in inids[start_index:end_index]])
-        query = "PREFIX wn: <"+wn_prefix+"> SELECT ?wdid ?wnuri WHERE { "\
-            "VALUES ?wnuri { "+wnid_query_str+" }. ?wdid "+exact_match_prop+" ?wnuri }"
-        sparql.setQuery(query)
-        result = sparql.query().convert()['results']['bindings']
-        full_mapping += [{
-            'inid' : 'n'+r['wnuri']['value'].replace(wn_prefix, '').replace('-n', ''),
-            'wdid' : r['wdid']['value'].replace(wd_entity_uri, '')
-        } for r in result]
-        start_index = end_index
-    return full_mapping
+    wn_uri = 'http://wordnet-rdf.princeton.edu/wn30/'
+    wn_prefix = 'wn:'
+    prefix_str = "PREFIX "+wn_prefix+" <"+wn_uri+">"
+    query = """
+        SELECT ?wdid ?inid
+        WHERE {{ 
+            VALUES ?inid {{ {} }}. 
+            ?wdid wdt:P2888 ?inid 
+        }}
+        """
+    mapping = SPtools.bulk_select([inid.replace('n', '')+'-n' for inid in inids], 
+                            prefix_str+query, ['wdid', 'inid'], wn_prefix, step)
+    wd_entity_uri = 'http://www.wikidata.org/entity/'    
+    for m in mapping:
+        m['wdid'] = m['wdid'].replace(wd_entity_uri, '')
+        m['inid'] = m['inid'].replace(wn_uri, '').replace('-n', '')
+    return mapping
 
 def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json', inid_start:str=None):
     """Manually set the WikiData IDs of the synsets who don't have one
@@ -217,21 +211,18 @@ def wd_label_search(search:str)->list[dict]:
         list[dict]: list of dicts in format wdid:str, desc:str}. 
             Each dict contains the ID and the description of one of the object found
     """
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setReturnFormat(JSON)    
     query = """
             SELECT ?wdid ?desc
-            WHERE {
-                VALUES ?prop { skos:altLabel rdfs:label }
-                ?wdid ?prop \""""+search+"""\"@en;
+            WHERE {{
+                VALUES ?prop {{ skos:altLabel rdfs:label }}
+                ?wdid ?prop "{search}"@en;
                 schema:description ?desc.
                 FILTER(LANG(?desc) = "en") 
-            }
-            """
-    sparql.setQuery(query)
-    result = sparql.query().convert()['results']['bindings']
-    return [{
-            'desc' : r['desc']['value'],
-            'wdid' : r['wdid']['value'].replace(wd_entity_uri, '')
-        } for r in result]
+            }}
+            """.format(search=search)
+    result = SPtools.select_query(query, ['wdid', 'desc'])
+    wd_entity_uri = 'http://www.wikidata.org/entity/'
+    for r in result:
+        r['wdid'] = r['wdid'].replace(wd_entity_uri, '')
+    return r
+
