@@ -226,3 +226,43 @@ def wd_label_search(search:str)->list[dict]:
         r['wdid'] = r['wdid'].replace(wd_entity_uri, '')
     return r
 
+def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_mapping.json')->list[dict]:
+    """Some object are just common names of others, and aren't linked to anything else. 
+        This function remaps it to the object it renames
+
+    Args:
+        synsets (list[dict]): list of synsets to remap. each dict must contain a 'wdid' key with a string value
+        save_file_path (str, optional): Save the remapped file at this location. 
+            Doesn't safe if None. Defaults to 'Data/synset_mapping.json'.
+
+    Returns:
+        list[dict]: list of synsets with updated wdid for the ones mapping a common name 
+    """
+
+    query = """
+        SELECT ?wdid ?common
+        WHERE {{
+            VALUES ?wdid {{ {} }}
+            ?wdid p:P31/pq:P642 ?common
+            FILTER NOT EXISTS {{ ?wdid wdt:P171 [] }}
+            FILTER NOT EXISTS {{ ?wdid wdt:P279 [] }}
+        }}
+        """
+    wd_entity_uri = 'http://www.wikidata.org/entity/'
+    common_wdids = SPtools.bulk_select(
+            list(set([s['wdid'] for s in synsets if s['wdid']])),
+            query, ['wdid', 'common'], 'wd:'
+        )
+    count=0
+    for cw in common_wdids:
+        count += 1
+        wdid = cw['wdid'].replace(wd_entity_uri, '')
+        common_id = cw['common'].replace(wd_entity_uri, '')
+        replace_index = next((i for i, s in enumerate(synsets) if s['wdid']==wdid), None)
+            
+        synsets[replace_index]['wdid'] = common_id
+    if save_file_path:
+        mapping_file = open(save_file_path, 'w')
+        json.dump(synsets, mapping_file)
+        mapping_file.close()
+    return synsets

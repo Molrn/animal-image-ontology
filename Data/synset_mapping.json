@@ -199,7 +199,7 @@
             "chickadee"
         ],
         "wdid": "Q17053748",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n01601694",
@@ -217,8 +217,8 @@
         "synset": [
             "kite"
         ],
-        "wdid": "Q208342",
-        "is_animal": false
+        "wdid": "Q25510",
+        "is_animal": true
     },
     {
         "inid": "n01614925",
@@ -238,7 +238,7 @@
             "vulture"
         ],
         "wdid": "Q123120",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n01622779",
@@ -373,7 +373,7 @@
             "terrapin"
         ],
         "wdid": "Q7703292",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n01669191",
@@ -596,8 +596,8 @@
         "synset": [
             "water snake"
         ],
-        "wdid": "Q107614693",
-        "is_animal": false
+        "wdid": "Q35541230",
+        "is_animal": true
     },
     {
         "inid": "n01739381",
@@ -677,8 +677,8 @@
             "horned asp",
             "Cerastes cornutus"
         ],
-        "wdid": "Q3560535",
-        "is_animal": false
+        "wdid": "Q73178",
+        "is_animal": true
     },
     {
         "inid": "n01755581",
@@ -723,17 +723,6 @@
         "is_animal": true
     },
     {
-        "inid": "n01770081",
-        "wnid": "01772722-n",
-        "synset": [
-            "harvestman",
-            "daddy longlegs",
-            "Phalangium opilio"
-        ],
-        "wdid": "Q296602",
-        "is_animal": false
-    },
-    {
         "inid": "n01770393",
         "wnid": "01773034-n",
         "synset": [
@@ -769,8 +758,8 @@
             "garden spider",
             "Aranea diademata"
         ],
-        "wdid": "Q7735829",
-        "is_animal": false
+        "wdid": "Q337509",
+        "is_animal": true
     },
     {
         "inid": "n01774384",
@@ -1058,8 +1047,8 @@
             "wallaby",
             "brush kangaroo"
         ],
-        "wdid": "Q623169",
-        "is_animal": false
+        "wdid": "Q23193",
+        "is_animal": true
     },
     {
         "inid": "n01882714",
@@ -1089,8 +1078,8 @@
         "synset": [
             "jellyfish"
         ],
-        "wdid": "Q30178",
-        "is_animal": false
+        "wdid": "Q6596143",
+        "is_animal": true
     },
     {
         "inid": "n01914609",
@@ -1108,8 +1097,8 @@
         "synset": [
             "brain coral"
         ],
-        "wdid": "Q43185455",
-        "is_animal": false
+        "wdid": "Q134555",
+        "is_animal": true
     },
     {
         "inid": "n01924916",
@@ -1148,7 +1137,7 @@
             "snail"
         ],
         "wdid": "Q308841",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n01945685",
@@ -1156,7 +1145,7 @@
         "synset": [
             "slug"
         ],
-        "wdid": "Q29716177",
+        "wdid": "Q1953597",
         "is_animal": false
     },
     {
@@ -1364,8 +1353,8 @@
         "synset": [
             "crane"
         ],
-        "wdid": "Q178692",
-        "is_animal": false
+        "wdid": "Q25365",
+        "is_animal": true
     },
     {
         "inid": "n02013706",
@@ -1540,8 +1529,8 @@
         "synset": [
             "Chihuahua"
         ],
-        "wdid": "Q61302",
-        "is_animal": false
+        "wdid": "Q653",
+        "is_animal": true
     },
     {
         "inid": "n02085782",
@@ -1920,8 +1909,8 @@
             "Sealyham terrier",
             "Sealyham"
         ],
-        "wdid": "Q29491209",
-        "is_animal": false
+        "wdid": "Q39068",
+        "is_animal": true
     },
     {
         "inid": "n02096051",
@@ -2393,8 +2382,8 @@
         "synset": [
             "Appenzeller"
         ],
-        "wdid": "Q21517798",
-        "is_animal": false
+        "wdid": "Q37697",
+        "is_animal": true
     },
     {
         "inid": "n02108000",
@@ -2537,8 +2526,8 @@
         "synset": [
             "Leonberg"
         ],
-        "wdid": "Q7010",
-        "is_animal": false
+        "wdid": "Q38487",
+        "is_animal": true
     },
     {
         "inid": "n02111277",
@@ -2603,8 +2592,8 @@
         "synset": [
             "Brabancon griffon"
         ],
-        "wdid": null,
-        "is_animal": null
+        "wdid": "Q38889",
+        "is_animal": true
     },
     {
         "inid": "n02113023",
@@ -2659,8 +2648,8 @@
         "synset": [
             "Mexican hairless"
         ],
-        "wdid": "Q6825926",
-        "is_animal": false
+        "wdid": "Q38856",
+        "is_animal": true
     },
     {
         "inid": "n02114367",
@@ -2728,8 +2717,8 @@
             "dhole",
             "Cuon alpinus"
         ],
-        "wdid": "Q3706382",
-        "is_animal": false
+        "wdid": "Q132585",
+        "is_animal": true
     },
     {
         "inid": "n02116738",
@@ -2781,8 +2770,8 @@
             "white fox",
             "Alopex lagopus"
         ],
-        "wdid": "Q1377893",
-        "is_animal": false
+        "wdid": "Q23729171",
+        "is_animal": true
     },
     {
         "inid": "n02120505",
@@ -2792,8 +2781,8 @@
             "gray fox",
             "Urocyon cinereoargenteus"
         ],
-        "wdid": "Q1547057",
-        "is_animal": false
+        "wdid": "Q215250",
+        "is_animal": true
     },
     {
         "inid": "n02123045",
@@ -2855,36 +2844,6 @@
             "Felis concolor"
         ],
         "wdid": "Q35255",
-        "is_animal": true
-    },
-    {
-        "inid": "n02125311",
-        "wnid": "02127963-n",
-        "synset": [
-            "cougar",
-            "puma",
-            "catamount",
-            "mountain lion",
-            "painter",
-            "panther",
-            "Felis concolor"
-        ],
-        "wdid": "Q207963",
-        "is_animal": false
-    },
-    {
-        "inid": "n02125311",
-        "wnid": "02127963-n",
-        "synset": [
-            "cougar",
-            "puma",
-            "catamount",
-            "mountain lion",
-            "painter",
-            "panther",
-            "Felis concolor"
-        ],
-        "wdid": "Q270748",
         "is_animal": true
     },
     {
@@ -3086,8 +3045,8 @@
         "synset": [
             "dung beetle"
         ],
-        "wdid": "Q861966",
-        "is_animal": false
+        "wdid": "Q14891382",
+        "is_animal": true
     },
     {
         "inid": "n02174001",
@@ -3184,7 +3143,7 @@
             "roach"
         ],
         "wdid": "Q1661828",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n02236044",
@@ -3313,8 +3272,8 @@
             "sulphur butterfly",
             "sulfur butterfly"
         ],
-        "wdid": "Q7636219",
-        "is_animal": false
+        "wdid": "Q2710909",
+        "is_animal": true
     },
     {
         "inid": "n02281787",
@@ -3352,8 +3311,8 @@
             "sea cucumber",
             "holothurian"
         ],
-        "wdid": "Q1934690",
-        "is_animal": false
+        "wdid": "Q1408044",
+        "is_animal": true
     },
     {
         "inid": "n02325366",
@@ -3401,8 +3360,8 @@
             "porcupine",
             "hedgehog"
         ],
-        "wdid": "Q1223829",
-        "is_animal": false
+        "wdid": "Q6120",
+        "is_animal": true
     },
     {
         "inid": "n02356798",
@@ -3666,8 +3625,8 @@
         "synset": [
             "otter"
         ],
-        "wdid": "Q10321095",
-        "is_animal": false
+        "wdid": "Q200184",
+        "is_animal": true
     },
     {
         "inid": "n02445715",
@@ -3677,19 +3636,8 @@
             "polecat",
             "wood pussy"
         ],
-        "wdid": "Q43604020",
-        "is_animal": false
-    },
-    {
-        "inid": "n02445715",
-        "wnid": "02448346-n",
-        "synset": [
-            "skunk",
-            "polecat",
-            "wood pussy"
-        ],
-        "wdid": "Q46600415",
-        "is_animal": false
+        "wdid": "Q27888",
+        "is_animal": true
     },
     {
         "inid": "n02447366",
@@ -3707,7 +3655,7 @@
             "armadillo"
         ],
         "wdid": "Q104840543",
-        "is_animal": false
+        "is_animal": true
     },
     {
         "inid": "n02457408",
@@ -4021,8 +3969,8 @@
         "synset": [
             "anemone fish"
         ],
-        "wdid": null,
-        "is_animal": null
+        "wdid": "Q472616",
+        "is_animal": true
     },
     {
         "inid": "n02640242",
@@ -4045,19 +3993,6 @@
         ],
         "wdid": "Q3280549",
         "is_animal": true
-    },
-    {
-        "inid": "n02641379",
-        "wnid": "02644009-n",
-        "synset": [
-            "gar",
-            "garfish",
-            "garpike",
-            "billfish",
-            "Lepisosteus osseus"
-        ],
-        "wdid": "Q14620149",
-        "is_animal": false
     },
     {
         "inid": "n02643566",
