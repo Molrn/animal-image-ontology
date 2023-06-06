@@ -2,7 +2,10 @@ import synset_mapper as sm
 import animal_ontology as ao
 
 
-# A : Full completion of the Data/synset_mapping.json file
+# A : Full Mapping of the synsets
+# Map as well as possible the synsets in 3 different applications : ImageNet, Wordnet (different from ImageNet since version 3.1), WikiData
+# the result is stored in the Data/synset_mapping.json file
+
 ## 1 : Initialize the file (mapping ImageNet ID-->WordNet 3.1 ID, then use both ids to get the Max automated WikiData IDs) 
 sm.generate_synset_full_mapping()
 
@@ -17,6 +20,16 @@ sm.set_all_synsets_manual_wdid()
 synsets = sm.get_synset_full_mapping()
 sm.remap_common_name_of(synsets)
 
-## 4 : Identify the animals in the synset
-# Has to be ran multiple times just like step 2 for API limitation reasons 
+# B : Identify the patterns of each Animal from his WikiData URI to the Animal Class
+# This step will allow us to build an tree structure from the animal class to all of our animal objects 
+
+## 1 : Identify the animals in the synsets
+# Has to be ran multiple times just like step A.2 for API limitation reasons 
 ao.set_all_synsets_animal_status()
+
+## 2 : Generate the Data/animal_synsets.json file from the Data/synset_mapping.json file
+ao.get_animal_mapping()
+
+## 3 : Set the patterns of all the animals
+# Has to be ran multiple times for API limitation reasons 
+ao.set_all_animal_pattern()

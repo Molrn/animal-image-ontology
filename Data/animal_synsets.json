@@ -1,0 +1,3891 @@
+[
+    {
+        "inid": "n01440764",
+        "wnid": "01443405-n",
+        "synset": [
+            "tench",
+            "Tinca tinca"
+        ],
+        "wdid": "Q76280",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01443537",
+        "wnid": "01446178-n",
+        "synset": [
+            "goldfish",
+            "Carassius auratus"
+        ],
+        "wdid": "Q123141",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01484850",
+        "wnid": "01487491-n",
+        "synset": [
+            "great white shark",
+            "white shark",
+            "man-eater",
+            "man-eating shark",
+            "Carcharodon carcharias"
+        ],
+        "wdid": "Q129026",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01491361",
+        "wnid": "01494002-n",
+        "synset": [
+            "tiger shark",
+            "Galeocerdo cuvieri"
+        ],
+        "wdid": "Q188212",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01494475",
+        "wnid": "01497116-n",
+        "synset": [
+            "hammerhead",
+            "hammerhead shark"
+        ],
+        "wdid": "Q726259",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01496331",
+        "wnid": "01498972-n",
+        "synset": [
+            "electric ray",
+            "crampfish",
+            "numbfish",
+            "torpedo"
+        ],
+        "wdid": "Q206675",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01498041",
+        "wnid": "01500682-n",
+        "synset": [
+            "stingray"
+        ],
+        "wdid": "Q902487",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01514668",
+        "wnid": "01517309-n",
+        "synset": [
+            "cock"
+        ],
+        "wdid": "Q2216236",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01514859",
+        "wnid": "01517500-n",
+        "synset": [
+            "hen"
+        ],
+        "wdid": "Q222951",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01518878",
+        "wnid": "01521519-n",
+        "synset": [
+            "ostrich",
+            "Struthio camelus"
+        ],
+        "wdid": "Q2576337",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01530575",
+        "wnid": "01533216-n",
+        "synset": [
+            "brambling",
+            "Fringilla montifringilla"
+        ],
+        "wdid": "Q188877",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01531178",
+        "wnid": "01533819-n",
+        "synset": [
+            "goldfinch",
+            "Carduelis carduelis"
+        ],
+        "wdid": "Q27757",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01532829",
+        "wnid": "01535470-n",
+        "synset": [
+            "house finch",
+            "linnet",
+            "Carpodacus mexicanus"
+        ],
+        "wdid": "Q374302",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01534433",
+        "wnid": "01537074-n",
+        "synset": [
+            "junco",
+            "snowbird"
+        ],
+        "wdid": "Q857319",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01537544",
+        "wnid": "01540185-n",
+        "synset": [
+            "indigo bunting",
+            "indigo finch",
+            "indigo bird",
+            "Passerina cyanea"
+        ],
+        "wdid": "Q1049642",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01558993",
+        "wnid": "01561634-n",
+        "synset": [
+            "robin",
+            "American robin",
+            "Turdus migratorius"
+        ],
+        "wdid": "Q460967",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01560419",
+        "wnid": "01563060-n",
+        "synset": [
+            "bulbul"
+        ],
+        "wdid": "Q188854",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01580077",
+        "wnid": "01582718-n",
+        "synset": [
+            "jay"
+        ],
+        "wdid": "Q311248",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01582220",
+        "wnid": "01584861-n",
+        "synset": [
+            "magpie"
+        ],
+        "wdid": "Q271634",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01592084",
+        "wnid": "01594725-n",
+        "synset": [
+            "chickadee"
+        ],
+        "wdid": "Q17053748",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n01601694",
+        "wnid": "01604335-n",
+        "synset": [
+            "water ouzel",
+            "dipper"
+        ],
+        "wdid": "Q201831",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01608432",
+        "wnid": "13403644-n",
+        "synset": [
+            "kite"
+        ],
+        "wdid": "Q25510",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01614925",
+        "wnid": "01617566-n",
+        "synset": [
+            "bald eagle",
+            "American eagle",
+            "Haliaeetus leucocephalus"
+        ],
+        "wdid": "Q127216",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01616318",
+        "wnid": "01618959-n",
+        "synset": [
+            "vulture"
+        ],
+        "wdid": "Q123120",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n01622779",
+        "wnid": "01625420-n",
+        "synset": [
+            "great grey owl",
+            "great gray owl",
+            "Strix nebulosa"
+        ],
+        "wdid": "Q200724",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01629819",
+        "wnid": "01632460-n",
+        "synset": [
+            "European fire salamander",
+            "Salamandra salamandra"
+        ],
+        "wdid": "Q26395",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01630670",
+        "wnid": "01633311-n",
+        "synset": [
+            "common newt",
+            "Triturus vulgaris"
+        ],
+        "wdid": "Q215247",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01632458",
+        "wnid": "01635099-n",
+        "synset": [
+            "spotted salamander",
+            "Ambystoma maculatum"
+        ],
+        "wdid": "Q2108247",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01632777",
+        "wnid": "01635418-n",
+        "synset": [
+            "axolotl",
+            "mud puppy",
+            "Ambystoma mexicanum"
+        ],
+        "wdid": "Q22718",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01641577",
+        "wnid": "01644218-n",
+        "synset": [
+            "bullfrog",
+            "Rana catesbeiana"
+        ],
+        "wdid": "Q159404",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01644373",
+        "wnid": "01647014-n",
+        "synset": [
+            "tree frog",
+            "tree-frog"
+        ],
+        "wdid": "Q1144302",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01644900",
+        "wnid": "01647541-n",
+        "synset": [
+            "tailed frog",
+            "bell toad",
+            "ribbed toad",
+            "tailed toad",
+            "Ascaphus trui"
+        ],
+        "wdid": "Q2925426",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01664065",
+        "wnid": "01666706-n",
+        "synset": [
+            "loggerhead",
+            "loggerhead turtle",
+            "Caretta caretta"
+        ],
+        "wdid": "Q203538",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01665541",
+        "wnid": "01668182-n",
+        "synset": [
+            "leatherback turtle",
+            "leatherback",
+            "leathery turtle",
+            "Dermochelys coriacea"
+        ],
+        "wdid": "Q120043",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01667114",
+        "wnid": "01669755-n",
+        "synset": [
+            "mud turtle"
+        ],
+        "wdid": "Q2500468",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01667778",
+        "wnid": "01670419-n",
+        "synset": [
+            "terrapin"
+        ],
+        "wdid": "Q7703292",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n01669191",
+        "wnid": "01671832-n",
+        "synset": [
+            "box turtle",
+            "box tortoise"
+        ],
+        "wdid": "Q734870",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01677366",
+        "wnid": "01680007-n",
+        "synset": [
+            "common iguana",
+            "iguana",
+            "Iguana iguana"
+        ],
+        "wdid": "Q215376",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01682714",
+        "wnid": "01685355-n",
+        "synset": [
+            "American chameleon",
+            "anole",
+            "Anolis carolinensis"
+        ],
+        "wdid": "Q930252",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01685808",
+        "wnid": "01688449-n",
+        "synset": [
+            "whiptail",
+            "whiptail lizard"
+        ],
+        "wdid": "Q827111",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01687978",
+        "wnid": "01690619-n",
+        "synset": [
+            "agama"
+        ],
+        "wdid": "Q1153386",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01688243",
+        "wnid": "01690884-n",
+        "synset": [
+            "frilled lizard",
+            "Chlamydosaurus kingi"
+        ],
+        "wdid": "Q501566",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01689811",
+        "wnid": "01692452-n",
+        "synset": [
+            "alligator lizard"
+        ],
+        "wdid": "Q1522299",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01692333",
+        "wnid": "01694974-n",
+        "synset": [
+            "Gila monster",
+            "Heloderma suspectum"
+        ],
+        "wdid": "Q207058",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01693334",
+        "wnid": "01695975-n",
+        "synset": [
+            "green lizard",
+            "Lacerta viridis"
+        ],
+        "wdid": "Q307047",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01694178",
+        "wnid": "01696819-n",
+        "synset": [
+            "African chameleon",
+            "Chamaeleo chamaeleon"
+        ],
+        "wdid": "Q577924",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01695060",
+        "wnid": "01697701-n",
+        "synset": [
+            "Komodo dragon",
+            "Komodo lizard",
+            "dragon lizard",
+            "giant lizard",
+            "Varanus komodoensis"
+        ],
+        "wdid": "Q4504",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01697457",
+        "wnid": "01700098-n",
+        "synset": [
+            "African crocodile",
+            "Nile crocodile",
+            "Crocodylus niloticus"
+        ],
+        "wdid": "Q168745",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01698640",
+        "wnid": "01701281-n",
+        "synset": [
+            "American alligator",
+            "Alligator mississipiensis"
+        ],
+        "wdid": "Q193327",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01704323",
+        "wnid": "01706964-n",
+        "synset": [
+            "triceratops"
+        ],
+        "wdid": "Q14384",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01728572",
+        "wnid": "01731213-n",
+        "synset": [
+            "thunder snake",
+            "worm snake",
+            "Carphophis amoenus"
+        ],
+        "wdid": "Q2940133",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01728920",
+        "wnid": "01731561-n",
+        "synset": [
+            "ringneck snake",
+            "ring-necked snake",
+            "ring snake"
+        ],
+        "wdid": "Q2704229",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01729322",
+        "wnid": "01731963-n",
+        "synset": [
+            "hognose snake",
+            "puff adder",
+            "sand viper"
+        ],
+        "wdid": "Q369667",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01729977",
+        "wnid": "01732618-n",
+        "synset": [
+            "green snake",
+            "grass snake"
+        ],
+        "wdid": "Q170713",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01734418",
+        "wnid": "01737059-n",
+        "synset": [
+            "king snake",
+            "kingsnake"
+        ],
+        "wdid": "Q1364033",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01735189",
+        "wnid": "01737830-n",
+        "synset": [
+            "garter snake",
+            "grass snake"
+        ],
+        "wdid": "Q1149509",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01737021",
+        "wnid": "01739662-n",
+        "synset": [
+            "water snake"
+        ],
+        "wdid": "Q35541230",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01740131",
+        "wnid": "01742772-n",
+        "synset": [
+            "night snake",
+            "Hypsiglena torquata"
+        ],
+        "wdid": "Q922205",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01742172",
+        "wnid": "01744813-n",
+        "synset": [
+            "boa constrictor",
+            "Constrictor constrictor"
+        ],
+        "wdid": "Q215388",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01744401",
+        "wnid": "01747042-n",
+        "synset": [
+            "rock python",
+            "rock snake",
+            "Python sebae"
+        ],
+        "wdid": "Q764797",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01748264",
+        "wnid": "01750905-n",
+        "synset": [
+            "Indian cobra",
+            "Naja naja"
+        ],
+        "wdid": "Q192754",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01749939",
+        "wnid": "01752580-n",
+        "synset": [
+            "green mamba"
+        ],
+        "wdid": "Q622805",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01751748",
+        "wnid": "01754389-n",
+        "synset": [
+            "sea snake"
+        ],
+        "wdid": "Q152504",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01753488",
+        "wnid": "01756129-n",
+        "synset": [
+            "horned viper",
+            "cerastes",
+            "sand viper",
+            "horned asp",
+            "Cerastes cornutus"
+        ],
+        "wdid": "Q73178",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01755581",
+        "wnid": "01758222-n",
+        "synset": [
+            "diamondback",
+            "diamondback rattlesnake",
+            "Crotalus adamanteus"
+        ],
+        "wdid": "Q744532",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01756291",
+        "wnid": "01758932-n",
+        "synset": [
+            "sidewinder",
+            "horned rattlesnake",
+            "Crotalus cerastes"
+        ],
+        "wdid": "Q1366532",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01768244",
+        "wnid": "01770885-n",
+        "synset": [
+            "trilobite"
+        ],
+        "wdid": "Q17170",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01770081",
+        "wnid": "01772722-n",
+        "synset": [
+            "harvestman",
+            "daddy longlegs",
+            "Phalangium opilio"
+        ],
+        "wdid": "Q19116",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01770393",
+        "wnid": "01773034-n",
+        "synset": [
+            "scorpion"
+        ],
+        "wdid": "Q19125",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01773157",
+        "wnid": "01775798-n",
+        "synset": [
+            "black and gold garden spider",
+            "Argiope aurantia"
+        ],
+        "wdid": "Q2556499",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01773549",
+        "wnid": "01776190-n",
+        "synset": [
+            "barn spider",
+            "Araneus cavaticus"
+        ],
+        "wdid": "Q1306991",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01773797",
+        "wnid": "01776438-n",
+        "synset": [
+            "garden spider",
+            "Aranea diademata"
+        ],
+        "wdid": "Q337509",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01774384",
+        "wnid": "01777025-n",
+        "synset": [
+            "black widow",
+            "Latrodectus mactans"
+        ],
+        "wdid": "Q113297",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01774750",
+        "wnid": "01777391-n",
+        "synset": [
+            "tarantula"
+        ],
+        "wdid": "Q213383",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01775062",
+        "wnid": "01777703-n",
+        "synset": [
+            "wolf spider",
+            "hunting spider"
+        ],
+        "wdid": "Q1059106",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01776313",
+        "wnid": "01778954-n",
+        "synset": [
+            "tick"
+        ],
+        "wdid": "Q10304508",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01784675",
+        "wnid": "01787316-n",
+        "synset": [
+            "centipede"
+        ],
+        "wdid": "Q43447",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01795545",
+        "wnid": "01798186-n",
+        "synset": [
+            "black grouse"
+        ],
+        "wdid": "Q155878",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01796340",
+        "wnid": "01798981-n",
+        "synset": [
+            "ptarmigan"
+        ],
+        "wdid": "Q205930",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01797886",
+        "wnid": "01800527-n",
+        "synset": [
+            "ruffed grouse",
+            "partridge",
+            "Bonasa umbellus"
+        ],
+        "wdid": "Q19058",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01798484",
+        "wnid": "01801125-n",
+        "synset": [
+            "prairie chicken",
+            "prairie grouse",
+            "prairie fowl"
+        ],
+        "wdid": "Q1463540",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01806143",
+        "wnid": "01808784-n",
+        "synset": [
+            "peacock"
+        ],
+        "wdid": "Q201251",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01806567",
+        "wnid": "07662930-n",
+        "synset": [
+            "quail"
+        ],
+        "wdid": "Q6072584",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01807496",
+        "wnid": "07663105-n",
+        "synset": [
+            "partridge"
+        ],
+        "wdid": "Q732775",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01817953",
+        "wnid": "01820594-n",
+        "synset": [
+            "African grey",
+            "African gray",
+            "Psittacus erithacus"
+        ],
+        "wdid": "Q220328",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01818515",
+        "wnid": "01821156-n",
+        "synset": [
+            "macaw"
+        ],
+        "wdid": "Q213984",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01819313",
+        "wnid": "01821954-n",
+        "synset": [
+            "sulphur-crested cockatoo",
+            "Kakatoe galerita",
+            "Cacatua galerita"
+        ],
+        "wdid": "Q207107",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01820546",
+        "wnid": "01823187-n",
+        "synset": [
+            "lorikeet"
+        ],
+        "wdid": "Q15274050",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01824575",
+        "wnid": "01827216-n",
+        "synset": [
+            "coucal"
+        ],
+        "wdid": "Q657775",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01828970",
+        "wnid": "01831611-n",
+        "synset": [
+            "bee eater"
+        ],
+        "wdid": "Q183147",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01829413",
+        "wnid": "01832054-n",
+        "synset": [
+            "hornbill"
+        ],
+        "wdid": "Q26773",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01833805",
+        "wnid": "01836446-n",
+        "synset": [
+            "hummingbird"
+        ],
+        "wdid": "Q43624",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01843065",
+        "wnid": "01845706-n",
+        "synset": [
+            "jacamar"
+        ],
+        "wdid": "Q212942",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01843383",
+        "wnid": "01846024-n",
+        "synset": [
+            "toucan"
+        ],
+        "wdid": "Q1325045",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01847000",
+        "wnid": "01849641-n",
+        "synset": [
+            "drake"
+        ],
+        "wdid": "Q214264",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01855032",
+        "wnid": "01857673-n",
+        "synset": [
+            "red-breasted merganser",
+            "Mergus serrator"
+        ],
+        "wdid": "Q189609",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01855672",
+        "wnid": "01858313-n",
+        "synset": [
+            "goose"
+        ],
+        "wdid": "Q16529344",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01860187",
+        "wnid": "01862828-n",
+        "synset": [
+            "black swan",
+            "Cygnus atratus"
+        ],
+        "wdid": "Q131044",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01872401",
+        "wnid": "01875413-n",
+        "synset": [
+            "echidna",
+            "spiny anteater",
+            "anteater"
+        ],
+        "wdid": "Q21824",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01873310",
+        "wnid": "01875951-n",
+        "synset": [
+            "platypus",
+            "duckbill",
+            "duckbilled platypus",
+            "duck-billed platypus",
+            "Ornithorhynchus anatinus"
+        ],
+        "wdid": "Q15343",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01877812",
+        "wnid": "01880453-n",
+        "synset": [
+            "wallaby",
+            "brush kangaroo"
+        ],
+        "wdid": "Q23193",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01882714",
+        "wnid": "01885355-n",
+        "synset": [
+            "koala",
+            "koala bear",
+            "kangaroo bear",
+            "native bear",
+            "Phascolarctos cinereus"
+        ],
+        "wdid": "Q431978",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01883070",
+        "wnid": "01885711-n",
+        "synset": [
+            "wombat"
+        ],
+        "wdid": "Q23175",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01910747",
+        "wnid": "01913388-n",
+        "synset": [
+            "jellyfish"
+        ],
+        "wdid": "Q6596143",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01914609",
+        "wnid": "01917250-n",
+        "synset": [
+            "sea anemone",
+            "anemone"
+        ],
+        "wdid": "Q147256",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01917289",
+        "wnid": "01919930-n",
+        "synset": [
+            "brain coral"
+        ],
+        "wdid": "Q134555",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01924916",
+        "wnid": "01927557-n",
+        "synset": [
+            "flatworm",
+            "platyhelminth"
+        ],
+        "wdid": "Q124900",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01930112",
+        "wnid": "01932753-n",
+        "synset": [
+            "nematode",
+            "nematode worm",
+            "roundworm"
+        ],
+        "wdid": "Q5185",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01944390",
+        "wnid": "01947031-n",
+        "synset": [
+            "snail"
+        ],
+        "wdid": "Q308841",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n01950731",
+        "wnid": "01953372-n",
+        "synset": [
+            "sea slug",
+            "nudibranch"
+        ],
+        "wdid": "Q7440127",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n01955084",
+        "wnid": "01957725-n",
+        "synset": [
+            "chiton",
+            "coat-of-mail shell",
+            "sea cradle",
+            "polyplacophore"
+        ],
+        "wdid": "Q188906",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01968897",
+        "wnid": "01971538-n",
+        "synset": [
+            "chambered nautilus",
+            "pearly nautilus",
+            "nautilus"
+        ],
+        "wdid": "Q223939",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01978287",
+        "wnid": "01980928-n",
+        "synset": [
+            "Dungeness crab",
+            "Cancer magister"
+        ],
+        "wdid": "Q1936093",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01978455",
+        "wnid": "01981096-n",
+        "synset": [
+            "rock crab",
+            "Cancer irroratus"
+        ],
+        "wdid": "Q590283",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01980166",
+        "wnid": "01982807-n",
+        "synset": [
+            "fiddler crab"
+        ],
+        "wdid": "Q14510079",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01981276",
+        "wnid": "01983917-n",
+        "synset": [
+            "king crab",
+            "Alaska crab",
+            "Alaskan king crab",
+            "Alaska king crab",
+            "Paralithodes camtschatica"
+        ],
+        "wdid": "Q721171",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01983481",
+        "wnid": "01986122-n",
+        "synset": [
+            "American lobster",
+            "Northern lobster",
+            "Maine lobster",
+            "Homarus americanus"
+        ],
+        "wdid": "Q37668",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01984695",
+        "wnid": "01987336-n",
+        "synset": [
+            "spiny lobster",
+            "langouste",
+            "rock lobster",
+            "crawfish",
+            "crayfish",
+            "sea crawfish"
+        ],
+        "wdid": "Q916760",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01985128",
+        "wnid": "01987769-n",
+        "synset": [
+            "crayfish",
+            "crawfish",
+            "crawdad",
+            "crawdaddy"
+        ],
+        "wdid": "Q210959",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01986214",
+        "wnid": "01988855-n",
+        "synset": [
+            "hermit crab"
+        ],
+        "wdid": "Q273291",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n01990800",
+        "wnid": "01993441-n",
+        "synset": [
+            "isopod"
+        ],
+        "wdid": "Q206338",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02002556",
+        "wnid": "02005210-n",
+        "synset": [
+            "white stork",
+            "Ciconia ciconia"
+        ],
+        "wdid": "Q25352",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02002724",
+        "wnid": "02005378-n",
+        "synset": [
+            "black stork",
+            "Ciconia nigra"
+        ],
+        "wdid": "Q25398",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02006656",
+        "wnid": "02009310-n",
+        "synset": [
+            "spoonbill"
+        ],
+        "wdid": "Q171360",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02007558",
+        "wnid": "02010212-n",
+        "synset": [
+            "flamingo"
+        ],
+        "wdid": "Q208004",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02009229",
+        "wnid": "02011883-n",
+        "synset": [
+            "little blue heron",
+            "Egretta caerulea"
+        ],
+        "wdid": "Q371028",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02009912",
+        "wnid": "02012566-n",
+        "synset": [
+            "American egret",
+            "great white heron",
+            "Egretta albus"
+        ],
+        "wdid": "Q27604486",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02011460",
+        "wnid": "02014114-n",
+        "synset": [
+            "bittern"
+        ],
+        "wdid": "Q855133",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02012849",
+        "wnid": "03131358-n",
+        "synset": [
+            "crane"
+        ],
+        "wdid": "Q25365",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02013706",
+        "wnid": "02016360-n",
+        "synset": [
+            "limpkin",
+            "Aramus pictus"
+        ],
+        "wdid": "Q725276",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02017213",
+        "wnid": "02019867-n",
+        "synset": [
+            "European gallinule",
+            "Porphyrio porphyrio"
+        ],
+        "wdid": "Q187902",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02018207",
+        "wnid": "02020861-n",
+        "synset": [
+            "American coot",
+            "marsh hen",
+            "mud hen",
+            "water hen",
+            "Fulica americana"
+        ],
+        "wdid": "Q470016",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02018795",
+        "wnid": "02021449-n",
+        "synset": [
+            "bustard"
+        ],
+        "wdid": "Q21755",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02025239",
+        "wnid": "02027893-n",
+        "synset": [
+            "ruddy turnstone",
+            "Arenaria interpres"
+        ],
+        "wdid": "Q26892",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02027492",
+        "wnid": "02030146-n",
+        "synset": [
+            "red-backed sandpiper",
+            "dunlin",
+            "Erolia alpina"
+        ],
+        "wdid": "Q106447283",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02028035",
+        "wnid": "02030689-n",
+        "synset": [
+            "redshank",
+            "Tringa totanus"
+        ],
+        "wdid": "Q18859",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02033041",
+        "wnid": "02035695-n",
+        "synset": [
+            "dowitcher"
+        ],
+        "wdid": "Q838747",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02037110",
+        "wnid": "02039764-n",
+        "synset": [
+            "oystercatcher",
+            "oyster catcher"
+        ],
+        "wdid": "Q25928",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02051845",
+        "wnid": "02054499-n",
+        "synset": [
+            "pelican"
+        ],
+        "wdid": "Q19413",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02056570",
+        "wnid": "02059224-n",
+        "synset": [
+            "king penguin",
+            "Aptenodytes patagonica"
+        ],
+        "wdid": "Q182209",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02058221",
+        "wnid": "02060875-n",
+        "synset": [
+            "albatross",
+            "mollymawk"
+        ],
+        "wdid": "Q55805",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02066245",
+        "wnid": "02068898-n",
+        "synset": [
+            "grey whale",
+            "gray whale",
+            "devilfish",
+            "Eschrichtius gibbosus",
+            "Eschrichtius robustus"
+        ],
+        "wdid": "Q179154",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02071294",
+        "wnid": "02073946-n",
+        "synset": [
+            "killer whale",
+            "killer",
+            "orca",
+            "grampus",
+            "sea wolf",
+            "Orcinus orca"
+        ],
+        "wdid": "Q26843",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02074367",
+        "wnid": "02077019-n",
+        "synset": [
+            "dugong",
+            "Dugong dugon"
+        ],
+        "wdid": "Q129544",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02077923",
+        "wnid": "02080575-n",
+        "synset": [
+            "sea lion"
+        ],
+        "wdid": "Q333649",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02085620",
+        "wnid": "08760411-n",
+        "synset": [
+            "Chihuahua"
+        ],
+        "wdid": "Q653",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02085782",
+        "wnid": "02088434-n",
+        "synset": [
+            "Japanese spaniel"
+        ],
+        "wdid": "Q38146",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02085936",
+        "wnid": "02088588-n",
+        "synset": [
+            "Maltese dog",
+            "Maltese terrier",
+            "Maltese"
+        ],
+        "wdid": "Q38751",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02086079",
+        "wnid": "02088731-n",
+        "synset": [
+            "Pekinese",
+            "Pekingese",
+            "Peke"
+        ],
+        "wdid": "Q38959",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02086240",
+        "wnid": "02088892-n",
+        "synset": [
+            "Shih-Tzu"
+        ],
+        "wdid": "Q39357",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02086910",
+        "wnid": "02089562-n",
+        "synset": [
+            "papillon"
+        ],
+        "wdid": "Q38115",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02087394",
+        "wnid": "02090046-n",
+        "synset": [
+            "Rhodesian ridgeback"
+        ],
+        "wdid": "Q39026",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02088094",
+        "wnid": "02090746-n",
+        "synset": [
+            "Afghan hound",
+            "Afghan"
+        ],
+        "wdid": "Q21080",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02088238",
+        "wnid": "02090890-n",
+        "synset": [
+            "basset",
+            "basset hound"
+        ],
+        "wdid": "Q37716",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02088364",
+        "wnid": "02091016-n",
+        "synset": [
+            "beagle"
+        ],
+        "wdid": "Q21102",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02088466",
+        "wnid": "02091118-n",
+        "synset": [
+            "bloodhound",
+            "sleuthhound"
+        ],
+        "wdid": "Q21098",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02088466",
+        "wnid": "02091118-n",
+        "synset": [
+            "bloodhound",
+            "sleuthhound"
+        ],
+        "wdid": "Q39401",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02088632",
+        "wnid": "02091284-n",
+        "synset": [
+            "bluetick"
+        ],
+        "wdid": "Q37568",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02089078",
+        "wnid": "02091730-n",
+        "synset": [
+            "black-and-tan coonhound"
+        ],
+        "wdid": "Q37537",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02089973",
+        "wnid": "02092625-n",
+        "synset": [
+            "English foxhound"
+        ],
+        "wdid": "Q37789",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02090379",
+        "wnid": "02093031-n",
+        "synset": [
+            "redbone"
+        ],
+        "wdid": "Q38820",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02090622",
+        "wnid": "02093274-n",
+        "synset": [
+            "borzoi",
+            "Russian wolfhound"
+        ],
+        "wdid": "Q37866",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02090721",
+        "wnid": "02093373-n",
+        "synset": [
+            "Irish wolfhound"
+        ],
+        "wdid": "Q38668",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02091032",
+        "wnid": "02093684-n",
+        "synset": [
+            "Italian greyhound"
+        ],
+        "wdid": "Q38503",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02091134",
+        "wnid": "02093786-n",
+        "synset": [
+            "whippet"
+        ],
+        "wdid": "Q39122",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02091244",
+        "wnid": "02093896-n",
+        "synset": [
+            "Ibizan hound",
+            "Ibizan Podenco"
+        ],
+        "wdid": "Q37755",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02091467",
+        "wnid": "02094119-n",
+        "synset": [
+            "Norwegian elkhound",
+            "elkhound"
+        ],
+        "wdid": "Q38803",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02091635",
+        "wnid": "02094287-n",
+        "synset": [
+            "otterhound",
+            "otter hound"
+        ],
+        "wdid": "Q38922",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02091831",
+        "wnid": "02094483-n",
+        "synset": [
+            "Saluki",
+            "gazelle hound"
+        ],
+        "wdid": "Q39108",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02092002",
+        "wnid": "02094654-n",
+        "synset": [
+            "Scottish deerhound",
+            "deerhound"
+        ],
+        "wdid": "Q37929",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02092339",
+        "wnid": "02094991-n",
+        "synset": [
+            "Weimaraner"
+        ],
+        "wdid": "Q38965",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02093256",
+        "wnid": "02095908-n",
+        "synset": [
+            "Staffordshire bullterrier",
+            "Staffordshire bull terrier"
+        ],
+        "wdid": "Q39285",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02093428",
+        "wnid": "02096080-n",
+        "synset": [
+            "American Staffordshire terrier",
+            "Staffordshire terrier",
+            "American pit bull terrier",
+            "pit bull terrier"
+        ],
+        "wdid": "Q37688",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02093647",
+        "wnid": "02096299-n",
+        "synset": [
+            "Bedlington terrier"
+        ],
+        "wdid": "Q37582",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02093754",
+        "wnid": "02096406-n",
+        "synset": [
+            "Border terrier"
+        ],
+        "wdid": "Q37558",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02093859",
+        "wnid": "02096511-n",
+        "synset": [
+            "Kerry blue terrier"
+        ],
+        "wdid": "Q38025",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02093991",
+        "wnid": "02096643-n",
+        "synset": [
+            "Irish terrier"
+        ],
+        "wdid": "Q38644",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02094114",
+        "wnid": "02096766-n",
+        "synset": [
+            "Norfolk terrier"
+        ],
+        "wdid": "Q38940",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02094258",
+        "wnid": "02096910-n",
+        "synset": [
+            "Norwich terrier"
+        ],
+        "wdid": "Q38934",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02094433",
+        "wnid": "02097085-n",
+        "synset": [
+            "Yorkshire terrier"
+        ],
+        "wdid": "Q39330",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02095570",
+        "wnid": "02098222-n",
+        "synset": [
+            "Lakeland terrier"
+        ],
+        "wdid": "Q38110",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02095889",
+        "wnid": "02098541-n",
+        "synset": [
+            "Sealyham terrier",
+            "Sealyham"
+        ],
+        "wdid": "Q39068",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02096051",
+        "wnid": "02098703-n",
+        "synset": [
+            "Airedale",
+            "Airedale terrier"
+        ],
+        "wdid": "Q37617",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02096177",
+        "wnid": "02098829-n",
+        "synset": [
+            "cairn",
+            "cairn terrier"
+        ],
+        "wdid": "Q37888",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02096294",
+        "wnid": "02098946-n",
+        "synset": [
+            "Australian terrier"
+        ],
+        "wdid": "Q37530",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02096437",
+        "wnid": "02099089-n",
+        "synset": [
+            "Dandie Dinmont",
+            "Dandie Dinmont terrier"
+        ],
+        "wdid": "Q38336",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02096585",
+        "wnid": "02099237-n",
+        "synset": [
+            "Boston bull",
+            "Boston terrier"
+        ],
+        "wdid": "Q37550",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02097047",
+        "wnid": "02099699-n",
+        "synset": [
+            "miniature schnauzer"
+        ],
+        "wdid": "Q38999",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02097130",
+        "wnid": "02099782-n",
+        "synset": [
+            "giant schnauzer"
+        ],
+        "wdid": "Q38688",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02097209",
+        "wnid": "02099861-n",
+        "synset": [
+            "standard schnauzer"
+        ],
+        "wdid": "Q39605",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02097298",
+        "wnid": "02099950-n",
+        "synset": [
+            "Scotch terrier",
+            "Scottish terrier",
+            "Scottie"
+        ],
+        "wdid": "Q39035",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02097474",
+        "wnid": "02100126-n",
+        "synset": [
+            "Tibetan terrier",
+            "chrysanthemum dog"
+        ],
+        "wdid": "Q38796",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02097658",
+        "wnid": "02100310-n",
+        "synset": [
+            "silky terrier",
+            "Sydney silky"
+        ],
+        "wdid": "Q37524",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02098105",
+        "wnid": "02100757-n",
+        "synset": [
+            "soft-coated wheaten terrier"
+        ],
+        "wdid": "Q38047",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02098286",
+        "wnid": "02100938-n",
+        "synset": [
+            "West Highland white terrier"
+        ],
+        "wdid": "Q17510",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02098413",
+        "wnid": "02101065-n",
+        "synset": [
+            "Lhasa",
+            "Lhasa apso"
+        ],
+        "wdid": "Q38352",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02099267",
+        "wnid": "02101919-n",
+        "synset": [
+            "flat-coated retriever"
+        ],
+        "wdid": "Q29200",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02099429",
+        "wnid": "02102081-n",
+        "synset": [
+            "curly-coated retriever"
+        ],
+        "wdid": "Q38375",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02099601",
+        "wnid": "02102253-n",
+        "synset": [
+            "golden retriever"
+        ],
+        "wdid": "Q38686",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02099712",
+        "wnid": "02102364-n",
+        "synset": [
+            "Labrador retriever"
+        ],
+        "wdid": "Q38726",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02099849",
+        "wnid": "02102501-n",
+        "synset": [
+            "Chesapeake Bay retriever"
+        ],
+        "wdid": "Q29084",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02100583",
+        "wnid": "02103235-n",
+        "synset": [
+            "vizsla",
+            "Hungarian pointer"
+        ],
+        "wdid": "Q38819",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02100735",
+        "wnid": "02103387-n",
+        "synset": [
+            "English setter"
+        ],
+        "wdid": "Q38309",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02100877",
+        "wnid": "02103529-n",
+        "synset": [
+            "Irish setter",
+            "red setter"
+        ],
+        "wdid": "Q38761",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02101006",
+        "wnid": "02103658-n",
+        "synset": [
+            "Gordon setter"
+        ],
+        "wdid": "Q38301",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02101388",
+        "wnid": "02104040-n",
+        "synset": [
+            "Brittany spaniel"
+        ],
+        "wdid": "Q38156",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02101556",
+        "wnid": "02104208-n",
+        "synset": [
+            "clumber",
+            "clumber spaniel"
+        ],
+        "wdid": "Q37851",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02102040",
+        "wnid": "02104692-n",
+        "synset": [
+            "English springer",
+            "English springer spaniel"
+        ],
+        "wdid": "Q29022",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02102177",
+        "wnid": "02104829-n",
+        "synset": [
+            "Welsh springer spaniel"
+        ],
+        "wdid": "Q39047",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02102318",
+        "wnid": "02104970-n",
+        "synset": [
+            "cocker spaniel",
+            "English cocker spaniel",
+            "cocker"
+        ],
+        "wdid": "Q38533",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02102480",
+        "wnid": "02105132-n",
+        "synset": [
+            "Sussex spaniel"
+        ],
+        "wdid": "Q39138",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02102973",
+        "wnid": "02105625-n",
+        "synset": [
+            "Irish water spaniel"
+        ],
+        "wdid": "Q38162",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02104029",
+        "wnid": "02106681-n",
+        "synset": [
+            "kuvasz"
+        ],
+        "wdid": "Q38467",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02104365",
+        "wnid": "02107017-n",
+        "synset": [
+            "schipperke"
+        ],
+        "wdid": "Q39010",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02105056",
+        "wnid": "02107708-n",
+        "synset": [
+            "groenendael"
+        ],
+        "wdid": "Q38399",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02105162",
+        "wnid": "02107814-n",
+        "synset": [
+            "malinois"
+        ],
+        "wdid": "Q38494",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02105251",
+        "wnid": "02107903-n",
+        "synset": [
+            "briard"
+        ],
+        "wdid": "Q37821",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02105412",
+        "wnid": "02108064-n",
+        "synset": [
+            "kelpie"
+        ],
+        "wdid": "Q37520",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02105505",
+        "wnid": "02108157-n",
+        "synset": [
+            "komondor"
+        ],
+        "wdid": "Q38675",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02105641",
+        "wnid": "02108293-n",
+        "synset": [
+            "Old English sheepdog",
+            "bobtail"
+        ],
+        "wdid": "Q37704",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02105855",
+        "wnid": "02108507-n",
+        "synset": [
+            "Shetland sheepdog",
+            "Shetland sheep dog",
+            "Shetland"
+        ],
+        "wdid": "Q39058",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02106030",
+        "wnid": "02108682-n",
+        "synset": [
+            "collie"
+        ],
+        "wdid": "Q1196071",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02106166",
+        "wnid": "02108818-n",
+        "synset": [
+            "Border collie"
+        ],
+        "wdid": "Q37710",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02106382",
+        "wnid": "02109034-n",
+        "synset": [
+            "Bouvier des Flandres",
+            "Bouviers des Flandres"
+        ],
+        "wdid": "Q37896",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02106550",
+        "wnid": "02109202-n",
+        "synset": [
+            "Rottweiler"
+        ],
+        "wdid": "Q39093",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02106662",
+        "wnid": "02109314-n",
+        "synset": [
+            "German shepherd",
+            "German shepherd dog",
+            "German police dog",
+            "alsatian"
+        ],
+        "wdid": "Q38280",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02107142",
+        "wnid": "02109794-n",
+        "synset": [
+            "Doberman",
+            "Doberman pinscher"
+        ],
+        "wdid": "Q38358",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02107312",
+        "wnid": "02109964-n",
+        "synset": [
+            "miniature pinscher"
+        ],
+        "wdid": "Q38990",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02107574",
+        "wnid": "02110226-n",
+        "synset": [
+            "Greater Swiss Mountain dog"
+        ],
+        "wdid": "Q38121",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02107683",
+        "wnid": "02110335-n",
+        "synset": [
+            "Bernese mountain dog"
+        ],
+        "wdid": "Q37608",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02107908",
+        "wnid": "02110560-n",
+        "synset": [
+            "Appenzeller"
+        ],
+        "wdid": "Q37697",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02108000",
+        "wnid": "02110652-n",
+        "synset": [
+            "EntleBucher"
+        ],
+        "wdid": "Q37986",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02108089",
+        "wnid": "02110741-n",
+        "synset": [
+            "boxer"
+        ],
+        "wdid": "Q38496",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02108422",
+        "wnid": "02111074-n",
+        "synset": [
+            "bull mastiff"
+        ],
+        "wdid": "Q38080",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02108551",
+        "wnid": "02111203-n",
+        "synset": [
+            "Tibetan mastiff"
+        ],
+        "wdid": "Q39322",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02108915",
+        "wnid": "02111567-n",
+        "synset": [
+            "French bulldog"
+        ],
+        "wdid": "Q29149",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02109047",
+        "wnid": "02111699-n",
+        "synset": [
+            "Great Dane"
+        ],
+        "wdid": "Q5414",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02109525",
+        "wnid": "02112177-n",
+        "synset": [
+            "Saint Bernard",
+            "St Bernard"
+        ],
+        "wdid": "Q38090",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02110063",
+        "wnid": "02112715-n",
+        "synset": [
+            "malamute",
+            "malemute",
+            "Alaskan malamute"
+        ],
+        "wdid": "Q21206",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02110185",
+        "wnid": "02112837-n",
+        "synset": [
+            "Siberian husky"
+        ],
+        "wdid": "Q39295",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02110341",
+        "wnid": "02112993-n",
+        "synset": [
+            "dalmatian",
+            "coach dog",
+            "carriage dog"
+        ],
+        "wdid": "Q17504",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02110627",
+        "wnid": "02113279-n",
+        "synset": [
+            "affenpinscher",
+            "monkey pinscher",
+            "monkey dog"
+        ],
+        "wdid": "Q7254",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02110806",
+        "wnid": "02113458-n",
+        "synset": [
+            "basenji"
+        ],
+        "wdid": "Q37871",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02110958",
+        "wnid": "02113610-n",
+        "synset": [
+            "pug",
+            "pug-dog"
+        ],
+        "wdid": "Q38698",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02111129",
+        "wnid": "02113781-n",
+        "synset": [
+            "Leonberg"
+        ],
+        "wdid": "Q38487",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02111277",
+        "wnid": "02113929-n",
+        "synset": [
+            "Newfoundland",
+            "Newfoundland dog"
+        ],
+        "wdid": "Q38706",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02111500",
+        "wnid": "02114152-n",
+        "synset": [
+            "Great Pyrenees"
+        ],
+        "wdid": "Q37803",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02111889",
+        "wnid": "02114541-n",
+        "synset": [
+            "Samoyed",
+            "Samoyede"
+        ],
+        "wdid": "Q39002",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02112018",
+        "wnid": "02114670-n",
+        "synset": [
+            "Pomeranian"
+        ],
+        "wdid": "Q39579",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02112137",
+        "wnid": "02114789-n",
+        "synset": [
+            "chow",
+            "chow chow"
+        ],
+        "wdid": "Q29013",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02112350",
+        "wnid": "02115002-n",
+        "synset": [
+            "keeshond"
+        ],
+        "wdid": "Q38843",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02112706",
+        "wnid": "02115358-n",
+        "synset": [
+            "Brabancon griffon"
+        ],
+        "wdid": "Q38889",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02113023",
+        "wnid": "02115675-n",
+        "synset": [
+            "Pembroke",
+            "Pembroke Welsh corgi"
+        ],
+        "wdid": "Q38783",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02113186",
+        "wnid": "02115838-n",
+        "synset": [
+            "Cardigan",
+            "Cardigan Welsh corgi"
+        ],
+        "wdid": "Q29072",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02113624",
+        "wnid": "02116276-n",
+        "synset": [
+            "toy poodle"
+        ],
+        "wdid": "Q11831662",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02113712",
+        "wnid": "02116364-n",
+        "synset": [
+            "miniature poodle"
+        ],
+        "wdid": "Q11831662",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02113799",
+        "wnid": "02116451-n",
+        "synset": [
+            "standard poodle"
+        ],
+        "wdid": "Q38904",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02113978",
+        "wnid": "02116630-n",
+        "synset": [
+            "Mexican hairless"
+        ],
+        "wdid": "Q38856",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02114367",
+        "wnid": "02117019-n",
+        "synset": [
+            "timber wolf",
+            "grey wolf",
+            "gray wolf",
+            "Canis lupus"
+        ],
+        "wdid": "Q18498",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02114548",
+        "wnid": "02117200-n",
+        "synset": [
+            "white wolf",
+            "Arctic wolf",
+            "Canis lupus tundrarum"
+        ],
+        "wdid": "Q216441",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02114712",
+        "wnid": "02117364-n",
+        "synset": [
+            "red wolf",
+            "maned wolf",
+            "Canis rufus",
+            "Canis niger"
+        ],
+        "wdid": "Q200442",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02114855",
+        "wnid": "02117507-n",
+        "synset": [
+            "coyote",
+            "prairie wolf",
+            "brush wolf",
+            "Canis latrans"
+        ],
+        "wdid": "Q44299",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02115641",
+        "wnid": "02118293-n",
+        "synset": [
+            "dingo",
+            "warrigal",
+            "warragal",
+            "Canis dingo"
+        ],
+        "wdid": "Q38584",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02115913",
+        "wnid": "02118565-n",
+        "synset": [
+            "dhole",
+            "Cuon alpinus"
+        ],
+        "wdid": "Q132585",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02116738",
+        "wnid": "02119390-n",
+        "synset": [
+            "African hunting dog",
+            "hyena dog",
+            "Cape hunting dog",
+            "Lycaon pictus"
+        ],
+        "wdid": "Q173651",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02117135",
+        "wnid": "02119787-n",
+        "synset": [
+            "hyena",
+            "hyaena"
+        ],
+        "wdid": "Q42046",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02119022",
+        "wnid": "02121674-n",
+        "synset": [
+            "red fox",
+            "Vulpes vulpes"
+        ],
+        "wdid": "Q8332",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02119789",
+        "wnid": "02122441-n",
+        "synset": [
+            "kit fox",
+            "Vulpes macrotis"
+        ],
+        "wdid": "Q745751",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02120079",
+        "wnid": "02122731-n",
+        "synset": [
+            "Arctic fox",
+            "white fox",
+            "Alopex lagopus"
+        ],
+        "wdid": "Q23729171",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02120505",
+        "wnid": "02123157-n",
+        "synset": [
+            "grey fox",
+            "gray fox",
+            "Urocyon cinereoargenteus"
+        ],
+        "wdid": "Q215250",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02123045",
+        "wnid": "02125697-n",
+        "synset": [
+            "tabby",
+            "tabby cat"
+        ],
+        "wdid": "Q1474329",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02123159",
+        "wnid": "02125811-n",
+        "synset": [
+            "tiger cat"
+        ],
+        "wdid": "Q194526",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02125311",
+        "wnid": "02127963-n",
+        "synset": [
+            "cougar",
+            "puma",
+            "catamount",
+            "mountain lion",
+            "painter",
+            "panther",
+            "Felis concolor"
+        ],
+        "wdid": "Q35255",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02127052",
+        "wnid": "02129704-n",
+        "synset": [
+            "lynx",
+            "catamount"
+        ],
+        "wdid": "Q43375",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02128385",
+        "wnid": "02131037-n",
+        "synset": [
+            "leopard",
+            "Panthera pardus"
+        ],
+        "wdid": "Q34706",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02128757",
+        "wnid": "02131409-n",
+        "synset": [
+            "snow leopard",
+            "ounce",
+            "Panthera uncia"
+        ],
+        "wdid": "Q30197",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02128925",
+        "wnid": "02131577-n",
+        "synset": [
+            "jaguar",
+            "panther",
+            "Panthera onca",
+            "Felis onca"
+        ],
+        "wdid": "Q35694",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02129165",
+        "wnid": "02131817-n",
+        "synset": [
+            "lion",
+            "king of beasts",
+            "Panthera leo"
+        ],
+        "wdid": "Q140",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02129604",
+        "wnid": "02132256-n",
+        "synset": [
+            "tiger",
+            "Panthera tigris"
+        ],
+        "wdid": "Q19939",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02130308",
+        "wnid": "02132960-n",
+        "synset": [
+            "cheetah",
+            "chetah",
+            "Acinonyx jubatus"
+        ],
+        "wdid": "Q481907",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02132136",
+        "wnid": "02134788-n",
+        "synset": [
+            "brown bear",
+            "bruin",
+            "Ursus arctos"
+        ],
+        "wdid": "Q36341",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02133161",
+        "wnid": "02135813-n",
+        "synset": [
+            "American black bear",
+            "black bear",
+            "Ursus americanus",
+            "Euarctos americanus"
+        ],
+        "wdid": "Q122783",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02134084",
+        "wnid": "02136736-n",
+        "synset": [
+            "ice bear",
+            "polar bear",
+            "Ursus Maritimus",
+            "Thalarctos maritimus"
+        ],
+        "wdid": "Q33609",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02134418",
+        "wnid": "02137070-n",
+        "synset": [
+            "sloth bear",
+            "Melursus ursinus",
+            "Ursus ursinus"
+        ],
+        "wdid": "Q145016",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02137549",
+        "wnid": "02140201-n",
+        "synset": [
+            "mongoose"
+        ],
+        "wdid": "Q80479",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02138441",
+        "wnid": "02141093-n",
+        "synset": [
+            "meerkat",
+            "mierkat"
+        ],
+        "wdid": "Q134015",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02165105",
+        "wnid": "02167757-n",
+        "synset": [
+            "tiger beetle"
+        ],
+        "wdid": "Q16718297",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02165456",
+        "wnid": "02168108-n",
+        "synset": [
+            "ladybug",
+            "ladybeetle",
+            "lady beetle",
+            "ladybird",
+            "ladybird beetle"
+        ],
+        "wdid": "Q25327",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02167151",
+        "wnid": "02169803-n",
+        "synset": [
+            "ground beetle",
+            "carabid beetle"
+        ],
+        "wdid": "Q27046",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02168699",
+        "wnid": "02171351-n",
+        "synset": [
+            "long-horned beetle",
+            "longicorn",
+            "longicorn beetle"
+        ],
+        "wdid": "Q1030028",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02169497",
+        "wnid": "02172149-n",
+        "synset": [
+            "leaf beetle",
+            "chrysomelid"
+        ],
+        "wdid": "Q193407",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02172182",
+        "wnid": "02174834-n",
+        "synset": [
+            "dung beetle"
+        ],
+        "wdid": "Q14891382",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02174001",
+        "wnid": "02176653-n",
+        "synset": [
+            "rhinoceros beetle"
+        ],
+        "wdid": "Q14867782",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02177972",
+        "wnid": "02180624-n",
+        "synset": [
+            "weevil"
+        ],
+        "wdid": "Q383963",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02190166",
+        "wnid": "02192818-n",
+        "synset": [
+            "fly"
+        ],
+        "wdid": "Q25312",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02206856",
+        "wnid": "02209508-n",
+        "synset": [
+            "bee"
+        ],
+        "wdid": "Q102857",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02219486",
+        "wnid": "02222138-n",
+        "synset": [
+            "ant",
+            "emmet",
+            "pismire"
+        ],
+        "wdid": "Q7386",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02226429",
+        "wnid": "02229081-n",
+        "synset": [
+            "grasshopper",
+            "hopper"
+        ],
+        "wdid": "Q167810",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02229544",
+        "wnid": "02232196-n",
+        "synset": [
+            "cricket"
+        ],
+        "wdid": "Q27711",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02231487",
+        "wnid": "02234139-n",
+        "synset": [
+            "walking stick",
+            "walkingstick",
+            "stick insect"
+        ],
+        "wdid": "Q188029",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02233338",
+        "wnid": "02235990-n",
+        "synset": [
+            "cockroach",
+            "roach"
+        ],
+        "wdid": "Q1073729",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02233338",
+        "wnid": "02235990-n",
+        "synset": [
+            "cockroach",
+            "roach"
+        ],
+        "wdid": "Q1661828",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n02236044",
+        "wnid": "02238696-n",
+        "synset": [
+            "mantis",
+            "mantid"
+        ],
+        "wdid": "Q268319",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02256656",
+        "wnid": "02259308-n",
+        "synset": [
+            "cicada",
+            "cicala"
+        ],
+        "wdid": "Q130778",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02259212",
+        "wnid": "02261864-n",
+        "synset": [
+            "leafhopper"
+        ],
+        "wdid": "Q244452",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02264363",
+        "wnid": "02267015-n",
+        "synset": [
+            "lacewing",
+            "lacewing fly"
+        ],
+        "wdid": "Q623727",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02268443",
+        "wnid": "02271095-n",
+        "synset": [
+            "dragonfly",
+            "darning needle",
+            "devil's darning needle",
+            "sewing needle",
+            "snake feeder",
+            "snake doctor",
+            "mosquito hawk",
+            "skeeter hawk"
+        ],
+        "wdid": "Q80066",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02268443",
+        "wnid": "02271095-n",
+        "synset": [
+            "dragonfly",
+            "darning needle",
+            "devil's darning needle",
+            "sewing needle",
+            "snake feeder",
+            "snake doctor",
+            "mosquito hawk",
+            "skeeter hawk"
+        ],
+        "wdid": "Q312476",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02268853",
+        "wnid": "02271505-n",
+        "synset": [
+            "damselfly"
+        ],
+        "wdid": "Q230502",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02277742",
+        "wnid": "02280394-n",
+        "synset": [
+            "ringlet",
+            "ringlet butterfly"
+        ],
+        "wdid": "Q161520",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02279972",
+        "wnid": "02282624-n",
+        "synset": [
+            "monarch",
+            "monarch butterfly",
+            "milkweed butterfly",
+            "Danaus plexippus"
+        ],
+        "wdid": "Q212398",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02280649",
+        "wnid": "02283301-n",
+        "synset": [
+            "cabbage butterfly"
+        ],
+        "wdid": "Q27653",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02281406",
+        "wnid": "02284058-n",
+        "synset": [
+            "sulphur butterfly",
+            "sulfur butterfly"
+        ],
+        "wdid": "Q2710909",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02281787",
+        "wnid": "02284439-n",
+        "synset": [
+            "lycaenid",
+            "lycaenid butterfly"
+        ],
+        "wdid": "Q158717",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02317335",
+        "wnid": "02319987-n",
+        "synset": [
+            "starfish",
+            "sea star"
+        ],
+        "wdid": "Q25349",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02319095",
+        "wnid": "02321747-n",
+        "synset": [
+            "sea urchin"
+        ],
+        "wdid": "Q83483",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02321529",
+        "wnid": "02324181-n",
+        "synset": [
+            "sea cucumber",
+            "holothurian"
+        ],
+        "wdid": "Q1408044",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02325366",
+        "wnid": "02328018-n",
+        "synset": [
+            "wood rabbit",
+            "cottontail",
+            "cottontail rabbit"
+        ],
+        "wdid": "Q774716",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02326432",
+        "wnid": "02329084-n",
+        "synset": [
+            "hare"
+        ],
+        "wdid": "Q852187",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02328150",
+        "wnid": "02330802-n",
+        "synset": [
+            "Angora",
+            "Angora rabbit"
+        ],
+        "wdid": "Q542500",
+        "animal_pattern": "subclass_instance"
+    },
+    {
+        "inid": "n02342885",
+        "wnid": "02345537-n",
+        "synset": [
+            "hamster"
+        ],
+        "wdid": "Q6573",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02346627",
+        "wnid": "02349279-n",
+        "synset": [
+            "porcupine",
+            "hedgehog"
+        ],
+        "wdid": "Q6120",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02356798",
+        "wnid": "02359450-n",
+        "synset": [
+            "fox squirrel",
+            "eastern fox squirrel",
+            "Sciurus niger"
+        ],
+        "wdid": "Q694296",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02361337",
+        "wnid": "02363989-n",
+        "synset": [
+            "marmot"
+        ],
+        "wdid": "Q131567",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02363005",
+        "wnid": "05269619-n",
+        "synset": [
+            "beaver"
+        ],
+        "wdid": "Q47542",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02364673",
+        "wnid": "02367325-n",
+        "synset": [
+            "guinea pig",
+            "Cavia cobaya"
+        ],
+        "wdid": "Q79803",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02391049",
+        "wnid": "02393701-n",
+        "synset": [
+            "zebra"
+        ],
+        "wdid": "Q32789",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02395406",
+        "wnid": "02398058-n",
+        "synset": [
+            "hog",
+            "pig",
+            "grunter",
+            "squealer",
+            "Sus scrofa"
+        ],
+        "wdid": "Q787",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02396427",
+        "wnid": "02399079-n",
+        "synset": [
+            "wild boar",
+            "boar",
+            "Sus scrofa"
+        ],
+        "wdid": "Q58697",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02397096",
+        "wnid": "02399748-n",
+        "synset": [
+            "warthog"
+        ],
+        "wdid": "Q183255",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02398521",
+        "wnid": "02401173-n",
+        "synset": [
+            "hippopotamus",
+            "hippo",
+            "river horse",
+            "Hippopotamus amphibius"
+        ],
+        "wdid": "Q34505",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02403003",
+        "wnid": "02405655-n",
+        "synset": [
+            "ox"
+        ],
+        "wdid": "Q473194",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02408429",
+        "wnid": "02411075-n",
+        "synset": [
+            "water buffalo",
+            "water ox",
+            "Asiatic buffalo",
+            "Bubalus bubalis"
+        ],
+        "wdid": "Q42710",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02410509",
+        "wnid": "02413155-n",
+        "synset": [
+            "bison"
+        ],
+        "wdid": "Q18099",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02412080",
+        "wnid": "02414726-n",
+        "synset": [
+            "ram",
+            "tup"
+        ],
+        "wdid": "Q2929800",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02415577",
+        "wnid": "02418223-n",
+        "synset": [
+            "bighorn",
+            "bighorn sheep",
+            "cimarron",
+            "Rocky Mountain bighorn",
+            "Rocky Mountain sheep",
+            "Ovis canadensis"
+        ],
+        "wdid": "Q189466",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02417914",
+        "wnid": "02420560-n",
+        "synset": [
+            "ibex",
+            "Capra ibex"
+        ],
+        "wdid": "Q168327",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02422106",
+        "wnid": "02424752-n",
+        "synset": [
+            "hartebeest"
+        ],
+        "wdid": "Q622880",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02422699",
+        "wnid": "02425345-n",
+        "synset": [
+            "impala",
+            "Aepyceros melampus"
+        ],
+        "wdid": "Q132576",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02423022",
+        "wnid": "02425668-n",
+        "synset": [
+            "gazelle"
+        ],
+        "wdid": "Q190858",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02437312",
+        "wnid": "02439943-n",
+        "synset": [
+            "Arabian camel",
+            "dromedary",
+            "Camelus dromedarius"
+        ],
+        "wdid": "Q71516",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02437616",
+        "wnid": "02440247-n",
+        "synset": [
+            "llama"
+        ],
+        "wdid": "Q42569",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02441942",
+        "wnid": "10791658-n",
+        "synset": [
+            "weasel"
+        ],
+        "wdid": "Q25311",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02442845",
+        "wnid": "14789676-n",
+        "synset": [
+            "mink"
+        ],
+        "wdid": "Q17700",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02443114",
+        "wnid": "02445745-n",
+        "synset": [
+            "polecat",
+            "fitch",
+            "foulmart",
+            "foumart",
+            "Mustela putorius"
+        ],
+        "wdid": "Q26582",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02443484",
+        "wnid": "02446115-n",
+        "synset": [
+            "black-footed ferret",
+            "ferret",
+            "Mustela nigripes"
+        ],
+        "wdid": "Q402885",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02444819",
+        "wnid": "14789964-n",
+        "synset": [
+            "otter"
+        ],
+        "wdid": "Q200184",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02445715",
+        "wnid": "02448346-n",
+        "synset": [
+            "skunk",
+            "polecat",
+            "wood pussy"
+        ],
+        "wdid": "Q27888",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02447366",
+        "wnid": "02449997-n",
+        "synset": [
+            "badger"
+        ],
+        "wdid": "Q27066",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02454379",
+        "wnid": "02457010-n",
+        "synset": [
+            "armadillo"
+        ],
+        "wdid": "Q104840543",
+        "animal_pattern": "subclass_taxon_subclass"
+    },
+    {
+        "inid": "n02457408",
+        "wnid": "02460039-n",
+        "synset": [
+            "three-toed sloth",
+            "ai",
+            "Bradypus tridactylus"
+        ],
+        "wdid": "Q185167",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02480495",
+        "wnid": "02483126-n",
+        "synset": [
+            "orangutan",
+            "orang",
+            "orangutang",
+            "Pongo pygmaeus"
+        ],
+        "wdid": "Q41050",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02480855",
+        "wnid": "02483486-n",
+        "synset": [
+            "gorilla",
+            "Gorilla gorilla"
+        ],
+        "wdid": "Q737838",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02481823",
+        "wnid": "02484454-n",
+        "synset": [
+            "chimpanzee",
+            "chimp",
+            "Pan troglodytes"
+        ],
+        "wdid": "Q4126704",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02483362",
+        "wnid": "02485993-n",
+        "synset": [
+            "gibbon",
+            "Hylobates lar"
+        ],
+        "wdid": "Q878467",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02483708",
+        "wnid": "02486339-n",
+        "synset": [
+            "siamang",
+            "Hylobates syndactylus",
+            "Symphalangus syndactylus"
+        ],
+        "wdid": "Q213889",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02484975",
+        "wnid": "02487606-n",
+        "synset": [
+            "guenon",
+            "guenon monkey"
+        ],
+        "wdid": "Q255571",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02486261",
+        "wnid": "02488892-n",
+        "synset": [
+            "patas",
+            "hussar monkey",
+            "Erythrocebus patas"
+        ],
+        "wdid": "Q504496",
+        "animal_pattern": "taxon"
+    },
+    {
+        "inid": "n02486410",
+        "wnid": "02489041-n",
+        "synset": [
+            "baboon"
+        ],
+        "wdid": "Q159429",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02487347",
+        "wnid": "02489978-n",
+        "synset": [
+            "macaque"
+        ],
+        "wdid": "Q177601",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02488291",
+        "wnid": "02490922-n",
+        "synset": [
+            "langur"
+        ],
+        "wdid": "Q732737",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02488702",
+        "wnid": "02491333-n",
+        "synset": [
+            "colobus",
+            "colobus monkey"
+        ],
+        "wdid": "Q358813",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02489166",
+        "wnid": "02491797-n",
+        "synset": [
+            "proboscis monkey",
+            "Nasalis larvatus"
+        ],
+        "wdid": "Q192029",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02490219",
+        "wnid": "02492850-n",
+        "synset": [
+            "marmoset"
+        ],
+        "wdid": "Q1064620",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02492035",
+        "wnid": "02494666-n",
+        "synset": [
+            "capuchin",
+            "ringtail",
+            "Cebus capucinus"
+        ],
+        "wdid": "Q326260",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02492660",
+        "wnid": "02495291-n",
+        "synset": [
+            "howler monkey",
+            "howler"
+        ],
+        "wdid": "Q504247",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02493509",
+        "wnid": "02496140-n",
+        "synset": [
+            "titi",
+            "titi monkey"
+        ],
+        "wdid": "Q19816406",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02493793",
+        "wnid": "02496424-n",
+        "synset": [
+            "spider monkey",
+            "Ateles geoffroyi"
+        ],
+        "wdid": "Q388032",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02494079",
+        "wnid": "02496710-n",
+        "synset": [
+            "squirrel monkey",
+            "Saimiri sciureus"
+        ],
+        "wdid": "Q309200",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02497673",
+        "wnid": "02500304-n",
+        "synset": [
+            "Madagascar cat",
+            "ring-tailed lemur",
+            "Lemur catta"
+        ],
+        "wdid": "Q185385",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02500267",
+        "wnid": "02502898-n",
+        "synset": [
+            "indri",
+            "indris",
+            "Indri indri",
+            "Indri brevicaudatus"
+        ],
+        "wdid": "Q203868",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02504013",
+        "wnid": "02506644-n",
+        "synset": [
+            "Indian elephant",
+            "Elephas maximus"
+        ],
+        "wdid": "Q591305",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02504458",
+        "wnid": "02507089-n",
+        "synset": [
+            "African elephant",
+            "Loxodonta africana"
+        ],
+        "wdid": "Q185038",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02509815",
+        "wnid": "02512446-n",
+        "synset": [
+            "lesser panda",
+            "red panda",
+            "panda",
+            "bear cat",
+            "cat bear",
+            "Ailurus fulgens"
+        ],
+        "wdid": "Q41960",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02510455",
+        "wnid": "02513086-n",
+        "synset": [
+            "giant panda",
+            "panda",
+            "panda bear",
+            "coon bear",
+            "Ailuropoda melanoleuca"
+        ],
+        "wdid": "Q33602",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02514041",
+        "wnid": "02516672-n",
+        "synset": [
+            "barracouta",
+            "snoek"
+        ],
+        "wdid": "Q2306485",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02526121",
+        "wnid": "07799943-n",
+        "synset": [
+            "eel"
+        ],
+        "wdid": "Q128685",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02536864",
+        "wnid": "02539495-n",
+        "synset": [
+            "coho",
+            "cohoe",
+            "coho salmon",
+            "blue jack",
+            "silver salmon",
+            "Oncorhynchus kisutch"
+        ],
+        "wdid": "Q934874",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02606052",
+        "wnid": "02608682-n",
+        "synset": [
+            "rock beauty",
+            "Holocanthus tricolor"
+        ],
+        "wdid": "Q729897",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02607072",
+        "wnid": "02609702-n",
+        "synset": [
+            "anemone fish"
+        ],
+        "wdid": "Q472616",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n02640242",
+        "wnid": "02642872-n",
+        "synset": [
+            "sturgeon"
+        ],
+        "wdid": "Q300955",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02641379",
+        "wnid": "02644009-n",
+        "synset": [
+            "gar",
+            "garfish",
+            "garpike",
+            "billfish",
+            "Lepisosteus osseus"
+        ],
+        "wdid": "Q3280549",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02643566",
+        "wnid": "02646196-n",
+        "synset": [
+            "lionfish"
+        ],
+        "wdid": "Q475711",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n02655020",
+        "wnid": "02657650-n",
+        "synset": [
+            "puffer",
+            "pufferfish",
+            "blowfish",
+            "globefish"
+        ],
+        "wdid": "Q201701",
+        "animal_pattern": "taxon_subclass"
+    },
+    {
+        "inid": "n09835506",
+        "wnid": "09854894-n",
+        "synset": [
+            "ballplayer",
+            "baseball player"
+        ],
+        "wdid": "Q10871364",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n10148035",
+        "wnid": "10167555-n",
+        "synset": [
+            "groom",
+            "bridegroom"
+        ],
+        "wdid": "Q854830",
+        "animal_pattern": "subclass"
+    },
+    {
+        "inid": "n10565667",
+        "wnid": "10585095-n",
+        "synset": [
+            "scuba diver"
+        ],
+        "wdid": "Q17504942",
+        "animal_pattern": "subclass"
+    }
+]

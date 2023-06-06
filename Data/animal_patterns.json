@@ -1,0 +1,7 @@
+{
+    "subclass": "wdt:P279* wd:Q729",
+    "taxon": "wdt:P171* wd:Q729",
+    "subclass_instance": "wdt:P31 ?class. ?class wdt:P279* wd:Q729. FILTER (?class != wd:Q16521)", 
+    "taxon_subclass": "wdt:P171* ?taxon_class. ?taxon_class wdt:P279* wd:Q729",
+    "subclass_taxon_subclass": "wdt:P279 [ wdt:P171* ?taxon_class]. ?taxon_class wdt:P279* wd:Q729"
+}
