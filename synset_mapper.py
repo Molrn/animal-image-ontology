@@ -1,6 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
-import list_dict_tools as LDtools
-import sparql_tools as SPtools
+import Tools.list_dict_tools as LDtools
+import Tools.sparql_tools as SPtools
 from nltk.corpus import wordnet as wn
 import os
 import json

@@ -1,6 +1,6 @@
 import synset_mapper as sm
-import list_dict_tools as LDtools
-import sparql_tools as SPtools
+import Tools.list_dict_tools as LDtools
+import Tools.sparql_tools as SPtools
 import json
 import os
 
