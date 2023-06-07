@@ -1,4 +1,6 @@
-imagenet-object-localization-challenge/**
-imagenet-object-localization-challenge.zip
 *.pyc
 Data/temp*
+kaggle.json
+imagenet-object-localization-challenge.zip
+Data/Images/**
+Data/Annotations/**

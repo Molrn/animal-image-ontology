@@ -1,6 +1,6 @@
 import synset_mapper as sm
 import ontology_builder as ob
-
+import ontology_populator as op
 
 # A : Full Mapping of the synsets
 # Map as well as possible the synsets in 3 different applications : ImageNet, Wordnet (different from ImageNet since version 3.1), WikiData
@@ -33,3 +33,12 @@ ob.get_animal_mapping()
 ## 3 : Set the patterns of all the animals
 # Has to be ran multiple times for API limitation reasons 
 ob.set_all_animal_pattern()
+
+# C : Build the Animal ontology
+
+# D : Populate the ontology
+## 1 : Download Animal Images and Annotations
+# Download the Challenge zip file on Kaggle
+# Unzip the Animal resources to 'Data/Annotations' and 'Data/Images' directories 
+animal_synsets = ob.get_animal_mapping()
+op.unzip_images_annotations_files([s['inid'] for s in animal_synsets])
