@@ -7,7 +7,10 @@
             "Tinca tinca"
         ],
         "wdid": "Q76280",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01443537",
@@ -17,7 +20,10 @@
             "Carassius auratus"
         ],
         "wdid": "Q123141",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01484850",
@@ -30,7 +36,11 @@
             "Carcharodon carcharias"
         ],
         "wdid": "Q129026",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q7372"
+        ]
     },
     {
         "inid": "n01491361",
@@ -40,7 +50,11 @@
             "Galeocerdo cuvieri"
         ],
         "wdid": "Q188212",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q7372"
+        ]
     },
     {
         "inid": "n01494475",
@@ -50,7 +64,11 @@
             "hammerhead shark"
         ],
         "wdid": "Q726259",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q7372"
+        ]
     },
     {
         "inid": "n01496331",
@@ -62,7 +80,11 @@
             "torpedo"
         ],
         "wdid": "Q206675",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q41317"
+        ]
     },
     {
         "inid": "n01498041",
@@ -71,7 +93,10 @@
             "stingray"
         ],
         "wdid": "Q902487",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01514668",
@@ -80,7 +105,13 @@
             "cock"
         ],
         "wdid": "Q2216236",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q780",
+        "superclasses": [
+            "Q780",
+            "Q178559",
+            "Q824176"
+        ]
     },
     {
         "inid": "n01514859",
@@ -89,7 +120,12 @@
             "hen"
         ],
         "wdid": "Q222951",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01518878",
@@ -99,7 +135,12 @@
             "Struthio camelus"
         ],
         "wdid": "Q2576337",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01530575",
@@ -109,7 +150,12 @@
             "Fringilla montifringilla"
         ],
         "wdid": "Q188877",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01531178",
@@ -119,7 +165,12 @@
             "Carduelis carduelis"
         ],
         "wdid": "Q27757",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01532829",
@@ -130,7 +181,12 @@
             "Carpodacus mexicanus"
         ],
         "wdid": "Q374302",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01534433",
@@ -140,7 +196,12 @@
             "snowbird"
         ],
         "wdid": "Q857319",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01537544",
@@ -152,7 +213,12 @@
             "Passerina cyanea"
         ],
         "wdid": "Q1049642",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01558993",
@@ -163,7 +229,12 @@
             "Turdus migratorius"
         ],
         "wdid": "Q460967",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01560419",
@@ -172,7 +243,12 @@
             "bulbul"
         ],
         "wdid": "Q188854",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01580077",
@@ -181,7 +257,12 @@
             "jay"
         ],
         "wdid": "Q311248",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01582220",
@@ -190,7 +271,12 @@
             "magpie"
         ],
         "wdid": "Q271634",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01592084",
@@ -199,7 +285,13 @@
             "chickadee"
         ],
         "wdid": "Q17053748",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q1075355",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01601694",
@@ -209,7 +301,12 @@
             "dipper"
         ],
         "wdid": "Q201831",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01608432",
@@ -218,7 +315,12 @@
             "kite"
         ],
         "wdid": "Q25510",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01614925",
@@ -229,7 +331,12 @@
             "Haliaeetus leucocephalus"
         ],
         "wdid": "Q127216",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01616318",
@@ -238,7 +345,13 @@
             "vulture"
         ],
         "wdid": "Q123120",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q5113",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01622779",
@@ -249,7 +362,12 @@
             "Strix nebulosa"
         ],
         "wdid": "Q200724",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01629819",
@@ -259,7 +377,12 @@
             "Salamandra salamandra"
         ],
         "wdid": "Q26395",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01630670",
@@ -269,7 +392,12 @@
             "Triturus vulgaris"
         ],
         "wdid": "Q215247",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01632458",
@@ -279,7 +407,12 @@
             "Ambystoma maculatum"
         ],
         "wdid": "Q2108247",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01632777",
@@ -290,7 +423,12 @@
             "Ambystoma mexicanum"
         ],
         "wdid": "Q22718",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01641577",
@@ -300,7 +438,12 @@
             "Rana catesbeiana"
         ],
         "wdid": "Q159404",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01644373",
@@ -310,7 +453,12 @@
             "tree-frog"
         ],
         "wdid": "Q1144302",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01644900",
@@ -323,7 +471,12 @@
             "Ascaphus trui"
         ],
         "wdid": "Q2925426",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q10908"
+        ]
     },
     {
         "inid": "n01664065",
@@ -334,7 +487,11 @@
             "Caretta caretta"
         ],
         "wdid": "Q203538",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01665541",
@@ -346,7 +503,11 @@
             "Dermochelys coriacea"
         ],
         "wdid": "Q120043",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01667114",
@@ -355,7 +516,11 @@
             "mud turtle"
         ],
         "wdid": "Q2500468",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01667778",
@@ -364,7 +529,12 @@
             "terrapin"
         ],
         "wdid": "Q7703292",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q1946537",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01669191",
@@ -374,7 +544,11 @@
             "box tortoise"
         ],
         "wdid": "Q734870",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01677366",
@@ -385,7 +559,11 @@
             "Iguana iguana"
         ],
         "wdid": "Q215376",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01682714",
@@ -396,7 +574,11 @@
             "Anolis carolinensis"
         ],
         "wdid": "Q930252",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01685808",
@@ -406,7 +588,11 @@
             "whiptail lizard"
         ],
         "wdid": "Q827111",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01687978",
@@ -415,7 +601,11 @@
             "agama"
         ],
         "wdid": "Q1153386",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01688243",
@@ -425,7 +615,11 @@
             "Chlamydosaurus kingi"
         ],
         "wdid": "Q501566",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01689811",
@@ -434,7 +628,11 @@
             "alligator lizard"
         ],
         "wdid": "Q1522299",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01692333",
@@ -444,7 +642,11 @@
             "Heloderma suspectum"
         ],
         "wdid": "Q207058",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01693334",
@@ -454,7 +656,11 @@
             "Lacerta viridis"
         ],
         "wdid": "Q307047",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01694178",
@@ -464,7 +670,11 @@
             "Chamaeleo chamaeleon"
         ],
         "wdid": "Q577924",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01695060",
@@ -477,7 +687,11 @@
             "Varanus komodoensis"
         ],
         "wdid": "Q4504",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01697457",
@@ -488,7 +702,11 @@
             "Crocodylus niloticus"
         ],
         "wdid": "Q168745",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01698640",
@@ -498,7 +716,11 @@
             "Alligator mississipiensis"
         ],
         "wdid": "Q193327",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01704323",
@@ -507,7 +729,12 @@
             "triceratops"
         ],
         "wdid": "Q14384",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01728572",
@@ -518,7 +745,11 @@
             "Carphophis amoenus"
         ],
         "wdid": "Q2940133",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01728920",
@@ -529,7 +760,11 @@
             "ring snake"
         ],
         "wdid": "Q2704229",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01729322",
@@ -540,7 +775,11 @@
             "sand viper"
         ],
         "wdid": "Q369667",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01729977",
@@ -550,7 +789,11 @@
             "grass snake"
         ],
         "wdid": "Q170713",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01734418",
@@ -560,7 +803,11 @@
             "kingsnake"
         ],
         "wdid": "Q1364033",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01735189",
@@ -570,7 +817,11 @@
             "grass snake"
         ],
         "wdid": "Q1149509",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01737021",
@@ -579,7 +830,11 @@
             "water snake"
         ],
         "wdid": "Q35541230",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01740131",
@@ -589,7 +844,11 @@
             "Hypsiglena torquata"
         ],
         "wdid": "Q922205",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01742172",
@@ -599,7 +858,11 @@
             "Constrictor constrictor"
         ],
         "wdid": "Q215388",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01744401",
@@ -610,7 +873,11 @@
             "Python sebae"
         ],
         "wdid": "Q764797",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01748264",
@@ -620,7 +887,11 @@
             "Naja naja"
         ],
         "wdid": "Q192754",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01749939",
@@ -629,7 +900,11 @@
             "green mamba"
         ],
         "wdid": "Q622805",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01751748",
@@ -638,7 +913,11 @@
             "sea snake"
         ],
         "wdid": "Q152504",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01753488",
@@ -651,7 +930,11 @@
             "Cerastes cornutus"
         ],
         "wdid": "Q73178",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01755581",
@@ -662,7 +945,11 @@
             "Crotalus adamanteus"
         ],
         "wdid": "Q744532",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01756291",
@@ -673,7 +960,11 @@
             "Crotalus cerastes"
         ],
         "wdid": "Q1366532",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01768244",
@@ -682,7 +973,11 @@
             "trilobite"
         ],
         "wdid": "Q17170",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01770081",
@@ -693,7 +988,11 @@
             "Phalangium opilio"
         ],
         "wdid": "Q19116",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01770393",
@@ -702,7 +1001,11 @@
             "scorpion"
         ],
         "wdid": "Q19125",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01773157",
@@ -712,7 +1015,11 @@
             "Argiope aurantia"
         ],
         "wdid": "Q2556499",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01773549",
@@ -722,7 +1029,11 @@
             "Araneus cavaticus"
         ],
         "wdid": "Q1306991",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01773797",
@@ -732,7 +1043,11 @@
             "Aranea diademata"
         ],
         "wdid": "Q337509",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01774384",
@@ -742,7 +1057,11 @@
             "Latrodectus mactans"
         ],
         "wdid": "Q113297",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01774750",
@@ -751,7 +1070,11 @@
             "tarantula"
         ],
         "wdid": "Q213383",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01775062",
@@ -761,7 +1084,11 @@
             "hunting spider"
         ],
         "wdid": "Q1059106",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01776313",
@@ -770,7 +1097,11 @@
             "tick"
         ],
         "wdid": "Q10304508",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01784675",
@@ -779,7 +1110,11 @@
             "centipede"
         ],
         "wdid": "Q43447",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01795545",
@@ -788,7 +1123,12 @@
             "black grouse"
         ],
         "wdid": "Q155878",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01796340",
@@ -797,7 +1137,12 @@
             "ptarmigan"
         ],
         "wdid": "Q205930",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01797886",
@@ -808,7 +1153,12 @@
             "Bonasa umbellus"
         ],
         "wdid": "Q19058",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01798484",
@@ -819,7 +1169,12 @@
             "prairie fowl"
         ],
         "wdid": "Q1463540",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01806143",
@@ -828,7 +1183,12 @@
             "peacock"
         ],
         "wdid": "Q201251",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01806567",
@@ -837,7 +1197,11 @@
             "quail"
         ],
         "wdid": "Q6072584",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q1797813",
+        "superclasses": [
+            "Q1797813"
+        ]
     },
     {
         "inid": "n01807496",
@@ -846,7 +1210,12 @@
             "partridge"
         ],
         "wdid": "Q732775",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q26375",
+        "superclasses": [
+            "Q26375",
+            "Q178559"
+        ]
     },
     {
         "inid": "n01817953",
@@ -857,7 +1226,12 @@
             "Psittacus erithacus"
         ],
         "wdid": "Q220328",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01818515",
@@ -866,7 +1240,12 @@
             "macaw"
         ],
         "wdid": "Q213984",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01819313",
@@ -877,7 +1256,12 @@
             "Cacatua galerita"
         ],
         "wdid": "Q207107",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01820546",
@@ -886,7 +1270,12 @@
             "lorikeet"
         ],
         "wdid": "Q15274050",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01824575",
@@ -895,7 +1284,12 @@
             "coucal"
         ],
         "wdid": "Q657775",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01828970",
@@ -904,7 +1298,12 @@
             "bee eater"
         ],
         "wdid": "Q183147",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01829413",
@@ -913,7 +1312,12 @@
             "hornbill"
         ],
         "wdid": "Q26773",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01833805",
@@ -922,7 +1326,12 @@
             "hummingbird"
         ],
         "wdid": "Q43624",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01843065",
@@ -931,7 +1340,12 @@
             "jacamar"
         ],
         "wdid": "Q212942",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01843383",
@@ -940,7 +1354,12 @@
             "toucan"
         ],
         "wdid": "Q1325045",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01847000",
@@ -949,7 +1368,12 @@
             "drake"
         ],
         "wdid": "Q214264",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01855032",
@@ -959,7 +1383,12 @@
             "Mergus serrator"
         ],
         "wdid": "Q189609",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01855672",
@@ -968,7 +1397,12 @@
             "goose"
         ],
         "wdid": "Q16529344",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q1797813",
+        "superclasses": [
+            "Q1797813",
+            "Q57815212"
+        ]
     },
     {
         "inid": "n01860187",
@@ -978,7 +1412,12 @@
             "Cygnus atratus"
         ],
         "wdid": "Q131044",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01872401",
@@ -989,7 +1428,11 @@
             "anteater"
         ],
         "wdid": "Q21824",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01873310",
@@ -1002,7 +1445,11 @@
             "Ornithorhynchus anatinus"
         ],
         "wdid": "Q15343",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01877812",
@@ -1012,7 +1459,11 @@
             "brush kangaroo"
         ],
         "wdid": "Q23193",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01882714",
@@ -1025,7 +1476,11 @@
             "Phascolarctos cinereus"
         ],
         "wdid": "Q431978",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01883070",
@@ -1034,7 +1489,11 @@
             "wombat"
         ],
         "wdid": "Q23175",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n01910747",
@@ -1043,7 +1502,11 @@
             "jellyfish"
         ],
         "wdid": "Q6596143",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q25441"
+        ]
     },
     {
         "inid": "n01914609",
@@ -1053,7 +1516,11 @@
             "anemone"
         ],
         "wdid": "Q147256",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q25441"
+        ]
     },
     {
         "inid": "n01917289",
@@ -1062,7 +1529,11 @@
             "brain coral"
         ],
         "wdid": "Q134555",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q25441"
+        ]
     },
     {
         "inid": "n01924916",
@@ -1072,7 +1543,11 @@
             "platyhelminth"
         ],
         "wdid": "Q124900",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q43806",
+        "superclasses": [
+            "Q43806"
+        ]
     },
     {
         "inid": "n01930112",
@@ -1083,7 +1558,10 @@
             "roundworm"
         ],
         "wdid": "Q5185",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01944390",
@@ -1092,7 +1570,11 @@
             "snail"
         ],
         "wdid": "Q308841",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q4867740",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01950731",
@@ -1102,7 +1584,11 @@
             "nudibranch"
         ],
         "wdid": "Q7440127",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q43806",
+        "superclasses": [
+            "Q43806"
+        ]
     },
     {
         "inid": "n01955084",
@@ -1114,7 +1600,10 @@
             "polyplacophore"
         ],
         "wdid": "Q188906",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01968897",
@@ -1125,7 +1614,10 @@
             "nautilus"
         ],
         "wdid": "Q223939",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n01978287",
@@ -1135,7 +1627,11 @@
             "Cancer magister"
         ],
         "wdid": "Q1936093",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01978455",
@@ -1145,7 +1641,11 @@
             "Cancer irroratus"
         ],
         "wdid": "Q590283",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01980166",
@@ -1154,7 +1654,11 @@
             "fiddler crab"
         ],
         "wdid": "Q14510079",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01981276",
@@ -1167,7 +1671,11 @@
             "Paralithodes camtschatica"
         ],
         "wdid": "Q721171",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01983481",
@@ -1179,7 +1687,11 @@
             "Homarus americanus"
         ],
         "wdid": "Q37668",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01984695",
@@ -1193,7 +1705,11 @@
             "sea crawfish"
         ],
         "wdid": "Q916760",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01985128",
@@ -1205,7 +1721,11 @@
             "crawdaddy"
         ],
         "wdid": "Q210959",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01986214",
@@ -1214,7 +1734,11 @@
             "hermit crab"
         ],
         "wdid": "Q273291",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n01990800",
@@ -1223,7 +1747,11 @@
             "isopod"
         ],
         "wdid": "Q206338",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360"
+        ]
     },
     {
         "inid": "n02002556",
@@ -1233,7 +1761,12 @@
             "Ciconia ciconia"
         ],
         "wdid": "Q25352",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02002724",
@@ -1243,7 +1776,12 @@
             "Ciconia nigra"
         ],
         "wdid": "Q25398",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02006656",
@@ -1252,7 +1790,12 @@
             "spoonbill"
         ],
         "wdid": "Q171360",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02007558",
@@ -1261,7 +1804,12 @@
             "flamingo"
         ],
         "wdid": "Q208004",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02009229",
@@ -1271,7 +1819,12 @@
             "Egretta caerulea"
         ],
         "wdid": "Q371028",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02009912",
@@ -1282,7 +1835,12 @@
             "Egretta albus"
         ],
         "wdid": "Q27604486",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02011460",
@@ -1291,7 +1849,12 @@
             "bittern"
         ],
         "wdid": "Q855133",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02012849",
@@ -1300,7 +1863,12 @@
             "crane"
         ],
         "wdid": "Q25365",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02013706",
@@ -1310,7 +1878,12 @@
             "Aramus pictus"
         ],
         "wdid": "Q725276",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02017213",
@@ -1320,7 +1893,12 @@
             "Porphyrio porphyrio"
         ],
         "wdid": "Q187902",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02018207",
@@ -1333,7 +1911,12 @@
             "Fulica americana"
         ],
         "wdid": "Q470016",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02018795",
@@ -1342,7 +1925,12 @@
             "bustard"
         ],
         "wdid": "Q21755",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02025239",
@@ -1352,7 +1940,12 @@
             "Arenaria interpres"
         ],
         "wdid": "Q26892",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02027492",
@@ -1363,7 +1956,12 @@
             "Erolia alpina"
         ],
         "wdid": "Q106447283",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02028035",
@@ -1373,7 +1971,12 @@
             "Tringa totanus"
         ],
         "wdid": "Q18859",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02033041",
@@ -1382,7 +1985,12 @@
             "dowitcher"
         ],
         "wdid": "Q838747",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02037110",
@@ -1392,7 +2000,12 @@
             "oyster catcher"
         ],
         "wdid": "Q25928",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02051845",
@@ -1401,7 +2014,12 @@
             "pelican"
         ],
         "wdid": "Q19413",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02056570",
@@ -1411,7 +2029,12 @@
             "Aptenodytes patagonica"
         ],
         "wdid": "Q182209",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02058221",
@@ -1421,7 +2044,12 @@
             "mollymawk"
         ],
         "wdid": "Q55805",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q430",
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02066245",
@@ -1434,7 +2062,12 @@
             "Eschrichtius robustus"
         ],
         "wdid": "Q179154",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02071294",
@@ -1448,7 +2081,11 @@
             "Orcinus orca"
         ],
         "wdid": "Q26843",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144144",
+        "superclasses": [
+            "Q144144"
+        ]
     },
     {
         "inid": "n02074367",
@@ -1458,7 +2095,11 @@
             "Dugong dugon"
         ],
         "wdid": "Q129544",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02077923",
@@ -1467,7 +2108,11 @@
             "sea lion"
         ],
         "wdid": "Q333649",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02085620",
@@ -1476,7 +2121,11 @@
             "Chihuahua"
         ],
         "wdid": "Q653",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02085782",
@@ -1485,7 +2134,8 @@
             "Japanese spaniel"
         ],
         "wdid": "Q38146",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02085936",
@@ -1496,7 +2146,11 @@
             "Maltese"
         ],
         "wdid": "Q38751",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02086079",
@@ -1507,7 +2161,8 @@
             "Peke"
         ],
         "wdid": "Q38959",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02086240",
@@ -1516,7 +2171,8 @@
             "Shih-Tzu"
         ],
         "wdid": "Q39357",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02086910",
@@ -1525,7 +2181,8 @@
             "papillon"
         ],
         "wdid": "Q38115",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02087394",
@@ -1534,7 +2191,11 @@
             "Rhodesian ridgeback"
         ],
         "wdid": "Q39026",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02088094",
@@ -1544,7 +2205,11 @@
             "Afghan"
         ],
         "wdid": "Q21080",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02088238",
@@ -1554,7 +2219,8 @@
             "basset hound"
         ],
         "wdid": "Q37716",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02088364",
@@ -1563,7 +2229,11 @@
             "beagle"
         ],
         "wdid": "Q21102",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38774",
+        "superclasses": [
+            "Q38774"
+        ]
     },
     {
         "inid": "n02088466",
@@ -1573,7 +2243,11 @@
             "sleuthhound"
         ],
         "wdid": "Q21098",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38774",
+        "superclasses": [
+            "Q38774"
+        ]
     },
     {
         "inid": "n02088466",
@@ -1583,7 +2257,12 @@
             "sleuthhound"
         ],
         "wdid": "Q39401",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38774",
+        "superclasses": [
+            "Q38774",
+            "Q38923"
+        ]
     },
     {
         "inid": "n02088632",
@@ -1592,7 +2271,11 @@
             "bluetick"
         ],
         "wdid": "Q37568",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q37766",
+        "superclasses": [
+            "Q37766"
+        ]
     },
     {
         "inid": "n02089078",
@@ -1601,7 +2284,11 @@
             "black-and-tan coonhound"
         ],
         "wdid": "Q37537",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q37766",
+        "superclasses": [
+            "Q37766"
+        ]
     },
     {
         "inid": "n02089973",
@@ -1610,7 +2297,11 @@
             "English foxhound"
         ],
         "wdid": "Q37789",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02090379",
@@ -1619,7 +2310,11 @@
             "redbone"
         ],
         "wdid": "Q38820",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02090622",
@@ -1629,7 +2324,11 @@
             "Russian wolfhound"
         ],
         "wdid": "Q37866",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02090721",
@@ -1638,7 +2337,8 @@
             "Irish wolfhound"
         ],
         "wdid": "Q38668",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02091032",
@@ -1647,7 +2347,8 @@
             "Italian greyhound"
         ],
         "wdid": "Q38503",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02091134",
@@ -1656,7 +2357,8 @@
             "whippet"
         ],
         "wdid": "Q39122",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02091244",
@@ -1666,7 +2368,11 @@
             "Ibizan Podenco"
         ],
         "wdid": "Q37755",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q39253",
+        "superclasses": [
+            "Q39253"
+        ]
     },
     {
         "inid": "n02091467",
@@ -1676,7 +2382,8 @@
             "elkhound"
         ],
         "wdid": "Q38803",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02091635",
@@ -1686,7 +2393,8 @@
             "otter hound"
         ],
         "wdid": "Q38922",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02091831",
@@ -1696,7 +2404,8 @@
             "gazelle hound"
         ],
         "wdid": "Q39108",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02092002",
@@ -1706,7 +2415,8 @@
             "deerhound"
         ],
         "wdid": "Q37929",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02092339",
@@ -1715,7 +2425,8 @@
             "Weimaraner"
         ],
         "wdid": "Q38965",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02093256",
@@ -1725,7 +2436,11 @@
             "Staffordshire bull terrier"
         ],
         "wdid": "Q39285",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02093428",
@@ -1737,7 +2452,11 @@
             "pit bull terrier"
         ],
         "wdid": "Q37688",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02093647",
@@ -1746,7 +2465,8 @@
             "Bedlington terrier"
         ],
         "wdid": "Q37582",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02093754",
@@ -1755,7 +2475,8 @@
             "Border terrier"
         ],
         "wdid": "Q37558",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02093859",
@@ -1764,7 +2485,8 @@
             "Kerry blue terrier"
         ],
         "wdid": "Q38025",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02093991",
@@ -1773,7 +2495,8 @@
             "Irish terrier"
         ],
         "wdid": "Q38644",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02094114",
@@ -1782,7 +2505,8 @@
             "Norfolk terrier"
         ],
         "wdid": "Q38940",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02094258",
@@ -1791,7 +2515,8 @@
             "Norwich terrier"
         ],
         "wdid": "Q38934",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02094433",
@@ -1800,7 +2525,11 @@
             "Yorkshire terrier"
         ],
         "wdid": "Q39330",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02095570",
@@ -1809,7 +2538,8 @@
             "Lakeland terrier"
         ],
         "wdid": "Q38110",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02095889",
@@ -1819,7 +2549,8 @@
             "Sealyham"
         ],
         "wdid": "Q39068",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02096051",
@@ -1829,7 +2560,11 @@
             "Airedale terrier"
         ],
         "wdid": "Q37617",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02096177",
@@ -1839,7 +2574,12 @@
             "cairn terrier"
         ],
         "wdid": "Q37888",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144",
+            "Q38984"
+        ]
     },
     {
         "inid": "n02096294",
@@ -1848,7 +2588,8 @@
             "Australian terrier"
         ],
         "wdid": "Q37530",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02096437",
@@ -1858,7 +2599,8 @@
             "Dandie Dinmont terrier"
         ],
         "wdid": "Q38336",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02096585",
@@ -1868,7 +2610,8 @@
             "Boston terrier"
         ],
         "wdid": "Q37550",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02097047",
@@ -1877,7 +2620,11 @@
             "miniature schnauzer"
         ],
         "wdid": "Q38999",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38421",
+        "superclasses": [
+            "Q38421"
+        ]
     },
     {
         "inid": "n02097130",
@@ -1886,7 +2633,11 @@
             "giant schnauzer"
         ],
         "wdid": "Q38688",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38421",
+        "superclasses": [
+            "Q38421"
+        ]
     },
     {
         "inid": "n02097209",
@@ -1895,7 +2646,11 @@
             "standard schnauzer"
         ],
         "wdid": "Q39605",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38421",
+        "superclasses": [
+            "Q38421"
+        ]
     },
     {
         "inid": "n02097298",
@@ -1906,7 +2661,11 @@
             "Scottie"
         ],
         "wdid": "Q39035",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02097474",
@@ -1916,7 +2675,8 @@
             "chrysanthemum dog"
         ],
         "wdid": "Q38796",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02097658",
@@ -1926,7 +2686,8 @@
             "Sydney silky"
         ],
         "wdid": "Q37524",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02098105",
@@ -1935,7 +2696,8 @@
             "soft-coated wheaten terrier"
         ],
         "wdid": "Q38047",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02098286",
@@ -1944,7 +2706,8 @@
             "West Highland white terrier"
         ],
         "wdid": "Q17510",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02098413",
@@ -1954,7 +2717,8 @@
             "Lhasa apso"
         ],
         "wdid": "Q38352",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02099267",
@@ -1963,7 +2727,11 @@
             "flat-coated retriever"
         ],
         "wdid": "Q29200",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02099429",
@@ -1972,7 +2740,8 @@
             "curly-coated retriever"
         ],
         "wdid": "Q38375",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02099601",
@@ -1981,7 +2750,13 @@
             "golden retriever"
         ],
         "wdid": "Q38686",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144",
+            "Q39003",
+            "Q39017"
+        ]
     },
     {
         "inid": "n02099712",
@@ -1990,7 +2765,11 @@
             "Labrador retriever"
         ],
         "wdid": "Q38726",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02099849",
@@ -1999,7 +2778,11 @@
             "Chesapeake Bay retriever"
         ],
         "wdid": "Q29084",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02100583",
@@ -2009,7 +2792,8 @@
             "Hungarian pointer"
         ],
         "wdid": "Q38819",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02100735",
@@ -2018,7 +2802,11 @@
             "English setter"
         ],
         "wdid": "Q38309",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02100877",
@@ -2028,7 +2816,8 @@
             "red setter"
         ],
         "wdid": "Q38761",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02101006",
@@ -2037,7 +2826,8 @@
             "Gordon setter"
         ],
         "wdid": "Q38301",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02101388",
@@ -2046,7 +2836,8 @@
             "Brittany spaniel"
         ],
         "wdid": "Q38156",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02101556",
@@ -2056,7 +2847,8 @@
             "clumber spaniel"
         ],
         "wdid": "Q37851",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02102040",
@@ -2066,7 +2858,11 @@
             "English springer spaniel"
         ],
         "wdid": "Q29022",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02102177",
@@ -2075,7 +2871,8 @@
             "Welsh springer spaniel"
         ],
         "wdid": "Q39047",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02102318",
@@ -2086,7 +2883,11 @@
             "cocker"
         ],
         "wdid": "Q38533",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02102480",
@@ -2095,7 +2896,8 @@
             "Sussex spaniel"
         ],
         "wdid": "Q39138",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02102973",
@@ -2104,7 +2906,8 @@
             "Irish water spaniel"
         ],
         "wdid": "Q38162",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02104029",
@@ -2113,7 +2916,8 @@
             "kuvasz"
         ],
         "wdid": "Q38467",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02104365",
@@ -2122,7 +2926,8 @@
             "schipperke"
         ],
         "wdid": "Q39010",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02105056",
@@ -2131,7 +2936,11 @@
             "groenendael"
         ],
         "wdid": "Q38399",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q37624",
+        "superclasses": [
+            "Q37624"
+        ]
     },
     {
         "inid": "n02105162",
@@ -2140,7 +2949,11 @@
             "malinois"
         ],
         "wdid": "Q38494",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q37624",
+        "superclasses": [
+            "Q37624"
+        ]
     },
     {
         "inid": "n02105251",
@@ -2149,7 +2962,8 @@
             "briard"
         ],
         "wdid": "Q37821",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02105412",
@@ -2158,7 +2972,8 @@
             "kelpie"
         ],
         "wdid": "Q37520",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02105505",
@@ -2167,7 +2982,8 @@
             "komondor"
         ],
         "wdid": "Q38675",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02105641",
@@ -2177,7 +2993,8 @@
             "bobtail"
         ],
         "wdid": "Q37704",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02105855",
@@ -2188,7 +3005,11 @@
             "Shetland"
         ],
         "wdid": "Q39058",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02106030",
@@ -2197,7 +3018,11 @@
             "collie"
         ],
         "wdid": "Q1196071",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02106166",
@@ -2206,7 +3031,11 @@
             "Border collie"
         ],
         "wdid": "Q37710",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02106382",
@@ -2216,7 +3045,8 @@
             "Bouviers des Flandres"
         ],
         "wdid": "Q37896",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02106550",
@@ -2225,7 +3055,11 @@
             "Rottweiler"
         ],
         "wdid": "Q39093",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02106662",
@@ -2237,7 +3071,11 @@
             "alsatian"
         ],
         "wdid": "Q38280",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02107142",
@@ -2247,7 +3085,11 @@
             "Doberman pinscher"
         ],
         "wdid": "Q38358",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02107312",
@@ -2256,7 +3098,8 @@
             "miniature pinscher"
         ],
         "wdid": "Q38990",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02107574",
@@ -2265,7 +3108,11 @@
             "Greater Swiss Mountain dog"
         ],
         "wdid": "Q38121",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q246603",
+        "superclasses": [
+            "Q246603"
+        ]
     },
     {
         "inid": "n02107683",
@@ -2274,7 +3121,11 @@
             "Bernese mountain dog"
         ],
         "wdid": "Q37608",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q246603",
+        "superclasses": [
+            "Q246603"
+        ]
     },
     {
         "inid": "n02107908",
@@ -2283,7 +3134,11 @@
             "Appenzeller"
         ],
         "wdid": "Q37697",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q246603",
+        "superclasses": [
+            "Q246603"
+        ]
     },
     {
         "inid": "n02108000",
@@ -2292,7 +3147,11 @@
             "EntleBucher"
         ],
         "wdid": "Q37986",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q246603",
+        "superclasses": [
+            "Q246603"
+        ]
     },
     {
         "inid": "n02108089",
@@ -2301,7 +3160,11 @@
             "boxer"
         ],
         "wdid": "Q38496",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02108422",
@@ -2310,7 +3173,11 @@
             "bull mastiff"
         ],
         "wdid": "Q38080",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02108551",
@@ -2319,7 +3186,8 @@
             "Tibetan mastiff"
         ],
         "wdid": "Q39322",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02108915",
@@ -2328,7 +3196,11 @@
             "French bulldog"
         ],
         "wdid": "Q29149",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02109047",
@@ -2337,7 +3209,11 @@
             "Great Dane"
         ],
         "wdid": "Q5414",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02109525",
@@ -2347,7 +3223,11 @@
             "St Bernard"
         ],
         "wdid": "Q38090",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02110063",
@@ -2358,7 +3238,11 @@
             "Alaskan malamute"
         ],
         "wdid": "Q21206",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02110185",
@@ -2367,7 +3251,8 @@
             "Siberian husky"
         ],
         "wdid": "Q39295",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02110341",
@@ -2378,7 +3263,11 @@
             "carriage dog"
         ],
         "wdid": "Q17504",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02110627",
@@ -2389,7 +3278,11 @@
             "monkey dog"
         ],
         "wdid": "Q7254",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02110806",
@@ -2398,7 +3291,8 @@
             "basenji"
         ],
         "wdid": "Q37871",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02110958",
@@ -2408,7 +3302,12 @@
             "pug-dog"
         ],
         "wdid": "Q38698",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144",
+            "Q2991480"
+        ]
     },
     {
         "inid": "n02111129",
@@ -2417,7 +3316,8 @@
             "Leonberg"
         ],
         "wdid": "Q38487",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02111277",
@@ -2427,7 +3327,8 @@
             "Newfoundland dog"
         ],
         "wdid": "Q38706",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02111500",
@@ -2436,7 +3337,8 @@
             "Great Pyrenees"
         ],
         "wdid": "Q37803",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02111889",
@@ -2446,7 +3348,8 @@
             "Samoyede"
         ],
         "wdid": "Q39002",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02112018",
@@ -2455,7 +3358,12 @@
             "Pomeranian"
         ],
         "wdid": "Q39579",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144",
+            "Q38655"
+        ]
     },
     {
         "inid": "n02112137",
@@ -2465,7 +3373,11 @@
             "chow chow"
         ],
         "wdid": "Q29013",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02112350",
@@ -2474,7 +3386,8 @@
             "keeshond"
         ],
         "wdid": "Q38843",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02112706",
@@ -2483,7 +3396,11 @@
             "Brabancon griffon"
         ],
         "wdid": "Q38889",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q7546516",
+        "superclasses": [
+            "Q7546516"
+        ]
     },
     {
         "inid": "n02113023",
@@ -2493,7 +3410,8 @@
             "Pembroke Welsh corgi"
         ],
         "wdid": "Q38783",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02113186",
@@ -2503,7 +3421,11 @@
             "Cardigan Welsh corgi"
         ],
         "wdid": "Q29072",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02113624",
@@ -2512,7 +3434,11 @@
             "toy poodle"
         ],
         "wdid": "Q11831662",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38904",
+        "superclasses": [
+            "Q38904"
+        ]
     },
     {
         "inid": "n02113712",
@@ -2521,7 +3447,11 @@
             "miniature poodle"
         ],
         "wdid": "Q11831662",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q38904",
+        "superclasses": [
+            "Q38904"
+        ]
     },
     {
         "inid": "n02113799",
@@ -2530,7 +3460,11 @@
             "standard poodle"
         ],
         "wdid": "Q38904",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q144",
+        "superclasses": [
+            "Q144"
+        ]
     },
     {
         "inid": "n02113978",
@@ -2539,7 +3473,8 @@
             "Mexican hairless"
         ],
         "wdid": "Q38856",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q39367"
     },
     {
         "inid": "n02114367",
@@ -2551,7 +3486,11 @@
             "Canis lupus"
         ],
         "wdid": "Q18498",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02114548",
@@ -2562,7 +3501,11 @@
             "Canis lupus tundrarum"
         ],
         "wdid": "Q216441",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02114712",
@@ -2574,7 +3517,11 @@
             "Canis niger"
         ],
         "wdid": "Q200442",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02114855",
@@ -2586,7 +3533,11 @@
             "Canis latrans"
         ],
         "wdid": "Q44299",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02115641",
@@ -2598,7 +3549,11 @@
             "Canis dingo"
         ],
         "wdid": "Q38584",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02115913",
@@ -2608,7 +3563,11 @@
             "Cuon alpinus"
         ],
         "wdid": "Q132585",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02116738",
@@ -2620,7 +3579,11 @@
             "Lycaon pictus"
         ],
         "wdid": "Q173651",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02117135",
@@ -2630,7 +3593,11 @@
             "hyaena"
         ],
         "wdid": "Q42046",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02119022",
@@ -2640,7 +3607,11 @@
             "Vulpes vulpes"
         ],
         "wdid": "Q8332",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02119789",
@@ -2650,7 +3621,11 @@
             "Vulpes macrotis"
         ],
         "wdid": "Q745751",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02120079",
@@ -2661,7 +3636,11 @@
             "Alopex lagopus"
         ],
         "wdid": "Q23729171",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02120505",
@@ -2672,7 +3651,11 @@
             "Urocyon cinereoargenteus"
         ],
         "wdid": "Q215250",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02123045",
@@ -2682,7 +3665,11 @@
             "tabby cat"
         ],
         "wdid": "Q1474329",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclass": "Q146",
+        "superclasses": [
+            "Q146"
+        ]
     },
     {
         "inid": "n02123159",
@@ -2691,7 +3678,11 @@
             "tiger cat"
         ],
         "wdid": "Q194526",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02125311",
@@ -2706,7 +3697,11 @@
             "Felis concolor"
         ],
         "wdid": "Q35255",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02127052",
@@ -2716,7 +3711,11 @@
             "catamount"
         ],
         "wdid": "Q43375",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02128385",
@@ -2726,7 +3725,11 @@
             "Panthera pardus"
         ],
         "wdid": "Q34706",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02128757",
@@ -2737,7 +3740,11 @@
             "Panthera uncia"
         ],
         "wdid": "Q30197",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02128925",
@@ -2749,7 +3756,11 @@
             "Felis onca"
         ],
         "wdid": "Q35694",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02129165",
@@ -2760,7 +3771,11 @@
             "Panthera leo"
         ],
         "wdid": "Q140",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02129604",
@@ -2770,7 +3785,11 @@
             "Panthera tigris"
         ],
         "wdid": "Q19939",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02130308",
@@ -2781,7 +3800,11 @@
             "Acinonyx jubatus"
         ],
         "wdid": "Q481907",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02132136",
@@ -2792,7 +3815,10 @@
             "Ursus arctos"
         ],
         "wdid": "Q36341",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q30090244"
+        ]
     },
     {
         "inid": "n02133161",
@@ -2804,7 +3830,11 @@
             "Euarctos americanus"
         ],
         "wdid": "Q122783",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02134084",
@@ -2816,7 +3846,10 @@
             "Thalarctos maritimus"
         ],
         "wdid": "Q33609",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q30090244"
+        ]
     },
     {
         "inid": "n02134418",
@@ -2827,7 +3860,11 @@
             "Ursus ursinus"
         ],
         "wdid": "Q145016",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02137549",
@@ -2836,7 +3873,11 @@
             "mongoose"
         ],
         "wdid": "Q80479",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02138441",
@@ -2846,7 +3887,11 @@
             "mierkat"
         ],
         "wdid": "Q134015",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02165105",
@@ -2855,7 +3900,13 @@
             "tiger beetle"
         ],
         "wdid": "Q16718297",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02165456",
@@ -2868,7 +3919,13 @@
             "ladybird beetle"
         ],
         "wdid": "Q25327",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02167151",
@@ -2878,7 +3935,13 @@
             "carabid beetle"
         ],
         "wdid": "Q27046",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02168699",
@@ -2889,7 +3952,13 @@
             "longicorn beetle"
         ],
         "wdid": "Q1030028",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02169497",
@@ -2899,7 +3968,13 @@
             "chrysomelid"
         ],
         "wdid": "Q193407",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02172182",
@@ -2908,7 +3983,13 @@
             "dung beetle"
         ],
         "wdid": "Q14891382",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02174001",
@@ -2917,7 +3998,13 @@
             "rhinoceros beetle"
         ],
         "wdid": "Q14867782",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02177972",
@@ -2926,7 +4013,13 @@
             "weevil"
         ],
         "wdid": "Q383963",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02190166",
@@ -2935,7 +4028,13 @@
             "fly"
         ],
         "wdid": "Q25312",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02206856",
@@ -2944,7 +4043,14 @@
             "bee"
         ],
         "wdid": "Q102857",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22651",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02219486",
@@ -2955,7 +4061,14 @@
             "pismire"
         ],
         "wdid": "Q7386",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22651",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02226429",
@@ -2965,7 +4078,13 @@
             "hopper"
         ],
         "wdid": "Q167810",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02229544",
@@ -2974,7 +4093,13 @@
             "cricket"
         ],
         "wdid": "Q27711",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02231487",
@@ -2985,7 +4110,13 @@
             "stick insect"
         ],
         "wdid": "Q188029",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02233338",
@@ -2995,7 +4126,13 @@
             "roach"
         ],
         "wdid": "Q1073729",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02233338",
@@ -3005,7 +4142,14 @@
             "roach"
         ],
         "wdid": "Q1661828",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q25309",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02236044",
@@ -3015,7 +4159,13 @@
             "mantid"
         ],
         "wdid": "Q268319",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02256656",
@@ -3025,7 +4175,13 @@
             "cicala"
         ],
         "wdid": "Q130778",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02259212",
@@ -3034,7 +4190,13 @@
             "leafhopper"
         ],
         "wdid": "Q244452",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02264363",
@@ -3044,7 +4206,13 @@
             "lacewing fly"
         ],
         "wdid": "Q623727",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02268443",
@@ -3060,7 +4228,13 @@
             "skeeter hawk"
         ],
         "wdid": "Q80066",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02268443",
@@ -3076,7 +4250,13 @@
             "skeeter hawk"
         ],
         "wdid": "Q312476",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02268853",
@@ -3085,7 +4265,13 @@
             "damselfly"
         ],
         "wdid": "Q230502",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02277742",
@@ -3095,7 +4281,13 @@
             "ringlet butterfly"
         ],
         "wdid": "Q161520",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02279972",
@@ -3107,7 +4299,13 @@
             "Danaus plexippus"
         ],
         "wdid": "Q212398",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02280649",
@@ -3116,7 +4314,13 @@
             "cabbage butterfly"
         ],
         "wdid": "Q27653",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02281406",
@@ -3126,7 +4330,13 @@
             "sulfur butterfly"
         ],
         "wdid": "Q2710909",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02281787",
@@ -3136,7 +4346,13 @@
             "lycaenid butterfly"
         ],
         "wdid": "Q158717",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q1360",
+            "Q1390",
+            "Q22708"
+        ]
     },
     {
         "inid": "n02317335",
@@ -3146,7 +4362,11 @@
             "sea star"
         ],
         "wdid": "Q25349",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q44631"
+        ]
     },
     {
         "inid": "n02319095",
@@ -3155,7 +4375,11 @@
             "sea urchin"
         ],
         "wdid": "Q83483",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q44631"
+        ]
     },
     {
         "inid": "n02321529",
@@ -3165,7 +4389,11 @@
             "holothurian"
         ],
         "wdid": "Q1408044",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q44631"
+        ]
     },
     {
         "inid": "n02325366",
@@ -3176,7 +4404,11 @@
             "cottontail rabbit"
         ],
         "wdid": "Q774716",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02326432",
@@ -3185,7 +4417,11 @@
             "hare"
         ],
         "wdid": "Q852187",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02328150",
@@ -3195,7 +4431,8 @@
             "Angora rabbit"
         ],
         "wdid": "Q542500",
-        "animal_pattern": "subclass_instance"
+        "animal_pattern": "subclass_instance",
+        "superclass": "Q12045584"
     },
     {
         "inid": "n02342885",
@@ -3204,7 +4441,11 @@
             "hamster"
         ],
         "wdid": "Q6573",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02346627",
@@ -3214,7 +4455,11 @@
             "hedgehog"
         ],
         "wdid": "Q6120",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02356798",
@@ -3225,7 +4470,11 @@
             "Sciurus niger"
         ],
         "wdid": "Q694296",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02361337",
@@ -3234,7 +4483,11 @@
             "marmot"
         ],
         "wdid": "Q131567",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02363005",
@@ -3243,7 +4496,11 @@
             "beaver"
         ],
         "wdid": "Q47542",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02364673",
@@ -3253,7 +4510,11 @@
             "Cavia cobaya"
         ],
         "wdid": "Q79803",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02391049",
@@ -3262,7 +4523,11 @@
             "zebra"
         ],
         "wdid": "Q32789",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02395406",
@@ -3275,7 +4540,11 @@
             "Sus scrofa"
         ],
         "wdid": "Q787",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q1797813",
+            "Q57814795"
+        ]
     },
     {
         "inid": "n02396427",
@@ -3286,7 +4555,12 @@
             "Sus scrofa"
         ],
         "wdid": "Q58697",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02397096",
@@ -3295,7 +4569,12 @@
             "warthog"
         ],
         "wdid": "Q183255",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02398521",
@@ -3307,7 +4586,12 @@
             "Hippopotamus amphibius"
         ],
         "wdid": "Q34505",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02403003",
@@ -3316,7 +4600,11 @@
             "ox"
         ],
         "wdid": "Q473194",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q25497",
+            "Q16516071"
+        ]
     },
     {
         "inid": "n02408429",
@@ -3328,7 +4616,12 @@
             "Bubalus bubalis"
         ],
         "wdid": "Q42710",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02410509",
@@ -3337,7 +4630,12 @@
             "bison"
         ],
         "wdid": "Q18099",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02412080",
@@ -3347,7 +4645,11 @@
             "tup"
         ],
         "wdid": "Q2929800",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q7368",
+            "Q44148"
+        ]
     },
     {
         "inid": "n02415577",
@@ -3361,7 +4663,12 @@
             "Ovis canadensis"
         ],
         "wdid": "Q189466",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02417914",
@@ -3371,7 +4678,12 @@
             "Capra ibex"
         ],
         "wdid": "Q168327",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02422106",
@@ -3380,7 +4692,12 @@
             "hartebeest"
         ],
         "wdid": "Q622880",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02422699",
@@ -3390,7 +4707,12 @@
             "Aepyceros melampus"
         ],
         "wdid": "Q132576",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02423022",
@@ -3399,7 +4721,12 @@
             "gazelle"
         ],
         "wdid": "Q190858",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177"
+        ]
     },
     {
         "inid": "n02437312",
@@ -3410,7 +4737,13 @@
             "Camelus dromedarius"
         ],
         "wdid": "Q71516",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159",
+            "Q1231177",
+            "Q7375"
+        ]
     },
     {
         "inid": "n02437616",
@@ -3419,7 +4752,10 @@
             "llama"
         ],
         "wdid": "Q42569",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q57814795"
+        ]
     },
     {
         "inid": "n02441942",
@@ -3428,7 +4764,11 @@
             "weasel"
         ],
         "wdid": "Q25311",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02442845",
@@ -3437,7 +4777,11 @@
             "mink"
         ],
         "wdid": "Q17700",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02443114",
@@ -3450,7 +4794,11 @@
             "Mustela putorius"
         ],
         "wdid": "Q26582",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02443484",
@@ -3461,7 +4809,10 @@
             "Mustela nigripes"
         ],
         "wdid": "Q402885",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q81875"
+        ]
     },
     {
         "inid": "n02444819",
@@ -3470,7 +4821,11 @@
             "otter"
         ],
         "wdid": "Q200184",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02445715",
@@ -3481,7 +4836,11 @@
             "wood pussy"
         ],
         "wdid": "Q27888",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02447366",
@@ -3490,7 +4849,11 @@
             "badger"
         ],
         "wdid": "Q27066",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02454379",
@@ -3499,7 +4862,12 @@
             "armadillo"
         ],
         "wdid": "Q104840543",
-        "animal_pattern": "subclass_taxon_subclass"
+        "animal_pattern": "subclass_taxon_subclass",
+        "superclass": "Q47867",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02457408",
@@ -3510,7 +4878,11 @@
             "Bradypus tridactylus"
         ],
         "wdid": "Q185167",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02480495",
@@ -3522,7 +4894,11 @@
             "Pongo pygmaeus"
         ],
         "wdid": "Q41050",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02480855",
@@ -3532,7 +4908,11 @@
             "Gorilla gorilla"
         ],
         "wdid": "Q737838",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02481823",
@@ -3543,7 +4923,11 @@
             "Pan troglodytes"
         ],
         "wdid": "Q4126704",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02483362",
@@ -3553,7 +4937,11 @@
             "Hylobates lar"
         ],
         "wdid": "Q878467",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02483708",
@@ -3564,7 +4952,11 @@
             "Symphalangus syndactylus"
         ],
         "wdid": "Q213889",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02484975",
@@ -3574,7 +4966,11 @@
             "guenon monkey"
         ],
         "wdid": "Q255571",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02486261",
@@ -3585,7 +4981,11 @@
             "Erythrocebus patas"
         ],
         "wdid": "Q504496",
-        "animal_pattern": "taxon"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02486410",
@@ -3594,7 +4994,11 @@
             "baboon"
         ],
         "wdid": "Q159429",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02487347",
@@ -3603,7 +5007,11 @@
             "macaque"
         ],
         "wdid": "Q177601",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02488291",
@@ -3612,7 +5020,11 @@
             "langur"
         ],
         "wdid": "Q732737",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02488702",
@@ -3622,7 +5034,11 @@
             "colobus monkey"
         ],
         "wdid": "Q358813",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02489166",
@@ -3632,7 +5048,11 @@
             "Nasalis larvatus"
         ],
         "wdid": "Q192029",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02490219",
@@ -3641,7 +5061,11 @@
             "marmoset"
         ],
         "wdid": "Q1064620",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02492035",
@@ -3652,7 +5076,11 @@
             "Cebus capucinus"
         ],
         "wdid": "Q326260",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02492660",
@@ -3662,7 +5090,11 @@
             "howler"
         ],
         "wdid": "Q504247",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02493509",
@@ -3672,7 +5104,11 @@
             "titi monkey"
         ],
         "wdid": "Q19816406",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02493793",
@@ -3682,7 +5118,11 @@
             "Ateles geoffroyi"
         ],
         "wdid": "Q388032",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02494079",
@@ -3692,7 +5132,11 @@
             "Saimiri sciureus"
         ],
         "wdid": "Q309200",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02497673",
@@ -3703,7 +5147,11 @@
             "Lemur catta"
         ],
         "wdid": "Q185385",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02500267",
@@ -3715,7 +5163,11 @@
             "Indri brevicaudatus"
         ],
         "wdid": "Q203868",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02504013",
@@ -3725,7 +5177,10 @@
             "Elephas maximus"
         ],
         "wdid": "Q591305",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q133006"
+        ]
     },
     {
         "inid": "n02504458",
@@ -3735,7 +5190,10 @@
             "Loxodonta africana"
         ],
         "wdid": "Q185038",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q7378"
+        ]
     },
     {
         "inid": "n02509815",
@@ -3749,7 +5207,11 @@
             "Ailurus fulgens"
         ],
         "wdid": "Q41960",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02510455",
@@ -3762,7 +5224,11 @@
             "Ailuropoda melanoleuca"
         ],
         "wdid": "Q33602",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729",
+            "Q19159"
+        ]
     },
     {
         "inid": "n02514041",
@@ -3772,7 +5238,10 @@
             "snoek"
         ],
         "wdid": "Q2306485",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02526121",
@@ -3781,7 +5250,10 @@
             "eel"
         ],
         "wdid": "Q128685",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02536864",
@@ -3795,7 +5267,11 @@
             "Oncorhynchus kisutch"
         ],
         "wdid": "Q934874",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q600396",
+            "Q102229488"
+        ]
     },
     {
         "inid": "n02606052",
@@ -3805,7 +5281,10 @@
             "Holocanthus tricolor"
         ],
         "wdid": "Q729897",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02607072",
@@ -3814,7 +5293,10 @@
             "anemone fish"
         ],
         "wdid": "Q472616",
-        "animal_pattern": "subclass"
+        "animal_pattern": "subclass",
+        "superclasses": [
+            "Q152"
+        ]
     },
     {
         "inid": "n02640242",
@@ -3823,7 +5305,10 @@
             "sturgeon"
         ],
         "wdid": "Q300955",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02641379",
@@ -3836,7 +5321,10 @@
             "Lepisosteus osseus"
         ],
         "wdid": "Q3280549",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02643566",
@@ -3845,7 +5333,10 @@
             "lionfish"
         ],
         "wdid": "Q475711",
-        "animal_pattern": "taxon_subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     },
     {
         "inid": "n02655020",
@@ -3857,35 +5348,9 @@
             "globefish"
         ],
         "wdid": "Q201701",
-        "animal_pattern": "taxon_subclass"
-    },
-    {
-        "inid": "n09835506",
-        "wnid": "09854894-n",
-        "synset": [
-            "ballplayer",
-            "baseball player"
-        ],
-        "wdid": "Q10871364",
-        "animal_pattern": "subclass"
-    },
-    {
-        "inid": "n10148035",
-        "wnid": "10167555-n",
-        "synset": [
-            "groom",
-            "bridegroom"
-        ],
-        "wdid": "Q854830",
-        "animal_pattern": "subclass"
-    },
-    {
-        "inid": "n10565667",
-        "wnid": "10585095-n",
-        "synset": [
-            "scuba diver"
-        ],
-        "wdid": "Q17504942",
-        "animal_pattern": "subclass"
+        "animal_pattern": "taxon",
+        "taxon_superclasses": [
+            "Q729"
+        ]
     }
 ]
