@@ -1,5 +1,5 @@
 import synset_mapper as sm
-import animal_ontology as ao
+import ontology_builder as ob
 
 
 # A : Full Mapping of the synsets
@@ -25,11 +25,11 @@ sm.remap_common_name_of(synsets)
 
 ## 1 : Identify the animals in the synsets
 # Has to be ran multiple times just like step A.2 for API limitation reasons 
-ao.set_all_synsets_animal_status()
+ob.set_all_synsets_animal_status()
 
 ## 2 : Generate the Data/animal_synsets.json file from the Data/synset_mapping.json file
-ao.get_animal_mapping()
+ob.get_animal_mapping()
 
 ## 3 : Set the patterns of all the animals
 # Has to be ran multiple times for API limitation reasons 
-ao.set_all_animal_pattern()
+ob.set_all_animal_pattern()
