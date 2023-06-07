@@ -1,8 +1,9 @@
 from typing import Callable
 import json
 import pandas as pd
-import pprint
-import time
+from pprint import pprint
+from time import sleep
+from tqdm import tqdm
 
 def apply_to_all_dicts(dict_list:list[dict], function:Callable, 
                         arg_keys:list[str], return_key:str, 
@@ -28,7 +29,7 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
         list[dict]: list of dicts with the function applied to each dict 
     """
     run_nb = 0
-    for dic in dict_list[start_index:stop_index]:
+    for dic in tqdm(dict_list[start_index:stop_index]):
         if return_key not in dic or dic[return_key] is None:
             run_nb += 1
             arg_dict = {}
@@ -42,10 +43,10 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
                 save_file.close()
                 print('\nProgram successfully ran '+str(run_nb-1)+' times')
                 print('Last dict : ')
-                pprint.pprint(dic)            
+                pprint(dic)            
                 raise e
             if delay:
-                time.sleep(delay)
+                sleep(delay)
     return dict_list
 
 def ld_join(left_list:list[dict], right_list:list[dict], on:str, join_type='inner'):
