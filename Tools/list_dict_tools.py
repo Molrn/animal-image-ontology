@@ -34,8 +34,7 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
     """
     run_nb = 0
     for dic in tqdm(dict_list[start_index:stop_index]):
-        if dic['animal_pattern']=='subclass' and 'subclasses' not in dic:
-        #return_key is None or return_key not in dic or dic[return_key] is None:
+        if return_key is None or return_key not in dic or dic[return_key] is None:
             run_nb += 1
             arg_dict = {}
             for key in arg_keys:
