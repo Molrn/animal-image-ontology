@@ -2,6 +2,63 @@ from tqdm import tqdm
 from zipfile import ZipFile
 from shutil import rmtree
 import os
+import Tools.sparql_tools as SPtools
+from animal_graph import get_graph_arcs, get_animal_mapping
+
+# TODO Complete the constants
+ONTOLOGY_IRI        = "" 
+SUBCLASS_PROPERTY   = 'rdfs:subClassOf'
+LABEL_PROPERTY      = 'rdfs:label'
+INSTANCE_PROPERTY   = 'rdfs:instanceOf'
+INID_PROPERTY       = ''
+HAS_PROPERTY        = ''
+MORPHOLOGICAL_FEATURE_CLASS=""
+
+def initialize_ontology(graph_file_path:str='Data/graph_arcs.csv', master_node:str='Q729'):
+    """Pipeline initializing the ontology step by step
+
+    Args:
+        graph_file_path (str, optional): Path of the csv file containing the graph. Defaults to 'Data/graph_arcs.csv'.
+        master_node (str, optional): WikiData ID of the master node. Defaults to 'Q729' (Animal ID).
+    """
+    create_ontology()
+    graph_arcs = get_graph_arcs(graph_file_path, master_node)
+    class_nodes = list(set([a['child'] for a in graph_arcs] + [master_node]))
+    define_classes(class_nodes)
+
+    # define the subclass of all the objects 
+    for arc in graph_arcs:
+        set_triplet(arc['child'], SUBCLASS_PROPERTY, arc['parent'])  
+   
+    # Set all class labels
+    class_labels = get_label_mapping(class_nodes)
+    for mapping in class_labels:
+        set_triplet(mapping['wdid'], LABEL_PROPERTY, '"'+mapping['label']+'"')
+    
+    for synset in get_animal_mapping():
+        if synset['wdid'] in class_nodes:
+            set_triplet(synset['wdid'], INID_PROPERTY, synset['inid'])
+    
+    create_properties()
+    define_morphological_features()
+
+def create_ontology(iri:str=ONTOLOGY_IRI):
+    """Create the ontology
+
+    Args:
+        iri (str, optional): IRI of the ontology. Defaults to ONTOLOGY_IRI.
+    """
+    # TODO Create the ontology at the IRI ONTOLOGY_IRI
+    # hint : Mohamed / Youssef used rdflib
+    # they created the ontology by sending triplets to an ontology located at an IRI and it allowed them to easily display graphs
+    # doc : https://rdflib.readthedocs.io/en/stable/gettingstarted.html
+
+def populate_ontology():
+    # TODO For each image, create an instance of its class with a link to the annotation file some how 
+    # instead of a link to the file, it might be more relevant to extract the properties of each annotations file and upload them individually
+    # upload an XML file to a dict : https://www.digitalocean.com/community/tutorials/python-xml-to-json-dict
+    # 
+    return
 
 def unzip_images_annotations_files(inids:list[str], zip_file_path:str='imagenet-object-localization-challenge.zip', 
                                    images_dest_path:str='Data/Images', annotations_dest_path:str='Data/Annotations'):
@@ -37,3 +94,65 @@ def unzip_images_annotations_files(inids:list[str], zip_file_path:str='imagenet-
                         zip_file.extract(file_name, destination_path)
                         os.rename(os.path.join(destination_path, file_name), extracted_path)
                     rmtree(os.path.join(destination_path, 'ILSVRC')) 
+
+def define_classes(classes:list[str]):
+    """Define the classes of the graph
+
+    Args:
+        classes (list[str]): List of classes ID to add to the graph
+    """
+    # TODO 
+
+def define_morphological_features(class_name:str=MORPHOLOGICAL_FEATURE_CLASS):
+    # TODO Create the class in the ontology
+    # TODO Create Instances of the class (ex : museau, patte, aile, bec, queue, poil, plume)
+    # TODO using the 'has' property, define manually which great class has the feature (ex: bird has feathers)
+    # Implies some kind of research on every class, or we could use chatGPT to generate it 
+    # Besides specific animal object, there are 76 nodes, it would be great if it was done on all of them
+    # results could be fetched from WikiData using this property :https://www.wikidata.org/wiki/Property:P1552
+    # Let me know if you find it relevant, I'll write the function to get it 
+    return
+
+def create_properties():
+    # TODO create all the properties that are not default ones (ex: INID_PROPERTY)
+    return
+
+def set_triplet(subject:str, property:str, object:str):
+    """Sets the value of a triplet in the ontology
+
+    Args:
+        subject (str): Subject of the triplet
+        property (str): Property of the triplet
+        object (str): Object of the triplet
+    """
+    # TODO 
+
+def graphs():
+    # TODO Display the ontology into graphs
+    # export the results into a directory called 'Exports'
+    # Display graphs with rdflib : https://rdflib.readthedocs.io/en/stable/intro_to_graphs.html
+    # Graph ideas :
+    #   - Full display of all the classes
+    #   - Display of all the classes that have subclasses, and give to the node of each class the size of the number of direct subclasses it has
+    return
+
+def get_label_mapping(entities:list[str])->list[dict]:
+    """Get the WikiData label of every entity that has one
+
+    Args:
+        entities (list[str]): List of entities to get the label of 
+
+    Returns:
+        list[dict]: Label mapping in format list[ { wdid:str, label:str } ]
+    """
+    query = """
+        SELECT ?wdid (?wdidLabel AS ?label)
+        WHERE {{
+            VALUES ?wdid {{ {} }}
+            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} 
+        }}
+        """
+    result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
+    for r in result :
+        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+    return result

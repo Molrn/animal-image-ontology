@@ -1,6 +1,7 @@
 import synset_mapper as sm
 import Tools.list_dict_tools as LDtools
 import Tools.sparql_tools as SPtools
+from csv import DictReader
 from tqdm import tqdm
 import pandas as pd
 import json
@@ -193,6 +194,23 @@ def animal_path_mapping(wdid:str, animal_pattern:str)->dict:
             return { 'superclasses': [r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result] }
         case _ :
             raise ValueError('"'+animal_pattern+'" is not a recognized path pattern (taxon, subclass, subclass_taxon_subclass, subclass_instance)')
+
+def get_graph_arcs(graph_file_path:str='Data/graph_arcs.csv')->list[dict]:
+    """Return the arcs of the graph in list[dict] format.
+        If it doesn't exist, the graph is created.
+
+    Args:
+        graph_file_path (str, optional): Path of the file containing the graph. 
+            If it doesn't exist, the graph is created at that path. Defaults to 'Data/graph_arcs.csv'.
+
+    Returns:
+        list[dict]: arcs of the graph in format list[ { parent:str, child:str } ]
+    """
+    if not os.path.exists(graph_file_path):
+        create_graph_arcs(get_animal_mapping(), graph_file_path)
+    with open(graph_file_path, 'r') as f:
+        graph_arcs = list(DictReader(f))
+    return graph_arcs
 
 def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str='Data/graph_arcs.csv', master_parent_node:str='Q729'):
     """Create the arcs of the graph leading each object to a Master parent class. 
