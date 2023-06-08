@@ -1,5 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+WD_ENTITY_URI = 'http://www.wikidata.org/entity/'
+
 def bulk_select(values_list:list[str], unformatted_query:str, return_keys:list[str]
                    , prefix:str=None, step=400, sparql_api_url:str="https://query.wikidata.org/sparql"):
     """Execute a select query with a VALUES list which is too long to be executed all at once

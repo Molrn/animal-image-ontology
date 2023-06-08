@@ -167,28 +167,27 @@ def animal_path_mapping(wdid:str, animal_pattern:str)->dict:
             - subclass : { superclasses:list[str] }
 
     """
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
     match animal_pattern:
         case 'subclass_instance':
             result = SPtools.select_query('SELECT ?class WHERE { wd:'+wdid+' wdt:P31 ?class }',['class'])
-            return { 'superclass': result[0]['class'].replace(wd_entity_uri, '') }
+            return { 'superclass': result[0]['class'].replace(SPtools.WD_ENTITY_URI, '') }
         
         case 'taxon':
             result = SPtools.select_query('SELECT ?class { wd:'+wdid+' wdt:P171* ?class. ?class wdt:P279* wd:Q729 }', ['class'])
-            return { 'taxon_superclasses':[r['class'].replace(wd_entity_uri, '') for r in result] }
+            return { 'taxon_superclasses':[r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result] }
         
         case 'subclass_taxon_subclass':
             superclass = SPtools.select_query(
                 'SELECT ?class WHERE { wd:'+wdid+' wdt:P279 ?class }', ['class']
-            )[0]['class'].replace(wd_entity_uri, '')
+            )[0]['class'].replace(SPtools.WD_ENTITY_URI, '')
             result = SPtools.select_query('SELECT ?class { wd:'+superclass+' wdt:P171* ?class. ?class wdt:P279* wd:Q729 }', ['class'])
             return {
                 'superclass': superclass,
-                'taxon_superclasses': [r['class'].replace(wd_entity_uri, '') for r in result]
+                'taxon_superclasses': [r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result]
             }
         
         case 'subclass' :
             result = SPtools.select_query('SELECT ?class WHERE { wd:'+wdid+' wdt:P279 ?class }', ['class'])
-            return { 'superclasses': [r['class'].replace(wd_entity_uri, '') for r in result] }
+            return { 'superclasses': [r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result] }
         case _ :
             raise ValueError('"'+animal_pattern+'" is not a recognized path pattern (taxon, subclass, subclass_taxon_subclass, subclass_instance)')

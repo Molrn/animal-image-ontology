@@ -103,9 +103,9 @@ def bulk_select_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
         }}
         """
     mapping = SPtools.bulk_select(wnids, query, ['wdid', 'wnid'], 'str', step)
-    wd_entity_uri = 'http://www.wikidata.org/entity/'    
+    SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
     for m in mapping:
-        m['wdid'] = m['wdid'].replace(wd_entity_uri, '')
+        m['wdid'] = m['wdid'].replace(SPtools.WD_ENTITY_URI, '')
     return mapping
 
 def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
@@ -120,7 +120,6 @@ def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
         list[dict]: list of dict in format {inid:str, wdid:str} 
     """
   
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
     wn_uri = 'http://wordnet-rdf.princeton.edu/wn30/'
     wn_prefix = 'wn:'
     prefix_str = "PREFIX "+wn_prefix+" <"+wn_uri+">"
@@ -133,9 +132,9 @@ def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
         """
     mapping = SPtools.bulk_select([inid.replace('n', '')+'-n' for inid in inids], 
                             prefix_str+query, ['wdid', 'inid'], wn_prefix, step)
-    wd_entity_uri = 'http://www.wikidata.org/entity/'    
+    SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
     for m in mapping:
-        m['wdid'] = m['wdid'].replace(wd_entity_uri, '')
+        m['wdid'] = m['wdid'].replace(SPtools.WD_ENTITY_URI, '')
         m['inid'] = m['inid'].replace(wn_uri, '').replace('-n', '')
     return mapping
 
@@ -175,7 +174,6 @@ def manual_wdid(synset:list[str])->str:
     Returns:
         str: WikiData ID of the user chosen object
     """
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
     for lemma_i, lemma in enumerate(synset) :
         matching_objects = wd_label_search(lemma)
         if len(matching_objects) == 0:
@@ -186,7 +184,7 @@ def manual_wdid(synset:list[str])->str:
         elif len(matching_objects) != 0:
             print('\nSynset : '+', '.join(synset))
             for i , object in enumerate(matching_objects):
-                print(i, ': \033]8;;'+wd_entity_uri+object['wdid']+'\033\\'+object['desc']+'\033]8;;\033\\')
+                print(i, ': \033]8;;'+SPtools.WD_ENTITY_URI+object['wdid']+'\033\\'+object['desc']+'\033]8;;\033\\')
             if lemma_i == len(synset)-1:
                 print('-1 : None')
             else:
@@ -221,9 +219,8 @@ def wd_label_search(search:str)->list[dict]:
             }}
             """.format(search=search)
     result = SPtools.select_query(query, ['wdid', 'desc'])
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
     for r in result:
-        r['wdid'] = r['wdid'].replace(wd_entity_uri, '')
+        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
     return r
 
 def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_mapping.json')->list[dict]:
@@ -248,7 +245,6 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_map
             FILTER NOT EXISTS {{ ?wdid wdt:P279 [] }}
         }}
         """
-    wd_entity_uri = 'http://www.wikidata.org/entity/'
     common_wdids = SPtools.bulk_select(
             list(set([s['wdid'] for s in synsets if s['wdid']])),
             query, ['wdid', 'common'], 'wd:'
@@ -256,8 +252,8 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_map
     count=0
     for cw in common_wdids:
         count += 1
-        wdid = cw['wdid'].replace(wd_entity_uri, '')
-        common_id = cw['common'].replace(wd_entity_uri, '')
+        wdid = cw['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+        common_id = cw['common'].replace(SPtools.WD_ENTITY_URI, '')
         replace_index = next((i for i, s in enumerate(synsets) if s['wdid']==wdid), None)
             
         synsets[replace_index]['wdid'] = common_id
