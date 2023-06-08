@@ -106,7 +106,6 @@
         ],
         "wdid": "Q2216236",
         "animal_pattern": "subclass",
-        "superclass": "Q780",
         "superclasses": [
             "Q780",
             "Q178559",
@@ -1198,7 +1197,6 @@
         ],
         "wdid": "Q6072584",
         "animal_pattern": "subclass",
-        "superclass": "Q1797813",
         "superclasses": [
             "Q1797813"
         ]
@@ -1211,7 +1209,6 @@
         ],
         "wdid": "Q732775",
         "animal_pattern": "subclass",
-        "superclass": "Q26375",
         "superclasses": [
             "Q26375",
             "Q178559"
@@ -1398,7 +1395,6 @@
         ],
         "wdid": "Q16529344",
         "animal_pattern": "subclass",
-        "superclass": "Q1797813",
         "superclasses": [
             "Q1797813",
             "Q57815212"
@@ -1544,7 +1540,6 @@
         ],
         "wdid": "Q124900",
         "animal_pattern": "subclass",
-        "superclass": "Q43806",
         "superclasses": [
             "Q43806"
         ]
@@ -1585,7 +1580,6 @@
         ],
         "wdid": "Q7440127",
         "animal_pattern": "subclass",
-        "superclass": "Q43806",
         "superclasses": [
             "Q43806"
         ]
@@ -2082,7 +2076,6 @@
         ],
         "wdid": "Q26843",
         "animal_pattern": "subclass",
-        "superclass": "Q144144",
         "superclasses": [
             "Q144144"
         ]
@@ -2122,7 +2115,6 @@
         ],
         "wdid": "Q653",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2147,7 +2139,6 @@
         ],
         "wdid": "Q38751",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2192,7 +2183,6 @@
         ],
         "wdid": "Q39026",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2206,7 +2196,6 @@
         ],
         "wdid": "Q21080",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2230,7 +2219,6 @@
         ],
         "wdid": "Q21102",
         "animal_pattern": "subclass",
-        "superclass": "Q38774",
         "superclasses": [
             "Q38774"
         ]
@@ -2244,7 +2232,6 @@
         ],
         "wdid": "Q21098",
         "animal_pattern": "subclass",
-        "superclass": "Q38774",
         "superclasses": [
             "Q38774"
         ]
@@ -2258,7 +2245,6 @@
         ],
         "wdid": "Q39401",
         "animal_pattern": "subclass",
-        "superclass": "Q38774",
         "superclasses": [
             "Q38774",
             "Q38923"
@@ -2272,7 +2258,6 @@
         ],
         "wdid": "Q37568",
         "animal_pattern": "subclass",
-        "superclass": "Q37766",
         "superclasses": [
             "Q37766"
         ]
@@ -2285,7 +2270,6 @@
         ],
         "wdid": "Q37537",
         "animal_pattern": "subclass",
-        "superclass": "Q37766",
         "superclasses": [
             "Q37766"
         ]
@@ -2298,7 +2282,6 @@
         ],
         "wdid": "Q37789",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2311,7 +2294,6 @@
         ],
         "wdid": "Q38820",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2325,7 +2307,6 @@
         ],
         "wdid": "Q37866",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2369,7 +2350,6 @@
         ],
         "wdid": "Q37755",
         "animal_pattern": "subclass",
-        "superclass": "Q39253",
         "superclasses": [
             "Q39253"
         ]
@@ -2437,7 +2417,6 @@
         ],
         "wdid": "Q39285",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2453,7 +2432,6 @@
         ],
         "wdid": "Q37688",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2526,7 +2504,6 @@
         ],
         "wdid": "Q39330",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2561,7 +2538,6 @@
         ],
         "wdid": "Q37617",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2575,7 +2551,6 @@
         ],
         "wdid": "Q37888",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144",
             "Q38984"
@@ -2621,7 +2596,6 @@
         ],
         "wdid": "Q38999",
         "animal_pattern": "subclass",
-        "superclass": "Q38421",
         "superclasses": [
             "Q38421"
         ]
@@ -2634,7 +2608,6 @@
         ],
         "wdid": "Q38688",
         "animal_pattern": "subclass",
-        "superclass": "Q38421",
         "superclasses": [
             "Q38421"
         ]
@@ -2647,7 +2620,6 @@
         ],
         "wdid": "Q39605",
         "animal_pattern": "subclass",
-        "superclass": "Q38421",
         "superclasses": [
             "Q38421"
         ]
@@ -2662,7 +2634,6 @@
         ],
         "wdid": "Q39035",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2728,7 +2699,6 @@
         ],
         "wdid": "Q29200",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2751,7 +2721,6 @@
         ],
         "wdid": "Q38686",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144",
             "Q39003",
@@ -2766,7 +2735,6 @@
         ],
         "wdid": "Q38726",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2779,7 +2747,6 @@
         ],
         "wdid": "Q29084",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2803,7 +2770,6 @@
         ],
         "wdid": "Q38309",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2859,7 +2825,6 @@
         ],
         "wdid": "Q29022",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2884,7 +2849,6 @@
         ],
         "wdid": "Q38533",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -2937,7 +2901,6 @@
         ],
         "wdid": "Q38399",
         "animal_pattern": "subclass",
-        "superclass": "Q37624",
         "superclasses": [
             "Q37624"
         ]
@@ -2950,7 +2913,6 @@
         ],
         "wdid": "Q38494",
         "animal_pattern": "subclass",
-        "superclass": "Q37624",
         "superclasses": [
             "Q37624"
         ]
@@ -3006,7 +2968,6 @@
         ],
         "wdid": "Q39058",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3019,7 +2980,6 @@
         ],
         "wdid": "Q1196071",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3032,7 +2992,6 @@
         ],
         "wdid": "Q37710",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3056,7 +3015,6 @@
         ],
         "wdid": "Q39093",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3072,7 +3030,6 @@
         ],
         "wdid": "Q38280",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3086,7 +3043,6 @@
         ],
         "wdid": "Q38358",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3109,7 +3065,6 @@
         ],
         "wdid": "Q38121",
         "animal_pattern": "subclass",
-        "superclass": "Q246603",
         "superclasses": [
             "Q246603"
         ]
@@ -3122,7 +3077,6 @@
         ],
         "wdid": "Q37608",
         "animal_pattern": "subclass",
-        "superclass": "Q246603",
         "superclasses": [
             "Q246603"
         ]
@@ -3135,7 +3089,6 @@
         ],
         "wdid": "Q37697",
         "animal_pattern": "subclass",
-        "superclass": "Q246603",
         "superclasses": [
             "Q246603"
         ]
@@ -3148,7 +3101,6 @@
         ],
         "wdid": "Q37986",
         "animal_pattern": "subclass",
-        "superclass": "Q246603",
         "superclasses": [
             "Q246603"
         ]
@@ -3161,7 +3113,6 @@
         ],
         "wdid": "Q38496",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3174,7 +3125,6 @@
         ],
         "wdid": "Q38080",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3197,7 +3147,6 @@
         ],
         "wdid": "Q29149",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3210,7 +3159,6 @@
         ],
         "wdid": "Q5414",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3224,7 +3172,6 @@
         ],
         "wdid": "Q38090",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3239,7 +3186,6 @@
         ],
         "wdid": "Q21206",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3264,7 +3210,6 @@
         ],
         "wdid": "Q17504",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3279,7 +3224,6 @@
         ],
         "wdid": "Q7254",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3303,7 +3247,6 @@
         ],
         "wdid": "Q38698",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144",
             "Q2991480"
@@ -3359,7 +3302,6 @@
         ],
         "wdid": "Q39579",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144",
             "Q38655"
@@ -3374,7 +3316,6 @@
         ],
         "wdid": "Q29013",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3397,7 +3338,6 @@
         ],
         "wdid": "Q38889",
         "animal_pattern": "subclass",
-        "superclass": "Q7546516",
         "superclasses": [
             "Q7546516"
         ]
@@ -3422,7 +3362,6 @@
         ],
         "wdid": "Q29072",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3435,7 +3374,6 @@
         ],
         "wdid": "Q11831662",
         "animal_pattern": "subclass",
-        "superclass": "Q38904",
         "superclasses": [
             "Q38904"
         ]
@@ -3448,7 +3386,6 @@
         ],
         "wdid": "Q11831662",
         "animal_pattern": "subclass",
-        "superclass": "Q38904",
         "superclasses": [
             "Q38904"
         ]
@@ -3461,7 +3398,6 @@
         ],
         "wdid": "Q38904",
         "animal_pattern": "subclass",
-        "superclass": "Q144",
         "superclasses": [
             "Q144"
         ]
@@ -3666,7 +3602,6 @@
         ],
         "wdid": "Q1474329",
         "animal_pattern": "subclass",
-        "superclass": "Q146",
         "superclasses": [
             "Q146"
         ]
