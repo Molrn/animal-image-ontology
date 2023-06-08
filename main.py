@@ -1,6 +1,6 @@
 import synset_mapper as sm
-import ontology_builder as ob
-import ontology_populator as op
+import animal_graph as ag
+import ontology as onto
 
 # A : Full Mapping of the synsets
 # Map as well as possible the synsets in 3 different applications : ImageNet, Wordnet (different from ImageNet since version 3.1), WikiData
@@ -25,28 +25,28 @@ sm.remap_common_name_of(synsets)
 
 ## 1 : Identify the animals in the synsets
 # Has to be ran multiple times just like step A.2 for API limitation reasons 
-ob.set_all_synsets_animal_status()
+ag.set_all_synsets_animal_status()
 
 ## 2 : Generate the Data/animal_synsets.json file from the Data/synset_mapping.json file
-ob.get_animal_mapping()
+ag.get_animal_mapping()
 
 ## 3 : Set the patterns of all the animals
 # Has to be ran multiple times for API limitation reasons 
-ob.set_all_animal_pattern()
+ag.set_all_animal_pattern()
 
 # C : Build the Animal ontology
 ## 1 : Get the path mapping of the each object to the Animal class
 # Fetch the key parent classes of each synset in order
 # As to run multiple times as well
-ob.set_all_animal_path_mapping() 
+ag.set_all_animal_path_mapping() 
 
 ## 2 : Generate the graph Arcs
 # Create a CSV file containing two columns, parent and child
-ob.create_graph_arcs(ob.get_animal_mapping())
+ag.create_graph_arcs(ag.get_animal_mapping())
 
 # D : Populate the ontology
 ## 1 : Download Animal Images and Annotations
 # Download the Challenge zip file on Kaggle
 # Unzip the Animal resources to 'Data/Annotations' and 'Data/Images' directories 
-animal_synsets = ob.get_animal_mapping()
-op.unzip_images_annotations_files([s['inid'] for s in animal_synsets])
+animal_synsets = ag.get_animal_mapping()
+onto.unzip_images_annotations_files([s['inid'] for s in animal_synsets])
