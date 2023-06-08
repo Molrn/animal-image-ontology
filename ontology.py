@@ -146,10 +146,11 @@ def get_label_mapping(entities:list[str])->list[dict]:
         list[dict]: Label mapping in format list[ { wdid:str, label:str } ]
     """
     query = """
-        SELECT ?wdid (?wdidLabel AS ?label)
+        SELECT ?wdid ?label
         WHERE {{
             VALUES ?wdid {{ {} }}
-            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} 
+            ?wdid rdfs:label ?label
+            FILTER ( LANG(?label) = 'en')        
         }}
         """
     result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
