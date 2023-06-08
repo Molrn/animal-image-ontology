@@ -35,6 +35,14 @@ ob.get_animal_mapping()
 ob.set_all_animal_pattern()
 
 # C : Build the Animal ontology
+## 1 : Get the path mapping of the each object to the Animal class
+# Fetch the key parent classes of each synset in order
+# As to run multiple times as well
+ob.set_all_animal_path_mapping() 
+
+## 2 : Generate the graph Arcs
+# Create a CSV file containing two columns, parent and child
+ob.create_graph_arcs(ob.get_animal_mapping())
 
 # D : Populate the ontology
 ## 1 : Download Animal Images and Annotations
