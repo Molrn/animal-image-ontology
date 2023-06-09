@@ -3,9 +3,12 @@ from zipfile import ZipFile
 from shutil import rmtree
 import os
 import Tools.sparql_tools as SPtools
-from animal_graph import get_graph_arcs, get_animal_mapping
+from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH, ANIMAL_WDID
 
 # TODO Complete the constants
+ZIP_FILE_PATH = 'imagenet-object-localization-challenge.zip'
+IMAGES_PATH = 'Data/Images'
+ANNOTATIONS_PATH = 'Data/Annotations'
 ONTOLOGY_IRI        = "" 
 SUBCLASS_PROPERTY   = 'rdfs:subClassOf'
 LABEL_PROPERTY      = 'rdfs:label'
@@ -14,7 +17,7 @@ INID_PROPERTY       = ''
 HAS_PROPERTY        = ''
 MORPHOLOGICAL_FEATURE_CLASS=""
 
-def initialize_ontology(graph_file_path:str='Data/graph_arcs.csv', master_node:str='Q729'):
+def initialize_ontology(graph_file_path:str=GRAPH_ARCS_PATH, master_node:str=ANIMAL_WDID):
     """Pipeline initializing the ontology step by step
 
     Args:
@@ -60,15 +63,15 @@ def populate_ontology():
     # 
     return
 
-def unzip_images_annotations_files(inids:list[str], zip_file_path:str='imagenet-object-localization-challenge.zip', 
-                                   images_dest_path:str='Data/Images', annotations_dest_path:str='Data/Annotations'):
+def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_PATH, 
+                                   images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOTATIONS_PATH):
     """Unzip the images and annotations files of the selected ids from the Kaggle Challenge Zip file
 
     Args:
         inids (list[str]): list of ImageNet IDs of the resources to extract
-        zip_file_path (str, optional): path of the Kaggle Challenge Zip file. Defaults to 'imagenet-object-localization-challenge.zip'.
-        images_dest_path (str, optional): Path of the Images destination directory. Defaults to 'Data/Images'.
-        annotations_dest_path (str, optional): Path of the Images destination directory. Defaults to 'Data/Annotations'.
+        zip_file_path (str, optional): path of the Kaggle Challenge Zip file. Defaults to ZIP_FILE_PATH.
+        images_dest_path (str, optional): Path of the Images destination directory. Defaults to IMAGES_PATH.
+        annotations_dest_path (str, optional): Path of the Images destination directory. Defaults to ANNOTATIONS_PATH.
 
     Raises:
         ValueError: Raised if the path 'zip_file_path' doesn't exist. If so, the procedure to download the zip file is explained

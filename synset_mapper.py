@@ -5,12 +5,20 @@ from nltk.corpus import wordnet as wn
 import os
 import json
 
-def get_synset_full_mapping(mapping_path='Data/synset_mapping.json')->list[dict]:
+SYNSET_INID_PATH = 'Data/LOC_synset_mapping.txt'
+FULL_MAPPING_PATH = 'Data/synset_mapping.json'
+WORDNET_PROPERTY = 'wdt:P8814'
+EXACT_MATCH_PROPERTY = 'wdt:P2888'
+COMMON_NAME_OF_PROPERTY = 'p:P31/pq:P642'
+TAXON_PROPERTY = 'wdt:P171'
+SUBCLASS_PROPERTY = 'wdt:P279'
+
+def get_synset_full_mapping(mapping_path=FULL_MAPPING_PATH)->list[dict]:
     """Get the mapping of each synset in WikiData, ImageNet and WordNet
 
     Args:
         mapping_path (str, optional): Path of the file containing the mapping. 
-            If the file doesn't exist, the mapping file is created at this path. Defaults to 'Data/synset_mapping.json'.
+            If the file doesn't exist, the mapping file is created at this path. Defaults to FULL_MAPPING_PATH.
 
     Returns:
         list[dict]: list of dict in format {synset:list[str], inid:str, wnid:str, wdid:str}
@@ -22,12 +30,12 @@ def get_synset_full_mapping(mapping_path='Data/synset_mapping.json')->list[dict]
     mapping_file.close()
     return mapping_dict
 
-def generate_synset_full_mapping(input_path='Data/LOC_synset_mapping.txt', output_path='Data/synset_mapping.json'):
+def generate_synset_full_mapping(input_path=SYNSET_INID_PATH, output_path=FULL_MAPPING_PATH):
     """Generate a json file mapping synsets in WikiData, ImageNet and WordNet
 
     Args:
-        input_path (str, optional): path of the file containing a list of synsets and ImageNet IDs. Defaults to 'Data/LOC_synset_mapping.txt'.
-        output_path (str, optional): path of the file to generate the json mapping into. Defaults to 'Data/synset_mapping.json'.
+        input_path (str, optional): path of the file containing a list of synsets and ImageNet IDs. Defaults to SYNSET_INID_PATH.
+        output_path (str, optional): path of the file to generate the json mapping into. Defaults to FULL_MAPPING_PATH.
     """
     input_file = open(input_path)
     lines = input_file.readlines()
@@ -95,13 +103,12 @@ def bulk_select_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
     Returns:
         list[dict]: list of dict in format {wnid:str, wdid:str} 
     """
-    query = """
-        SELECT ?wdid ?wnid 
-        WHERE {{ 
-            VALUES ?wnid {{ {} }}. 
-            ?wdid wdt:P8814 ?wnid 
-        }}
-        """
+    query = ' \
+        SELECT ?wdid ?wnid \
+        WHERE {{ \
+            VALUES ?wnid {{ {} }} \
+            ?wdid '+WORDNET_PROPERTY+' ?wnid \
+        }}'
     mapping = SPtools.bulk_select(wnids, query, ['wdid', 'wnid'], 'str', step)
     SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
     for m in mapping:
@@ -123,13 +130,12 @@ def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
     wn_uri = 'http://wordnet-rdf.princeton.edu/wn30/'
     wn_prefix = 'wn:'
     prefix_str = "PREFIX "+wn_prefix+" <"+wn_uri+">"
-    query = """
-        SELECT ?wdid ?inid
-        WHERE {{ 
-            VALUES ?inid {{ {} }}. 
-            ?wdid wdt:P2888 ?inid 
-        }}
-        """
+    query = ' \
+        SELECT ?wdid ?inid \
+        WHERE {{ \
+            VALUES ?inid {{ {} }}. \
+            ?wdid '+EXACT_MATCH_PROPERTY+' ?inid   \
+        }}'
     mapping = SPtools.bulk_select([inid.replace('n', '')+'-n' for inid in inids], 
                             prefix_str+query, ['wdid', 'inid'], wn_prefix, step)
     SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
@@ -138,13 +144,13 @@ def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
         m['inid'] = m['inid'].replace(wn_uri, '').replace('-n', '')
     return mapping
 
-def set_all_synsets_manual_wdid(mapping_path:str='Data/synset_mapping.json', inid_start:str=None):
+def set_all_synsets_manual_wdid(mapping_path:str=FULL_MAPPING_PATH, inid_start:str=None):
     """Manually set the WikiData IDs of the synsets who don't have one
 
     Args:
         mapping_path (str, optional): Path of the file containing the synsets. 
             When the function generates an error, the computed synsets are stored in that file. 
-            Defaults to 'Data/synset_mapping.json'.
+            Defaults to FULL_MAPPING_PATH.
         inid_start (str, optional): ImageNet ID of the synsets to start from. Defaults to None.
     """
     synsets = get_synset_full_mapping(mapping_path)
@@ -223,28 +229,27 @@ def wd_label_search(search:str)->list[dict]:
         r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
     return r
 
-def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_mapping.json')->list[dict]:
+def remap_common_name_of(synsets:list[dict], save_file_path:str=FULL_MAPPING_PATH)->list[dict]:
     """Some object are just common names of others, and aren't linked to anything else. 
         This function remaps it to the object it renames
 
     Args:
         synsets (list[dict]): list of synsets to remap. each dict must contain a 'wdid' key with a string value
         save_file_path (str, optional): Save the remapped file at this location. 
-            Doesn't safe if None. Defaults to 'Data/synset_mapping.json'.
+            Doesn't safe if None. Defaults to FULL_MAPPING_PATH.
 
     Returns:
         list[dict]: list of synsets with updated wdid for the ones mapping a common name 
     """
 
-    query = """
-        SELECT ?wdid ?common
-        WHERE {{
-            VALUES ?wdid {{ {} }}
-            ?wdid p:P31/pq:P642 ?common
-            FILTER NOT EXISTS {{ ?wdid wdt:P171 [] }}
-            FILTER NOT EXISTS {{ ?wdid wdt:P279 [] }}
-        }}
-        """
+    query = '\
+        SELECT ?wdid ?common\
+        WHERE {{\
+            VALUES ?wdid {{ {} }}\
+            ?wdid '+COMMON_NAME_OF_PROPERTY+' ?common\
+            FILTER NOT EXISTS {{ ?wdid '+TAXON_PROPERTY+' [] }}\
+            FILTER NOT EXISTS {{ ?wdid '+SUBCLASS_PROPERTY+' [] }}\
+        }}'
     common_wdids = SPtools.bulk_select(
             list(set([s['wdid'] for s in synsets if s['wdid']])),
             query, ['wdid', 'common'], 'wd:'
@@ -263,11 +268,11 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_map
         mapping_file.close()
     return synsets
 
-def set_all_labels(mapping_file_path:str='Data/synset_mapping.json'):
+def set_all_labels(mapping_file_path:str=FULL_MAPPING_PATH):
     """Set the label of every synset in a file from its wdid
 
     Args:
-        mapping_file_path (str, optional): Path of the file containing the synsets. Defaults to 'Data/synset_mapping.json'.
+        mapping_file_path (str, optional): Path of the file containing the synsets. Defaults to FULL_MAPPING_PATH.
     """
     synsets = get_synset_full_mapping(mapping_file_path)
     mapping = get_label_mapping([s['wdid'] for s in synsets if s['wdid']])
