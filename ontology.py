@@ -4,57 +4,74 @@ from shutil import rmtree
 import os
 import Tools.sparql_tools as SPtools
 from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH, ANIMAL_WDID
+from synset_mapper import get_label_mapping
+from rdflib import Graph, Namespace, Literal, URIRef
+from rdflib.namespace import RDFS, RDF, XSD
 
-# TODO Complete the constants
-ZIP_FILE_PATH = 'imagenet-object-localization-challenge.zip'
-IMAGES_PATH = 'Data/Images'
-ANNOTATIONS_PATH = 'Data/Annotations'
-ONTOLOGY_IRI        = "" 
-SUBCLASS_PROPERTY   = 'rdfs:subClassOf'
-LABEL_PROPERTY      = 'rdfs:label'
-INSTANCE_PROPERTY   = 'rdfs:instanceOf'
-INID_PROPERTY       = ''
-HAS_PROPERTY        = ''
-MORPHOLOGICAL_FEATURE_CLASS=""
+ZIP_FILE_PATH       = 'imagenet-object-localization-challenge.zip'
+IMAGES_PATH         = 'Data/Images'
+ANNOTATIONS_PATH    = 'Data/Annotations' 
+ONTOLOGY_FILE_PATH  = 'Data/animal_ontology.ttl'
+ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
 
-def initialize_ontology(graph_file_path:str=GRAPH_ARCS_PATH, master_node:str=ANIMAL_WDID):
+def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH, 
+                        graph_file_path:str=GRAPH_ARCS_PATH,
+                        master_node:str=ANIMAL_WDID):
     """Pipeline initializing the ontology step by step
 
     Args:
         graph_file_path (str, optional): Path of the csv file containing the graph. Defaults to 'Data/graph_arcs.csv'.
         master_node (str, optional): WikiData ID of the master node. Defaults to 'Q729' (Animal ID).
     """
-    create_ontology()
-    graph_arcs = get_graph_arcs(graph_file_path, master_node)
-    class_nodes = list(set(
-        [a['child'] for a in graph_arcs] + 
-        [master_node] + 
-        [synset['wdid'] for synset in get_animal_mapping()]
-    ))
-    define_classes(class_nodes)
-    create_properties()
-
-    # define the subclass of all the objects 
-    for arc in graph_arcs:
-        set_triplet(arc['child'], SUBCLASS_PROPERTY, arc['parent'])  
-
-    # define the properties of each node
-    for synset in get_animal_mapping():
-        set_triplet(synset['wdid'], INID_PROPERTY, '"'+synset['inid']+'"')
-        set_triplet(synset['wdid'], LABEL_PROPERTY, '"'+synset['label']+'"')
     
-    define_morphological_features()
+    ontology = Graph()
+    ac = Namespace(ONTOLOGY_IRI)
+    ontology.bind('ac', ac)
+    
+    graph_arcs = get_graph_arcs(graph_file_path)
+    class_nodes = list(set([a['child'] for a in graph_arcs] + [master_node]))
+    
+    for node in class_nodes:
+        ontology.add((getattr(ac, node), RDF.type, RDFS.Class))   
 
-def create_ontology(iri:str=ONTOLOGY_IRI):
-    """Create the ontology
+    # define the subclass of features (=structure of the graph)
+    for arc in graph_arcs:
+        ontology.add((
+            getattr(ac, arc['child']), 
+            RDFS.subClassOf, 
+            getattr(ac, arc['parent'])
+        ))    
+    # Define the labels
+    label_mapping = get_label_mapping(class_nodes)
+    for class_label in label_mapping:
+        ontology.add((
+            getattr(ac, class_label['wdid']), 
+            RDFS.label, 
+            Literal(class_label['label'])
+        ))
 
-    Args:
-        iri (str, optional): IRI of the ontology. Defaults to ONTOLOGY_IRI.
+    # define the ImageNed ID of each node
+    ontology.add((ac.inid, RDF.type, RDF.Property))
+    ontology.add((ac.inid, RDFS.range, XSD.string))
+    for synset in get_animal_mapping():
+        if synset['wdid'] in class_nodes :
+            ontology.add((
+                getattr(ac, synset['wdid']), 
+                ac.inid, 
+                Literal(synset['inid'])
+            ))
+
+    ontology.serialize(ontology_file_path)
+
+def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
+    """Load the ontology from a local file. If it doesn't exist, intialize the ontology.
     """
-    # TODO Create the ontology at the IRI ONTOLOGY_IRI
-    # hint : Mohamed / Youssef used rdflib
-    # they created the ontology by sending triplets to an ontology located at an IRI and it allowed them to easily display graphs
-    # doc : https://rdflib.readthedocs.io/en/stable/gettingstarted.html
+    if not os.path.exists(ontology_file_path):
+        initialize_ontology()
+    ontology = Graph()
+    ontology.parse(ontology_file_path)
+    return ontology
+    
 
 def populate_ontology():
     # TODO For each image, create an instance of its class with a link to the annotation file some how 
@@ -98,38 +115,6 @@ def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_P
                         os.rename(os.path.join(destination_path, file_name), extracted_path)
                     rmtree(os.path.join(destination_path, 'ILSVRC')) 
 
-def define_classes(classes:list[str]):
-    """Define the classes of the graph
-
-    Args:
-        classes (list[str]): List of classes ID to add to the graph
-    """
-    # TODO 
-
-def define_morphological_features(class_name:str=MORPHOLOGICAL_FEATURE_CLASS):
-    # TODO Create the class in the ontology
-    # TODO Create Instances of the class (ex : museau, patte, aile, bec, queue, poil, plume)
-    # TODO using the 'has' property, define manually which great class has the feature (ex: bird has feathers)
-    # Implies some kind of research on every class, or we could use chatGPT to generate it 
-    # Besides specific animal object, there are 76 nodes, it would be great if it was done on all of them
-    # results could be fetched from WikiData using this property :https://www.wikidata.org/wiki/Property:P1552
-    # Let me know if you find it relevant, I'll write the function to get it 
-    return
-
-def create_properties():
-    # TODO create all the properties that are not default ones (ex: INID_PROPERTY)
-    return
-
-def set_triplet(subject:str, property:str, object:str):
-    """Sets the value of a triplet in the ontology
-
-    Args:
-        subject (str): Subject of the triplet
-        property (str): Property of the triplet
-        object (str): Object of the triplet
-    """
-    # TODO 
-
 def graphs():
     # TODO Display the ontology into graphs
     # export the results into a directory called 'Exports'
@@ -137,9 +122,4 @@ def graphs():
     # Graph ideas :
     #   - Full display of all the classes
     #   - Display of all the classes that have subclasses, and give to the node of each class the size of the number of direct subclasses it has
-    return
-
-def sparql_query(query:str, is_select:bool=True):
-    # TODO Execute a SPARQL Query into the graph
-    # Functions from SPtools might be used
     return

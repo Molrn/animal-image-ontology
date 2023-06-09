@@ -1,48 +1,30 @@
 import ontology as onto
+from rdflib import Graph, Namespace
+from rdflib.namespace import RDFS
 
-
-def train_test_split()->tuple[list, list[str], list, list[str]]:
+def train_test_split(ontology:Graph)->tuple[list, list[str], list, list[str]]:
     """Split the nodes into train and test datasets, get the features and characteristics
 
     Returns:
         tuple[list, list[str], list, list[str]]: 
             Features and target for the train and test datasets
     """
-    test_inids = ['n02114367', 'n01484850', 'n01614925', 'n02133161',  'n01537544', 'n01443537']
-    test_inids_query_str = ' '.join(['"'+inid+'"' for inid in test_inids])
-    test_query = """
-        SELECT ?wdid
-        WHERE {{
-            VALUES ?inid {{ {inids} }}
-            ?wdid {inid_prop} ?inid 
-        }}
-        """.format(
-                inids=test_inids_query_str,
-                label_prop=onto.LABEL_PROPERTY,
-                inid_prop=onto.INID_PROPERTY
-            )
-    train_query = """
-        SELECT ?wdid ?label
-        WHERE {{
-            VALUES ?inid {{ {inids} }}
-            ?wdid {label_prop} ?label 
-            FILTER NOT EXISTS {{ ?wdid {inid_prop} ?inid }} 
-        }}
-        """.format(
-                inids=test_inids_query_str,
-                label_prop=onto.LABEL_PROPERTY,
-                inid_prop=onto.INID_PROPERTY
-            )
-
-    test_result = onto.sparql_query(test_query)
-    train_result = onto.sparql_query(train_query)
-
-    y_test  = [r['label'] for r in test_result]
-    y_train = [r['label'] for r in train_result]
-
-    test_nodes =  [r['wdid'].replace(onto.ONTOLOGY_IRI, '') for r in test_result]
-    train_nodes = [r['wdid'].replace(onto.ONTOLOGY_IRI, '') for r in train_result]    
+    ac = Namespace(onto.ONTOLOGY_IRI)
+    y_test = []
+    y_train = []
+    test_nodes = []
+    train_nodes = []
     
+    test_inids = ['n02114367', 'n01484850', 'n01614925', 'n02133161',  'n01537544', 'n01443537']
+    for wdid, _, inid in ontology.triples((None, ac.inid, None)):
+        label = ontology.value(wdid, RDFS.label)
+        if inid in test_inids:
+            y_test.append(label)
+            test_nodes.append(wdid)
+        else:
+            y_train.append(label)
+            train_nodes.append(wdid)
+
     # TODO Compute x_test and x_train
     # If you tell me exactly what you need from the ontology and in which format, I can help you extract the data
     # Compute from test_nodes and train_nodes
