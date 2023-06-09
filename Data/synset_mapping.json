@@ -8,7 +8,7 @@
         ],
         "wdid": "Q76280",
         "is_animal": true,
-        "label": "tench"
+        "label": "Tench"
     },
     {
         "inid": "n01443537",
@@ -19,7 +19,7 @@
         ],
         "wdid": "Q123141",
         "is_animal": true,
-        "label": "goldfish"
+        "label": "Goldfish"
     },
     {
         "inid": "n01484850",
@@ -33,7 +33,7 @@
         ],
         "wdid": "Q129026",
         "is_animal": true,
-        "label": "great white shark"
+        "label": "Great White Shark"
     },
     {
         "inid": "n01491361",
@@ -44,7 +44,7 @@
         ],
         "wdid": "Q188212",
         "is_animal": true,
-        "label": "Galeocerdo cuvier"
+        "label": "Galeocerdo Cuvier"
     },
     {
         "inid": "n01494475",
@@ -55,7 +55,7 @@
         ],
         "wdid": "Q726259",
         "is_animal": true,
-        "label": "smooth hammerhead"
+        "label": "Smooth Hammerhead"
     },
     {
         "inid": "n01496331",
@@ -88,7 +88,7 @@
         ],
         "wdid": "Q2216236",
         "is_animal": true,
-        "label": "rooster"
+        "label": "Rooster"
     },
     {
         "inid": "n01514859",
@@ -143,7 +143,7 @@
         ],
         "wdid": "Q374302",
         "is_animal": true,
-        "label": "house finch"
+        "label": "House Finch"
     },
     {
         "inid": "n01534433",
@@ -230,7 +230,7 @@
         ],
         "wdid": "Q201831",
         "is_animal": true,
-        "label": "White-throated Dipper"
+        "label": "White-Throated Dipper"
     },
     {
         "inid": "n01608432",
@@ -262,7 +262,7 @@
         ],
         "wdid": "Q123120",
         "is_animal": true,
-        "label": "vulture"
+        "label": "Vulture"
     },
     {
         "inid": "n01622779",
@@ -285,7 +285,7 @@
         ],
         "wdid": "Q26395",
         "is_animal": true,
-        "label": "fire salamander"
+        "label": "Fire Salamander"
     },
     {
         "inid": "n01630670",
@@ -296,7 +296,7 @@
         ],
         "wdid": "Q215247",
         "is_animal": true,
-        "label": "Lissotriton vulgaris"
+        "label": "Lissotriton Vulgaris"
     },
     {
         "inid": "n01631663",
@@ -317,7 +317,7 @@
         ],
         "wdid": "Q2108247",
         "is_animal": true,
-        "label": "Ambystoma maculatum"
+        "label": "Ambystoma Maculatum"
     },
     {
         "inid": "n01632777",
@@ -329,7 +329,7 @@
         ],
         "wdid": "Q22718",
         "is_animal": true,
-        "label": "axolotl"
+        "label": "Axolotl"
     },
     {
         "inid": "n01641577",
@@ -340,7 +340,7 @@
         ],
         "wdid": "Q159404",
         "is_animal": true,
-        "label": "bullfrog"
+        "label": "Bullfrog"
     },
     {
         "inid": "n01644373",
@@ -351,7 +351,7 @@
         ],
         "wdid": "Q1144302",
         "is_animal": true,
-        "label": "tree frog"
+        "label": "Tree Frog"
     },
     {
         "inid": "n01644900",
@@ -365,7 +365,7 @@
         ],
         "wdid": "Q2925426",
         "is_animal": true,
-        "label": "tailed frog"
+        "label": "Tailed Frog"
     },
     {
         "inid": "n01664065",
@@ -377,7 +377,7 @@
         ],
         "wdid": "Q203538",
         "is_animal": true,
-        "label": "hawksbill sea turtle"
+        "label": "Hawksbill Sea Turtle"
     },
     {
         "inid": "n01665541",
@@ -390,7 +390,7 @@
         ],
         "wdid": "Q120043",
         "is_animal": true,
-        "label": "leatherback sea turtle"
+        "label": "Leatherback Sea Turtle"
     },
     {
         "inid": "n01667114",
@@ -400,7 +400,7 @@
         ],
         "wdid": "Q2500468",
         "is_animal": true,
-        "label": "mud turtle"
+        "label": "Mud Turtle"
     },
     {
         "inid": "n01667778",
@@ -410,7 +410,7 @@
         ],
         "wdid": "Q7703292",
         "is_animal": true,
-        "label": "terrapin"
+        "label": "Terrapin"
     },
     {
         "inid": "n01669191",
@@ -421,7 +421,7 @@
         ],
         "wdid": "Q734870",
         "is_animal": true,
-        "label": "box turtle"
+        "label": "Box Turtle"
     },
     {
         "inid": "n01675722",
@@ -442,7 +442,7 @@
         ],
         "wdid": "Q215376",
         "is_animal": true,
-        "label": "green iguana"
+        "label": "Green Iguana"
     },
     {
         "inid": "n01682714",
@@ -454,7 +454,7 @@
         ],
         "wdid": "Q930252",
         "is_animal": true,
-        "label": "Anolis carolinensis"
+        "label": "Anolis Carolinensis"
     },
     {
         "inid": "n01685808",
@@ -486,7 +486,7 @@
         ],
         "wdid": "Q501566",
         "is_animal": true,
-        "label": "Frill-necked Lizard"
+        "label": "Frill-Necked Lizard"
     },
     {
         "inid": "n01689811",
@@ -496,7 +496,7 @@
         ],
         "wdid": "Q1522299",
         "is_animal": true,
-        "label": "alligator lizard"
+        "label": "Alligator Lizard"
     },
     {
         "inid": "n01692333",
@@ -507,7 +507,7 @@
         ],
         "wdid": "Q207058",
         "is_animal": true,
-        "label": "Gila monster"
+        "label": "Gila Monster"
     },
     {
         "inid": "n01693334",
@@ -518,7 +518,7 @@
         ],
         "wdid": "Q307047",
         "is_animal": true,
-        "label": "Lacerta viridis"
+        "label": "Lacerta Viridis"
     },
     {
         "inid": "n01694178",
@@ -529,7 +529,7 @@
         ],
         "wdid": "Q577924",
         "is_animal": true,
-        "label": "Chamaeleo chamaeleon"
+        "label": "Chamaeleo Chamaeleon"
     },
     {
         "inid": "n01695060",
@@ -543,7 +543,7 @@
         ],
         "wdid": "Q4504",
         "is_animal": true,
-        "label": "Varanus komodoensis"
+        "label": "Varanus Komodoensis"
     },
     {
         "inid": "n01697457",
@@ -555,7 +555,7 @@
         ],
         "wdid": "Q168745",
         "is_animal": true,
-        "label": "Nile crocodile"
+        "label": "Nile Crocodile"
     },
     {
         "inid": "n01698640",
@@ -566,7 +566,7 @@
         ],
         "wdid": "Q193327",
         "is_animal": true,
-        "label": "American alligator"
+        "label": "American Alligator"
     },
     {
         "inid": "n01704323",
@@ -588,7 +588,7 @@
         ],
         "wdid": "Q2940133",
         "is_animal": true,
-        "label": "Carphophis amoenus"
+        "label": "Carphophis Amoenus"
     },
     {
         "inid": "n01728920",
@@ -600,7 +600,7 @@
         ],
         "wdid": "Q2704229",
         "is_animal": true,
-        "label": "ring-necked snake"
+        "label": "Ring-Necked Snake"
     },
     {
         "inid": "n01729322",
@@ -612,7 +612,7 @@
         ],
         "wdid": "Q369667",
         "is_animal": true,
-        "label": "Bitis arietans"
+        "label": "Bitis Arietans"
     },
     {
         "inid": "n01729977",
@@ -623,7 +623,7 @@
         ],
         "wdid": "Q170713",
         "is_animal": true,
-        "label": "grass snake"
+        "label": "Grass Snake"
     },
     {
         "inid": "n01734418",
@@ -645,7 +645,7 @@
         ],
         "wdid": "Q1149509",
         "is_animal": true,
-        "label": "garter snake"
+        "label": "Garter Snake"
     },
     {
         "inid": "n01737021",
@@ -655,7 +655,7 @@
         ],
         "wdid": "Q35541230",
         "is_animal": true,
-        "label": "Barred grass snake"
+        "label": "Barred Grass Snake"
     },
     {
         "inid": "n01739381",
@@ -675,7 +675,7 @@
         ],
         "wdid": "Q922205",
         "is_animal": true,
-        "label": "Hypsiglena torquata"
+        "label": "Hypsiglena Torquata"
     },
     {
         "inid": "n01742172",
@@ -686,7 +686,7 @@
         ],
         "wdid": "Q215388",
         "is_animal": true,
-        "label": "Boa constrictor"
+        "label": "Boa Constrictor"
     },
     {
         "inid": "n01744401",
@@ -698,7 +698,7 @@
         ],
         "wdid": "Q764797",
         "is_animal": true,
-        "label": "Python sebae"
+        "label": "Python Sebae"
     },
     {
         "inid": "n01748264",
@@ -709,7 +709,7 @@
         ],
         "wdid": "Q192754",
         "is_animal": true,
-        "label": "Indian cobra"
+        "label": "Indian Cobra"
     },
     {
         "inid": "n01749939",
@@ -719,7 +719,7 @@
         ],
         "wdid": "Q622805",
         "is_animal": true,
-        "label": "Dendroaspis angusticeps"
+        "label": "Dendroaspis Angusticeps"
     },
     {
         "inid": "n01751748",
@@ -755,7 +755,7 @@
         ],
         "wdid": "Q744532",
         "is_animal": true,
-        "label": "eastern diamondback rattlesnake"
+        "label": "Eastern Diamondback Rattlesnake"
     },
     {
         "inid": "n01756291",
@@ -767,7 +767,7 @@
         ],
         "wdid": "Q1366532",
         "is_animal": true,
-        "label": "Crotalus cerastes"
+        "label": "Crotalus Cerastes"
     },
     {
         "inid": "n01768244",
@@ -799,7 +799,7 @@
         ],
         "wdid": "Q19125",
         "is_animal": true,
-        "label": "scorpion"
+        "label": "Scorpion"
     },
     {
         "inid": "n01773157",
@@ -810,7 +810,7 @@
         ],
         "wdid": "Q2556499",
         "is_animal": true,
-        "label": "Argiope aurantia"
+        "label": "Argiope Aurantia"
     },
     {
         "inid": "n01773549",
@@ -821,7 +821,7 @@
         ],
         "wdid": "Q1306991",
         "is_animal": true,
-        "label": "Barn spider"
+        "label": "Barn Spider"
     },
     {
         "inid": "n01773797",
@@ -832,7 +832,7 @@
         ],
         "wdid": "Q337509",
         "is_animal": true,
-        "label": "Araneus diadematus"
+        "label": "Araneus Diadematus"
     },
     {
         "inid": "n01774384",
@@ -843,7 +843,7 @@
         ],
         "wdid": "Q113297",
         "is_animal": true,
-        "label": "black widow spider"
+        "label": "Black Widow Spider"
     },
     {
         "inid": "n01774750",
@@ -864,7 +864,7 @@
         ],
         "wdid": "Q1059106",
         "is_animal": true,
-        "label": "Alopecosa aculeata"
+        "label": "Alopecosa Aculeata"
     },
     {
         "inid": "n01776313",
@@ -884,7 +884,7 @@
         ],
         "wdid": "Q43447",
         "is_animal": true,
-        "label": "centipede"
+        "label": "Centipede"
     },
     {
         "inid": "n01795545",
@@ -938,7 +938,7 @@
         ],
         "wdid": "Q201251",
         "is_animal": true,
-        "label": "peafowl"
+        "label": "Peafowl"
     },
     {
         "inid": "n01806567",
@@ -948,7 +948,7 @@
         ],
         "wdid": "Q6072584",
         "is_animal": true,
-        "label": "quail"
+        "label": "Quail"
     },
     {
         "inid": "n01807496",
@@ -958,7 +958,7 @@
         ],
         "wdid": "Q732775",
         "is_animal": true,
-        "label": "partridge"
+        "label": "Partridge"
     },
     {
         "inid": "n01817953",
@@ -992,7 +992,7 @@
         ],
         "wdid": "Q207107",
         "is_animal": true,
-        "label": "Sulphur-crested Cockatoo"
+        "label": "Sulphur-Crested Cockatoo"
     },
     {
         "inid": "n01820546",
@@ -1042,7 +1042,7 @@
         ],
         "wdid": "Q43624",
         "is_animal": true,
-        "label": "hummingbird"
+        "label": "Hummingbird"
     },
     {
         "inid": "n01843065",
@@ -1083,7 +1083,7 @@
         ],
         "wdid": "Q189609",
         "is_animal": true,
-        "label": "Red-breasted Merganser"
+        "label": "Red-Breasted Merganser"
     },
     {
         "inid": "n01855672",
@@ -1093,7 +1093,7 @@
         ],
         "wdid": "Q16529344",
         "is_animal": true,
-        "label": "goose"
+        "label": "Goose"
     },
     {
         "inid": "n01860187",
@@ -1140,7 +1140,7 @@
         ],
         "wdid": "Q15343",
         "is_animal": true,
-        "label": "platypus"
+        "label": "Platypus"
     },
     {
         "inid": "n01877812",
@@ -1239,7 +1239,7 @@
         ],
         "wdid": "Q62792",
         "is_animal": false,
-        "label": "conch"
+        "label": "Conch"
     },
     {
         "inid": "n01944390",
@@ -1249,7 +1249,7 @@
         ],
         "wdid": "Q308841",
         "is_animal": true,
-        "label": "snail"
+        "label": "Snail"
     },
     {
         "inid": "n01945685",
@@ -1259,7 +1259,7 @@
         ],
         "wdid": "Q1953597",
         "is_animal": false,
-        "label": "slug"
+        "label": "Slug"
     },
     {
         "inid": "n01950731",
@@ -1270,7 +1270,7 @@
         ],
         "wdid": "Q7440127",
         "is_animal": true,
-        "label": "sea slug"
+        "label": "Sea Slug"
     },
     {
         "inid": "n01955084",
@@ -1306,7 +1306,7 @@
         ],
         "wdid": "Q1936093",
         "is_animal": true,
-        "label": "Dungeness crab"
+        "label": "Dungeness Crab"
     },
     {
         "inid": "n01978455",
@@ -1317,7 +1317,7 @@
         ],
         "wdid": "Q590283",
         "is_animal": true,
-        "label": "Cancer irroratus"
+        "label": "Cancer Irroratus"
     },
     {
         "inid": "n01980166",
@@ -1327,7 +1327,7 @@
         ],
         "wdid": "Q14510079",
         "is_animal": true,
-        "label": "Uca annulipes"
+        "label": "Uca Annulipes"
     },
     {
         "inid": "n01981276",
@@ -1341,7 +1341,7 @@
         ],
         "wdid": "Q721171",
         "is_animal": true,
-        "label": "Paralithodes camtschaticus"
+        "label": "Paralithodes Camtschaticus"
     },
     {
         "inid": "n01983481",
@@ -1354,7 +1354,7 @@
         ],
         "wdid": "Q37668",
         "is_animal": true,
-        "label": "Homarus americanus"
+        "label": "Homarus Americanus"
     },
     {
         "inid": "n01984695",
@@ -1382,7 +1382,7 @@
         ],
         "wdid": "Q210959",
         "is_animal": true,
-        "label": "Astacus astacus"
+        "label": "Astacus Astacus"
     },
     {
         "inid": "n01986214",
@@ -1392,7 +1392,7 @@
         ],
         "wdid": "Q273291",
         "is_animal": true,
-        "label": "hermit crab"
+        "label": "Hermit Crab"
     },
     {
         "inid": "n01990800",
@@ -1467,7 +1467,7 @@
         ],
         "wdid": "Q27604486",
         "is_animal": true,
-        "label": "Ardea herodias occidentalis"
+        "label": "Ardea Herodias Occidentalis"
     },
     {
         "inid": "n02011460",
@@ -1498,7 +1498,7 @@
         ],
         "wdid": "Q725276",
         "is_animal": true,
-        "label": "Aramus guarauna"
+        "label": "Aramus Guarauna"
     },
     {
         "inid": "n02017213",
@@ -1556,7 +1556,7 @@
         ],
         "wdid": "Q106447283",
         "is_animal": true,
-        "label": "Erolia alpina"
+        "label": "Erolia Alpina"
     },
     {
         "inid": "n02028035",
@@ -1620,7 +1620,7 @@
         ],
         "wdid": "Q55805",
         "is_animal": true,
-        "label": "albatross"
+        "label": "Albatross"
     },
     {
         "inid": "n02066245",
@@ -1634,7 +1634,7 @@
         ],
         "wdid": "Q179154",
         "is_animal": true,
-        "label": "gray whale"
+        "label": "Gray Whale"
     },
     {
         "inid": "n02071294",
@@ -1649,7 +1649,7 @@
         ],
         "wdid": "Q26843",
         "is_animal": true,
-        "label": "orca"
+        "label": "Orca"
     },
     {
         "inid": "n02074367",
@@ -1660,7 +1660,7 @@
         ],
         "wdid": "Q129544",
         "is_animal": true,
-        "label": "dugong"
+        "label": "Dugong"
     },
     {
         "inid": "n02077923",
@@ -1670,7 +1670,7 @@
         ],
         "wdid": "Q333649",
         "is_animal": true,
-        "label": "South American sea lion"
+        "label": "South American Sea Lion"
     },
     {
         "inid": "n02085620",
@@ -1794,7 +1794,7 @@
         ],
         "wdid": "Q21102",
         "is_animal": true,
-        "label": "beagle"
+        "label": "Beagle"
     },
     {
         "inid": "n02088466",
@@ -1805,7 +1805,7 @@
         ],
         "wdid": "Q21098",
         "is_animal": true,
-        "label": "bloodhound"
+        "label": "Bloodhound"
     },
     {
         "inid": "n02088466",
@@ -1816,7 +1816,7 @@
         ],
         "wdid": "Q39401",
         "is_animal": true,
-        "label": "scent hound"
+        "label": "Scent Hound"
     },
     {
         "inid": "n02088632",
@@ -1836,7 +1836,7 @@
         ],
         "wdid": "Q37537",
         "is_animal": true,
-        "label": "Black and Tan Coonhound"
+        "label": "Black And Tan Coonhound"
     },
     {
         "inid": "n02089867",
@@ -1887,7 +1887,7 @@
         ],
         "wdid": "Q38668",
         "is_animal": true,
-        "label": "Irish wolfhound"
+        "label": "Irish Wolfhound"
     },
     {
         "inid": "n02091032",
@@ -2224,7 +2224,7 @@
         ],
         "wdid": "Q38047",
         "is_animal": true,
-        "label": "Soft-coated Wheaten Terrier"
+        "label": "Soft-Coated Wheaten Terrier"
     },
     {
         "inid": "n02098286",
@@ -2275,7 +2275,7 @@
         ],
         "wdid": "Q38686",
         "is_animal": true,
-        "label": "Golden retriever"
+        "label": "Golden Retriever"
     },
     {
         "inid": "n02099712",
@@ -2285,7 +2285,7 @@
         ],
         "wdid": "Q38726",
         "is_animal": true,
-        "label": "Labrador retriever"
+        "label": "Labrador Retriever"
     },
     {
         "inid": "n02099849",
@@ -2501,7 +2501,7 @@
         ],
         "wdid": "Q37704",
         "is_animal": true,
-        "label": "Old English sheepdog"
+        "label": "Old English Sheepdog"
     },
     {
         "inid": "n02105855",
@@ -2523,7 +2523,7 @@
         ],
         "wdid": "Q1196071",
         "is_animal": true,
-        "label": "collie"
+        "label": "Collie"
     },
     {
         "inid": "n02106166",
@@ -2533,7 +2533,7 @@
         ],
         "wdid": "Q37710",
         "is_animal": true,
-        "label": "border collie"
+        "label": "Border Collie"
     },
     {
         "inid": "n02106382",
@@ -2544,7 +2544,7 @@
         ],
         "wdid": "Q37896",
         "is_animal": true,
-        "label": "Bouvier des Flandres"
+        "label": "Bouvier Des Flandres"
     },
     {
         "inid": "n02106550",
@@ -2608,7 +2608,7 @@
         ],
         "wdid": "Q37608",
         "is_animal": true,
-        "label": "Bernese mountain dog"
+        "label": "Bernese Mountain Dog"
     },
     {
         "inid": "n02107908",
@@ -2788,7 +2788,7 @@
         ],
         "wdid": "Q38706",
         "is_animal": true,
-        "label": "Newfoundland dog"
+        "label": "Newfoundland Dog"
     },
     {
         "inid": "n02111500",
@@ -2901,7 +2901,7 @@
         ],
         "wdid": "Q38904",
         "is_animal": true,
-        "label": "poodle"
+        "label": "Poodle"
     },
     {
         "inid": "n02113978",
@@ -2924,7 +2924,7 @@
         ],
         "wdid": "Q18498",
         "is_animal": true,
-        "label": "wolf"
+        "label": "Wolf"
     },
     {
         "inid": "n02114548",
@@ -2936,7 +2936,7 @@
         ],
         "wdid": "Q216441",
         "is_animal": true,
-        "label": "Arctic wolf"
+        "label": "Arctic Wolf"
     },
     {
         "inid": "n02114712",
@@ -2949,7 +2949,7 @@
         ],
         "wdid": "Q200442",
         "is_animal": true,
-        "label": "Canis lupus rufus"
+        "label": "Canis Lupus Rufus"
     },
     {
         "inid": "n02114855",
@@ -2962,7 +2962,7 @@
         ],
         "wdid": "Q44299",
         "is_animal": true,
-        "label": "coyote"
+        "label": "Coyote"
     },
     {
         "inid": "n02115641",
@@ -2975,7 +2975,7 @@
         ],
         "wdid": "Q38584",
         "is_animal": true,
-        "label": "dingo"
+        "label": "Dingo"
     },
     {
         "inid": "n02115913",
@@ -2999,7 +2999,7 @@
         ],
         "wdid": "Q173651",
         "is_animal": true,
-        "label": "African wild dog"
+        "label": "African Wild Dog"
     },
     {
         "inid": "n02117135",
@@ -3021,7 +3021,7 @@
         ],
         "wdid": "Q8332",
         "is_animal": true,
-        "label": "red fox"
+        "label": "Red Fox"
     },
     {
         "inid": "n02119789",
@@ -3032,7 +3032,7 @@
         ],
         "wdid": "Q745751",
         "is_animal": true,
-        "label": "Kit fox"
+        "label": "Kit Fox"
     },
     {
         "inid": "n02120079",
@@ -3044,7 +3044,7 @@
         ],
         "wdid": "Q23729171",
         "is_animal": true,
-        "label": "Alopex lagopus"
+        "label": "Alopex Lagopus"
     },
     {
         "inid": "n02120505",
@@ -3056,7 +3056,7 @@
         ],
         "wdid": "Q215250",
         "is_animal": true,
-        "label": "Gray fox"
+        "label": "Gray Fox"
     },
     {
         "inid": "n02123045",
@@ -3067,7 +3067,7 @@
         ],
         "wdid": "Q1474329",
         "is_animal": true,
-        "label": "tabby cat"
+        "label": "Tabby Cat"
     },
     {
         "inid": "n02123159",
@@ -3077,7 +3077,7 @@
         ],
         "wdid": "Q194526",
         "is_animal": true,
-        "label": "tiger quoll"
+        "label": "Tiger Quoll"
     },
     {
         "inid": "n02123394",
@@ -3087,7 +3087,7 @@
         ],
         "wdid": "Q42610",
         "is_animal": false,
-        "label": "Persian cat"
+        "label": "Persian Cat"
     },
     {
         "inid": "n02123597",
@@ -3108,7 +3108,7 @@
         ],
         "wdid": "Q129076",
         "is_animal": false,
-        "label": "cats in ancient Egypt"
+        "label": "Cats In Ancient Egypt"
     },
     {
         "inid": "n02125311",
@@ -3124,7 +3124,7 @@
         ],
         "wdid": "Q35255",
         "is_animal": true,
-        "label": "cougar"
+        "label": "Cougar"
     },
     {
         "inid": "n02127052",
@@ -3135,7 +3135,7 @@
         ],
         "wdid": "Q43375",
         "is_animal": true,
-        "label": "Eurasian lynx"
+        "label": "Eurasian Lynx"
     },
     {
         "inid": "n02128385",
@@ -3146,7 +3146,7 @@
         ],
         "wdid": "Q34706",
         "is_animal": true,
-        "label": "leopard"
+        "label": "Leopard"
     },
     {
         "inid": "n02128757",
@@ -3158,7 +3158,7 @@
         ],
         "wdid": "Q30197",
         "is_animal": true,
-        "label": "Panthera uncia"
+        "label": "Panthera Uncia"
     },
     {
         "inid": "n02128925",
@@ -3171,7 +3171,7 @@
         ],
         "wdid": "Q35694",
         "is_animal": true,
-        "label": "jaguar"
+        "label": "Jaguar"
     },
     {
         "inid": "n02129165",
@@ -3183,7 +3183,7 @@
         ],
         "wdid": "Q140",
         "is_animal": true,
-        "label": "lion"
+        "label": "Lion"
     },
     {
         "inid": "n02129604",
@@ -3194,7 +3194,7 @@
         ],
         "wdid": "Q19939",
         "is_animal": true,
-        "label": "tiger"
+        "label": "Tiger"
     },
     {
         "inid": "n02130308",
@@ -3218,7 +3218,7 @@
         ],
         "wdid": "Q36341",
         "is_animal": true,
-        "label": "brown bear"
+        "label": "Brown Bear"
     },
     {
         "inid": "n02133161",
@@ -3231,7 +3231,7 @@
         ],
         "wdid": "Q122783",
         "is_animal": true,
-        "label": "Ursus americanus"
+        "label": "Ursus Americanus"
     },
     {
         "inid": "n02134084",
@@ -3244,7 +3244,7 @@
         ],
         "wdid": "Q33609",
         "is_animal": true,
-        "label": "polar bear"
+        "label": "Polar Bear"
     },
     {
         "inid": "n02134418",
@@ -3256,7 +3256,7 @@
         ],
         "wdid": "Q145016",
         "is_animal": true,
-        "label": "sloth bear"
+        "label": "Sloth Bear"
     },
     {
         "inid": "n02137549",
@@ -3277,7 +3277,7 @@
         ],
         "wdid": "Q134015",
         "is_animal": true,
-        "label": "meerkat"
+        "label": "Meerkat"
     },
     {
         "inid": "n02165105",
@@ -3324,7 +3324,7 @@
         ],
         "wdid": "Q1030028",
         "is_animal": true,
-        "label": "Morimus funereus"
+        "label": "Morimus Funereus"
     },
     {
         "inid": "n02169497",
@@ -3335,7 +3335,7 @@
         ],
         "wdid": "Q193407",
         "is_animal": true,
-        "label": "leaf beetle"
+        "label": "Leaf Beetle"
     },
     {
         "inid": "n02172182",
@@ -3345,7 +3345,7 @@
         ],
         "wdid": "Q14891382",
         "is_animal": true,
-        "label": "Scarabaeus cristatus"
+        "label": "Scarabaeus Cristatus"
     },
     {
         "inid": "n02174001",
@@ -3355,7 +3355,7 @@
         ],
         "wdid": "Q14867782",
         "is_animal": true,
-        "label": "Oryctes agamemnon"
+        "label": "Oryctes Agamemnon"
     },
     {
         "inid": "n02177972",
@@ -3418,7 +3418,7 @@
         ],
         "wdid": "Q27711",
         "is_animal": true,
-        "label": "Acheta domestica"
+        "label": "Acheta Domestica"
     },
     {
         "inid": "n02231487",
@@ -3441,7 +3441,7 @@
         ],
         "wdid": "Q1073729",
         "is_animal": true,
-        "label": "Gromphadorhina portentosa"
+        "label": "Gromphadorhina Portentosa"
     },
     {
         "inid": "n02233338",
@@ -3452,7 +3452,7 @@
         ],
         "wdid": "Q1661828",
         "is_animal": true,
-        "label": "cockroach"
+        "label": "Cockroach"
     },
     {
         "inid": "n02236044",
@@ -3463,7 +3463,7 @@
         ],
         "wdid": "Q268319",
         "is_animal": true,
-        "label": "Mantis religiosa"
+        "label": "Mantis Religiosa"
     },
     {
         "inid": "n02256656",
@@ -3549,7 +3549,7 @@
         ],
         "wdid": "Q132851",
         "is_animal": false,
-        "label": "admiral"
+        "label": "Admiral"
     },
     {
         "inid": "n02277742",
@@ -3560,7 +3560,7 @@
         ],
         "wdid": "Q161520",
         "is_animal": true,
-        "label": "Aphantopus hyperantus"
+        "label": "Aphantopus Hyperantus"
     },
     {
         "inid": "n02279972",
@@ -3573,7 +3573,7 @@
         ],
         "wdid": "Q212398",
         "is_animal": true,
-        "label": "Danaus plexippus"
+        "label": "Danaus Plexippus"
     },
     {
         "inid": "n02280649",
@@ -3583,7 +3583,7 @@
         ],
         "wdid": "Q27653",
         "is_animal": true,
-        "label": "Pieris rapae"
+        "label": "Pieris Rapae"
     },
     {
         "inid": "n02281406",
@@ -3594,7 +3594,7 @@
         ],
         "wdid": "Q2710909",
         "is_animal": true,
-        "label": "Phoebis sennae"
+        "label": "Phoebis Sennae"
     },
     {
         "inid": "n02281787",
@@ -3616,7 +3616,7 @@
         ],
         "wdid": "Q25349",
         "is_animal": true,
-        "label": "starfish"
+        "label": "Starfish"
     },
     {
         "inid": "n02319095",
@@ -3626,7 +3626,7 @@
         ],
         "wdid": "Q83483",
         "is_animal": true,
-        "label": "sea urchin"
+        "label": "Sea Urchin"
     },
     {
         "inid": "n02321529",
@@ -3649,7 +3649,7 @@
         ],
         "wdid": "Q774716",
         "is_animal": true,
-        "label": "Eastern cottontail"
+        "label": "Eastern Cottontail"
     },
     {
         "inid": "n02326432",
@@ -3659,7 +3659,7 @@
         ],
         "wdid": "Q852187",
         "is_animal": true,
-        "label": "Burmese hare"
+        "label": "Burmese Hare"
     },
     {
         "inid": "n02328150",
@@ -3670,7 +3670,7 @@
         ],
         "wdid": "Q542500",
         "is_animal": true,
-        "label": "Angora rabbit"
+        "label": "Angora Rabbit"
     },
     {
         "inid": "n02342885",
@@ -3691,7 +3691,7 @@
         ],
         "wdid": "Q6120",
         "is_animal": true,
-        "label": "hedgehog"
+        "label": "Hedgehog"
     },
     {
         "inid": "n02356798",
@@ -3703,7 +3703,7 @@
         ],
         "wdid": "Q694296",
         "is_animal": true,
-        "label": "fox squirrel"
+        "label": "Fox Squirrel"
     },
     {
         "inid": "n02361337",
@@ -3723,7 +3723,7 @@
         ],
         "wdid": "Q47542",
         "is_animal": true,
-        "label": "beaver"
+        "label": "Beaver"
     },
     {
         "inid": "n02364673",
@@ -3744,7 +3744,7 @@
         ],
         "wdid": "Q1406070",
         "is_animal": false,
-        "label": "chestnut"
+        "label": "Chestnut"
     },
     {
         "inid": "n02391049",
@@ -3754,7 +3754,7 @@
         ],
         "wdid": "Q32789",
         "is_animal": true,
-        "label": "zebra"
+        "label": "Zebra"
     },
     {
         "inid": "n02395406",
@@ -3768,7 +3768,7 @@
         ],
         "wdid": "Q787",
         "is_animal": true,
-        "label": "pig"
+        "label": "Pig"
     },
     {
         "inid": "n02396427",
@@ -3780,7 +3780,7 @@
         ],
         "wdid": "Q58697",
         "is_animal": true,
-        "label": "Sus scrofa"
+        "label": "Sus Scrofa"
     },
     {
         "inid": "n02397096",
@@ -3790,7 +3790,7 @@
         ],
         "wdid": "Q183255",
         "is_animal": true,
-        "label": "Phacochoerus africanus"
+        "label": "Phacochoerus Africanus"
     },
     {
         "inid": "n02398521",
@@ -3803,7 +3803,7 @@
         ],
         "wdid": "Q34505",
         "is_animal": true,
-        "label": "Hippopotamus amphibius"
+        "label": "Hippopotamus Amphibius"
     },
     {
         "inid": "n02403003",
@@ -3813,7 +3813,7 @@
         ],
         "wdid": "Q473194",
         "is_animal": true,
-        "label": "ox"
+        "label": "Ox"
     },
     {
         "inid": "n02408429",
@@ -3826,7 +3826,7 @@
         ],
         "wdid": "Q42710",
         "is_animal": true,
-        "label": "Water buffalo"
+        "label": "Water Buffalo"
     },
     {
         "inid": "n02410509",
@@ -3847,7 +3847,7 @@
         ],
         "wdid": "Q2929800",
         "is_animal": true,
-        "label": "ram"
+        "label": "Ram"
     },
     {
         "inid": "n02415577",
@@ -3862,7 +3862,7 @@
         ],
         "wdid": "Q189466",
         "is_animal": true,
-        "label": "bighorn sheep"
+        "label": "Bighorn Sheep"
     },
     {
         "inid": "n02417914",
@@ -3873,7 +3873,7 @@
         ],
         "wdid": "Q168327",
         "is_animal": true,
-        "label": "Capra ibex"
+        "label": "Capra Ibex"
     },
     {
         "inid": "n02422106",
@@ -3883,7 +3883,7 @@
         ],
         "wdid": "Q622880",
         "is_animal": true,
-        "label": "hartebeest"
+        "label": "Hartebeest"
     },
     {
         "inid": "n02422699",
@@ -3894,7 +3894,7 @@
         ],
         "wdid": "Q132576",
         "is_animal": true,
-        "label": "impala"
+        "label": "Impala"
     },
     {
         "inid": "n02423022",
@@ -3916,7 +3916,7 @@
         ],
         "wdid": "Q71516",
         "is_animal": true,
-        "label": "dromedary"
+        "label": "Dromedary"
     },
     {
         "inid": "n02437616",
@@ -3926,7 +3926,7 @@
         ],
         "wdid": "Q42569",
         "is_animal": true,
-        "label": "Lama glama"
+        "label": "Lama Glama"
     },
     {
         "inid": "n02441942",
@@ -3936,7 +3936,7 @@
         ],
         "wdid": "Q25311",
         "is_animal": true,
-        "label": "Mustela nivalis"
+        "label": "Mustela Nivalis"
     },
     {
         "inid": "n02442845",
@@ -3960,7 +3960,7 @@
         ],
         "wdid": "Q26582",
         "is_animal": true,
-        "label": "Mustela putorius"
+        "label": "Mustela Putorius"
     },
     {
         "inid": "n02443484",
@@ -3972,7 +3972,7 @@
         ],
         "wdid": "Q402885",
         "is_animal": true,
-        "label": "Mustela nigripes"
+        "label": "Mustela Nigripes"
     },
     {
         "inid": "n02444819",
@@ -4004,7 +4004,7 @@
         ],
         "wdid": "Q27066",
         "is_animal": true,
-        "label": "European badger"
+        "label": "European Badger"
     },
     {
         "inid": "n02454379",
@@ -4014,7 +4014,7 @@
         ],
         "wdid": "Q104840543",
         "is_animal": true,
-        "label": "armadillo"
+        "label": "Armadillo"
     },
     {
         "inid": "n02457408",
@@ -4026,7 +4026,7 @@
         ],
         "wdid": "Q185167",
         "is_animal": true,
-        "label": "three-toed sloth"
+        "label": "Three-Toed Sloth"
     },
     {
         "inid": "n02480495",
@@ -4050,7 +4050,7 @@
         ],
         "wdid": "Q737838",
         "is_animal": true,
-        "label": "Gorilla gorilla"
+        "label": "Gorilla Gorilla"
     },
     {
         "inid": "n02481823",
@@ -4062,7 +4062,7 @@
         ],
         "wdid": "Q4126704",
         "is_animal": true,
-        "label": "common chimpanzee"
+        "label": "Common Chimpanzee"
     },
     {
         "inid": "n02483362",
@@ -4085,7 +4085,7 @@
         ],
         "wdid": "Q213889",
         "is_animal": true,
-        "label": "Symphalangus syndactylus"
+        "label": "Symphalangus Syndactylus"
     },
     {
         "inid": "n02484975",
@@ -4108,7 +4108,7 @@
         ],
         "wdid": "Q504496",
         "is_animal": true,
-        "label": "patas monkey"
+        "label": "Patas Monkey"
     },
     {
         "inid": "n02486410",
@@ -4149,7 +4149,7 @@
         ],
         "wdid": "Q358813",
         "is_animal": true,
-        "label": "Black-and-white colobus"
+        "label": "Black-And-White Colobus"
     },
     {
         "inid": "n02489166",
@@ -4160,7 +4160,7 @@
         ],
         "wdid": "Q192029",
         "is_animal": true,
-        "label": "proboscis monkey"
+        "label": "Proboscis Monkey"
     },
     {
         "inid": "n02490219",
@@ -4215,7 +4215,7 @@
         ],
         "wdid": "Q388032",
         "is_animal": true,
-        "label": "Ateles geoffroyi"
+        "label": "Ateles Geoffroyi"
     },
     {
         "inid": "n02494079",
@@ -4238,7 +4238,7 @@
         ],
         "wdid": "Q185385",
         "is_animal": true,
-        "label": "Lemur catta"
+        "label": "Lemur Catta"
     },
     {
         "inid": "n02500267",
@@ -4251,7 +4251,7 @@
         ],
         "wdid": "Q203868",
         "is_animal": true,
-        "label": "Indri indri"
+        "label": "Indri Indri"
     },
     {
         "inid": "n02504013",
@@ -4262,7 +4262,7 @@
         ],
         "wdid": "Q591305",
         "is_animal": true,
-        "label": "Indian elephant"
+        "label": "Indian Elephant"
     },
     {
         "inid": "n02504458",
@@ -4273,7 +4273,7 @@
         ],
         "wdid": "Q185038",
         "is_animal": true,
-        "label": "African elephant"
+        "label": "African Elephant"
     },
     {
         "inid": "n02509815",
@@ -4288,7 +4288,7 @@
         ],
         "wdid": "Q41960",
         "is_animal": true,
-        "label": "Ailurus fulgens"
+        "label": "Ailurus Fulgens"
     },
     {
         "inid": "n02510455",
@@ -4302,7 +4302,7 @@
         ],
         "wdid": "Q33602",
         "is_animal": true,
-        "label": "giant panda"
+        "label": "Giant Panda"
     },
     {
         "inid": "n02514041",
@@ -4313,7 +4313,7 @@
         ],
         "wdid": "Q2306485",
         "is_animal": true,
-        "label": "Great barracuda"
+        "label": "Great Barracuda"
     },
     {
         "inid": "n02526121",
@@ -4338,7 +4338,7 @@
         ],
         "wdid": "Q934874",
         "is_animal": true,
-        "label": "coho salmon"
+        "label": "Coho Salmon"
     },
     {
         "inid": "n02606052",
@@ -4349,7 +4349,7 @@
         ],
         "wdid": "Q729897",
         "is_animal": true,
-        "label": "Rock beauty"
+        "label": "Rock Beauty"
     },
     {
         "inid": "n02607072",
@@ -4369,7 +4369,7 @@
         ],
         "wdid": "Q300955",
         "is_animal": true,
-        "label": "European sea sturgeon"
+        "label": "European Sea Sturgeon"
     },
     {
         "inid": "n02641379",
@@ -4416,7 +4416,7 @@
         ],
         "wdid": "Q208454",
         "is_animal": false,
-        "label": "abacus"
+        "label": "Abacus"
     },
     {
         "inid": "n02667093",
@@ -4426,7 +4426,7 @@
         ],
         "wdid": "Q305718",
         "is_animal": false,
-        "label": "abaya"
+        "label": "Abaya"
     },
     {
         "inid": "n02669723",
@@ -4438,7 +4438,7 @@
         ],
         "wdid": "Q1349227",
         "is_animal": false,
-        "label": "academic dress"
+        "label": "Academic Dress"
     },
     {
         "inid": "n02676566",
@@ -4448,7 +4448,7 @@
         ],
         "wdid": "Q31561",
         "is_animal": false,
-        "label": "acoustic guitar"
+        "label": "Acoustic Guitar"
     },
     {
         "inid": "n02687172",
@@ -4461,7 +4461,7 @@
         ],
         "wdid": "Q17205",
         "is_animal": false,
-        "label": "aircraft carrier"
+        "label": "Aircraft Carrier"
     },
     {
         "inid": "n02690373",
@@ -4471,7 +4471,7 @@
         ],
         "wdid": "Q210932",
         "is_animal": false,
-        "label": "airliner"
+        "label": "Airliner"
     },
     {
         "inid": "n02692877",
@@ -4482,7 +4482,7 @@
         ],
         "wdid": "Q133585",
         "is_animal": false,
-        "label": "airship"
+        "label": "Airship"
     },
     {
         "inid": "n02692877",
@@ -4493,7 +4493,7 @@
         ],
         "wdid": "Q191430",
         "is_animal": false,
-        "label": "Zeppelin NT"
+        "label": "Zeppelin Nt"
     },
     {
         "inid": "n02699494",
@@ -4503,7 +4503,7 @@
         ],
         "wdid": "Q101687",
         "is_animal": false,
-        "label": "altar"
+        "label": "Altar"
     },
     {
         "inid": "n02701002",
@@ -4513,7 +4513,7 @@
         ],
         "wdid": "Q180481",
         "is_animal": false,
-        "label": "ambulance"
+        "label": "Ambulance"
     },
     {
         "inid": "n02704792",
@@ -4524,7 +4524,7 @@
         ],
         "wdid": "Q474698",
         "is_animal": false,
-        "label": "amphibious vehicle"
+        "label": "Amphibious Vehicle"
     },
     {
         "inid": "n02708093",
@@ -4534,7 +4534,7 @@
         ],
         "wdid": "Q93175845",
         "is_animal": false,
-        "label": "analog clock"
+        "label": "Analog Clock"
     },
     {
         "inid": "n02727426",
@@ -4545,7 +4545,7 @@
         ],
         "wdid": "Q857628",
         "is_animal": false,
-        "label": "apiary"
+        "label": "Apiary"
     },
     {
         "inid": "n02730930",
@@ -4555,7 +4555,7 @@
         ],
         "wdid": "Q273831",
         "is_animal": false,
-        "label": "apron"
+        "label": "Apron"
     },
     {
         "inid": "n02747177",
@@ -4574,7 +4574,7 @@
         ],
         "wdid": "Q216530",
         "is_animal": false,
-        "label": "waste container"
+        "label": "Waste Container"
     },
     {
         "inid": "n02749479",
@@ -4585,7 +4585,7 @@
         ],
         "wdid": "Q177456",
         "is_animal": false,
-        "label": "assault rifle"
+        "label": "Assault Rifle"
     },
     {
         "inid": "n02769748",
@@ -4600,7 +4600,7 @@
         ],
         "wdid": "Q5843",
         "is_animal": false,
-        "label": "backpack"
+        "label": "Backpack"
     },
     {
         "inid": "n02769748",
@@ -4615,7 +4615,7 @@
         ],
         "wdid": "Q1107811",
         "is_animal": false,
-        "label": "haversack"
+        "label": "Haversack"
     },
     {
         "inid": "n02776631",
@@ -4627,7 +4627,7 @@
         ],
         "wdid": "Q274393",
         "is_animal": false,
-        "label": "bakery"
+        "label": "Bakery"
     },
     {
         "inid": "n02777292",
@@ -4638,7 +4638,7 @@
         ],
         "wdid": "Q89579852",
         "is_animal": false,
-        "label": "balance beam"
+        "label": "Balance Beam"
     },
     {
         "inid": "n02782093",
@@ -4648,7 +4648,7 @@
         ],
         "wdid": "Q183951",
         "is_animal": false,
-        "label": "balloon"
+        "label": "Balloon"
     },
     {
         "inid": "n02783161",
@@ -4661,7 +4661,7 @@
         ],
         "wdid": "Q160137",
         "is_animal": false,
-        "label": "ballpoint pen"
+        "label": "Ballpoint Pen"
     },
     {
         "inid": "n02786058",
@@ -4681,7 +4681,7 @@
         ],
         "wdid": "Q258896",
         "is_animal": false,
-        "label": "banjo"
+        "label": "Banjo"
     },
     {
         "inid": "n02788148",
@@ -4695,7 +4695,7 @@
         ],
         "wdid": "Q2051212",
         "is_animal": false,
-        "label": "handrail"
+        "label": "Handrail"
     },
     {
         "inid": "n02790996",
@@ -4705,7 +4705,7 @@
         ],
         "wdid": "Q1043897",
         "is_animal": false,
-        "label": "barbell"
+        "label": "Barbell"
     },
     {
         "inid": "n02791124",
@@ -4715,7 +4715,7 @@
         ],
         "wdid": "Q2947719",
         "is_animal": false,
-        "label": "Barber chair"
+        "label": "Barber Chair"
     },
     {
         "inid": "n02791270",
@@ -4725,7 +4725,7 @@
         ],
         "wdid": "Q21980641",
         "is_animal": false,
-        "label": "barbershop"
+        "label": "Barbershop"
     },
     {
         "inid": "n02793495",
@@ -4735,7 +4735,7 @@
         ],
         "wdid": "Q1303167",
         "is_animal": false,
-        "label": "barn"
+        "label": "Barn"
     },
     {
         "inid": "n02794156",
@@ -4745,7 +4745,7 @@
         ],
         "wdid": "Q79757",
         "is_animal": false,
-        "label": "barometer"
+        "label": "Barometer"
     },
     {
         "inid": "n02795169",
@@ -4756,7 +4756,7 @@
         ],
         "wdid": "Q10289",
         "is_animal": false,
-        "label": "barrel"
+        "label": "Barrel"
     },
     {
         "inid": "n02797295",
@@ -4769,7 +4769,7 @@
         ],
         "wdid": "Q175334",
         "is_animal": false,
-        "label": "wheelbarrow"
+        "label": "Wheelbarrow"
     },
     {
         "inid": "n02799071",
@@ -4779,7 +4779,7 @@
         ],
         "wdid": "Q791187",
         "is_animal": false,
-        "label": "baseball"
+        "label": "Baseball"
     },
     {
         "inid": "n02802426",
@@ -4789,7 +4789,7 @@
         ],
         "wdid": "Q810345",
         "is_animal": false,
-        "label": "basketball"
+        "label": "Basketball"
     },
     {
         "inid": "n02804414",
@@ -4799,7 +4799,7 @@
         ],
         "wdid": "Q1131270",
         "is_animal": false,
-        "label": "bassinet"
+        "label": "Bassinet"
     },
     {
         "inid": "n02804610",
@@ -4809,7 +4809,7 @@
         ],
         "wdid": "Q159998",
         "is_animal": false,
-        "label": "bassoon"
+        "label": "Bassoon"
     },
     {
         "inid": "n02807133",
@@ -4820,7 +4820,7 @@
         ],
         "wdid": "Q798886",
         "is_animal": false,
-        "label": "swim cap"
+        "label": "Swim Cap"
     },
     {
         "inid": "n02808304",
@@ -4830,7 +4830,7 @@
         ],
         "wdid": "Q10385865",
         "is_animal": false,
-        "label": "bath towel"
+        "label": "Bath Towel"
     },
     {
         "inid": "n02814533",
@@ -4846,7 +4846,7 @@
         ],
         "wdid": "Q188886",
         "is_animal": false,
-        "label": "station wagon"
+        "label": "Station Wagon"
     },
     {
         "inid": "n02814860",
@@ -4859,7 +4859,7 @@
         ],
         "wdid": "Q39715",
         "is_animal": false,
-        "label": "lighthouse"
+        "label": "Lighthouse"
     },
     {
         "inid": "n02814860",
@@ -4872,7 +4872,7 @@
         ],
         "wdid": "Q98272210",
         "is_animal": false,
-        "label": "sea mark"
+        "label": "Sea Mark"
     },
     {
         "inid": "n02815834",
@@ -4882,7 +4882,7 @@
         ],
         "wdid": "Q187140",
         "is_animal": false,
-        "label": "beaker"
+        "label": "Beaker"
     },
     {
         "inid": "n02817516",
@@ -4906,7 +4906,7 @@
         ],
         "wdid": "Q1019110",
         "is_animal": false,
-        "label": "bearskin"
+        "label": "Bearskin"
     },
     {
         "inid": "n02823428",
@@ -4916,7 +4916,7 @@
         ],
         "wdid": "Q23668",
         "is_animal": false,
-        "label": "beer bottle"
+        "label": "Beer Bottle"
     },
     {
         "inid": "n02823750",
@@ -4926,7 +4926,7 @@
         ],
         "wdid": "Q516844",
         "is_animal": false,
-        "label": "beer glass"
+        "label": "Beer Glass"
     },
     {
         "inid": "n02825657",
@@ -4937,7 +4937,7 @@
         ],
         "wdid": "Q4883086",
         "is_animal": false,
-        "label": "bell-cot"
+        "label": "Bell-Cot"
     },
     {
         "inid": "n02834397",
@@ -4947,7 +4947,7 @@
         ],
         "wdid": "Q1520756",
         "is_animal": false,
-        "label": "bib"
+        "label": "Bib"
     },
     {
         "inid": "n02835271",
@@ -4959,7 +4959,7 @@
         ],
         "wdid": "Q948851",
         "is_animal": false,
-        "label": "tandem bicycle"
+        "label": "Tandem Bicycle"
     },
     {
         "inid": "n02837789",
@@ -4970,7 +4970,7 @@
         ],
         "wdid": "Q14090",
         "is_animal": false,
-        "label": "bikini"
+        "label": "Bikini"
     },
     {
         "inid": "n02840245",
@@ -4981,7 +4981,7 @@
         ],
         "wdid": "Q421904",
         "is_animal": false,
-        "label": "ring binder"
+        "label": "Ring Binder"
     },
     {
         "inid": "n02841315",
@@ -4993,7 +4993,7 @@
         ],
         "wdid": "Q102626",
         "is_animal": false,
-        "label": "binoculars"
+        "label": "Binoculars"
     },
     {
         "inid": "n02843684",
@@ -5003,7 +5003,7 @@
         ],
         "wdid": "Q744112",
         "is_animal": false,
-        "label": "nest box"
+        "label": "Nest Box"
     },
     {
         "inid": "n02859443",
@@ -5013,7 +5013,7 @@
         ],
         "wdid": "Q1777951",
         "is_animal": false,
-        "label": "boathouse"
+        "label": "Boathouse"
     },
     {
         "inid": "n02860847",
@@ -5025,7 +5025,7 @@
         ],
         "wdid": "Q177275",
         "is_animal": false,
-        "label": "bobsleigh"
+        "label": "Bobsleigh"
     },
     {
         "inid": "n02865351",
@@ -5038,7 +5038,7 @@
         ],
         "wdid": "Q785480",
         "is_animal": false,
-        "label": "bolo tie"
+        "label": "Bolo Tie"
     },
     {
         "inid": "n02869837",
@@ -5049,7 +5049,7 @@
         ],
         "wdid": "Q913023",
         "is_animal": false,
-        "label": "poke bonnet"
+        "label": "Poke Bonnet"
     },
     {
         "inid": "n02869837",
@@ -5060,7 +5060,7 @@
         ],
         "wdid": "Q1149531",
         "is_animal": false,
-        "label": "bonnet"
+        "label": "Bonnet"
     },
     {
         "inid": "n02870880",
@@ -5070,7 +5070,7 @@
         ],
         "wdid": "Q215857",
         "is_animal": false,
-        "label": "bookcase"
+        "label": "Bookcase"
     },
     {
         "inid": "n02871525",
@@ -5082,7 +5082,7 @@
         ],
         "wdid": "Q200764",
         "is_animal": false,
-        "label": "bookstore"
+        "label": "Bookstore"
     },
     {
         "inid": "n02871525",
@@ -5094,7 +5094,7 @@
         ],
         "wdid": "Q998426",
         "is_animal": false,
-        "label": "bookselling"
+        "label": "Bookselling"
     },
     {
         "inid": "n02877765",
@@ -5104,7 +5104,7 @@
         ],
         "wdid": "Q1440281",
         "is_animal": false,
-        "label": "bottle cap"
+        "label": "Bottle Cap"
     },
     {
         "inid": "n02879718",
@@ -5114,7 +5114,7 @@
         ],
         "wdid": "Q46311",
         "is_animal": false,
-        "label": "bow"
+        "label": "Bow"
     },
     {
         "inid": "n02883205",
@@ -5126,7 +5126,7 @@
         ],
         "wdid": "Q14125",
         "is_animal": false,
-        "label": "bow tie"
+        "label": "Bow Tie"
     },
     {
         "inid": "n02892201",
@@ -5138,7 +5138,7 @@
         ],
         "wdid": "Q721747",
         "is_animal": false,
-        "label": "commemorative plaque"
+        "label": "Commemorative Plaque"
     },
     {
         "inid": "n02892767",
@@ -5150,7 +5150,7 @@
         ],
         "wdid": "Q13716",
         "is_animal": false,
-        "label": "brassiere"
+        "label": "Brassiere"
     },
     {
         "inid": "n02892767",
@@ -5162,7 +5162,7 @@
         ],
         "wdid": "Q2025997",
         "is_animal": false,
-        "label": "bandeau"
+        "label": "Bandeau"
     },
     {
         "inid": "n02894605",
@@ -5178,7 +5178,7 @@
         ],
         "wdid": "Q153084",
         "is_animal": false,
-        "label": "groyne"
+        "label": "Groyne"
     },
     {
         "inid": "n02894605",
@@ -5194,7 +5194,7 @@
         ],
         "wdid": "Q215635",
         "is_animal": false,
-        "label": "breakwater"
+        "label": "Breakwater"
     },
     {
         "inid": "n02894605",
@@ -5210,7 +5210,7 @@
         ],
         "wdid": "Q1359152",
         "is_animal": false,
-        "label": "sea wall"
+        "label": "Sea Wall"
     },
     {
         "inid": "n02894605",
@@ -5226,7 +5226,7 @@
         ],
         "wdid": "Q3082251",
         "is_animal": false,
-        "label": "jetty"
+        "label": "Jetty"
     },
     {
         "inid": "n02895154",
@@ -5238,7 +5238,7 @@
         ],
         "wdid": "Q858236",
         "is_animal": false,
-        "label": "breastplate"
+        "label": "Breastplate"
     },
     {
         "inid": "n02906734",
@@ -5248,7 +5248,7 @@
         ],
         "wdid": "Q172833",
         "is_animal": false,
-        "label": "broom"
+        "label": "Broom"
     },
     {
         "inid": "n02909870",
@@ -5259,7 +5259,7 @@
         ],
         "wdid": "Q47107",
         "is_animal": false,
-        "label": "bucket"
+        "label": "Bucket"
     },
     {
         "inid": "n02910353",
@@ -5269,7 +5269,7 @@
         ],
         "wdid": "Q1135567",
         "is_animal": false,
-        "label": "buckle"
+        "label": "Buckle"
     },
     {
         "inid": "n02916936",
@@ -5279,7 +5279,7 @@
         ],
         "wdid": "Q391752",
         "is_animal": false,
-        "label": "bulletproof vest"
+        "label": "Bulletproof Vest"
     },
     {
         "inid": "n02917067",
@@ -5290,7 +5290,7 @@
         ],
         "wdid": "Q211382",
         "is_animal": false,
-        "label": "high-speed rail"
+        "label": "High-Speed Rail"
     },
     {
         "inid": "n02927161",
@@ -5301,7 +5301,7 @@
         ],
         "wdid": "Q13164546",
         "is_animal": false,
-        "label": "butcher shop"
+        "label": "Butcher Shop"
     },
     {
         "inid": "n02930766",
@@ -5314,7 +5314,7 @@
         ],
         "wdid": "Q82650",
         "is_animal": false,
-        "label": "taxi"
+        "label": "Taxi"
     },
     {
         "inid": "n02939185",
@@ -5325,7 +5325,7 @@
         ],
         "wdid": "Q1317634",
         "is_animal": false,
-        "label": "cauldron"
+        "label": "Cauldron"
     },
     {
         "inid": "n02948072",
@@ -5337,7 +5337,7 @@
         ],
         "wdid": "Q12888135",
         "is_animal": false,
-        "label": "candle"
+        "label": "Candle"
     },
     {
         "inid": "n02950826",
@@ -5347,7 +5347,7 @@
         ],
         "wdid": "Q81103",
         "is_animal": false,
-        "label": "cannon"
+        "label": "Cannon"
     },
     {
         "inid": "n02951358",
@@ -5357,7 +5357,7 @@
         ],
         "wdid": "Q171529",
         "is_animal": false,
-        "label": "canoe"
+        "label": "Canoe"
     },
     {
         "inid": "n02951585",
@@ -5368,7 +5368,7 @@
         ],
         "wdid": "Q12714",
         "is_animal": false,
-        "label": "can opener"
+        "label": "Can Opener"
     },
     {
         "inid": "n02963159",
@@ -5378,7 +5378,7 @@
         ],
         "wdid": "Q877140",
         "is_animal": false,
-        "label": "cardigan"
+        "label": "Cardigan"
     },
     {
         "inid": "n02965783",
@@ -5388,7 +5388,7 @@
         ],
         "wdid": "Q47514915",
         "is_animal": false,
-        "label": "car mirror"
+        "label": "Car Mirror"
     },
     {
         "inid": "n02966193",
@@ -5402,7 +5402,7 @@
         ],
         "wdid": "Q208322",
         "is_animal": false,
-        "label": "carousel"
+        "label": "Carousel"
     },
     {
         "inid": "n02966687",
@@ -5413,7 +5413,7 @@
         ],
         "wdid": "Q1501161",
         "is_animal": false,
-        "label": "toolbox"
+        "label": "Toolbox"
     },
     {
         "inid": "n02971356",
@@ -5423,7 +5423,7 @@
         ],
         "wdid": "Q3444710",
         "is_animal": false,
-        "label": "carton"
+        "label": "Carton"
     },
     {
         "inid": "n02974003",
@@ -5433,7 +5433,7 @@
         ],
         "wdid": "Q786732",
         "is_animal": false,
-        "label": "car wheel"
+        "label": "Car Wheel"
     },
     {
         "inid": "n02977058",
@@ -5449,7 +5449,7 @@
         ],
         "wdid": "Q81235",
         "is_animal": false,
-        "label": "automated teller machine"
+        "label": "Automated Teller Machine"
     },
     {
         "inid": "n02978881",
@@ -5459,7 +5459,7 @@
         ],
         "wdid": "Q149757",
         "is_animal": false,
-        "label": "compact cassette"
+        "label": "Compact Cassette"
     },
     {
         "inid": "n02979186",
@@ -5469,7 +5469,7 @@
         ],
         "wdid": "Q510176",
         "is_animal": false,
-        "label": "cassette deck"
+        "label": "Cassette Deck"
     },
     {
         "inid": "n02980441",
@@ -5479,7 +5479,7 @@
         ],
         "wdid": "Q751876",
         "is_animal": false,
-        "label": "ch\u00e2teau"
+        "label": "Ch\u00e2teau"
     },
     {
         "inid": "n02981792",
@@ -5489,7 +5489,7 @@
         ],
         "wdid": "Q190403",
         "is_animal": false,
-        "label": "catamaran"
+        "label": "Catamaran"
     },
     {
         "inid": "n02988304",
@@ -5499,7 +5499,7 @@
         ],
         "wdid": "Q1023100",
         "is_animal": false,
-        "label": "CD player"
+        "label": "Cd Player"
     },
     {
         "inid": "n02992211",
@@ -5510,7 +5510,7 @@
         ],
         "wdid": "Q8371",
         "is_animal": false,
-        "label": "cello"
+        "label": "Cello"
     },
     {
         "inid": "n02992529",
@@ -5524,7 +5524,7 @@
         ],
         "wdid": "Q17517",
         "is_animal": false,
-        "label": "mobile phone"
+        "label": "Mobile Phone"
     },
     {
         "inid": "n02999410",
@@ -5534,7 +5534,7 @@
         ],
         "wdid": "Q5754749",
         "is_animal": false,
-        "label": "High-tensile chain"
+        "label": "High-Tensile Chain"
     },
     {
         "inid": "n03000134",
@@ -5544,7 +5544,7 @@
         ],
         "wdid": "Q1906859",
         "is_animal": false,
-        "label": "chain-link fencing"
+        "label": "Chain-Link Fencing"
     },
     {
         "inid": "n03000247",
@@ -5560,7 +5560,7 @@
         ],
         "wdid": "Q659631",
         "is_animal": false,
-        "label": "chainmail"
+        "label": "Chainmail"
     },
     {
         "inid": "n03000684",
@@ -5571,7 +5571,7 @@
         ],
         "wdid": "Q208040",
         "is_animal": false,
-        "label": "chainsaw"
+        "label": "Chainsaw"
     },
     {
         "inid": "n03014705",
@@ -5581,7 +5581,7 @@
         ],
         "wdid": "Q366134",
         "is_animal": false,
-        "label": "chest"
+        "label": "Chest"
     },
     {
         "inid": "n03016953",
@@ -5592,7 +5592,7 @@
         ],
         "wdid": "Q2746233",
         "is_animal": false,
-        "label": "chiffonier"
+        "label": "Chiffonier"
     },
     {
         "inid": "n03017168",
@@ -5604,7 +5604,7 @@
         ],
         "wdid": "Q178812",
         "is_animal": false,
-        "label": "tubular bell"
+        "label": "Tubular Bell"
     },
     {
         "inid": "n03018349",
@@ -5615,7 +5615,7 @@
         ],
         "wdid": "Q56588168",
         "is_animal": false,
-        "label": "china cabinet"
+        "label": "China Cabinet"
     },
     {
         "inid": "n03026506",
@@ -5625,7 +5625,7 @@
         ],
         "wdid": "Q2735638",
         "is_animal": false,
-        "label": "Christmas stocking"
+        "label": "Christmas Stocking"
     },
     {
         "inid": "n03028079",
@@ -5636,7 +5636,7 @@
         ],
         "wdid": "Q16970",
         "is_animal": false,
-        "label": "church building"
+        "label": "Church Building"
     },
     {
         "inid": "n03032252",
@@ -5650,7 +5650,7 @@
         ],
         "wdid": "Q41253",
         "is_animal": false,
-        "label": "movie theater"
+        "label": "Movie Theater"
     },
     {
         "inid": "n03041632",
@@ -5662,7 +5662,7 @@
         ],
         "wdid": "Q938509",
         "is_animal": false,
-        "label": "cleaver"
+        "label": "Cleaver"
     },
     {
         "inid": "n03042490",
@@ -5672,7 +5672,7 @@
         ],
         "wdid": "Q899959",
         "is_animal": false,
-        "label": "cliff-dwelling"
+        "label": "Cliff-Dwelling"
     },
     {
         "inid": "n03045698",
@@ -5682,7 +5682,7 @@
         ],
         "wdid": "Q516992",
         "is_animal": false,
-        "label": "cloak"
+        "label": "Cloak"
     },
     {
         "inid": "n03047690",
@@ -5695,7 +5695,7 @@
         ],
         "wdid": "Q372381",
         "is_animal": false,
-        "label": "patten"
+        "label": "Patten"
     },
     {
         "inid": "n03062245",
@@ -5705,7 +5705,7 @@
         ],
         "wdid": "Q1105339",
         "is_animal": false,
-        "label": "cocktail shaker"
+        "label": "Cocktail Shaker"
     },
     {
         "inid": "n03063599",
@@ -5715,7 +5715,7 @@
         ],
         "wdid": "Q38110559",
         "is_animal": false,
-        "label": "coffee mug"
+        "label": "Coffee Mug"
     },
     {
         "inid": "n03063689",
@@ -5725,7 +5725,7 @@
         ],
         "wdid": "Q1721055",
         "is_animal": false,
-        "label": "coffeepot"
+        "label": "Coffeepot"
     },
     {
         "inid": "n03065424",
@@ -5739,7 +5739,7 @@
         ],
         "wdid": "Q201717",
         "is_animal": false,
-        "label": "helix"
+        "label": "Helix"
     },
     {
         "inid": "n03075370",
@@ -5749,7 +5749,7 @@
         ],
         "wdid": "Q2374786",
         "is_animal": false,
-        "label": "combination lock"
+        "label": "Combination Lock"
     },
     {
         "inid": "n03085013",
@@ -5760,7 +5760,7 @@
         ],
         "wdid": "Q250",
         "is_animal": false,
-        "label": "computer keyboard"
+        "label": "Computer Keyboard"
     },
     {
         "inid": "n03089624",
@@ -5772,7 +5772,7 @@
         ],
         "wdid": "Q3574069",
         "is_animal": false,
-        "label": "confectionery store"
+        "label": "Confectionery Store"
     },
     {
         "inid": "n03095699",
@@ -5784,7 +5784,7 @@
         ],
         "wdid": "Q17210",
         "is_animal": false,
-        "label": "container ship"
+        "label": "Container Ship"
     },
     {
         "inid": "n03100240",
@@ -5794,7 +5794,7 @@
         ],
         "wdid": "Q55989",
         "is_animal": false,
-        "label": "convertible"
+        "label": "Convertible"
     },
     {
         "inid": "n03109150",
@@ -5805,7 +5805,7 @@
         ],
         "wdid": "Q12337",
         "is_animal": false,
-        "label": "corkscrew"
+        "label": "Corkscrew"
     },
     {
         "inid": "n03110669",
@@ -5818,7 +5818,7 @@
         ],
         "wdid": "Q202027",
         "is_animal": false,
-        "label": "cornet"
+        "label": "Cornet"
     },
     {
         "inid": "n03110669",
@@ -5831,7 +5831,7 @@
         ],
         "wdid": "Q1126540",
         "is_animal": false,
-        "label": "horn instrument"
+        "label": "Horn Instrument"
     },
     {
         "inid": "n03124043",
@@ -5841,7 +5841,7 @@
         ],
         "wdid": "Q1138187",
         "is_animal": false,
-        "label": "cowboy boot"
+        "label": "Cowboy Boot"
     },
     {
         "inid": "n03124170",
@@ -5852,7 +5852,7 @@
         ],
         "wdid": "Q1138175",
         "is_animal": false,
-        "label": "cowboy hat"
+        "label": "Cowboy Hat"
     },
     {
         "inid": "n03125729",
@@ -5862,7 +5862,7 @@
         ],
         "wdid": "Q21159303",
         "is_animal": false,
-        "label": "cradle"
+        "label": "Cradle"
     },
     {
         "inid": "n03126707",
@@ -5872,7 +5872,7 @@
         ],
         "wdid": "Q178692",
         "is_animal": false,
-        "label": "crane"
+        "label": "Crane"
     },
     {
         "inid": "n03127747",
@@ -5892,7 +5892,7 @@
         ],
         "wdid": "Q605384",
         "is_animal": false,
-        "label": "crate"
+        "label": "Crate"
     },
     {
         "inid": "n03131574",
@@ -5903,7 +5903,7 @@
         ],
         "wdid": "Q412770",
         "is_animal": false,
-        "label": "infant bed"
+        "label": "Infant Bed"
     },
     {
         "inid": "n03133878",
@@ -5923,7 +5923,7 @@
         ],
         "wdid": "Q108800333",
         "is_animal": false,
-        "label": "croquet ball"
+        "label": "Croquet Ball"
     },
     {
         "inid": "n03141823",
@@ -5933,7 +5933,7 @@
         ],
         "wdid": "Q268828",
         "is_animal": false,
-        "label": "crutch"
+        "label": "Crutch"
     },
     {
         "inid": "n03146219",
@@ -5943,7 +5943,7 @@
         ],
         "wdid": "Q182731",
         "is_animal": false,
-        "label": "cuirass"
+        "label": "Cuirass"
     },
     {
         "inid": "n03160309",
@@ -5955,7 +5955,7 @@
         ],
         "wdid": "Q12323",
         "is_animal": false,
-        "label": "dam"
+        "label": "Dam"
     },
     {
         "inid": "n03160309",
@@ -5967,7 +5967,7 @@
         ],
         "wdid": "Q105190",
         "is_animal": false,
-        "label": "levee"
+        "label": "Levee"
     },
     {
         "inid": "n03179701",
@@ -5977,7 +5977,7 @@
         ],
         "wdid": "Q1064858",
         "is_animal": false,
-        "label": "desk"
+        "label": "Desk"
     },
     {
         "inid": "n03180011",
@@ -5987,7 +5987,7 @@
         ],
         "wdid": "Q56155",
         "is_animal": false,
-        "label": "desktop computer"
+        "label": "Desktop Computer"
     },
     {
         "inid": "n03187595",
@@ -5998,7 +5998,7 @@
         ],
         "wdid": "Q47519477",
         "is_animal": false,
-        "label": "dial telephone"
+        "label": "Dial Telephone"
     },
     {
         "inid": "n03188531",
@@ -6010,7 +6010,7 @@
         ],
         "wdid": "Q187359",
         "is_animal": false,
-        "label": "diaper"
+        "label": "Diaper"
     },
     {
         "inid": "n03196217",
@@ -6020,7 +6020,7 @@
         ],
         "wdid": "Q1225105",
         "is_animal": false,
-        "label": "digital clock"
+        "label": "Digital Clock"
     },
     {
         "inid": "n03197337",
@@ -6040,7 +6040,7 @@
         ],
         "wdid": "Q14748",
         "is_animal": false,
-        "label": "table"
+        "label": "Table"
     },
     {
         "inid": "n03207743",
@@ -6051,7 +6051,7 @@
         ],
         "wdid": "Q2748906",
         "is_animal": false,
-        "label": "scouring pad"
+        "label": "Scouring Pad"
     },
     {
         "inid": "n03207941",
@@ -6063,7 +6063,7 @@
         ],
         "wdid": "Q186263",
         "is_animal": false,
-        "label": "dishwasher"
+        "label": "Dishwasher"
     },
     {
         "inid": "n03208938",
@@ -6074,7 +6074,7 @@
         ],
         "wdid": "Q755174",
         "is_animal": false,
-        "label": "disc brake"
+        "label": "Disc Brake"
     },
     {
         "inid": "n03216828",
@@ -6086,7 +6086,7 @@
         ],
         "wdid": "Q124282",
         "is_animal": false,
-        "label": "dock"
+        "label": "Dock"
     },
     {
         "inid": "n03216828",
@@ -6098,7 +6098,7 @@
         ],
         "wdid": "Q2240172",
         "is_animal": false,
-        "label": "jetty"
+        "label": "Jetty"
     },
     {
         "inid": "n03218198",
@@ -6110,7 +6110,7 @@
         ],
         "wdid": "Q1339732",
         "is_animal": false,
-        "label": "dog sled"
+        "label": "Dog Sled"
     },
     {
         "inid": "n03220513",
@@ -6120,7 +6120,7 @@
         ],
         "wdid": "Q12493",
         "is_animal": false,
-        "label": "dome"
+        "label": "Dome"
     },
     {
         "inid": "n03223299",
@@ -6131,7 +6131,7 @@
         ],
         "wdid": "Q1136834",
         "is_animal": false,
-        "label": "mat"
+        "label": "Mat"
     },
     {
         "inid": "n03240683",
@@ -6142,7 +6142,7 @@
         ],
         "wdid": "Q689880",
         "is_animal": false,
-        "label": "oil platform"
+        "label": "Oil Platform"
     },
     {
         "inid": "n03249569",
@@ -6154,7 +6154,7 @@
         ],
         "wdid": "Q11404",
         "is_animal": false,
-        "label": "drum"
+        "label": "Drum"
     },
     {
         "inid": "n03250847",
@@ -6164,7 +6164,7 @@
         ],
         "wdid": "Q6566344",
         "is_animal": false,
-        "label": "drum stick"
+        "label": "Drum Stick"
     },
     {
         "inid": "n03255030",
@@ -6174,7 +6174,7 @@
         ],
         "wdid": "Q465453",
         "is_animal": false,
-        "label": "dumbbell"
+        "label": "Dumbbell"
     },
     {
         "inid": "n03259280",
@@ -6184,7 +6184,7 @@
         ],
         "wdid": "Q262515",
         "is_animal": false,
-        "label": "Dutch oven"
+        "label": "Dutch Oven"
     },
     {
         "inid": "n03271574",
@@ -6195,7 +6195,7 @@
         ],
         "wdid": "Q25841836",
         "is_animal": false,
-        "label": "electric fan"
+        "label": "Electric Fan"
     },
     {
         "inid": "n03272010",
@@ -6205,7 +6205,7 @@
         ],
         "wdid": "Q78987",
         "is_animal": false,
-        "label": "electric guitar"
+        "label": "Electric Guitar"
     },
     {
         "inid": "n03272562",
@@ -6215,7 +6215,7 @@
         ],
         "wdid": "Q625151",
         "is_animal": false,
-        "label": "electric locomotive"
+        "label": "Electric Locomotive"
     },
     {
         "inid": "n03290653",
@@ -6225,7 +6225,7 @@
         ],
         "wdid": "Q5380479",
         "is_animal": false,
-        "label": "entertainment center"
+        "label": "Entertainment Center"
     },
     {
         "inid": "n03291819",
@@ -6235,7 +6235,7 @@
         ],
         "wdid": "Q170124",
         "is_animal": false,
-        "label": "envelope"
+        "label": "Envelope"
     },
     {
         "inid": "n03297495",
@@ -6245,7 +6245,7 @@
         ],
         "wdid": "Q1210743",
         "is_animal": false,
-        "label": "espresso machine"
+        "label": "Espresso Machine"
     },
     {
         "inid": "n03314780",
@@ -6255,7 +6255,7 @@
         ],
         "wdid": "Q1160505",
         "is_animal": false,
-        "label": "face powder"
+        "label": "Face Powder"
     },
     {
         "inid": "n03325584",
@@ -6266,7 +6266,7 @@
         ],
         "wdid": "Q887471",
         "is_animal": false,
-        "label": "boa"
+        "label": "Boa"
     },
     {
         "inid": "n03337140",
@@ -6278,7 +6278,7 @@
         ],
         "wdid": "Q1629107",
         "is_animal": false,
-        "label": "filing cabinet"
+        "label": "Filing Cabinet"
     },
     {
         "inid": "n03344393",
@@ -6288,7 +6288,7 @@
         ],
         "wdid": "Q1190275",
         "is_animal": false,
-        "label": "fireboat"
+        "label": "Fireboat"
     },
     {
         "inid": "n03345487",
@@ -6299,7 +6299,7 @@
         ],
         "wdid": "Q208281",
         "is_animal": false,
-        "label": "fire engine"
+        "label": "Fire Engine"
     },
     {
         "inid": "n03347037",
@@ -6310,7 +6310,7 @@
         ],
         "wdid": "Q3578987",
         "is_animal": false,
-        "label": "fire screen"
+        "label": "Fire Screen"
     },
     {
         "inid": "n03355925",
@@ -6321,7 +6321,7 @@
         ],
         "wdid": "Q1971570",
         "is_animal": false,
-        "label": "flagpole"
+        "label": "Flagpole"
     },
     {
         "inid": "n03372029",
@@ -6332,7 +6332,7 @@
         ],
         "wdid": "Q11405",
         "is_animal": false,
-        "label": "flute"
+        "label": "Flute"
     },
     {
         "inid": "n03376595",
@@ -6342,7 +6342,7 @@
         ],
         "wdid": "Q1744391",
         "is_animal": false,
-        "label": "folding chair"
+        "label": "Folding Chair"
     },
     {
         "inid": "n03379051",
@@ -6352,7 +6352,7 @@
         ],
         "wdid": "Q1245430",
         "is_animal": false,
-        "label": "football helmet"
+        "label": "Football Helmet"
     },
     {
         "inid": "n03384352",
@@ -6362,7 +6362,7 @@
         ],
         "wdid": "Q830071",
         "is_animal": false,
-        "label": "pallet jack"
+        "label": "Pallet Jack"
     },
     {
         "inid": "n03388043",
@@ -6372,7 +6372,7 @@
         ],
         "wdid": "Q483453",
         "is_animal": false,
-        "label": "fountain"
+        "label": "Fountain"
     },
     {
         "inid": "n03388183",
@@ -6382,7 +6382,7 @@
         ],
         "wdid": "Q192401",
         "is_animal": false,
-        "label": "fountain pen"
+        "label": "Fountain Pen"
     },
     {
         "inid": "n03388549",
@@ -6392,7 +6392,7 @@
         ],
         "wdid": "Q3256522",
         "is_animal": false,
-        "label": "four-poster bed"
+        "label": "Four-Poster Bed"
     },
     {
         "inid": "n03393912",
@@ -6402,7 +6402,7 @@
         ],
         "wdid": "Q9166501",
         "is_animal": false,
-        "label": "freight car"
+        "label": "Freight Car"
     },
     {
         "inid": "n03394916",
@@ -6413,7 +6413,7 @@
         ],
         "wdid": "Q163759",
         "is_animal": false,
-        "label": "horn"
+        "label": "Horn"
     },
     {
         "inid": "n03400231",
@@ -6425,7 +6425,7 @@
         ],
         "wdid": "Q127666",
         "is_animal": false,
-        "label": "frying pan"
+        "label": "Frying Pan"
     },
     {
         "inid": "n03404251",
@@ -6435,7 +6435,7 @@
         ],
         "wdid": "Q25397898",
         "is_animal": false,
-        "label": "fur coat"
+        "label": "Fur Coat"
     },
     {
         "inid": "n03417042",
@@ -6446,7 +6446,7 @@
         ],
         "wdid": "Q20463",
         "is_animal": false,
-        "label": "garbage truck"
+        "label": "Garbage Truck"
     },
     {
         "inid": "n03424325",
@@ -6458,7 +6458,7 @@
         ],
         "wdid": "Q754396",
         "is_animal": false,
-        "label": "gas mask"
+        "label": "Gas Mask"
     },
     {
         "inid": "n03425413",
@@ -6471,7 +6471,7 @@
         ],
         "wdid": "Q147366",
         "is_animal": false,
-        "label": "gas pump"
+        "label": "Gas Pump"
     },
     {
         "inid": "n03443371",
@@ -6481,7 +6481,7 @@
         ],
         "wdid": "Q18451251",
         "is_animal": false,
-        "label": "goblet"
+        "label": "Goblet"
     },
     {
         "inid": "n03444034",
@@ -6491,7 +6491,7 @@
         ],
         "wdid": "Q15037754",
         "is_animal": false,
-        "label": "go-kart"
+        "label": "Go-Kart"
     },
     {
         "inid": "n03445777",
@@ -6501,7 +6501,7 @@
         ],
         "wdid": "Q919777",
         "is_animal": false,
-        "label": "golf ball"
+        "label": "Golf Ball"
     },
     {
         "inid": "n03445924",
@@ -6512,7 +6512,7 @@
         ],
         "wdid": "Q1431095",
         "is_animal": false,
-        "label": "golf cart"
+        "label": "Golf Cart"
     },
     {
         "inid": "n03447447",
@@ -6522,7 +6522,7 @@
         ],
         "wdid": "Q182916",
         "is_animal": false,
-        "label": "gondola"
+        "label": "Gondola"
     },
     {
         "inid": "n03447721",
@@ -6533,7 +6533,7 @@
         ],
         "wdid": "Q208320",
         "is_animal": false,
-        "label": "gong"
+        "label": "Gong"
     },
     {
         "inid": "n03450230",
@@ -6543,7 +6543,7 @@
         ],
         "wdid": "Q1036729",
         "is_animal": false,
-        "label": "gown"
+        "label": "Gown"
     },
     {
         "inid": "n03452741",
@@ -6554,7 +6554,7 @@
         ],
         "wdid": "Q1148709",
         "is_animal": false,
-        "label": "grand piano"
+        "label": "Grand Piano"
     },
     {
         "inid": "n03459775",
@@ -6565,7 +6565,7 @@
         ],
         "wdid": "Q1796937",
         "is_animal": false,
-        "label": "automobile grille"
+        "label": "Automobile Grille"
     },
     {
         "inid": "n03461385",
@@ -6578,7 +6578,7 @@
         ],
         "wdid": "Q1295201",
         "is_animal": false,
-        "label": "grocery store"
+        "label": "Grocery Store"
     },
     {
         "inid": "n03467068",
@@ -6588,7 +6588,7 @@
         ],
         "wdid": "Q128015",
         "is_animal": false,
-        "label": "guillotine"
+        "label": "Guillotine"
     },
     {
         "inid": "n03476684",
@@ -6598,7 +6598,7 @@
         ],
         "wdid": "Q111535404",
         "is_animal": false,
-        "label": "hair slide"
+        "label": "Hair Slide"
     },
     {
         "inid": "n03476991",
@@ -6608,7 +6608,7 @@
         ],
         "wdid": "Q1058689",
         "is_animal": false,
-        "label": "hair spray"
+        "label": "Hair Spray"
     },
     {
         "inid": "n03478589",
@@ -6618,7 +6618,7 @@
         ],
         "wdid": "Q941081",
         "is_animal": false,
-        "label": "half-track"
+        "label": "Half-Track"
     },
     {
         "inid": "n03481172",
@@ -6628,7 +6628,7 @@
         ],
         "wdid": "Q25294",
         "is_animal": false,
-        "label": "hammer"
+        "label": "Hammer"
     },
     {
         "inid": "n03482405",
@@ -6638,7 +6638,7 @@
         ],
         "wdid": "Q13479587",
         "is_animal": false,
-        "label": "hamper"
+        "label": "Hamper"
     },
     {
         "inid": "n03483316",
@@ -6652,7 +6652,7 @@
         ],
         "wdid": "Q15004",
         "is_animal": false,
-        "label": "hair dryer"
+        "label": "Hair Dryer"
     },
     {
         "inid": "n03485407",
@@ -6663,7 +6663,7 @@
         ],
         "wdid": "Q32738",
         "is_animal": false,
-        "label": "microcomputer"
+        "label": "Microcomputer"
     },
     {
         "inid": "n03485794",
@@ -6676,7 +6676,7 @@
         ],
         "wdid": "Q192411",
         "is_animal": false,
-        "label": "handkerchief"
+        "label": "Handkerchief"
     },
     {
         "inid": "n03492542",
@@ -6688,7 +6688,7 @@
         ],
         "wdid": "Q4439",
         "is_animal": false,
-        "label": "hard disk drive"
+        "label": "Hard Disk Drive"
     },
     {
         "inid": "n03494278",
@@ -6701,7 +6701,7 @@
         ],
         "wdid": "Q51290",
         "is_animal": false,
-        "label": "harmonica"
+        "label": "Harmonica"
     },
     {
         "inid": "n03495258",
@@ -6711,7 +6711,7 @@
         ],
         "wdid": "Q47369",
         "is_animal": false,
-        "label": "harp"
+        "label": "Harp"
     },
     {
         "inid": "n03496892",
@@ -6722,7 +6722,7 @@
         ],
         "wdid": "Q1361060",
         "is_animal": false,
-        "label": "harvesting machine"
+        "label": "Harvesting Machine"
     },
     {
         "inid": "n03498962",
@@ -6732,7 +6732,7 @@
         ],
         "wdid": "Q672890",
         "is_animal": false,
-        "label": "hatchet"
+        "label": "Hatchet"
     },
     {
         "inid": "n03527444",
@@ -6742,7 +6742,7 @@
         ],
         "wdid": "Q1475429",
         "is_animal": false,
-        "label": "handgun holster"
+        "label": "Handgun Holster"
     },
     {
         "inid": "n03529860",
@@ -6753,7 +6753,7 @@
         ],
         "wdid": "Q864121",
         "is_animal": false,
-        "label": "home cinema"
+        "label": "Home Cinema"
     },
     {
         "inid": "n03530642",
@@ -6763,7 +6763,7 @@
         ],
         "wdid": "Q123339",
         "is_animal": false,
-        "label": "honeycomb"
+        "label": "Honeycomb"
     },
     {
         "inid": "n03532672",
@@ -6785,7 +6785,7 @@
         ],
         "wdid": "Q4243098",
         "is_animal": false,
-        "label": "hook"
+        "label": "Hook"
     },
     {
         "inid": "n03534580",
@@ -6796,7 +6796,7 @@
         ],
         "wdid": "Q17130629",
         "is_animal": false,
-        "label": "hoop skirt"
+        "label": "Hoop Skirt"
     },
     {
         "inid": "n03535780",
@@ -6807,7 +6807,7 @@
         ],
         "wdid": "Q623270",
         "is_animal": false,
-        "label": "horizontal bar"
+        "label": "Horizontal Bar"
     },
     {
         "inid": "n03538406",
@@ -6818,7 +6818,7 @@
         ],
         "wdid": "Q56877464",
         "is_animal": false,
-        "label": "horse cart"
+        "label": "Horse Cart"
     },
     {
         "inid": "n03544143",
@@ -6828,7 +6828,7 @@
         ],
         "wdid": "Q179904",
         "is_animal": false,
-        "label": "hourglass"
+        "label": "Hourglass"
     },
     {
         "inid": "n03584254",
@@ -6838,7 +6838,7 @@
         ],
         "wdid": "Q9479",
         "is_animal": false,
-        "label": "iPod"
+        "label": "Ipod"
     },
     {
         "inid": "n03584829",
@@ -6849,7 +6849,7 @@
         ],
         "wdid": "Q483634",
         "is_animal": false,
-        "label": "iron"
+        "label": "Iron"
     },
     {
         "inid": "n03590841",
@@ -6859,7 +6859,7 @@
         ],
         "wdid": "Q221009",
         "is_animal": false,
-        "label": "jack-o'-lantern"
+        "label": "Jack-O'-Lantern"
     },
     {
         "inid": "n03594945",
@@ -6893,7 +6893,7 @@
         ],
         "wdid": "Q131151",
         "is_animal": false,
-        "label": "T-shirt"
+        "label": "T-Shirt"
     },
     {
         "inid": "n03598930",
@@ -6903,7 +6903,7 @@
         ],
         "wdid": "Q181008",
         "is_animal": false,
-        "label": "jigsaw puzzle"
+        "label": "Jigsaw Puzzle"
     },
     {
         "inid": "n03599486",
@@ -6915,7 +6915,7 @@
         ],
         "wdid": "Q182634",
         "is_animal": false,
-        "label": "rickshaw"
+        "label": "Rickshaw"
     },
     {
         "inid": "n03602883",
@@ -6925,7 +6925,7 @@
         ],
         "wdid": "Q178805",
         "is_animal": false,
-        "label": "joystick"
+        "label": "Joystick"
     },
     {
         "inid": "n03617480",
@@ -6935,7 +6935,7 @@
         ],
         "wdid": "Q483444",
         "is_animal": false,
-        "label": "kimono"
+        "label": "Kimono"
     },
     {
         "inid": "n03623198",
@@ -6945,7 +6945,7 @@
         ],
         "wdid": "Q681515",
         "is_animal": false,
-        "label": "knee pad"
+        "label": "Knee Pad"
     },
     {
         "inid": "n03627232",
@@ -6955,7 +6955,7 @@
         ],
         "wdid": "Q527395",
         "is_animal": false,
-        "label": "knot"
+        "label": "Knot"
     },
     {
         "inid": "n03630383",
@@ -6966,7 +6966,7 @@
         ],
         "wdid": "Q1354040",
         "is_animal": false,
-        "label": "white coat"
+        "label": "White Coat"
     },
     {
         "inid": "n03633091",
@@ -6976,7 +6976,7 @@
         ],
         "wdid": "Q193358",
         "is_animal": false,
-        "label": "ladle"
+        "label": "Ladle"
     },
     {
         "inid": "n03642806",
@@ -6987,7 +6987,7 @@
         ],
         "wdid": "Q3962",
         "is_animal": false,
-        "label": "laptop"
+        "label": "Laptop"
     },
     {
         "inid": "n03649909",
@@ -6998,7 +6998,7 @@
         ],
         "wdid": "Q260521",
         "is_animal": false,
-        "label": "lawn mower"
+        "label": "Lawn Mower"
     },
     {
         "inid": "n03657121",
@@ -7009,7 +7009,7 @@
         ],
         "wdid": "Q2011752",
         "is_animal": false,
-        "label": "lens cover"
+        "label": "Lens Cover"
     },
     {
         "inid": "n03658185",
@@ -7021,7 +7021,7 @@
         ],
         "wdid": "Q915110",
         "is_animal": false,
-        "label": "paper knife"
+        "label": "Paper Knife"
     },
     {
         "inid": "n03661043",
@@ -7031,7 +7031,7 @@
         ],
         "wdid": "Q7075",
         "is_animal": false,
-        "label": "library"
+        "label": "Library"
     },
     {
         "inid": "n03662601",
@@ -7041,7 +7041,7 @@
         ],
         "wdid": "Q1746393",
         "is_animal": false,
-        "label": "lifeboat"
+        "label": "Lifeboat"
     },
     {
         "inid": "n03666591",
@@ -7054,7 +7054,7 @@
         ],
         "wdid": "Q20459",
         "is_animal": false,
-        "label": "lighter"
+        "label": "Lighter"
     },
     {
         "inid": "n03670208",
@@ -7065,7 +7065,7 @@
         ],
         "wdid": "Q188475",
         "is_animal": false,
-        "label": "limousine"
+        "label": "Limousine"
     },
     {
         "inid": "n03673027",
@@ -7076,7 +7076,7 @@
         ],
         "wdid": "Q2168617",
         "is_animal": false,
-        "label": "ocean liner"
+        "label": "Ocean Liner"
     },
     {
         "inid": "n03676483",
@@ -7087,7 +7087,7 @@
         ],
         "wdid": "Q184191",
         "is_animal": false,
-        "label": "lipstick"
+        "label": "Lipstick"
     },
     {
         "inid": "n03680355",
@@ -7097,7 +7097,7 @@
         ],
         "wdid": "Q1888786",
         "is_animal": false,
-        "label": "slip-on shoe"
+        "label": "Slip-On Shoe"
     },
     {
         "inid": "n03690938",
@@ -7107,7 +7107,7 @@
         ],
         "wdid": "Q1871151",
         "is_animal": false,
-        "label": "lotion"
+        "label": "Lotion"
     },
     {
         "inid": "n03691459",
@@ -7121,7 +7121,7 @@
         ],
         "wdid": "Q570",
         "is_animal": false,
-        "label": "loudspeaker"
+        "label": "Loudspeaker"
     },
     {
         "inid": "n03692522",
@@ -7132,7 +7132,7 @@
         ],
         "wdid": "Q2474207",
         "is_animal": false,
-        "label": "loupe"
+        "label": "Loupe"
     },
     {
         "inid": "n03697007",
@@ -7143,7 +7143,7 @@
         ],
         "wdid": "Q505213",
         "is_animal": false,
-        "label": "sawmill"
+        "label": "Sawmill"
     },
     {
         "inid": "n03706229",
@@ -7153,7 +7153,7 @@
         ],
         "wdid": "Q59137900",
         "is_animal": false,
-        "label": "magnetic compass"
+        "label": "Magnetic Compass"
     },
     {
         "inid": "n03709823",
@@ -7164,7 +7164,7 @@
         ],
         "wdid": "Q1620264",
         "is_animal": false,
-        "label": "mail bag"
+        "label": "Mail Bag"
     },
     {
         "inid": "n03710193",
@@ -7175,7 +7175,7 @@
         ],
         "wdid": "Q1587360",
         "is_animal": false,
-        "label": "letter box"
+        "label": "Letter Box"
     },
     {
         "inid": "n03710637",
@@ -7185,7 +7185,7 @@
         ],
         "wdid": "Q2027544",
         "is_animal": false,
-        "label": "maillot"
+        "label": "Maillot"
     },
     {
         "inid": "n03710721",
@@ -7205,7 +7205,7 @@
         ],
         "wdid": "Q652657",
         "is_animal": false,
-        "label": "manhole cover"
+        "label": "Manhole Cover"
     },
     {
         "inid": "n03720891",
@@ -7215,7 +7215,7 @@
         ],
         "wdid": "Q39777",
         "is_animal": false,
-        "label": "maraca"
+        "label": "Maraca"
     },
     {
         "inid": "n03721384",
@@ -7226,7 +7226,7 @@
         ],
         "wdid": "Q165666",
         "is_animal": false,
-        "label": "xylophone"
+        "label": "Xylophone"
     },
     {
         "inid": "n03721384",
@@ -7237,7 +7237,7 @@
         ],
         "wdid": "Q220971",
         "is_animal": false,
-        "label": "marimba"
+        "label": "Marimba"
     },
     {
         "inid": "n03724870",
@@ -7247,7 +7247,7 @@
         ],
         "wdid": "Q161524",
         "is_animal": false,
-        "label": "mask"
+        "label": "Mask"
     },
     {
         "inid": "n03729826",
@@ -7257,7 +7257,7 @@
         ],
         "wdid": "Q37507",
         "is_animal": false,
-        "label": "match"
+        "label": "Match"
     },
     {
         "inid": "n03733131",
@@ -7267,7 +7267,7 @@
         ],
         "wdid": "Q76574",
         "is_animal": false,
-        "label": "maypole"
+        "label": "Maypole"
     },
     {
         "inid": "n03733281",
@@ -7278,7 +7278,7 @@
         ],
         "wdid": "Q48963",
         "is_animal": false,
-        "label": "labyrinth"
+        "label": "Labyrinth"
     },
     {
         "inid": "n03733281",
@@ -7289,7 +7289,7 @@
         ],
         "wdid": "Q606777",
         "is_animal": false,
-        "label": "maze"
+        "label": "Maze"
     },
     {
         "inid": "n03733805",
@@ -7299,7 +7299,7 @@
         ],
         "wdid": "Q907099",
         "is_animal": false,
-        "label": "measuring cup"
+        "label": "Measuring Cup"
     },
     {
         "inid": "n03742115",
@@ -7310,7 +7310,7 @@
         ],
         "wdid": "Q4869069",
         "is_animal": false,
-        "label": "bathroom cabinet"
+        "label": "Bathroom Cabinet"
     },
     {
         "inid": "n03743016",
@@ -7321,7 +7321,7 @@
         ],
         "wdid": "Q164240",
         "is_animal": false,
-        "label": "megalith"
+        "label": "Megalith"
     },
     {
         "inid": "n03761084",
@@ -7332,7 +7332,7 @@
         ],
         "wdid": "Q127956",
         "is_animal": false,
-        "label": "microwave oven"
+        "label": "Microwave Oven"
     },
     {
         "inid": "n03763968",
@@ -7342,7 +7342,7 @@
         ],
         "wdid": "Q1196123",
         "is_animal": false,
-        "label": "military uniform"
+        "label": "Military Uniform"
     },
     {
         "inid": "n03764736",
@@ -7352,7 +7352,7 @@
         ],
         "wdid": "Q201573",
         "is_animal": false,
-        "label": "milk churn"
+        "label": "Milk Churn"
     },
     {
         "inid": "n03769881",
@@ -7362,7 +7362,7 @@
         ],
         "wdid": "Q946479",
         "is_animal": false,
-        "label": "minibus"
+        "label": "Minibus"
     },
     {
         "inid": "n03770439",
@@ -7373,7 +7373,7 @@
         ],
         "wdid": "Q230823",
         "is_animal": false,
-        "label": "miniskirt"
+        "label": "Miniskirt"
     },
     {
         "inid": "n03770679",
@@ -7383,7 +7383,7 @@
         ],
         "wdid": "Q223189",
         "is_animal": false,
-        "label": "minivan"
+        "label": "Minivan"
     },
     {
         "inid": "n03773504",
@@ -7393,7 +7393,7 @@
         ],
         "wdid": "Q974850",
         "is_animal": false,
-        "label": "missile"
+        "label": "Missile"
     },
     {
         "inid": "n03775071",
@@ -7403,7 +7403,7 @@
         ],
         "wdid": "Q1661108",
         "is_animal": false,
-        "label": "mitten"
+        "label": "Mitten"
     },
     {
         "inid": "n03775546",
@@ -7413,7 +7413,7 @@
         ],
         "wdid": "Q3007072",
         "is_animal": false,
-        "label": "mixing bowl"
+        "label": "Mixing Bowl"
     },
     {
         "inid": "n03776460",
@@ -7424,7 +7424,7 @@
         ],
         "wdid": "Q1434998",
         "is_animal": false,
-        "label": "mobile home"
+        "label": "Mobile Home"
     },
     {
         "inid": "n03777568",
@@ -7444,7 +7444,7 @@
         ],
         "wdid": "Q5607",
         "is_animal": false,
-        "label": "modem"
+        "label": "Modem"
     },
     {
         "inid": "n03781244",
@@ -7454,7 +7454,7 @@
         ],
         "wdid": "Q44613",
         "is_animal": false,
-        "label": "monastery"
+        "label": "Monastery"
     },
     {
         "inid": "n03782006",
@@ -7464,7 +7464,7 @@
         ],
         "wdid": "Q5290",
         "is_animal": false,
-        "label": "computer monitor"
+        "label": "Computer Monitor"
     },
     {
         "inid": "n03785016",
@@ -7474,7 +7474,7 @@
         ],
         "wdid": "Q201783",
         "is_animal": false,
-        "label": "moped"
+        "label": "Moped"
     },
     {
         "inid": "n03786901",
@@ -7484,7 +7484,7 @@
         ],
         "wdid": "Q189566",
         "is_animal": false,
-        "label": "mortar"
+        "label": "Mortar"
     },
     {
         "inid": "n03787032",
@@ -7494,7 +7494,7 @@
         ],
         "wdid": "Q920507",
         "is_animal": false,
-        "label": "square academic cap"
+        "label": "Square Academic Cap"
     },
     {
         "inid": "n03788195",
@@ -7504,7 +7504,7 @@
         ],
         "wdid": "Q32815",
         "is_animal": false,
-        "label": "mosque"
+        "label": "Mosque"
     },
     {
         "inid": "n03788365",
@@ -7514,7 +7514,7 @@
         ],
         "wdid": "Q696265",
         "is_animal": false,
-        "label": "mosquito net"
+        "label": "Mosquito Net"
     },
     {
         "inid": "n03791053",
@@ -7525,7 +7525,7 @@
         ],
         "wdid": "Q193234",
         "is_animal": false,
-        "label": "motor scooter"
+        "label": "Motor Scooter"
     },
     {
         "inid": "n03792782",
@@ -7537,7 +7537,7 @@
         ],
         "wdid": "Q223705",
         "is_animal": false,
-        "label": "mountain bike"
+        "label": "Mountain Bike"
     },
     {
         "inid": "n03792972",
@@ -7547,7 +7547,7 @@
         ],
         "wdid": "Q170544",
         "is_animal": false,
-        "label": "tent"
+        "label": "Tent"
     },
     {
         "inid": "n03793489",
@@ -7558,7 +7558,7 @@
         ],
         "wdid": "Q7987",
         "is_animal": false,
-        "label": "mouse"
+        "label": "Mouse"
     },
     {
         "inid": "n03794056",
@@ -7568,7 +7568,7 @@
         ],
         "wdid": "Q658353",
         "is_animal": false,
-        "label": "mousetrap"
+        "label": "Mousetrap"
     },
     {
         "inid": "n03796401",
@@ -7578,7 +7578,7 @@
         ],
         "wdid": "Q193468",
         "is_animal": false,
-        "label": "van"
+        "label": "Van"
     },
     {
         "inid": "n03803284",
@@ -7588,7 +7588,7 @@
         ],
         "wdid": "Q167896",
         "is_animal": false,
-        "label": "snout"
+        "label": "Snout"
     },
     {
         "inid": "n03804744",
@@ -7598,7 +7598,7 @@
         ],
         "wdid": "Q36864",
         "is_animal": false,
-        "label": "nail"
+        "label": "Nail"
     },
     {
         "inid": "n03814639",
@@ -7608,7 +7608,7 @@
         ],
         "wdid": "Q1056508",
         "is_animal": false,
-        "label": "cervical collar"
+        "label": "Cervical Collar"
     },
     {
         "inid": "n03814906",
@@ -7618,7 +7618,7 @@
         ],
         "wdid": "Q189299",
         "is_animal": false,
-        "label": "necklace"
+        "label": "Necklace"
     },
     {
         "inid": "n03825788",
@@ -7628,7 +7628,7 @@
         ],
         "wdid": "Q206718",
         "is_animal": false,
-        "label": "teat"
+        "label": "Teat"
     },
     {
         "inid": "n03832673",
@@ -7648,7 +7648,7 @@
         ],
         "wdid": "Q170980",
         "is_animal": false,
-        "label": "obelisk"
+        "label": "Obelisk"
     },
     {
         "inid": "n03838899",
@@ -7660,7 +7660,7 @@
         ],
         "wdid": "Q8377",
         "is_animal": false,
-        "label": "oboe"
+        "label": "Oboe"
     },
     {
         "inid": "n03840681",
@@ -7671,7 +7671,7 @@
         ],
         "wdid": "Q187780",
         "is_animal": false,
-        "label": "ocarina"
+        "label": "Ocarina"
     },
     {
         "inid": "n03841143",
@@ -7684,7 +7684,7 @@
         ],
         "wdid": "Q745105",
         "is_animal": false,
-        "label": "odometer"
+        "label": "Odometer"
     },
     {
         "inid": "n03843555",
@@ -7694,7 +7694,7 @@
         ],
         "wdid": "Q296984",
         "is_animal": false,
-        "label": "oil filter"
+        "label": "Oil Filter"
     },
     {
         "inid": "n03854065",
@@ -7705,7 +7705,7 @@
         ],
         "wdid": "Q1444",
         "is_animal": false,
-        "label": "organ"
+        "label": "Organ"
     },
     {
         "inid": "n03854065",
@@ -7716,7 +7716,7 @@
         ],
         "wdid": "Q281460",
         "is_animal": false,
-        "label": "pipe organ"
+        "label": "Pipe Organ"
     },
     {
         "inid": "n03857828",
@@ -7729,7 +7729,7 @@
         ],
         "wdid": "Q174320",
         "is_animal": false,
-        "label": "oscilloscope"
+        "label": "Oscilloscope"
     },
     {
         "inid": "n03866082",
@@ -7739,7 +7739,7 @@
         ],
         "wdid": "Q7113974",
         "is_animal": false,
-        "label": "peplum"
+        "label": "Peplum"
     },
     {
         "inid": "n03868242",
@@ -7749,7 +7749,7 @@
         ],
         "wdid": "Q1190777",
         "is_animal": false,
-        "label": "bullock cart"
+        "label": "Bullock Cart"
     },
     {
         "inid": "n03868863",
@@ -7759,7 +7759,7 @@
         ],
         "wdid": "Q1890958",
         "is_animal": false,
-        "label": "oxygen mask"
+        "label": "Oxygen Mask"
     },
     {
         "inid": "n03871628",
@@ -7769,7 +7769,7 @@
         ],
         "wdid": "Q214111",
         "is_animal": false,
-        "label": "packet"
+        "label": "Packet"
     },
     {
         "inid": "n03873416",
@@ -7780,7 +7780,7 @@
         ],
         "wdid": "Q599797",
         "is_animal": false,
-        "label": "paddle"
+        "label": "Paddle"
     },
     {
         "inid": "n03874293",
@@ -7791,7 +7791,7 @@
         ],
         "wdid": "Q1874394",
         "is_animal": false,
-        "label": "paddle wheel"
+        "label": "Paddle Wheel"
     },
     {
         "inid": "n03874599",
@@ -7801,7 +7801,7 @@
         ],
         "wdid": "Q40607",
         "is_animal": false,
-        "label": "padlock"
+        "label": "Padlock"
     },
     {
         "inid": "n03876231",
@@ -7811,7 +7811,7 @@
         ],
         "wdid": "Q193897",
         "is_animal": false,
-        "label": "paintbrush"
+        "label": "Paintbrush"
     },
     {
         "inid": "n03877472",
@@ -7824,7 +7824,7 @@
         ],
         "wdid": "Q193204",
         "is_animal": false,
-        "label": "pyjamas"
+        "label": "Pyjamas"
     },
     {
         "inid": "n03877845",
@@ -7834,7 +7834,7 @@
         ],
         "wdid": "Q16560",
         "is_animal": false,
-        "label": "palace"
+        "label": "Palace"
     },
     {
         "inid": "n03884397",
@@ -7846,7 +7846,7 @@
         ],
         "wdid": "Q218802",
         "is_animal": false,
-        "label": "pan flute"
+        "label": "Pan Flute"
     },
     {
         "inid": "n03887697",
@@ -7856,7 +7856,7 @@
         ],
         "wdid": "Q1151042",
         "is_animal": false,
-        "label": "paper towel"
+        "label": "Paper Towel"
     },
     {
         "inid": "n03888257",
@@ -7867,7 +7867,7 @@
         ],
         "wdid": "Q482816",
         "is_animal": false,
-        "label": "parachute"
+        "label": "Parachute"
     },
     {
         "inid": "n03888605",
@@ -7878,7 +7878,7 @@
         ],
         "wdid": "Q692104",
         "is_animal": false,
-        "label": "parallel bars"
+        "label": "Parallel Bars"
     },
     {
         "inid": "n03891251",
@@ -7888,7 +7888,7 @@
         ],
         "wdid": "Q16764362",
         "is_animal": false,
-        "label": "park bench"
+        "label": "Park Bench"
     },
     {
         "inid": "n03891332",
@@ -7898,7 +7898,7 @@
         ],
         "wdid": "Q953960",
         "is_animal": false,
-        "label": "parking meter"
+        "label": "Parking Meter"
     },
     {
         "inid": "n03895866",
@@ -7910,7 +7910,7 @@
         ],
         "wdid": "Q753779",
         "is_animal": false,
-        "label": "passenger railroad car"
+        "label": "Passenger Railroad Car"
     },
     {
         "inid": "n03899768",
@@ -7921,7 +7921,7 @@
         ],
         "wdid": "Q737988",
         "is_animal": false,
-        "label": "patio"
+        "label": "Patio"
     },
     {
         "inid": "n03899768",
@@ -7932,7 +7932,7 @@
         ],
         "wdid": "Q2577534",
         "is_animal": false,
-        "label": "terrace"
+        "label": "Terrace"
     },
     {
         "inid": "n03902125",
@@ -7943,7 +7943,7 @@
         ],
         "wdid": "Q900977",
         "is_animal": false,
-        "label": "payphone"
+        "label": "Payphone"
     },
     {
         "inid": "n03903868",
@@ -7955,7 +7955,7 @@
         ],
         "wdid": "Q12014132",
         "is_animal": false,
-        "label": "pedestal"
+        "label": "Pedestal"
     },
     {
         "inid": "n03908618",
@@ -7966,7 +7966,7 @@
         ],
         "wdid": "Q596566",
         "is_animal": false,
-        "label": "pencil case"
+        "label": "Pencil Case"
     },
     {
         "inid": "n03908714",
@@ -7976,7 +7976,7 @@
         ],
         "wdid": "Q193811",
         "is_animal": false,
-        "label": "pencil sharpener"
+        "label": "Pencil Sharpener"
     },
     {
         "inid": "n03916031",
@@ -7987,7 +7987,7 @@
         ],
         "wdid": "Q131746",
         "is_animal": false,
-        "label": "perfume"
+        "label": "Perfume"
     },
     {
         "inid": "n03920288",
@@ -7997,7 +7997,7 @@
         ],
         "wdid": "Q81714",
         "is_animal": false,
-        "label": "Petri dish"
+        "label": "Petri Dish"
     },
     {
         "inid": "n03924679",
@@ -8007,7 +8007,7 @@
         ],
         "wdid": "Q185369",
         "is_animal": false,
-        "label": "photocopier"
+        "label": "Photocopier"
     },
     {
         "inid": "n03929660",
@@ -8019,7 +8019,7 @@
         ],
         "wdid": "Q181890",
         "is_animal": false,
-        "label": "plectrum"
+        "label": "Plectrum"
     },
     {
         "inid": "n03929660",
@@ -8031,7 +8031,7 @@
         ],
         "wdid": "Q7556928",
         "is_animal": false,
-        "label": "guitar pick"
+        "label": "Guitar Pick"
     },
     {
         "inid": "n03929855",
@@ -8052,7 +8052,7 @@
         ],
         "wdid": "Q3487546",
         "is_animal": false,
-        "label": "picket fence"
+        "label": "Picket Fence"
     },
     {
         "inid": "n03930630",
@@ -8063,7 +8063,7 @@
         ],
         "wdid": "Q215601",
         "is_animal": false,
-        "label": "pickup truck"
+        "label": "Pickup Truck"
     },
     {
         "inid": "n03933933",
@@ -8073,7 +8073,7 @@
         ],
         "wdid": "Q335297",
         "is_animal": false,
-        "label": "pier"
+        "label": "Pier"
     },
     {
         "inid": "n03935335",
@@ -8084,7 +8084,7 @@
         ],
         "wdid": "Q221994",
         "is_animal": false,
-        "label": "piggy bank"
+        "label": "Piggy Bank"
     },
     {
         "inid": "n03937543",
@@ -8094,7 +8094,7 @@
         ],
         "wdid": "Q47487920",
         "is_animal": false,
-        "label": "pill bottle"
+        "label": "Pill Bottle"
     },
     {
         "inid": "n03938244",
@@ -8104,7 +8104,7 @@
         ],
         "wdid": "Q99895",
         "is_animal": false,
-        "label": "pillow"
+        "label": "Pillow"
     },
     {
         "inid": "n03942813",
@@ -8114,7 +8114,7 @@
         ],
         "wdid": "Q2436595",
         "is_animal": false,
-        "label": "table tennis ball"
+        "label": "Table Tennis Ball"
     },
     {
         "inid": "n03944341",
@@ -8124,7 +8124,7 @@
         ],
         "wdid": "Q3087892",
         "is_animal": false,
-        "label": "Wheel of Fortune"
+        "label": "Wheel Of Fortune"
     },
     {
         "inid": "n03947888",
@@ -8135,7 +8135,7 @@
         ],
         "wdid": "Q19385373",
         "is_animal": false,
-        "label": "pirate ship"
+        "label": "Pirate Ship"
     },
     {
         "inid": "n03950228",
@@ -8146,7 +8146,7 @@
         ],
         "wdid": "Q132397",
         "is_animal": false,
-        "label": "pitcher"
+        "label": "Pitcher"
     },
     {
         "inid": "n03954731",
@@ -8158,7 +8158,7 @@
         ],
         "wdid": "Q204260",
         "is_animal": false,
-        "label": "plane"
+        "label": "Plane"
     },
     {
         "inid": "n03956157",
@@ -8168,7 +8168,7 @@
         ],
         "wdid": "Q148319",
         "is_animal": false,
-        "label": "planetarium"
+        "label": "Planetarium"
     },
     {
         "inid": "n03958227",
@@ -8178,7 +8178,7 @@
         ],
         "wdid": "Q498439",
         "is_animal": false,
-        "label": "plastic bag"
+        "label": "Plastic Bag"
     },
     {
         "inid": "n03961711",
@@ -8198,7 +8198,7 @@
         ],
         "wdid": "Q11464",
         "is_animal": false,
-        "label": "plough"
+        "label": "Plough"
     },
     {
         "inid": "n03970156",
@@ -8209,7 +8209,7 @@
         ],
         "wdid": "Q906997",
         "is_animal": false,
-        "label": "plunger"
+        "label": "Plunger"
     },
     {
         "inid": "n03976467",
@@ -8230,7 +8230,7 @@
         ],
         "wdid": "Q183273",
         "is_animal": false,
-        "label": "geographical pole"
+        "label": "Geographical Pole"
     },
     {
         "inid": "n03977966",
@@ -8245,7 +8245,7 @@
         ],
         "wdid": "Q1023646",
         "is_animal": false,
-        "label": "police van"
+        "label": "Police Van"
     },
     {
         "inid": "n03980874",
@@ -8255,7 +8255,7 @@
         ],
         "wdid": "Q468794",
         "is_animal": false,
-        "label": "poncho"
+        "label": "Poncho"
     },
     {
         "inid": "n03982430",
@@ -8267,7 +8267,7 @@
         ],
         "wdid": "Q3500725",
         "is_animal": false,
-        "label": "billiard table"
+        "label": "Billiard Table"
     },
     {
         "inid": "n03983396",
@@ -8278,7 +8278,7 @@
         ],
         "wdid": "Q48551563",
         "is_animal": false,
-        "label": "pop bottle"
+        "label": "Pop Bottle"
     },
     {
         "inid": "n03991062",
@@ -8289,7 +8289,7 @@
         ],
         "wdid": "Q869381",
         "is_animal": false,
-        "label": "flowerpot"
+        "label": "Flowerpot"
     },
     {
         "inid": "n03992509",
@@ -8299,7 +8299,7 @@
         ],
         "wdid": "Q1128390",
         "is_animal": false,
-        "label": "potter's wheel"
+        "label": "Potter'S Wheel"
     },
     {
         "inid": "n03995372",
@@ -8319,7 +8319,7 @@
         ],
         "wdid": "Q956956",
         "is_animal": false,
-        "label": "prayer rug"
+        "label": "Prayer Rug"
     },
     {
         "inid": "n04004767",
@@ -8329,7 +8329,7 @@
         ],
         "wdid": "Q82",
         "is_animal": false,
-        "label": "printer"
+        "label": "Printer"
     },
     {
         "inid": "n04005630",
@@ -8340,7 +8340,7 @@
         ],
         "wdid": "Q40357",
         "is_animal": false,
-        "label": "prison"
+        "label": "Prison"
     },
     {
         "inid": "n04008634",
@@ -8351,7 +8351,7 @@
         ],
         "wdid": "Q174583",
         "is_animal": false,
-        "label": "bullet"
+        "label": "Bullet"
     },
     {
         "inid": "n04009552",
@@ -8361,7 +8361,7 @@
         ],
         "wdid": "Q2166744",
         "is_animal": false,
-        "label": "stage lighting instrument"
+        "label": "Stage Lighting Instrument"
     },
     {
         "inid": "n04019541",
@@ -8372,7 +8372,7 @@
         ],
         "wdid": "Q508918",
         "is_animal": false,
-        "label": "hockey puck"
+        "label": "Hockey Puck"
     },
     {
         "inid": "n04023962",
@@ -8385,7 +8385,7 @@
         ],
         "wdid": "Q966668",
         "is_animal": false,
-        "label": "punching bag"
+        "label": "Punching Bag"
     },
     {
         "inid": "n04026417",
@@ -8395,7 +8395,7 @@
         ],
         "wdid": "Q131740",
         "is_animal": false,
-        "label": "wallet"
+        "label": "Wallet"
     },
     {
         "inid": "n04033901",
@@ -8406,7 +8406,7 @@
         ],
         "wdid": "Q4063215",
         "is_animal": false,
-        "label": "quill"
+        "label": "Quill"
     },
     {
         "inid": "n04033995",
@@ -8419,7 +8419,7 @@
         ],
         "wdid": "Q5847",
         "is_animal": false,
-        "label": "comforter"
+        "label": "Comforter"
     },
     {
         "inid": "n04033995",
@@ -8432,7 +8432,7 @@
         ],
         "wdid": "Q1064538",
         "is_animal": false,
-        "label": "quilt"
+        "label": "Quilt"
     },
     {
         "inid": "n04037443",
@@ -8444,7 +8444,7 @@
         ],
         "wdid": "Q673687",
         "is_animal": false,
-        "label": "racing automobile"
+        "label": "Racing Automobile"
     },
     {
         "inid": "n04039381",
@@ -8455,7 +8455,7 @@
         ],
         "wdid": "Q240502",
         "is_animal": false,
-        "label": "racket"
+        "label": "Racket"
     },
     {
         "inid": "n04040759",
@@ -8465,7 +8465,7 @@
         ],
         "wdid": "Q1572702",
         "is_animal": false,
-        "label": "radiator"
+        "label": "Radiator"
     },
     {
         "inid": "n04041544",
@@ -8476,7 +8476,7 @@
         ],
         "wdid": "Q872",
         "is_animal": false,
-        "label": "radio communications"
+        "label": "Radio Communications"
     },
     {
         "inid": "n04044716",
@@ -8487,7 +8487,7 @@
         ],
         "wdid": "Q184356",
         "is_animal": false,
-        "label": "radio telescope"
+        "label": "Radio Telescope"
     },
     {
         "inid": "n04049303",
@@ -8497,7 +8497,7 @@
         ],
         "wdid": "Q28659441",
         "is_animal": false,
-        "label": "rain barrel"
+        "label": "Rain Barrel"
     },
     {
         "inid": "n04065272",
@@ -8509,7 +8509,7 @@
         ],
         "wdid": "Q19358748",
         "is_animal": false,
-        "label": "Van's RV"
+        "label": "Van'S Rv"
     },
     {
         "inid": "n04067472",
@@ -8519,7 +8519,7 @@
         ],
         "wdid": "Q3173826",
         "is_animal": false,
-        "label": "niddy noddy"
+        "label": "Niddy Noddy"
     },
     {
         "inid": "n04069434",
@@ -8529,7 +8529,7 @@
         ],
         "wdid": "Q2858617",
         "is_animal": false,
-        "label": "reflex camera"
+        "label": "Reflex Camera"
     },
     {
         "inid": "n04070727",
@@ -8540,7 +8540,7 @@
         ],
         "wdid": "Q37828",
         "is_animal": false,
-        "label": "refrigerator"
+        "label": "Refrigerator"
     },
     {
         "inid": "n04070727",
@@ -8551,7 +8551,7 @@
         ],
         "wdid": "Q3667020",
         "is_animal": false,
-        "label": "icebox"
+        "label": "Icebox"
     },
     {
         "inid": "n04074963",
@@ -8562,7 +8562,7 @@
         ],
         "wdid": "Q185091",
         "is_animal": false,
-        "label": "remote control"
+        "label": "Remote Control"
     },
     {
         "inid": "n04081281",
@@ -8575,7 +8575,7 @@
         ],
         "wdid": "Q11707",
         "is_animal": false,
-        "label": "restaurant"
+        "label": "Restaurant"
     },
     {
         "inid": "n04086273",
@@ -8587,7 +8587,7 @@
         ],
         "wdid": "Q170382",
         "is_animal": false,
-        "label": "revolver"
+        "label": "Revolver"
     },
     {
         "inid": "n04090263",
@@ -8597,7 +8597,7 @@
         ],
         "wdid": "Q124072",
         "is_animal": false,
-        "label": "rifle"
+        "label": "Rifle"
     },
     {
         "inid": "n04099969",
@@ -8608,7 +8608,7 @@
         ],
         "wdid": "Q14963",
         "is_animal": false,
-        "label": "rocking chair"
+        "label": "Rocking Chair"
     },
     {
         "inid": "n04111531",
@@ -8618,7 +8618,7 @@
         ],
         "wdid": "Q22847",
         "is_animal": false,
-        "label": "rotisserie"
+        "label": "Rotisserie"
     },
     {
         "inid": "n04116512",
@@ -8630,7 +8630,7 @@
         ],
         "wdid": "Q171888",
         "is_animal": false,
-        "label": "eraser"
+        "label": "Eraser"
     },
     {
         "inid": "n04118538",
@@ -8640,7 +8640,7 @@
         ],
         "wdid": "Q2881344",
         "is_animal": false,
-        "label": "rugby ball"
+        "label": "Rugby Ball"
     },
     {
         "inid": "n04118776",
@@ -8651,7 +8651,7 @@
         ],
         "wdid": "Q104555",
         "is_animal": false,
-        "label": "ruler"
+        "label": "Ruler"
     },
     {
         "inid": "n04120489",
@@ -8661,7 +8661,7 @@
         ],
         "wdid": "Q33612712",
         "is_animal": false,
-        "label": "running shoes"
+        "label": "Running Shoes"
     },
     {
         "inid": "n04125021",
@@ -8671,7 +8671,7 @@
         ],
         "wdid": "Q471898",
         "is_animal": false,
-        "label": "safe"
+        "label": "Safe"
     },
     {
         "inid": "n04127249",
@@ -8681,7 +8681,7 @@
         ],
         "wdid": "Q840333",
         "is_animal": false,
-        "label": "safety pin"
+        "label": "Safety Pin"
     },
     {
         "inid": "n04131690",
@@ -8692,7 +8692,7 @@
         ],
         "wdid": "Q1501968",
         "is_animal": false,
-        "label": "salt and pepper shaker"
+        "label": "Salt And Pepper Shaker"
     },
     {
         "inid": "n04133789",
@@ -8702,7 +8702,7 @@
         ],
         "wdid": "Q131704",
         "is_animal": false,
-        "label": "sandal"
+        "label": "Sandal"
     },
     {
         "inid": "n04136333",
@@ -8712,7 +8712,7 @@
         ],
         "wdid": "Q322781",
         "is_animal": false,
-        "label": "sarong"
+        "label": "Sarong"
     },
     {
         "inid": "n04141076",
@@ -8723,7 +8723,7 @@
         ],
         "wdid": "Q9798",
         "is_animal": false,
-        "label": "saxophone"
+        "label": "Saxophone"
     },
     {
         "inid": "n04141327",
@@ -8733,7 +8733,7 @@
         ],
         "wdid": "Q661140",
         "is_animal": false,
-        "label": "scabbard"
+        "label": "Scabbard"
     },
     {
         "inid": "n04141975",
@@ -8744,7 +8744,7 @@
         ],
         "wdid": "Q134566",
         "is_animal": false,
-        "label": "weighing scale"
+        "label": "Weighing Scale"
     },
     {
         "inid": "n04146614",
@@ -8754,7 +8754,7 @@
         ],
         "wdid": "Q58678",
         "is_animal": false,
-        "label": "school bus"
+        "label": "School Bus"
     },
     {
         "inid": "n04147183",
@@ -8764,7 +8764,7 @@
         ],
         "wdid": "Q204577",
         "is_animal": false,
-        "label": "schooner"
+        "label": "Schooner"
     },
     {
         "inid": "n04149813",
@@ -8774,7 +8774,7 @@
         ],
         "wdid": "Q614379",
         "is_animal": false,
-        "label": "scoreboard"
+        "label": "Scoreboard"
     },
     {
         "inid": "n04152593",
@@ -8785,7 +8785,7 @@
         ],
         "wdid": "Q1736293",
         "is_animal": false,
-        "label": "cathode ray tube screen"
+        "label": "Cathode Ray Tube Screen"
     },
     {
         "inid": "n04153751",
@@ -8795,7 +8795,7 @@
         ],
         "wdid": "Q11022",
         "is_animal": false,
-        "label": "screw"
+        "label": "Screw"
     },
     {
         "inid": "n04154565",
@@ -8805,7 +8805,7 @@
         ],
         "wdid": "Q161071",
         "is_animal": false,
-        "label": "screwdriver"
+        "label": "Screwdriver"
     },
     {
         "inid": "n04162706",
@@ -8816,7 +8816,7 @@
         ],
         "wdid": "Q200403",
         "is_animal": false,
-        "label": "seat belt"
+        "label": "Seat Belt"
     },
     {
         "inid": "n04179913",
@@ -8826,7 +8826,7 @@
         ],
         "wdid": "Q49013",
         "is_animal": false,
-        "label": "sewing machine"
+        "label": "Sewing Machine"
     },
     {
         "inid": "n04192698",
@@ -8837,7 +8837,7 @@
         ],
         "wdid": "Q131559",
         "is_animal": false,
-        "label": "shield"
+        "label": "Shield"
     },
     {
         "inid": "n04192698",
@@ -8848,7 +8848,7 @@
         ],
         "wdid": "Q1766706",
         "is_animal": false,
-        "label": "buckler"
+        "label": "Buckler"
     },
     {
         "inid": "n04200800",
@@ -8860,7 +8860,7 @@
         ],
         "wdid": "Q7500021",
         "is_animal": false,
-        "label": "shoe store"
+        "label": "Shoe Store"
     },
     {
         "inid": "n04201297",
@@ -8880,7 +8880,7 @@
         ],
         "wdid": "Q1308084",
         "is_animal": false,
-        "label": "shopping basket"
+        "label": "Shopping Basket"
     },
     {
         "inid": "n04204347",
@@ -8890,7 +8890,7 @@
         ],
         "wdid": "Q796894",
         "is_animal": false,
-        "label": "shopping cart"
+        "label": "Shopping Cart"
     },
     {
         "inid": "n04208210",
@@ -8900,7 +8900,7 @@
         ],
         "wdid": "Q7220961",
         "is_animal": false,
-        "label": "shovel"
+        "label": "Shovel"
     },
     {
         "inid": "n04209133",
@@ -8910,7 +8910,7 @@
         ],
         "wdid": "Q1267584",
         "is_animal": false,
-        "label": "shower cap"
+        "label": "Shower Cap"
     },
     {
         "inid": "n04209239",
@@ -8920,7 +8920,7 @@
         ],
         "wdid": "Q839818",
         "is_animal": false,
-        "label": "shower curtain"
+        "label": "Shower Curtain"
     },
     {
         "inid": "n04228054",
@@ -8930,7 +8930,7 @@
         ],
         "wdid": "Q172226",
         "is_animal": false,
-        "label": "ski"
+        "label": "Ski"
     },
     {
         "inid": "n04229816",
@@ -8949,7 +8949,7 @@
         ],
         "wdid": "Q214638",
         "is_animal": false,
-        "label": "sleeping bag"
+        "label": "Sleeping Bag"
     },
     {
         "inid": "n04238763",
@@ -8960,7 +8960,7 @@
         ],
         "wdid": "Q190667",
         "is_animal": false,
-        "label": "slide rule"
+        "label": "Slide Rule"
     },
     {
         "inid": "n04239074",
@@ -8970,7 +8970,7 @@
         ],
         "wdid": "Q2234382",
         "is_animal": false,
-        "label": "sliding door"
+        "label": "Sliding Door"
     },
     {
         "inid": "n04243546",
@@ -8991,7 +8991,7 @@
         ],
         "wdid": "Q13389713",
         "is_animal": false,
-        "label": "snorkel"
+        "label": "Snorkel"
     },
     {
         "inid": "n04252077",
@@ -9001,7 +9001,7 @@
         ],
         "wdid": "Q17240",
         "is_animal": false,
-        "label": "snowmobile"
+        "label": "Snowmobile"
     },
     {
         "inid": "n04252225",
@@ -9012,7 +9012,7 @@
         ],
         "wdid": "Q14976",
         "is_animal": false,
-        "label": "snowplow"
+        "label": "Snowplow"
     },
     {
         "inid": "n04254120",
@@ -9022,7 +9022,7 @@
         ],
         "wdid": "Q377647",
         "is_animal": false,
-        "label": "soap dispenser"
+        "label": "Soap Dispenser"
     },
     {
         "inid": "n04254680",
@@ -9032,7 +9032,7 @@
         ],
         "wdid": "Q12252328",
         "is_animal": false,
-        "label": "association football ball"
+        "label": "Association Football Ball"
     },
     {
         "inid": "n04254777",
@@ -9042,7 +9042,7 @@
         ],
         "wdid": "Q43663",
         "is_animal": false,
-        "label": "sock"
+        "label": "Sock"
     },
     {
         "inid": "n04258138",
@@ -9054,7 +9054,7 @@
         ],
         "wdid": "Q61954404",
         "is_animal": false,
-        "label": "parabolic solar reflector"
+        "label": "Parabolic Solar Reflector"
     },
     {
         "inid": "n04259630",
@@ -9064,7 +9064,7 @@
         ],
         "wdid": "Q326735",
         "is_animal": false,
-        "label": "sombrero"
+        "label": "Sombrero"
     },
     {
         "inid": "n04263257",
@@ -9074,7 +9074,7 @@
         ],
         "wdid": "Q38132106",
         "is_animal": false,
-        "label": "soup bowl"
+        "label": "Soup Bowl"
     },
     {
         "inid": "n04264628",
@@ -9084,7 +9084,7 @@
         ],
         "wdid": "Q1072900",
         "is_animal": false,
-        "label": "space bar"
+        "label": "Space Bar"
     },
     {
         "inid": "n04265275",
@@ -9094,7 +9094,7 @@
         ],
         "wdid": "Q12069731",
         "is_animal": false,
-        "label": "space heater"
+        "label": "Space Heater"
     },
     {
         "inid": "n04266014",
@@ -9114,7 +9114,7 @@
         ],
         "wdid": "Q15148",
         "is_animal": false,
-        "label": "spatula"
+        "label": "Spatula"
     },
     {
         "inid": "n04273569",
@@ -9124,7 +9124,7 @@
         ],
         "wdid": "Q622416",
         "is_animal": false,
-        "label": "motorboat"
+        "label": "Motorboat"
     },
     {
         "inid": "n04275548",
@@ -9135,7 +9135,7 @@
         ],
         "wdid": "Q188691",
         "is_animal": false,
-        "label": "spider web"
+        "label": "Spider Web"
     },
     {
         "inid": "n04277352",
@@ -9145,7 +9145,7 @@
         ],
         "wdid": "Q918594",
         "is_animal": false,
-        "label": "spindle"
+        "label": "Spindle"
     },
     {
         "inid": "n04285008",
@@ -9156,7 +9156,7 @@
         ],
         "wdid": "Q274586",
         "is_animal": false,
-        "label": "sports car"
+        "label": "Sports Car"
     },
     {
         "inid": "n04286575",
@@ -9167,7 +9167,7 @@
         ],
         "wdid": "Q82916",
         "is_animal": false,
-        "label": "spotlight"
+        "label": "Spotlight"
     },
     {
         "inid": "n04296562",
@@ -9177,7 +9177,7 @@
         ],
         "wdid": "Q194428",
         "is_animal": false,
-        "label": "stage"
+        "label": "Stage"
     },
     {
         "inid": "n04310018",
@@ -9187,7 +9187,7 @@
         ],
         "wdid": "Q171043",
         "is_animal": false,
-        "label": "steam locomotive"
+        "label": "Steam Locomotive"
     },
     {
         "inid": "n04311004",
@@ -9206,7 +9206,7 @@
         ],
         "wdid": "Q6610630",
         "is_animal": false,
-        "label": "steelpan"
+        "label": "Steelpan"
     },
     {
         "inid": "n04317175",
@@ -9216,7 +9216,7 @@
         ],
         "wdid": "Q162339",
         "is_animal": false,
-        "label": "stethoscope"
+        "label": "Stethoscope"
     },
     {
         "inid": "n04325704",
@@ -9226,7 +9226,7 @@
         ],
         "wdid": "Q4342445",
         "is_animal": false,
-        "label": "stole"
+        "label": "Stole"
     },
     {
         "inid": "n04326547",
@@ -9236,7 +9236,7 @@
         ],
         "wdid": "Q979531",
         "is_animal": false,
-        "label": "stone wall"
+        "label": "Stone Wall"
     },
     {
         "inid": "n04328186",
@@ -9247,7 +9247,7 @@
         ],
         "wdid": "Q843994",
         "is_animal": false,
-        "label": "stopwatch"
+        "label": "Stopwatch"
     },
     {
         "inid": "n04330267",
@@ -9257,7 +9257,7 @@
         ],
         "wdid": "Q203789",
         "is_animal": false,
-        "label": "stove"
+        "label": "Stove"
     },
     {
         "inid": "n04332243",
@@ -9267,7 +9267,7 @@
         ],
         "wdid": "Q381155",
         "is_animal": false,
-        "label": "sieve"
+        "label": "Sieve"
     },
     {
         "inid": "n04335435",
@@ -9281,7 +9281,7 @@
         ],
         "wdid": "Q3407658",
         "is_animal": false,
-        "label": "tram"
+        "label": "Tram"
     },
     {
         "inid": "n04336792",
@@ -9291,7 +9291,7 @@
         ],
         "wdid": "Q838960",
         "is_animal": false,
-        "label": "stretcher"
+        "label": "Stretcher"
     },
     {
         "inid": "n04344873",
@@ -9302,7 +9302,7 @@
         ],
         "wdid": "Q5243076",
         "is_animal": false,
-        "label": "daybed"
+        "label": "Daybed"
     },
     {
         "inid": "n04346328",
@@ -9313,7 +9313,7 @@
         ],
         "wdid": "Q180987",
         "is_animal": false,
-        "label": "stupa"
+        "label": "Stupa"
     },
     {
         "inid": "n04347754",
@@ -9326,7 +9326,7 @@
         ],
         "wdid": "Q2811",
         "is_animal": false,
-        "label": "submarine"
+        "label": "Submarine"
     },
     {
         "inid": "n04347754",
@@ -9339,7 +9339,7 @@
         ],
         "wdid": "Q428661",
         "is_animal": false,
-        "label": "U-boat"
+        "label": "U-Boat"
     },
     {
         "inid": "n04350905",
@@ -9350,7 +9350,7 @@
         ],
         "wdid": "Q614806",
         "is_animal": false,
-        "label": "suit"
+        "label": "Suit"
     },
     {
         "inid": "n04355338",
@@ -9360,7 +9360,7 @@
         ],
         "wdid": "Q80793",
         "is_animal": false,
-        "label": "sundial"
+        "label": "Sundial"
     },
     {
         "inid": "n04355933",
@@ -9370,7 +9370,7 @@
         ],
         "wdid": "Q29820586",
         "is_animal": false,
-        "label": "Tetraspanin 42Ej Dmel_CG12143"
+        "label": "Tetraspanin 42Ej Dmel_Cg12143"
     },
     {
         "inid": "n04356056",
@@ -9382,7 +9382,7 @@
         ],
         "wdid": "Q217541",
         "is_animal": false,
-        "label": "sunglasses"
+        "label": "Sunglasses"
     },
     {
         "inid": "n04357314",
@@ -9394,7 +9394,7 @@
         ],
         "wdid": "Q827658",
         "is_animal": false,
-        "label": "sunscreen"
+        "label": "Sunscreen"
     },
     {
         "inid": "n04366367",
@@ -9404,7 +9404,7 @@
         ],
         "wdid": "Q12570",
         "is_animal": false,
-        "label": "suspension bridge"
+        "label": "Suspension Bridge"
     },
     {
         "inid": "n04367480",
@@ -9416,7 +9416,7 @@
         ],
         "wdid": "Q828361",
         "is_animal": false,
-        "label": "mop"
+        "label": "Mop"
     },
     {
         "inid": "n04370456",
@@ -9426,7 +9426,7 @@
         ],
         "wdid": "Q19968163",
         "is_animal": false,
-        "label": "sweat shirt"
+        "label": "Sweat Shirt"
     },
     {
         "inid": "n04371430",
@@ -9437,7 +9437,7 @@
         ],
         "wdid": "Q212989",
         "is_animal": false,
-        "label": "swimsuit"
+        "label": "Swimsuit"
     },
     {
         "inid": "n04371774",
@@ -9447,7 +9447,7 @@
         ],
         "wdid": "Q188688",
         "is_animal": false,
-        "label": "swing"
+        "label": "Swing"
     },
     {
         "inid": "n04372370",
@@ -9459,7 +9459,7 @@
         ],
         "wdid": "Q5320",
         "is_animal": false,
-        "label": "electrical switch"
+        "label": "Electrical Switch"
     },
     {
         "inid": "n04376876",
@@ -9469,7 +9469,7 @@
         ],
         "wdid": "Q273318",
         "is_animal": false,
-        "label": "syringe"
+        "label": "Syringe"
     },
     {
         "inid": "n04380533",
@@ -9479,7 +9479,7 @@
         ],
         "wdid": "Q36641511",
         "is_animal": false,
-        "label": "table lamp"
+        "label": "Table Lamp"
     },
     {
         "inid": "n04389033",
@@ -9492,7 +9492,7 @@
         ],
         "wdid": "Q12876",
         "is_animal": false,
-        "label": "tank"
+        "label": "Tank"
     },
     {
         "inid": "n04392985",
@@ -9502,7 +9502,7 @@
         ],
         "wdid": "Q213777",
         "is_animal": false,
-        "label": "tape recorder"
+        "label": "Tape Recorder"
     },
     {
         "inid": "n04398044",
@@ -9512,7 +9512,7 @@
         ],
         "wdid": "Q245005",
         "is_animal": false,
-        "label": "teapot"
+        "label": "Teapot"
     },
     {
         "inid": "n04399382",
@@ -9523,7 +9523,7 @@
         ],
         "wdid": "Q213477",
         "is_animal": false,
-        "label": "teddy bear"
+        "label": "Teddy Bear"
     },
     {
         "inid": "n04404412",
@@ -9534,7 +9534,7 @@
         ],
         "wdid": "Q289",
         "is_animal": false,
-        "label": "television"
+        "label": "Television"
     },
     {
         "inid": "n04409515",
@@ -9544,7 +9544,7 @@
         ],
         "wdid": "Q246514",
         "is_animal": false,
-        "label": "tennis ball"
+        "label": "Tennis Ball"
     },
     {
         "inid": "n04417672",
@@ -9555,7 +9555,7 @@
         ],
         "wdid": "Q20455657",
         "is_animal": false,
-        "label": "thatch"
+        "label": "Thatch"
     },
     {
         "inid": "n04418357",
@@ -9566,7 +9566,7 @@
         ],
         "wdid": "Q945148",
         "is_animal": false,
-        "label": "stage curtain"
+        "label": "Stage Curtain"
     },
     {
         "inid": "n04423845",
@@ -9576,7 +9576,7 @@
         ],
         "wdid": "Q322483",
         "is_animal": false,
-        "label": "thimble"
+        "label": "Thimble"
     },
     {
         "inid": "n04428191",
@@ -9588,7 +9588,7 @@
         ],
         "wdid": "Q506839",
         "is_animal": false,
-        "label": "threshing machine"
+        "label": "Threshing Machine"
     },
     {
         "inid": "n04429376",
@@ -9598,7 +9598,7 @@
         ],
         "wdid": "Q189233",
         "is_animal": false,
-        "label": "throne"
+        "label": "Throne"
     },
     {
         "inid": "n04435653",
@@ -9617,7 +9617,7 @@
         ],
         "wdid": "Q14890",
         "is_animal": false,
-        "label": "toaster"
+        "label": "Toaster"
     },
     {
         "inid": "n04443257",
@@ -9629,7 +9629,7 @@
         ],
         "wdid": "Q16406",
         "is_animal": false,
-        "label": "smoke shop"
+        "label": "Smoke Shop"
     },
     {
         "inid": "n04447861",
@@ -9639,7 +9639,7 @@
         ],
         "wdid": "Q116191",
         "is_animal": false,
-        "label": "toilet seat"
+        "label": "Toilet Seat"
     },
     {
         "inid": "n04456115",
@@ -9649,7 +9649,7 @@
         ],
         "wdid": "Q327954",
         "is_animal": false,
-        "label": "torch"
+        "label": "Torch"
     },
     {
         "inid": "n04458633",
@@ -9659,7 +9659,7 @@
         ],
         "wdid": "Q83809",
         "is_animal": false,
-        "label": "totem pole"
+        "label": "Totem Pole"
     },
     {
         "inid": "n04461696",
@@ -9671,7 +9671,7 @@
         ],
         "wdid": "Q332050",
         "is_animal": false,
-        "label": "tow truck"
+        "label": "Tow Truck"
     },
     {
         "inid": "n04462240",
@@ -9681,7 +9681,7 @@
         ],
         "wdid": "Q1318959",
         "is_animal": false,
-        "label": "toy store"
+        "label": "Toy Store"
     },
     {
         "inid": "n04465501",
@@ -9691,7 +9691,7 @@
         ],
         "wdid": "Q39495",
         "is_animal": false,
-        "label": "tractor"
+        "label": "Tractor"
     },
     {
         "inid": "n04467665",
@@ -9706,7 +9706,7 @@
         ],
         "wdid": "Q1936841",
         "is_animal": false,
-        "label": "semi-trailer truck"
+        "label": "Semi-Trailer Truck"
     },
     {
         "inid": "n04476259",
@@ -9716,7 +9716,7 @@
         ],
         "wdid": "Q613972",
         "is_animal": false,
-        "label": "tray"
+        "label": "Tray"
     },
     {
         "inid": "n04479046",
@@ -9726,7 +9726,7 @@
         ],
         "wdid": "Q654290",
         "is_animal": false,
-        "label": "trench coat"
+        "label": "Trench Coat"
     },
     {
         "inid": "n04482393",
@@ -9738,7 +9738,7 @@
         ],
         "wdid": "Q536135",
         "is_animal": false,
-        "label": "tricycle"
+        "label": "Tricycle"
     },
     {
         "inid": "n04483307",
@@ -9748,7 +9748,7 @@
         ],
         "wdid": "Q630415",
         "is_animal": false,
-        "label": "trimaran"
+        "label": "Trimaran"
     },
     {
         "inid": "n04485082",
@@ -9758,7 +9758,7 @@
         ],
         "wdid": "Q1444534",
         "is_animal": false,
-        "label": "tripod"
+        "label": "Tripod"
     },
     {
         "inid": "n04486054",
@@ -9768,7 +9768,7 @@
         ],
         "wdid": "Q143912",
         "is_animal": false,
-        "label": "triumphal arch"
+        "label": "Triumphal Arch"
     },
     {
         "inid": "n04487081",
@@ -9780,7 +9780,7 @@
         ],
         "wdid": "Q5639",
         "is_animal": false,
-        "label": "trolleybus"
+        "label": "Trolleybus"
     },
     {
         "inid": "n04487394",
@@ -9790,7 +9790,7 @@
         ],
         "wdid": "Q8350",
         "is_animal": false,
-        "label": "trombone"
+        "label": "Trombone"
     },
     {
         "inid": "n04493381",
@@ -9801,7 +9801,7 @@
         ],
         "wdid": "Q98950889",
         "is_animal": false,
-        "label": "Tub (container)"
+        "label": "Tub (Container)"
     },
     {
         "inid": "n04501370",
@@ -9811,7 +9811,7 @@
         ],
         "wdid": "Q1146283",
         "is_animal": false,
-        "label": "turnstile"
+        "label": "Turnstile"
     },
     {
         "inid": "n04505470",
@@ -9821,7 +9821,7 @@
         ],
         "wdid": "Q54854916",
         "is_animal": false,
-        "label": "typewriter keyboard"
+        "label": "Typewriter Keyboard"
     },
     {
         "inid": "n04507155",
@@ -9831,7 +9831,7 @@
         ],
         "wdid": "Q41607",
         "is_animal": false,
-        "label": "umbrella"
+        "label": "Umbrella"
     },
     {
         "inid": "n04509417",
@@ -9842,7 +9842,7 @@
         ],
         "wdid": "Q223924",
         "is_animal": false,
-        "label": "unicycle"
+        "label": "Unicycle"
     },
     {
         "inid": "n04515003",
@@ -9853,7 +9853,7 @@
         ],
         "wdid": "Q3382191",
         "is_animal": false,
-        "label": "upright piano"
+        "label": "Upright Piano"
     },
     {
         "inid": "n04517823",
@@ -9864,7 +9864,7 @@
         ],
         "wdid": "Q101674",
         "is_animal": false,
-        "label": "vacuum cleaner"
+        "label": "Vacuum Cleaner"
     },
     {
         "inid": "n04522168",
@@ -9874,7 +9874,7 @@
         ],
         "wdid": "Q191851",
         "is_animal": false,
-        "label": "vase"
+        "label": "Vase"
     },
     {
         "inid": "n04523525",
@@ -9884,7 +9884,7 @@
         ],
         "wdid": "Q189771",
         "is_animal": false,
-        "label": "vault"
+        "label": "Vault"
     },
     {
         "inid": "n04525038",
@@ -9894,7 +9894,7 @@
         ],
         "wdid": "Q243519",
         "is_animal": false,
-        "label": "velvet"
+        "label": "Velvet"
     },
     {
         "inid": "n04525305",
@@ -9904,7 +9904,7 @@
         ],
         "wdid": "Q211584",
         "is_animal": false,
-        "label": "vending machine"
+        "label": "Vending Machine"
     },
     {
         "inid": "n04532106",
@@ -9914,7 +9914,7 @@
         ],
         "wdid": "Q6501052",
         "is_animal": false,
-        "label": "vestment"
+        "label": "Vestment"
     },
     {
         "inid": "n04532670",
@@ -9924,7 +9924,7 @@
         ],
         "wdid": "Q181348",
         "is_animal": false,
-        "label": "viaduct"
+        "label": "Viaduct"
     },
     {
         "inid": "n04536866",
@@ -9935,7 +9935,7 @@
         ],
         "wdid": "Q8355",
         "is_animal": false,
-        "label": "violin"
+        "label": "Violin"
     },
     {
         "inid": "n04540053",
@@ -9945,7 +9945,7 @@
         ],
         "wdid": "Q927924",
         "is_animal": false,
-        "label": "volleyball"
+        "label": "Volleyball"
     },
     {
         "inid": "n04542943",
@@ -9955,7 +9955,7 @@
         ],
         "wdid": "Q1139975",
         "is_animal": false,
-        "label": "waffle iron"
+        "label": "Waffle Iron"
     },
     {
         "inid": "n04548280",
@@ -9965,7 +9965,7 @@
         ],
         "wdid": "Q31843230",
         "is_animal": false,
-        "label": "wall clock"
+        "label": "Wall Clock"
     },
     {
         "inid": "n04548362",
@@ -9989,7 +9989,7 @@
         ],
         "wdid": "Q106106",
         "is_animal": false,
-        "label": "wardrobe"
+        "label": "Wardrobe"
     },
     {
         "inid": "n04552348",
@@ -10000,7 +10000,7 @@
         ],
         "wdid": "Q216916",
         "is_animal": false,
-        "label": "military aircraft"
+        "label": "Military Aircraft"
     },
     {
         "inid": "n04553703",
@@ -10014,7 +10014,7 @@
         ],
         "wdid": "Q140565",
         "is_animal": false,
-        "label": "sink"
+        "label": "Sink"
     },
     {
         "inid": "n04554684",
@@ -10026,7 +10026,7 @@
         ],
         "wdid": "Q124441",
         "is_animal": false,
-        "label": "washing machine"
+        "label": "Washing Machine"
     },
     {
         "inid": "n04557648",
@@ -10036,7 +10036,7 @@
         ],
         "wdid": "Q6817227",
         "is_animal": false,
-        "label": "water bottle"
+        "label": "Water Bottle"
     },
     {
         "inid": "n04560804",
@@ -10046,7 +10046,7 @@
         ],
         "wdid": "Q47493881",
         "is_animal": false,
-        "label": "water jug"
+        "label": "Water Jug"
     },
     {
         "inid": "n04562935",
@@ -10056,7 +10056,7 @@
         ],
         "wdid": "Q274153",
         "is_animal": false,
-        "label": "water tower"
+        "label": "Water Tower"
     },
     {
         "inid": "n04579145",
@@ -10075,7 +10075,7 @@
         ],
         "wdid": "Q204917",
         "is_animal": false,
-        "label": "whistle"
+        "label": "Whistle"
     },
     {
         "inid": "n04584207",
@@ -10085,7 +10085,7 @@
         ],
         "wdid": "Q105507",
         "is_animal": false,
-        "label": "wig"
+        "label": "Wig"
     },
     {
         "inid": "n04589890",
@@ -10095,7 +10095,7 @@
         ],
         "wdid": "Q910768",
         "is_animal": false,
-        "label": "window screen"
+        "label": "Window Screen"
     },
     {
         "inid": "n04590129",
@@ -10105,7 +10105,7 @@
         ],
         "wdid": "Q321046",
         "is_animal": false,
-        "label": "window blind"
+        "label": "Window Blind"
     },
     {
         "inid": "n04591157",
@@ -10115,7 +10115,7 @@
         ],
         "wdid": "Q47524465",
         "is_animal": false,
-        "label": "Windsor tie"
+        "label": "Windsor Tie"
     },
     {
         "inid": "n04591713",
@@ -10125,7 +10125,7 @@
         ],
         "wdid": "Q23490",
         "is_animal": false,
-        "label": "wine bottle"
+        "label": "Wine Bottle"
     },
     {
         "inid": "n04592741",
@@ -10135,7 +10135,7 @@
         ],
         "wdid": "Q1172934",
         "is_animal": false,
-        "label": "wing"
+        "label": "Wing"
     },
     {
         "inid": "n04596742",
@@ -10145,7 +10145,7 @@
         ],
         "wdid": "Q208364",
         "is_animal": false,
-        "label": "wok"
+        "label": "Wok"
     },
     {
         "inid": "n04597913",
@@ -10155,7 +10155,7 @@
         ],
         "wdid": "Q1762390",
         "is_animal": false,
-        "label": "wooden spoon"
+        "label": "Wooden Spoon"
     },
     {
         "inid": "n04599235",
@@ -10167,7 +10167,7 @@
         ],
         "wdid": "Q1751888",
         "is_animal": false,
-        "label": "woolen"
+        "label": "Woolen"
     },
     {
         "inid": "n04604644",
@@ -10190,7 +10190,7 @@
         ],
         "wdid": "Q852190",
         "is_animal": false,
-        "label": "shipwreck"
+        "label": "Shipwreck"
     },
     {
         "inid": "n04612504",
@@ -10200,7 +10200,7 @@
         ],
         "wdid": "Q1137441",
         "is_animal": false,
-        "label": "yawl"
+        "label": "Yawl"
     },
     {
         "inid": "n04613696",
@@ -10210,7 +10210,7 @@
         ],
         "wdid": "Q15680",
         "is_animal": false,
-        "label": "yurt"
+        "label": "Yurt"
     },
     {
         "inid": "n06359193",
@@ -10223,7 +10223,7 @@
         ],
         "wdid": "Q35127",
         "is_animal": false,
-        "label": "website"
+        "label": "Website"
     },
     {
         "inid": "n06596364",
@@ -10233,7 +10233,7 @@
         ],
         "wdid": "Q1760610",
         "is_animal": false,
-        "label": "comic book"
+        "label": "Comic Book"
     },
     {
         "inid": "n06785654",
@@ -10244,7 +10244,7 @@
         ],
         "wdid": "Q83207",
         "is_animal": false,
-        "label": "crossword"
+        "label": "Crossword"
     },
     {
         "inid": "n06794110",
@@ -10254,7 +10254,7 @@
         ],
         "wdid": "Q170285",
         "is_animal": false,
-        "label": "traffic sign"
+        "label": "Traffic Sign"
     },
     {
         "inid": "n06874185",
@@ -10266,7 +10266,7 @@
         ],
         "wdid": "Q8004",
         "is_animal": false,
-        "label": "traffic light"
+        "label": "Traffic Light"
     },
     {
         "inid": "n07248320",
@@ -10279,7 +10279,7 @@
         ],
         "wdid": "Q1434845",
         "is_animal": false,
-        "label": "dust jacket"
+        "label": "Dust Jacket"
     },
     {
         "inid": "n07565083",
@@ -10289,7 +10289,7 @@
         ],
         "wdid": "Q1071136",
         "is_animal": false,
-        "label": "menu"
+        "label": "Menu"
     },
     {
         "inid": "n07579787",
@@ -10299,7 +10299,7 @@
         ],
         "wdid": "Q57216",
         "is_animal": false,
-        "label": "plate"
+        "label": "Plate"
     },
     {
         "inid": "n07583066",
@@ -10309,7 +10309,7 @@
         ],
         "wdid": "Q207968",
         "is_animal": false,
-        "label": "guacamole"
+        "label": "Guacamole"
     },
     {
         "inid": "n07584110",
@@ -10330,7 +10330,7 @@
         ],
         "wdid": "Q846849",
         "is_animal": false,
-        "label": "hot pot"
+        "label": "Hot Pot"
     },
     {
         "inid": "n07613480",
@@ -10340,7 +10340,7 @@
         ],
         "wdid": "Q616601",
         "is_animal": false,
-        "label": "trifle"
+        "label": "Trifle"
     },
     {
         "inid": "n07614500",
@@ -10351,7 +10351,7 @@
         ],
         "wdid": "Q13233",
         "is_animal": false,
-        "label": "ice cream"
+        "label": "Ice Cream"
     },
     {
         "inid": "n07615774",
@@ -10364,7 +10364,7 @@
         ],
         "wdid": "Q855373",
         "is_animal": false,
-        "label": "ice pop"
+        "label": "Ice Pop"
     },
     {
         "inid": "n07684084",
@@ -10384,7 +10384,7 @@
         ],
         "wdid": "Q272502",
         "is_animal": false,
-        "label": "bagel"
+        "label": "Bagel"
     },
     {
         "inid": "n07695742",
@@ -10394,7 +10394,7 @@
         ],
         "wdid": "Q160525",
         "is_animal": false,
-        "label": "pretzel"
+        "label": "Pretzel"
     },
     {
         "inid": "n07697313",
@@ -10404,7 +10404,7 @@
         ],
         "wdid": "Q667478",
         "is_animal": false,
-        "label": "cheeseburger"
+        "label": "Cheeseburger"
     },
     {
         "inid": "n07697537",
@@ -10416,7 +10416,7 @@
         ],
         "wdid": "Q181055",
         "is_animal": false,
-        "label": "hot dog"
+        "label": "Hot Dog"
     },
     {
         "inid": "n07711569",
@@ -10426,7 +10426,7 @@
         ],
         "wdid": "Q322787",
         "is_animal": false,
-        "label": "mashed potato"
+        "label": "Mashed Potato"
     },
     {
         "inid": "n07714571",
@@ -10445,7 +10445,7 @@
         ],
         "wdid": "Q47722",
         "is_animal": false,
-        "label": "broccoli"
+        "label": "Broccoli"
     },
     {
         "inid": "n07715103",
@@ -10455,7 +10455,7 @@
         ],
         "wdid": "Q7537",
         "is_animal": false,
-        "label": "Brassica oleracea var. botrytis"
+        "label": "Brassica Oleracea Var. Botrytis"
     },
     {
         "inid": "n07715103",
@@ -10465,7 +10465,7 @@
         ],
         "wdid": "Q23900272",
         "is_animal": false,
-        "label": "cauliflower"
+        "label": "Cauliflower"
     },
     {
         "inid": "n07716358",
@@ -10476,7 +10476,7 @@
         ],
         "wdid": "Q7533",
         "is_animal": false,
-        "label": "zucchini"
+        "label": "Zucchini"
     },
     {
         "inid": "n07716906",
@@ -10486,7 +10486,7 @@
         ],
         "wdid": "Q2142043",
         "is_animal": false,
-        "label": "Spaghetti squash"
+        "label": "Spaghetti Squash"
     },
     {
         "inid": "n07717410",
@@ -10496,7 +10496,7 @@
         ],
         "wdid": "Q2975815",
         "is_animal": false,
-        "label": "acorn squash"
+        "label": "Acorn Squash"
     },
     {
         "inid": "n07717556",
@@ -10506,7 +10506,7 @@
         ],
         "wdid": "Q4169287",
         "is_animal": false,
-        "label": "butternut squash"
+        "label": "Butternut Squash"
     },
     {
         "inid": "n07718472",
@@ -10517,7 +10517,7 @@
         ],
         "wdid": "Q2735883",
         "is_animal": false,
-        "label": "cucumber"
+        "label": "Cucumber"
     },
     {
         "inid": "n07718747",
@@ -10528,7 +10528,7 @@
         ],
         "wdid": "Q23041430",
         "is_animal": false,
-        "label": "globe artichoke"
+        "label": "Globe Artichoke"
     },
     {
         "inid": "n07720875",
@@ -10538,7 +10538,7 @@
         ],
         "wdid": "Q1548030",
         "is_animal": false,
-        "label": "bell pepper"
+        "label": "Bell Pepper"
     },
     {
         "inid": "n07730033",
@@ -10578,7 +10578,7 @@
         ],
         "wdid": "Q14458220",
         "is_animal": false,
-        "label": "strawberry"
+        "label": "Strawberry"
     },
     {
         "inid": "n07747607",
@@ -10588,7 +10588,7 @@
         ],
         "wdid": "Q13191",
         "is_animal": false,
-        "label": "orange"
+        "label": "Orange"
     },
     {
         "inid": "n07749582",
@@ -10598,7 +10598,7 @@
         ],
         "wdid": "Q1093742",
         "is_animal": false,
-        "label": "lemon"
+        "label": "Lemon"
     },
     {
         "inid": "n07753113",
@@ -10608,7 +10608,7 @@
         ],
         "wdid": "Q2746643",
         "is_animal": false,
-        "label": "fig"
+        "label": "Fig"
     },
     {
         "inid": "n07753275",
@@ -10619,7 +10619,7 @@
         ],
         "wdid": "Q10817602",
         "is_animal": false,
-        "label": "pineapple"
+        "label": "Pineapple"
     },
     {
         "inid": "n07753592",
@@ -10629,7 +10629,7 @@
         ],
         "wdid": "Q503",
         "is_animal": false,
-        "label": "banana"
+        "label": "Banana"
     },
     {
         "inid": "n07754684",
@@ -10641,7 +10641,7 @@
         ],
         "wdid": "Q45757",
         "is_animal": false,
-        "label": "Artocarpus heterophyllus"
+        "label": "Artocarpus Heterophyllus"
     },
     {
         "inid": "n07754684",
@@ -10653,7 +10653,7 @@
         ],
         "wdid": "Q16136843",
         "is_animal": false,
-        "label": "jackfruit"
+        "label": "Jackfruit"
     },
     {
         "inid": "n07760859",
@@ -10663,7 +10663,7 @@
         ],
         "wdid": "Q6648683",
         "is_animal": false,
-        "label": "sugar-apple"
+        "label": "Sugar-Apple"
     },
     {
         "inid": "n07768694",
@@ -10673,7 +10673,7 @@
         ],
         "wdid": "Q13222088",
         "is_animal": false,
-        "label": "pomegranate"
+        "label": "Pomegranate"
     },
     {
         "inid": "n07802026",
@@ -10683,7 +10683,7 @@
         ],
         "wdid": "Q336989",
         "is_animal": false,
-        "label": "hay"
+        "label": "Hay"
     },
     {
         "inid": "n07831146",
@@ -10693,7 +10693,7 @@
         ],
         "wdid": "Q876624",
         "is_animal": false,
-        "label": "carbonara"
+        "label": "Carbonara"
     },
     {
         "inid": "n07836838",
@@ -10704,7 +10704,7 @@
         ],
         "wdid": "Q599901",
         "is_animal": false,
-        "label": "chocolate syrup"
+        "label": "Chocolate Syrup"
     },
     {
         "inid": "n07860988",
@@ -10714,7 +10714,7 @@
         ],
         "wdid": "Q178024",
         "is_animal": false,
-        "label": "dough"
+        "label": "Dough"
     },
     {
         "inid": "n07871810",
@@ -10725,7 +10725,7 @@
         ],
         "wdid": "Q3807565",
         "is_animal": false,
-        "label": "meatloaf"
+        "label": "Meatloaf"
     },
     {
         "inid": "n07873807",
@@ -10736,7 +10736,7 @@
         ],
         "wdid": "Q177",
         "is_animal": false,
-        "label": "pizza"
+        "label": "Pizza"
     },
     {
         "inid": "n07875152",
@@ -10746,7 +10746,7 @@
         ],
         "wdid": "Q4382275",
         "is_animal": false,
-        "label": "Pot pie"
+        "label": "Pot Pie"
     },
     {
         "inid": "n07880968",
@@ -10756,7 +10756,7 @@
         ],
         "wdid": "Q390823",
         "is_animal": false,
-        "label": "burrito"
+        "label": "Burrito"
     },
     {
         "inid": "n07892512",
@@ -10766,7 +10766,7 @@
         ],
         "wdid": "Q1827",
         "is_animal": false,
-        "label": "red wine"
+        "label": "Red Wine"
     },
     {
         "inid": "n07920052",
@@ -10776,7 +10776,7 @@
         ],
         "wdid": "Q180289",
         "is_animal": false,
-        "label": "espresso"
+        "label": "Espresso"
     },
     {
         "inid": "n07930864",
@@ -10786,7 +10786,7 @@
         ],
         "wdid": "Q81727",
         "is_animal": false,
-        "label": "cup"
+        "label": "Cup"
     },
     {
         "inid": "n07932039",
@@ -10796,7 +10796,7 @@
         ],
         "wdid": "Q477374",
         "is_animal": false,
-        "label": "eggnog"
+        "label": "Eggnog"
     },
     {
         "inid": "n09193705",
@@ -10816,7 +10816,7 @@
         ],
         "wdid": "Q75794",
         "is_animal": false,
-        "label": "bubble"
+        "label": "Bubble"
     },
     {
         "inid": "n09246464",
@@ -10828,7 +10828,7 @@
         ],
         "wdid": "Q107679",
         "is_animal": false,
-        "label": "cliff"
+        "label": "Cliff"
     },
     {
         "inid": "n09256479",
@@ -10838,7 +10838,7 @@
         ],
         "wdid": "Q11292",
         "is_animal": false,
-        "label": "coral reef"
+        "label": "Coral Reef"
     },
     {
         "inid": "n09288635",
@@ -10848,7 +10848,7 @@
         ],
         "wdid": "Q83471",
         "is_animal": false,
-        "label": "geyser"
+        "label": "Geyser"
     },
     {
         "inid": "n09332890",
@@ -10872,7 +10872,7 @@
         ],
         "wdid": "Q747957",
         "is_animal": false,
-        "label": "stack"
+        "label": "Stack"
     },
     {
         "inid": "n09399592",
@@ -10885,7 +10885,7 @@
         ],
         "wdid": "Q1245089",
         "is_animal": false,
-        "label": "promontory"
+        "label": "Promontory"
     },
     {
         "inid": "n09399592",
@@ -10909,7 +10909,7 @@
         ],
         "wdid": "Q478251",
         "is_animal": false,
-        "label": "bar"
+        "label": "Bar"
     },
     {
         "inid": "n09428293",
@@ -10922,7 +10922,7 @@
         ],
         "wdid": "Q93352",
         "is_animal": false,
-        "label": "coast"
+        "label": "Coast"
     },
     {
         "inid": "n09468604",
@@ -10933,7 +10933,7 @@
         ],
         "wdid": "Q39816",
         "is_animal": false,
-        "label": "valley"
+        "label": "Valley"
     },
     {
         "inid": "n09472597",
@@ -10943,7 +10943,7 @@
         ],
         "wdid": "Q8072",
         "is_animal": false,
-        "label": "volcano"
+        "label": "Volcano"
     },
     {
         "inid": "n09835506",
@@ -10954,7 +10954,7 @@
         ],
         "wdid": "Q10871364",
         "is_animal": true,
-        "label": "baseball player"
+        "label": "Baseball Player"
     },
     {
         "inid": "n10148035",
@@ -10965,7 +10965,7 @@
         ],
         "wdid": "Q854830",
         "is_animal": true,
-        "label": "bridegroom"
+        "label": "Bridegroom"
     },
     {
         "inid": "n10565667",
@@ -10975,7 +10975,7 @@
         ],
         "wdid": "Q17504942",
         "is_animal": true,
-        "label": "scuba diver"
+        "label": "Scuba Diver"
     },
     {
         "inid": "n11879895",
@@ -10985,7 +10985,7 @@
         ],
         "wdid": "Q177932",
         "is_animal": false,
-        "label": "rapeseed"
+        "label": "Rapeseed"
     },
     {
         "inid": "n11939491",
@@ -11008,7 +11008,7 @@
         ],
         "wdid": "Q2631281",
         "is_animal": false,
-        "label": "Cypripedium parviflorum"
+        "label": "Cypripedium Parviflorum"
     },
     {
         "inid": "n12144580",
@@ -11018,7 +11018,7 @@
         ],
         "wdid": "Q506139",
         "is_animal": false,
-        "label": "caryopsis"
+        "label": "Caryopsis"
     },
     {
         "inid": "n12267677",
@@ -11028,7 +11028,7 @@
         ],
         "wdid": "Q3914781",
         "is_animal": false,
-        "label": "acorn"
+        "label": "Acorn"
     },
     {
         "inid": "n12620546",
@@ -11040,7 +11040,7 @@
         ],
         "wdid": "Q46740",
         "is_animal": false,
-        "label": "rose hip"
+        "label": "Rose Hip"
     },
     {
         "inid": "n12768682",
@@ -11064,7 +11064,7 @@
         ],
         "wdid": "Q2993394",
         "is_animal": false,
-        "label": "conkers"
+        "label": "Conkers"
     },
     {
         "inid": "n12985857",
@@ -11083,7 +11083,7 @@
         ],
         "wdid": "Q2384195",
         "is_animal": false,
-        "label": "agaric"
+        "label": "Agaric"
     },
     {
         "inid": "n13037406",
@@ -11093,7 +11093,7 @@
         ],
         "wdid": "Q900804",
         "is_animal": false,
-        "label": "Gyromitra esculenta"
+        "label": "Gyromitra Esculenta"
     },
     {
         "inid": "n13040303",
@@ -11127,7 +11127,7 @@
         ],
         "wdid": "Q1165686",
         "is_animal": false,
-        "label": "Grifola frondosa"
+        "label": "Grifola Frondosa"
     },
     {
         "inid": "n13054560",
@@ -11137,7 +11137,7 @@
         ],
         "wdid": "Q1969349",
         "is_animal": false,
-        "label": "bolete"
+        "label": "Bolete"
     },
     {
         "inid": "n13133613",
@@ -11149,7 +11149,7 @@
         ],
         "wdid": "Q147398",
         "is_animal": false,
-        "label": "ear"
+        "label": "Ear"
     },
     {
         "inid": "n15075141",
@@ -11161,6 +11161,6 @@
         ],
         "wdid": "Q5840",
         "is_animal": false,
-        "label": "toilet paper"
+        "label": "Toilet Paper"
     }
 ]

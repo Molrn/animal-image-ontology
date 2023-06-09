@@ -295,6 +295,8 @@ def get_label_mapping(entities:list[str])->list[dict]:
         }}
         """
     result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
-    for r in result :
-        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
-    return result
+       
+    return [{
+        'wdid':r['wdid'].replace(SPtools.WD_ENTITY_URI, ''),
+        'label':r['label'].title()
+    } for r in result] 

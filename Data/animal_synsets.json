@@ -11,7 +11,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "tench"
+        "label": "Tench"
     },
     {
         "inid": "n01443537",
@@ -25,7 +25,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "goldfish"
+        "label": "Goldfish"
     },
     {
         "inid": "n01484850",
@@ -43,7 +43,7 @@
             "Q729",
             "Q7372"
         ],
-        "label": "great white shark"
+        "label": "Great White Shark"
     },
     {
         "inid": "n01491361",
@@ -58,7 +58,7 @@
             "Q729",
             "Q7372"
         ],
-        "label": "Galeocerdo cuvier"
+        "label": "Galeocerdo Cuvier"
     },
     {
         "inid": "n01494475",
@@ -73,7 +73,7 @@
             "Q729",
             "Q7372"
         ],
-        "label": "smooth hammerhead"
+        "label": "Smooth Hammerhead"
     },
     {
         "inid": "n01496331",
@@ -118,7 +118,7 @@
             "Q178559",
             "Q824176"
         ],
-        "label": "rooster"
+        "label": "Rooster"
     },
     {
         "inid": "n01514859",
@@ -198,7 +198,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "house finch"
+        "label": "House Finch"
     },
     {
         "inid": "n01534433",
@@ -326,7 +326,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "White-throated Dipper"
+        "label": "White-Throated Dipper"
     },
     {
         "inid": "n01608432",
@@ -374,7 +374,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "vulture"
+        "label": "Vulture"
     },
     {
         "inid": "n01622779",
@@ -407,7 +407,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "fire salamander"
+        "label": "Fire Salamander"
     },
     {
         "inid": "n01630670",
@@ -423,7 +423,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "Lissotriton vulgaris"
+        "label": "Lissotriton Vulgaris"
     },
     {
         "inid": "n01632458",
@@ -439,7 +439,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "Ambystoma maculatum"
+        "label": "Ambystoma Maculatum"
     },
     {
         "inid": "n01632777",
@@ -456,7 +456,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "axolotl"
+        "label": "Axolotl"
     },
     {
         "inid": "n01641577",
@@ -472,7 +472,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "bullfrog"
+        "label": "Bullfrog"
     },
     {
         "inid": "n01644373",
@@ -488,7 +488,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "tree frog"
+        "label": "Tree Frog"
     },
     {
         "inid": "n01644900",
@@ -507,7 +507,7 @@
             "Q19159",
             "Q10908"
         ],
-        "label": "tailed frog"
+        "label": "Tailed Frog"
     },
     {
         "inid": "n01664065",
@@ -523,7 +523,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "hawksbill sea turtle"
+        "label": "Hawksbill Sea Turtle"
     },
     {
         "inid": "n01665541",
@@ -540,7 +540,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "leatherback sea turtle"
+        "label": "Leatherback Sea Turtle"
     },
     {
         "inid": "n01667114",
@@ -554,7 +554,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "mud turtle"
+        "label": "Mud Turtle"
     },
     {
         "inid": "n01667778",
@@ -569,7 +569,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "terrapin"
+        "label": "Terrapin"
     },
     {
         "inid": "n01669191",
@@ -584,7 +584,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "box turtle"
+        "label": "Box Turtle"
     },
     {
         "inid": "n01677366",
@@ -600,7 +600,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "green iguana"
+        "label": "Green Iguana"
     },
     {
         "inid": "n01682714",
@@ -616,7 +616,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Anolis carolinensis"
+        "label": "Anolis Carolinensis"
     },
     {
         "inid": "n01685808",
@@ -660,7 +660,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Frill-necked Lizard"
+        "label": "Frill-Necked Lizard"
     },
     {
         "inid": "n01689811",
@@ -674,7 +674,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "alligator lizard"
+        "label": "Alligator Lizard"
     },
     {
         "inid": "n01692333",
@@ -689,7 +689,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Gila monster"
+        "label": "Gila Monster"
     },
     {
         "inid": "n01693334",
@@ -704,7 +704,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Lacerta viridis"
+        "label": "Lacerta Viridis"
     },
     {
         "inid": "n01694178",
@@ -719,7 +719,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Chamaeleo chamaeleon"
+        "label": "Chamaeleo Chamaeleon"
     },
     {
         "inid": "n01695060",
@@ -737,7 +737,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Varanus komodoensis"
+        "label": "Varanus Komodoensis"
     },
     {
         "inid": "n01697457",
@@ -753,7 +753,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Nile crocodile"
+        "label": "Nile Crocodile"
     },
     {
         "inid": "n01698640",
@@ -768,7 +768,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "American alligator"
+        "label": "American Alligator"
     },
     {
         "inid": "n01704323",
@@ -799,7 +799,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Carphophis amoenus"
+        "label": "Carphophis Amoenus"
     },
     {
         "inid": "n01728920",
@@ -815,7 +815,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "ring-necked snake"
+        "label": "Ring-Necked Snake"
     },
     {
         "inid": "n01729322",
@@ -831,7 +831,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Bitis arietans"
+        "label": "Bitis Arietans"
     },
     {
         "inid": "n01729977",
@@ -846,7 +846,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "grass snake"
+        "label": "Grass Snake"
     },
     {
         "inid": "n01734418",
@@ -876,7 +876,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "garter snake"
+        "label": "Garter Snake"
     },
     {
         "inid": "n01737021",
@@ -890,7 +890,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Barred grass snake"
+        "label": "Barred Grass Snake"
     },
     {
         "inid": "n01740131",
@@ -905,7 +905,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Hypsiglena torquata"
+        "label": "Hypsiglena Torquata"
     },
     {
         "inid": "n01742172",
@@ -920,7 +920,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Boa constrictor"
+        "label": "Boa Constrictor"
     },
     {
         "inid": "n01744401",
@@ -936,7 +936,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Python sebae"
+        "label": "Python Sebae"
     },
     {
         "inid": "n01748264",
@@ -951,7 +951,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Indian cobra"
+        "label": "Indian Cobra"
     },
     {
         "inid": "n01749939",
@@ -965,7 +965,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Dendroaspis angusticeps"
+        "label": "Dendroaspis Angusticeps"
     },
     {
         "inid": "n01751748",
@@ -1013,7 +1013,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "eastern diamondback rattlesnake"
+        "label": "Eastern Diamondback Rattlesnake"
     },
     {
         "inid": "n01756291",
@@ -1029,7 +1029,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Crotalus cerastes"
+        "label": "Crotalus Cerastes"
     },
     {
         "inid": "n01768244",
@@ -1073,7 +1073,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "scorpion"
+        "label": "Scorpion"
     },
     {
         "inid": "n01773157",
@@ -1088,7 +1088,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Argiope aurantia"
+        "label": "Argiope Aurantia"
     },
     {
         "inid": "n01773549",
@@ -1103,7 +1103,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Barn spider"
+        "label": "Barn Spider"
     },
     {
         "inid": "n01773797",
@@ -1118,7 +1118,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Araneus diadematus"
+        "label": "Araneus Diadematus"
     },
     {
         "inid": "n01774384",
@@ -1133,7 +1133,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "black widow spider"
+        "label": "Black Widow Spider"
     },
     {
         "inid": "n01774750",
@@ -1162,7 +1162,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Alopecosa aculeata"
+        "label": "Alopecosa Aculeata"
     },
     {
         "inid": "n01776313",
@@ -1190,7 +1190,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "centipede"
+        "label": "Centipede"
     },
     {
         "inid": "n01795545",
@@ -1269,7 +1269,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "peafowl"
+        "label": "Peafowl"
     },
     {
         "inid": "n01806567",
@@ -1282,7 +1282,7 @@
         "superclasses": [
             "Q1797813"
         ],
-        "label": "quail"
+        "label": "Quail"
     },
     {
         "inid": "n01807496",
@@ -1296,7 +1296,7 @@
             "Q26375",
             "Q178559"
         ],
-        "label": "partridge"
+        "label": "Partridge"
     },
     {
         "inid": "n01817953",
@@ -1345,7 +1345,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Sulphur-crested Cockatoo"
+        "label": "Sulphur-Crested Cockatoo"
     },
     {
         "inid": "n01820546",
@@ -1420,7 +1420,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "hummingbird"
+        "label": "Hummingbird"
     },
     {
         "inid": "n01843065",
@@ -1481,7 +1481,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Red-breasted Merganser"
+        "label": "Red-Breasted Merganser"
     },
     {
         "inid": "n01855672",
@@ -1495,7 +1495,7 @@
             "Q1797813",
             "Q57815212"
         ],
-        "label": "goose"
+        "label": "Goose"
     },
     {
         "inid": "n01860187",
@@ -1545,7 +1545,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "platypus"
+        "label": "Platypus"
     },
     {
         "inid": "n01877812",
@@ -1678,7 +1678,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "snail"
+        "label": "Snail"
     },
     {
         "inid": "n01950731",
@@ -1692,7 +1692,7 @@
         "superclasses": [
             "Q43806"
         ],
-        "label": "sea slug"
+        "label": "Sea Slug"
     },
     {
         "inid": "n01955084",
@@ -1738,7 +1738,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Dungeness crab"
+        "label": "Dungeness Crab"
     },
     {
         "inid": "n01978455",
@@ -1753,7 +1753,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Cancer irroratus"
+        "label": "Cancer Irroratus"
     },
     {
         "inid": "n01980166",
@@ -1767,7 +1767,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Uca annulipes"
+        "label": "Uca Annulipes"
     },
     {
         "inid": "n01981276",
@@ -1785,7 +1785,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Paralithodes camtschaticus"
+        "label": "Paralithodes Camtschaticus"
     },
     {
         "inid": "n01983481",
@@ -1802,7 +1802,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Homarus americanus"
+        "label": "Homarus Americanus"
     },
     {
         "inid": "n01984695",
@@ -1838,7 +1838,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "Astacus astacus"
+        "label": "Astacus Astacus"
     },
     {
         "inid": "n01986214",
@@ -1852,7 +1852,7 @@
             "Q729",
             "Q1360"
         ],
-        "label": "hermit crab"
+        "label": "Hermit Crab"
     },
     {
         "inid": "n01990800",
@@ -1961,7 +1961,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Ardea herodias occidentalis"
+        "label": "Ardea Herodias Occidentalis"
     },
     {
         "inid": "n02011460",
@@ -2007,7 +2007,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Aramus guarauna"
+        "label": "Aramus Guarauna"
     },
     {
         "inid": "n02017213",
@@ -2090,7 +2090,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Erolia alpina"
+        "label": "Erolia Alpina"
     },
     {
         "inid": "n02028035",
@@ -2184,7 +2184,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "albatross"
+        "label": "Albatross"
     },
     {
         "inid": "n02066245",
@@ -2203,7 +2203,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "gray whale"
+        "label": "Gray Whale"
     },
     {
         "inid": "n02071294",
@@ -2221,7 +2221,7 @@
         "superclasses": [
             "Q144144"
         ],
-        "label": "orca"
+        "label": "Orca"
     },
     {
         "inid": "n02074367",
@@ -2236,7 +2236,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "dugong"
+        "label": "Dugong"
     },
     {
         "inid": "n02077923",
@@ -2250,7 +2250,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "South American sea lion"
+        "label": "South American Sea Lion"
     },
     {
         "inid": "n02085620",
@@ -2376,7 +2376,7 @@
         "superclasses": [
             "Q38774"
         ],
-        "label": "beagle"
+        "label": "Beagle"
     },
     {
         "inid": "n02088466",
@@ -2390,7 +2390,7 @@
         "superclasses": [
             "Q38774"
         ],
-        "label": "bloodhound"
+        "label": "Bloodhound"
     },
     {
         "inid": "n02088466",
@@ -2405,7 +2405,7 @@
             "Q38774",
             "Q38923"
         ],
-        "label": "scent hound"
+        "label": "Scent Hound"
     },
     {
         "inid": "n02088632",
@@ -2431,7 +2431,7 @@
         "superclasses": [
             "Q37766"
         ],
-        "label": "Black and Tan Coonhound"
+        "label": "Black And Tan Coonhound"
     },
     {
         "inid": "n02089973",
@@ -2482,7 +2482,7 @@
         "wdid": "Q38668",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Irish wolfhound"
+        "label": "Irish Wolfhound"
     },
     {
         "inid": "n02091032",
@@ -2862,7 +2862,7 @@
         "wdid": "Q38047",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Soft-coated Wheaten Terrier"
+        "label": "Soft-Coated Wheaten Terrier"
     },
     {
         "inid": "n02098286",
@@ -2924,7 +2924,7 @@
             "Q39003",
             "Q39017"
         ],
-        "label": "Golden retriever"
+        "label": "Golden Retriever"
     },
     {
         "inid": "n02099712",
@@ -2937,7 +2937,7 @@
         "superclasses": [
             "Q144"
         ],
-        "label": "Labrador retriever"
+        "label": "Labrador Retriever"
     },
     {
         "inid": "n02099849",
@@ -3176,7 +3176,7 @@
         "wdid": "Q37704",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Old English sheepdog"
+        "label": "Old English Sheepdog"
     },
     {
         "inid": "n02105855",
@@ -3204,7 +3204,7 @@
         "superclasses": [
             "Q144"
         ],
-        "label": "collie"
+        "label": "Collie"
     },
     {
         "inid": "n02106166",
@@ -3217,7 +3217,7 @@
         "superclasses": [
             "Q144"
         ],
-        "label": "border collie"
+        "label": "Border Collie"
     },
     {
         "inid": "n02106382",
@@ -3229,7 +3229,7 @@
         "wdid": "Q37896",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Bouvier des Flandres"
+        "label": "Bouvier Des Flandres"
     },
     {
         "inid": "n02106550",
@@ -3309,7 +3309,7 @@
         "superclasses": [
             "Q246603"
         ],
-        "label": "Bernese mountain dog"
+        "label": "Bernese Mountain Dog"
     },
     {
         "inid": "n02107908",
@@ -3517,7 +3517,7 @@
         "wdid": "Q38706",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Newfoundland dog"
+        "label": "Newfoundland Dog"
     },
     {
         "inid": "n02111500",
@@ -3634,18 +3634,6 @@
         "label": "Toy Poodle"
     },
     {
-        "inid": "n02113712",
-        "wnid": "02116364-n",
-        "synset": [
-            "miniature poodle"
-        ],
-        "wdid": "Q11831662",
-        "animal_pattern": "subclass",
-        "superclasses": [
-            "Q38904"
-        ]
-    },
-    {
         "inid": "n02113799",
         "wnid": "02116451-n",
         "synset": [
@@ -3656,7 +3644,7 @@
         "superclasses": [
             "Q144"
         ],
-        "label": "poodle"
+        "label": "Poodle"
     },
     {
         "inid": "n02113978",
@@ -3684,7 +3672,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "wolf"
+        "label": "Wolf"
     },
     {
         "inid": "n02114548",
@@ -3700,7 +3688,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Arctic wolf"
+        "label": "Arctic Wolf"
     },
     {
         "inid": "n02114712",
@@ -3717,7 +3705,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Canis lupus rufus"
+        "label": "Canis Lupus Rufus"
     },
     {
         "inid": "n02114855",
@@ -3734,7 +3722,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "coyote"
+        "label": "Coyote"
     },
     {
         "inid": "n02115641",
@@ -3751,7 +3739,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "dingo"
+        "label": "Dingo"
     },
     {
         "inid": "n02115913",
@@ -3783,7 +3771,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "African wild dog"
+        "label": "African Wild Dog"
     },
     {
         "inid": "n02117135",
@@ -3813,7 +3801,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "red fox"
+        "label": "Red Fox"
     },
     {
         "inid": "n02119789",
@@ -3828,7 +3816,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Kit fox"
+        "label": "Kit Fox"
     },
     {
         "inid": "n02120079",
@@ -3844,7 +3832,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Alopex lagopus"
+        "label": "Alopex Lagopus"
     },
     {
         "inid": "n02120505",
@@ -3860,7 +3848,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Gray fox"
+        "label": "Gray Fox"
     },
     {
         "inid": "n02123045",
@@ -3874,7 +3862,7 @@
         "superclasses": [
             "Q146"
         ],
-        "label": "tabby cat"
+        "label": "Tabby Cat"
     },
     {
         "inid": "n02123159",
@@ -3888,7 +3876,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "tiger quoll"
+        "label": "Tiger Quoll"
     },
     {
         "inid": "n02125311",
@@ -3908,7 +3896,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "cougar"
+        "label": "Cougar"
     },
     {
         "inid": "n02127052",
@@ -3923,7 +3911,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Eurasian lynx"
+        "label": "Eurasian Lynx"
     },
     {
         "inid": "n02128385",
@@ -3938,7 +3926,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "leopard"
+        "label": "Leopard"
     },
     {
         "inid": "n02128757",
@@ -3954,7 +3942,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Panthera uncia"
+        "label": "Panthera Uncia"
     },
     {
         "inid": "n02128925",
@@ -3971,7 +3959,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "jaguar"
+        "label": "Jaguar"
     },
     {
         "inid": "n02129165",
@@ -3987,7 +3975,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "lion"
+        "label": "Lion"
     },
     {
         "inid": "n02129604",
@@ -4002,7 +3990,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "tiger"
+        "label": "Tiger"
     },
     {
         "inid": "n02130308",
@@ -4033,7 +4021,7 @@
         "superclasses": [
             "Q30090244"
         ],
-        "label": "brown bear"
+        "label": "Brown Bear"
     },
     {
         "inid": "n02133161",
@@ -4050,7 +4038,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Ursus americanus"
+        "label": "Ursus Americanus"
     },
     {
         "inid": "n02134084",
@@ -4066,7 +4054,7 @@
         "superclasses": [
             "Q30090244"
         ],
-        "label": "polar bear"
+        "label": "Polar Bear"
     },
     {
         "inid": "n02134418",
@@ -4082,7 +4070,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "sloth bear"
+        "label": "Sloth Bear"
     },
     {
         "inid": "n02137549",
@@ -4111,7 +4099,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "meerkat"
+        "label": "Meerkat"
     },
     {
         "inid": "n02165105",
@@ -4182,7 +4170,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Morimus funereus"
+        "label": "Morimus Funereus"
     },
     {
         "inid": "n02169497",
@@ -4199,7 +4187,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "leaf beetle"
+        "label": "Leaf Beetle"
     },
     {
         "inid": "n02172182",
@@ -4215,7 +4203,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Scarabaeus cristatus"
+        "label": "Scarabaeus Cristatus"
     },
     {
         "inid": "n02174001",
@@ -4231,7 +4219,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Oryctes agamemnon"
+        "label": "Oryctes Agamemnon"
     },
     {
         "inid": "n02177972",
@@ -4332,7 +4320,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Acheta domestica"
+        "label": "Acheta Domestica"
     },
     {
         "inid": "n02231487",
@@ -4367,7 +4355,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Gromphadorhina portentosa"
+        "label": "Gromphadorhina Portentosa"
     },
     {
         "inid": "n02233338",
@@ -4385,7 +4373,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "cockroach"
+        "label": "Cockroach"
     },
     {
         "inid": "n02236044",
@@ -4402,7 +4390,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Mantis religiosa"
+        "label": "Mantis Religiosa"
     },
     {
         "inid": "n02256656",
@@ -4531,7 +4519,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Aphantopus hyperantus"
+        "label": "Aphantopus Hyperantus"
     },
     {
         "inid": "n02279972",
@@ -4550,7 +4538,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Danaus plexippus"
+        "label": "Danaus Plexippus"
     },
     {
         "inid": "n02280649",
@@ -4566,7 +4554,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Pieris rapae"
+        "label": "Pieris Rapae"
     },
     {
         "inid": "n02281406",
@@ -4583,7 +4571,7 @@
             "Q1390",
             "Q22708"
         ],
-        "label": "Phoebis sennae"
+        "label": "Phoebis Sennae"
     },
     {
         "inid": "n02281787",
@@ -4615,7 +4603,7 @@
             "Q729",
             "Q44631"
         ],
-        "label": "starfish"
+        "label": "Starfish"
     },
     {
         "inid": "n02319095",
@@ -4629,7 +4617,7 @@
             "Q729",
             "Q44631"
         ],
-        "label": "sea urchin"
+        "label": "Sea Urchin"
     },
     {
         "inid": "n02321529",
@@ -4660,7 +4648,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Eastern cottontail"
+        "label": "Eastern Cottontail"
     },
     {
         "inid": "n02326432",
@@ -4674,7 +4662,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Burmese hare"
+        "label": "Burmese Hare"
     },
     {
         "inid": "n02328150",
@@ -4686,7 +4674,7 @@
         "wdid": "Q542500",
         "animal_pattern": "subclass_instance",
         "superclass": "Q12045584",
-        "label": "Angora rabbit"
+        "label": "Angora Rabbit"
     },
     {
         "inid": "n02342885",
@@ -4715,7 +4703,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "hedgehog"
+        "label": "Hedgehog"
     },
     {
         "inid": "n02356798",
@@ -4731,7 +4719,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "fox squirrel"
+        "label": "Fox Squirrel"
     },
     {
         "inid": "n02361337",
@@ -4759,7 +4747,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "beaver"
+        "label": "Beaver"
     },
     {
         "inid": "n02364673",
@@ -4788,7 +4776,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "zebra"
+        "label": "Zebra"
     },
     {
         "inid": "n02395406",
@@ -4806,7 +4794,7 @@
             "Q1797813",
             "Q57814795"
         ],
-        "label": "pig"
+        "label": "Pig"
     },
     {
         "inid": "n02396427",
@@ -4823,7 +4811,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "Sus scrofa"
+        "label": "Sus Scrofa"
     },
     {
         "inid": "n02397096",
@@ -4838,7 +4826,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "Phacochoerus africanus"
+        "label": "Phacochoerus Africanus"
     },
     {
         "inid": "n02398521",
@@ -4856,7 +4844,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "Hippopotamus amphibius"
+        "label": "Hippopotamus Amphibius"
     },
     {
         "inid": "n02403003",
@@ -4870,7 +4858,7 @@
             "Q25497",
             "Q16516071"
         ],
-        "label": "ox"
+        "label": "Ox"
     },
     {
         "inid": "n02408429",
@@ -4888,7 +4876,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "Water buffalo"
+        "label": "Water Buffalo"
     },
     {
         "inid": "n02410509",
@@ -4918,7 +4906,7 @@
             "Q7368",
             "Q44148"
         ],
-        "label": "ram"
+        "label": "Ram"
     },
     {
         "inid": "n02415577",
@@ -4938,7 +4926,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "bighorn sheep"
+        "label": "Bighorn Sheep"
     },
     {
         "inid": "n02417914",
@@ -4954,7 +4942,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "Capra ibex"
+        "label": "Capra Ibex"
     },
     {
         "inid": "n02422106",
@@ -4969,7 +4957,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "hartebeest"
+        "label": "Hartebeest"
     },
     {
         "inid": "n02422699",
@@ -4985,7 +4973,7 @@
             "Q19159",
             "Q1231177"
         ],
-        "label": "impala"
+        "label": "Impala"
     },
     {
         "inid": "n02423022",
@@ -5018,7 +5006,7 @@
             "Q1231177",
             "Q7375"
         ],
-        "label": "dromedary"
+        "label": "Dromedary"
     },
     {
         "inid": "n02437616",
@@ -5031,7 +5019,7 @@
         "superclasses": [
             "Q57814795"
         ],
-        "label": "Lama glama"
+        "label": "Lama Glama"
     },
     {
         "inid": "n02441942",
@@ -5045,7 +5033,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Mustela nivalis"
+        "label": "Mustela Nivalis"
     },
     {
         "inid": "n02442845",
@@ -5077,7 +5065,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Mustela putorius"
+        "label": "Mustela Putorius"
     },
     {
         "inid": "n02443484",
@@ -5092,7 +5080,7 @@
         "superclasses": [
             "Q81875"
         ],
-        "label": "Mustela nigripes"
+        "label": "Mustela Nigripes"
     },
     {
         "inid": "n02444819",
@@ -5136,7 +5124,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "European badger"
+        "label": "European Badger"
     },
     {
         "inid": "n02454379",
@@ -5151,7 +5139,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "armadillo"
+        "label": "Armadillo"
     },
     {
         "inid": "n02457408",
@@ -5167,7 +5155,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "three-toed sloth"
+        "label": "Three-Toed Sloth"
     },
     {
         "inid": "n02480495",
@@ -5199,7 +5187,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Gorilla gorilla"
+        "label": "Gorilla Gorilla"
     },
     {
         "inid": "n02481823",
@@ -5215,7 +5203,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "common chimpanzee"
+        "label": "Common Chimpanzee"
     },
     {
         "inid": "n02483362",
@@ -5246,7 +5234,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Symphalangus syndactylus"
+        "label": "Symphalangus Syndactylus"
     },
     {
         "inid": "n02484975",
@@ -5277,7 +5265,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "patas monkey"
+        "label": "Patas Monkey"
     },
     {
         "inid": "n02486410",
@@ -5334,7 +5322,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Black-and-white colobus"
+        "label": "Black-And-White Colobus"
     },
     {
         "inid": "n02489166",
@@ -5349,7 +5337,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "proboscis monkey"
+        "label": "Proboscis Monkey"
     },
     {
         "inid": "n02490219",
@@ -5424,7 +5412,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Ateles geoffroyi"
+        "label": "Ateles Geoffroyi"
     },
     {
         "inid": "n02494079",
@@ -5455,7 +5443,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Lemur catta"
+        "label": "Lemur Catta"
     },
     {
         "inid": "n02500267",
@@ -5472,7 +5460,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Indri indri"
+        "label": "Indri Indri"
     },
     {
         "inid": "n02504013",
@@ -5486,7 +5474,7 @@
         "superclasses": [
             "Q133006"
         ],
-        "label": "Indian elephant"
+        "label": "Indian Elephant"
     },
     {
         "inid": "n02504458",
@@ -5500,7 +5488,7 @@
         "superclasses": [
             "Q7378"
         ],
-        "label": "African elephant"
+        "label": "African Elephant"
     },
     {
         "inid": "n02509815",
@@ -5519,7 +5507,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "Ailurus fulgens"
+        "label": "Ailurus Fulgens"
     },
     {
         "inid": "n02510455",
@@ -5537,7 +5525,7 @@
             "Q729",
             "Q19159"
         ],
-        "label": "giant panda"
+        "label": "Giant Panda"
     },
     {
         "inid": "n02514041",
@@ -5551,7 +5539,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "Great barracuda"
+        "label": "Great Barracuda"
     },
     {
         "inid": "n02526121",
@@ -5583,7 +5571,7 @@
             "Q600396",
             "Q102229488"
         ],
-        "label": "coho salmon"
+        "label": "Coho Salmon"
     },
     {
         "inid": "n02606052",
@@ -5597,7 +5585,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "Rock beauty"
+        "label": "Rock Beauty"
     },
     {
         "inid": "n02607072",
@@ -5623,7 +5611,7 @@
         "taxon_superclasses": [
             "Q729"
         ],
-        "label": "European sea sturgeon"
+        "label": "European Sea Sturgeon"
     },
     {
         "inid": "n02641379",
