@@ -226,7 +226,7 @@ def get_graph_arcs(graph_file_path:str=GRAPH_ARCS_PATH)->list[dict]:
             If it doesn't exist, the graph is created at that path. Defaults to GRAPH_ARCS_PATH.
 
     Returns:
-        list[dict]: arcs of the graph in format list[ { parent:str, child:str } ]
+        list[dict]: arcs of the graph in format list[ { parent:str, child:str, parentLabel:str, childLabel:str } ]
     """
     if not os.path.exists(graph_file_path):
         create_graph_arcs(get_animal_mapping(), graph_file_path)
@@ -237,7 +237,7 @@ def get_graph_arcs(graph_file_path:str=GRAPH_ARCS_PATH)->list[dict]:
 def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARCS_PATH, master_parent_node:str=ANIMAL_WDID):
     """Create the arcs of the graph leading each object to a Master parent class. 
         Each wikiData object represents a node, and arcs represent a subclass link.
-        Arcs are stored in a csv file with format (parent,child).  
+        Arcs are stored in a csv file with format (parent,child,parentLabel,childLabel).  
 
     Args:
         synsets (list[dict]): list of synsets to compute the arcs of.
@@ -252,59 +252,81 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
     def child_exists(tree_df:pd.DataFrame, child:str)->bool:
         return (tree_df['child']==child).any()
         
-    def insert_unique(tree_df:pd.DataFrame, parent:str, child:str)->bool:
+    def insert_unique(tree_df:pd.DataFrame, parent:str, child:str, parent_label:str=None, child_label:str=None)->bool:
         if ((tree_df['parent']==parent) & (tree_df['child']==child)).any():
             return False
         new_row = {
             'parent': parent,
-            'child': child
+            'child': child,
+            'parentLabel' : [parent_label, get_entity_label(parent)][parent_label is None],
+            'childLabel'  : [child_label, get_entity_label(child)][child_label is None],
         }
         tree_df.loc[len(tree_df)] = new_row
         return True
 
+    def get_child_label(arcs:list[dict])->str:
+        parent_nodes = [arc['parent'] for arc in arcs]
+        child_nodes  = [arc['child'] for arc in arcs]
+        for i, node in enumerate(child_nodes):
+            if node not in parent_nodes:
+                return arcs[i]['childLabel'] 
+        return None
+
+    def get_entity_label(wdid):
+        return sm.get_label_mapping([wdid])[0]['label']
+
     if not os.path.exists(tree_structure_file_path):
-        tree_df = pd.DataFrame(columns=['parent', 'child'])
+        tree_df = pd.DataFrame(columns=['parent', 'child', 'parentLabel', 'childLabel'])
     else:
         tree_df = pd.read_csv(tree_structure_file_path)
 
     for synset in tqdm(synsets) :
-        if not child_exists(tree_df, synset['wdid']):
+        if not child_exists(tree_df, synset['label']):
             try:
                 match synset['animal_pattern']:
                     case 'subclass_instance':
+                        superclass_label = None
                         if not child_exists(tree_df, synset['superclass']):
                             arcs = get_object_subclass_path(synset['superclass'])
                             for arc in arcs:
-                                insert_unique(tree_df, arc['parent'], arc['child']) 
-                        insert_unique(tree_df, synset['superclass'], synset['wdid'])
+                                insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel']) 
+                            superclass_label = get_child_label(arcs)
+                        insert_unique(tree_df, synset['superclass'], synset['wdid'], superclass_label, synset['label'])
 
                     case 'subclass' :
                         for superclass in synset['superclasses']:
+                            superclass_label = None
                             if not child_exists(tree_df, superclass):
                                 arcs = get_object_subclass_path(superclass)
                                 for arc in arcs:
-                                    insert_unique(tree_df, arc['parent'], arc['child']) 
-                            insert_unique(tree_df, superclass, synset['wdid'])
+                                    insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel']) 
+                                superclass_label = get_child_label(arcs)
+                            insert_unique(tree_df, superclass, synset['wdid'], superclass_label, synset['label'])
 
                     case 'taxon':
                         for node in synset['taxon_superclasses']:
+                            superclass_label = None
                             if not child_exists(tree_df, node):
                                 arcs = get_object_subclass_path(node)
                                 for arc in arcs:
-                                    insert_unique(tree_df, arc['parent'], arc['child'])
+                                    insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel'])
+                                superclass_label = get_child_label(arcs)
                             if node != master_parent_node:    
-                                insert_unique(tree_df, node, synset['wdid'])
+                                insert_unique(tree_df, node, synset['wdid'], superclass_label, synset['label'])
                         
                     case 'subclass_taxon_subclass':
                         if not child_exists(tree_df, synset['superclass']):
                             for node in synset['taxon_superclasses']:
+                                superclass_label = None
+                                node_label = get_entity_label(node)
                                 if not child_exists(tree_df, node):
                                     arcs = get_object_subclass_path(node)
                                     for arc in arcs:
-                                        insert_unique(tree_df, arc['parent'], arc['child'])
+                                        insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel'])
+                                    superclass_label = get_child_label(arcs)
                                 if node != master_parent_node:    
-                                    insert_unique(tree_df, node, synset['superclass'])
-                        insert_unique(tree_df, synset['superclass'], synset['wdid'])
+                                    insert_unique(tree_df, node, synset['superclass'], node_label, superclass_label)
+                        insert_unique(tree_df, synset['superclass'], synset['wdid'], superclass_label, synset['label'])
 
                     case _ :
                         raise ValueError('Object '+synset['wdid']+' : Pattern "'+synset['animal_pattern']+\
@@ -328,25 +350,30 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
 def get_object_subclass_path(wdid_child:str, wdid_parent:str=ANIMAL_WDID)->list[dict]:
     """Get the path of a WikiData object to one of its parent classes
         Path is represented like the arcs of a graph in which WikiData objects are nodes.
-        An Arc is then a parent node and a child node
+        An Arc is then a parent node and a child node. The graph also includes both of their labels
 
     Args:
         wdid_child (str): WikiData ID of the child
         wdid_parent (str, optional): WikiData ID of the parent node. Defaults to ANIMAL_WDID.
 
     Returns:
-        list[dict]: List of arcs in format { parent:str, child:str } 
+        list[dict]: List of arcs in format { parent:str, child:str, parentLabel:str, childLabel:str } 
     """
     query= """
-        SELECT ?parent ?child
+        SELECT ?parent ?child ?parentLabel ?childLabel
         WHERE {{
-            wd:{child} {prop}* ?child.
-            ?child {prop} ?parent.
-            ?parent {prop}* wd:{parent}
+            wd:{child} {prop}* ?child.                        
+            ?child {prop} ?parent;
+                    rdfs:label ?childLabel.
+            ?parent {prop}* wd:{parent};
+                    rdfs:label ?parentLabel
+            FILTER (LANG(?parentLabel) = 'en' && LANG(?childLabel) = 'en')  
         }}
         """.format(child=wdid_child, parent=wdid_parent, prop=sm.SUBCLASS_PROPERTY)
-    result = SPtools.select_query(query, ['parent', 'child'])    
+    result = SPtools.select_query(query, ['parent', 'child', 'parentLabel', 'childLabel'])    
     return [{
             'parent': r['parent'].replace(SPtools.WD_ENTITY_URI, ''),
-            'child': r['child'].replace(SPtools.WD_ENTITY_URI, '')
+            'child': r['child'].replace(SPtools.WD_ENTITY_URI, ''),
+            'parentLabel': r['parentLabel'].title(),
+            'childLabel': r['childLabel'].title()
         } for r in result]

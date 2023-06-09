@@ -2,69 +2,72 @@ from tqdm import tqdm
 from zipfile import ZipFile
 from shutil import rmtree
 import os
-import Tools.sparql_tools as SPtools
-from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH, ANIMAL_WDID
-from synset_mapper import get_label_mapping
+from Tools.sparql_tools import WD_ENTITY_URI
+from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDFS, RDF, XSD
+from rdflib.term import Node
+import json
 
 ZIP_FILE_PATH       = 'imagenet-object-localization-challenge.zip'
 IMAGES_PATH         = 'Data/Images'
 ANNOTATIONS_PATH    = 'Data/Annotations' 
 ONTOLOGY_FILE_PATH  = 'Data/animal_ontology.ttl'
+MORPH_FEATURES_PATH = 'Data/animal_features.json'
 ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
+ANIMAL_LABEL        = 'Animal'
 
 def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH, 
                         graph_file_path:str=GRAPH_ARCS_PATH,
-                        master_node:str=ANIMAL_WDID):
+                        master_node_label:str=ANIMAL_LABEL):
     """Pipeline initializing the ontology step by step
 
     Args:
         graph_file_path (str, optional): Path of the csv file containing the graph. Defaults to 'Data/graph_arcs.csv'.
-        master_node (str, optional): WikiData ID of the master node. Defaults to 'Q729' (Animal ID).
+        master_node_label (str, optional): Label of the master node of the graph. Defaults to ANIMAL_LABEL.
     """
-    
+
     ontology = Graph()
     ac = Namespace(ONTOLOGY_IRI)
+    wd = Namespace(WD_ENTITY_URI)
     ontology.bind('ac', ac)
+    ontology.bind('wd', wd)
     
     graph_arcs = get_graph_arcs(graph_file_path)
-    class_nodes = list(set([a['child'] for a in graph_arcs] + [master_node]))
+    class_labels = list(set([a['childLabel'] for a in graph_arcs] + [master_node_label]))
     
-    for node in class_nodes:
-        ontology.add((getattr(ac, node), RDF.type, RDFS.Class))   
+    for label in class_labels:
+        ontology.add((label_to_node(label, ac), RDF.type, RDFS.Class))   
 
     # define the subclass of features (=structure of the graph)
     for arc in graph_arcs:
         ontology.add((
-            getattr(ac, arc['child']), 
+            label_to_node(arc['childLabel'], ac), 
             RDFS.subClassOf, 
-            getattr(ac, arc['parent'])
+            label_to_node(arc['parentLabel'], ac)
         ))    
-    # Define the labels
-    label_mapping = get_label_mapping(class_nodes)
-    for class_label in label_mapping:
-        ontology.add((
-            getattr(ac, class_label['wdid']), 
-            RDFS.label, 
-            Literal(class_label['label'])
-        ))
 
-    # define the ImageNed ID of each node
+    # define the ImageNed ID and WikiData ID of each node
     ontology.add((ac.inid, RDF.type, RDF.Property))
     ontology.add((ac.inid, RDFS.range, XSD.string))
+    ontology.add((ac.wdid, RDF.type, RDF.Property))
     for synset in get_animal_mapping():
-        if synset['wdid'] in class_nodes :
-            ontology.add((
-                getattr(ac, synset['wdid']), 
-                ac.inid, 
-                Literal(synset['inid'])
-            ))
+        if synset['label'] in class_labels :
+            node = label_to_node(synset['label'], ac)
+            ontology.add((node, ac.inid, Literal(synset['inid'])))
+            ontology.add((node, ac.wdid, getattr(wd, synset['wdid'])))
 
     ontology.serialize(ontology_file_path)
 
 def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
     """Load the ontology from a local file. If it doesn't exist, intialize the ontology.
+
+    Args:
+        ontology_file_path (str, optional): Path of the file containing the ontolology. 
+            The ontology is created in this file if it doesn't exist. Defaults to ONTOLOGY_FILE_PATH.
+
+    Returns:
+        Graph: Full animal ontology
     """
     if not os.path.exists(ontology_file_path):
         initialize_ontology()
