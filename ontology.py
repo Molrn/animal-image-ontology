@@ -19,11 +19,13 @@ ANIMAL_LABEL        = 'Animal'
 
 def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH, 
                         graph_file_path:str=GRAPH_ARCS_PATH,
+                        morph_features_file_path:str=MORPH_FEATURES_PATH,
                         master_node_label:str=ANIMAL_LABEL):
     """Pipeline initializing the ontology step by step
 
     Args:
         graph_file_path (str, optional): Path of the csv file containing the graph. Defaults to 'Data/graph_arcs.csv'.
+        morph_features_file_path (str, optional): Path of the file containing the morphological features dictionnary. Defaults to MORPH_FEATURES_PATH.
         master_node_label (str, optional): Label of the master node of the graph. Defaults to ANIMAL_LABEL.
     """
 
@@ -57,6 +59,7 @@ def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH,
             ontology.add((node, ac.inid, Literal(synset['inid'])))
             ontology.add((node, ac.wdid, getattr(wd, synset['wdid'])))
 
+    ontology = define_morphological_features(ontology, morph_features_file_path)
     ontology.serialize(ontology_file_path)
 
 def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
@@ -75,6 +78,90 @@ def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
     ontology.parse(ontology_file_path)
     return ontology
     
+def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEATURES_PATH)->Graph:
+    """Define the morphological features of all the nodes
+
+    Args:
+        ontology (Graph): ontology
+        morph_features_path (str, optional): path of the file containing the morphological features. 
+            file has to be a json file in format { "Animal label":list[features(str)] }
+            Defaults to MORPH_FEATURES_PATH.
+
+    Raises:
+        ValueError: If morphological features file is not found
+
+    Returns:
+        Graph: ontology with all classes, all subclass property,  initialized, 
+    """
+    ac = Namespace(ONTOLOGY_IRI)
+    if not os.path.exists(morph_features_path):
+        raise ValueError('File "'+morph_features_path+'" not found\n'+
+                         'If you don\'t have one, generate it manually as a json file in format dict { "Animal Class Name" : list[str] }\n'+
+                         'The animal class name is then matched as the english label found in WikiData')
+    with open(MORPH_FEATURES_PATH) as morph_file:
+        animal_features = json.load(morph_file)
+
+    all_features = {}
+    for animal, features in animal_features.items():
+        node = label_to_node(animal, ac)
+        if not node :
+            print('Warning : '+animal+' not found')
+        else:
+            for feature in features:
+                property = feature_to_property(feature, ac)
+                if property not in all_features:
+                    all_features[property] = set([node])
+                all_features[property] = get_subclasses_set(ontology, all_features[property], node)
+
+    for feature, class_nodes in all_features.items():
+        for node in list(class_nodes):
+            ontology.add((node, ac.hasMorphFeature, feature))
+    return ontology
+
+def label_to_node(label:str, namespace:Namespace)->URIRef:
+    """Convert the RDFS label of a node to its URI. 
+        URI are in format Namespace_URI + label in PascalCase 
+
+    Args:
+        label (str): RDFS label of the object
+        namespace (Namespace): namespace of the object 
+
+    Returns:
+        URIRef: URI of the matching node
+    """
+    return getattr(namespace, label.replace("'", '').title().replace('-', '').replace(' ', ''))
+
+def feature_to_property(feature:str, namespace:Namespace)->URIRef:
+    """Convert a feature to a property URI. 
+        URI are in format Namespace_URI + feature in camelCase 
+
+    Args:
+        label (str): RDFS label of the object
+        namespace (Namespace): namespace of the object 
+
+    Returns:
+        URIRef: URI of the matching property
+    """
+    property = feature.replace('-', ' ').title().replace(' ', '')
+    property = ''.join([property[0].lower(), property[1:]])
+    return getattr(namespace, property)
+
+def get_subclasses_set(ontology:Graph, subclass_node_set:set[URIRef], node:Node)->set[URIRef]:
+    """Fetch all the subclasses of a node recursively
+
+    Args:
+        ontology (Graph): Ontology with classes and suclasses relationships initialized 
+        subclass_node_set (set[URIRef]): set of URI to which the subclasses of the node will be added
+        node (Node): node to fetch the subclasses of
+
+    Returns:
+        set[URIRef]: set of subclasses URI of the node and previous URI in the subclass_node_set
+    """
+    for subject, _, _ in ontology.triples((None, RDFS.subClassOf, node)):
+        if subject not in subclass_node_set: 
+            subclass_node_set.add(subject)
+            subclass_node_set = get_subclasses_set(ontology, subclass_node_set, subject)
+    return subclass_node_set
 
 def populate_ontology():
     # TODO For each image, create an instance of its class with a link to the annotation file some how 
