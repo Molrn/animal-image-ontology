@@ -262,3 +262,39 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str='Data/synset_map
         json.dump(synsets, mapping_file)
         mapping_file.close()
     return synsets
+
+def set_all_labels(mapping_file_path:str='Data/synset_mapping.json'):
+    """Set the label of every synset in a file from its wdid
+
+    Args:
+        mapping_file_path (str, optional): Path of the file containing the synsets. Defaults to 'Data/synset_mapping.json'.
+    """
+    synsets = get_synset_full_mapping(mapping_file_path)
+    mapping = get_label_mapping([s['wdid'] for s in synsets if s['wdid']])
+    for map in mapping:
+        index = next((i for i, s in enumerate(synsets) if s['wdid']==map['wdid']))
+        synsets[index]['label'] = map['label']
+    with open(mapping_file_path, 'w') as file:
+        json.dump(synsets, file)
+
+def get_label_mapping(entities:list[str])->list[dict]:
+    """Get the WikiData label of every entity that has one
+
+    Args:
+        entities (list[str]): List of entities to get the label of 
+
+    Returns:
+        list[dict]: Label mapping in format list[ { wdid:str, label:str } ]
+    """
+    query = """
+        SELECT ?wdid ?label
+        WHERE {{
+            VALUES ?wdid {{ {} }}
+            ?wdid rdfs:label ?label
+            FILTER ( LANG(?label) = 'en')        
+        }}
+        """
+    result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
+    for r in result :
+        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+    return result

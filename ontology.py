@@ -23,23 +23,23 @@ def initialize_ontology(graph_file_path:str='Data/graph_arcs.csv', master_node:s
     """
     create_ontology()
     graph_arcs = get_graph_arcs(graph_file_path, master_node)
-    class_nodes = list(set([a['child'] for a in graph_arcs] + [master_node]))
+    class_nodes = list(set(
+        [a['child'] for a in graph_arcs] + 
+        [master_node] + 
+        [synset['wdid'] for synset in get_animal_mapping()]
+    ))
     define_classes(class_nodes)
+    create_properties()
 
     # define the subclass of all the objects 
     for arc in graph_arcs:
         set_triplet(arc['child'], SUBCLASS_PROPERTY, arc['parent'])  
-   
-    # Set all class labels
-    class_labels = get_label_mapping(class_nodes)
-    for mapping in class_labels:
-        set_triplet(mapping['wdid'], LABEL_PROPERTY, '"'+mapping['label']+'"')
-    
+
+    # define the properties of each node
     for synset in get_animal_mapping():
-        if synset['wdid'] in class_nodes:
-            set_triplet(synset['wdid'], INID_PROPERTY, synset['inid'])
+        set_triplet(synset['wdid'], INID_PROPERTY, '"'+synset['inid']+'"')
+        set_triplet(synset['wdid'], LABEL_PROPERTY, '"'+synset['label']+'"')
     
-    create_properties()
     define_morphological_features()
 
 def create_ontology(iri:str=ONTOLOGY_IRI):
@@ -136,24 +136,7 @@ def graphs():
     #   - Display of all the classes that have subclasses, and give to the node of each class the size of the number of direct subclasses it has
     return
 
-def get_label_mapping(entities:list[str])->list[dict]:
-    """Get the WikiData label of every entity that has one
-
-    Args:
-        entities (list[str]): List of entities to get the label of 
-
-    Returns:
-        list[dict]: Label mapping in format list[ { wdid:str, label:str } ]
-    """
-    query = """
-        SELECT ?wdid ?label
-        WHERE {{
-            VALUES ?wdid {{ {} }}
-            ?wdid rdfs:label ?label
-            FILTER ( LANG(?label) = 'en')        
-        }}
-        """
-    result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
-    for r in result :
-        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
-    return result
+def sparql_query(query:str, is_select:bool=True):
+    # TODO Execute a SPARQL Query into the graph
+    # Functions from SPtools might be used
+    return
