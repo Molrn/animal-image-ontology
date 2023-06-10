@@ -5,13 +5,15 @@ import os
 from Tools.sparql_tools import WD_ENTITY_URI
 from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH
 from rdflib import Graph, Namespace, Literal, URIRef
-from rdflib.namespace import RDFS, RDF, XSD
-from rdflib.term import Node
+from rdflib.namespace import RDFS, RDF, XSD, FOAF
+from rdflib.term import Node, BNode
 import json
+import xmltodict
+from tqdm import tqdm
 
 ZIP_FILE_PATH       = 'imagenet-object-localization-challenge.zip'
-IMAGES_PATH         = 'Data/Images'
-ANNOTATIONS_PATH    = 'Data/Annotations' 
+IMAGES_PATH         = 'Data/Images/'
+ANNOTATIONS_PATH    = 'Data/Annotations/' 
 ONTOLOGY_FILE_PATH  = 'Data/animal_ontology.ttl'
 MORPH_FEATURES_PATH = 'Data/animal_features.json'
 ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
@@ -28,13 +30,15 @@ def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH,
         morph_features_file_path (str, optional): Path of the file containing the morphological features dictionnary. Defaults to MORPH_FEATURES_PATH.
         master_node_label (str, optional): Label of the master node of the graph. Defaults to ANIMAL_LABEL.
     """
-
+    print('Creating ontology structure...')
     ontology = Graph()
     ac = Namespace(ONTOLOGY_IRI)
     wd = Namespace(WD_ENTITY_URI)
     ontology.bind('ac', ac)
     ontology.bind('wd', wd)
     
+    ontology = define_properties(ontology, ac)
+
     graph_arcs = get_graph_arcs(graph_file_path)
     class_labels = list(set([a['childLabel'] for a in graph_arcs] + [master_node_label]))
     
@@ -50,17 +54,22 @@ def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH,
         ))    
 
     # define the ImageNed ID and WikiData ID of each node
-    ontology.add((ac.inid, RDF.type, RDF.Property))
-    ontology.add((ac.inid, RDFS.range, XSD.string))
-    ontology.add((ac.wdid, RDF.type, RDF.Property))
+    inid_nb = 0
     for synset in get_animal_mapping():
         if synset['label'] in class_labels :
             node = label_to_node(synset['label'], ac)
             ontology.add((node, ac.inid, Literal(synset['inid'])))
             ontology.add((node, ac.wdid, getattr(wd, synset['wdid'])))
+            inid_nb += 1
 
     ontology = define_morphological_features(ontology, morph_features_file_path)
+    print('Ontology structure created\n')
+    print('Populating the ontology ('+inid_nb+' classes)...')
+    ontology = populate_ontology(ontology)
+
+    print('Ontology populated\nSaving it to file "'+ontology_file_path+'"...')
     ontology.serialize(ontology_file_path)
+    print('Ontology saved')
 
 def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
     """Load the ontology from a local file. If it doesn't exist, intialize the ontology.
@@ -78,6 +87,35 @@ def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
     ontology.parse(ontology_file_path)
     return ontology
     
+def define_properties(ontology:Graph, ns:Namespace)->Graph:
+    """Define all the required properties into a ontology
+
+    Args:
+        ontology (Graph): ontology of the propertie
+        ns (Namespace): Namespace to define the properties in
+    """
+    properties = [ 'inid', 'wdid', 'boundingBox', 'xMin', 'xMax', 'yMin', 'yMax', 
+                  'difficult', 'pose', 'truncated', 'hasMorphFeature',
+                  'size', 'height', 'width', 'depth' ]
+    for property in properties :
+        ontology.add((getattr(ns, property), RDF.type, RDF.Property))
+
+    for bnd_prop in ['xMin', 'xMax', 'yMin', 'yMax']:
+        ontology.add((getattr(ns, bnd_prop), RDFS.range, XSD.positiveInteger))
+        ontology.add((getattr(ns, bnd_prop), RDFS.domain, ns.boundingBox))
+
+    for size_prop in ['height', 'width', 'depth']:
+        ontology.add((getattr(ns, size_prop), RDFS.range, XSD.positiveInteger))
+        ontology.add((getattr(ns, size_prop), RDFS.domain, ns.size))
+
+    ontology.add((ns.inid, RDFS.range, XSD.string))
+    ontology.add((ns.difficult, RDFS.range, XSD.integer))
+    ontology.add((ns.truncated, RDFS.range, XSD.integer))
+    ontology.add((ns.pose, RDFS.range, XSD.string))
+    ontology.add((ns.hasMorphFeature, RDFS.range, ns.MorphFeature))
+
+    return ontology
+
 def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEATURES_PATH)->Graph:
     """Define the morphological features of all the nodes
 
@@ -91,7 +129,7 @@ def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEAT
         ValueError: If morphological features file is not found
 
     Returns:
-        Graph: ontology with all classes, all subclass property,  initialized, 
+        Graph: ontology with all classes, all subclass property, initialized 
     """
     ac = Namespace(ONTOLOGY_IRI)
     if not os.path.exists(morph_features_path):
@@ -113,8 +151,10 @@ def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEAT
                     all_features[property] = set([node])
                 all_features[property] = get_subclasses_set(ontology, all_features[property], node)
 
+    ontology.add((ac.MorphFeature, RDF.type, RDFS.Class))
     for feature, class_nodes in all_features.items():
         if len(class_nodes) > 1:
+            ontology.add((feature, RDF.type, ac.MorphFeature))
             for node in list(class_nodes):
                 ontology.add((node, ac.hasMorphFeature, feature))
     return ontology
@@ -164,12 +204,70 @@ def get_subclasses_set(ontology:Graph, subclass_node_set:set[URIRef], node:Node)
             subclass_node_set = get_subclasses_set(ontology, subclass_node_set, subject)
     return subclass_node_set
 
-def populate_ontology():
-    # TODO For each image, create an instance of its class with a link to the annotation file some how 
-    # instead of a link to the file, it might be more relevant to extract the properties of each annotations file and upload them individually
-    # upload an XML file to a dict : https://www.digitalocean.com/community/tutorials/python-xml-to-json-dict
-    # 
-    return
+def populate_ontology(ontology:Graph)->Graph: 
+    ac = Namespace(ONTOLOGY_IRI)
+    image_ext = '.JPEG'
+    annotation_ext = '.xml'
+    for class_node, _, inid in tqdm(ontology.triples((None, ac.inid, None))):
+        image_dict_path = IMAGES_PATH+inid+'/'
+        annotations_dict_path = ANNOTATIONS_PATH+inid+'/'
+        if not os.path.exists(image_dict_path):
+            print('Warning : no images for class '+str(class_node).replace(ONTOLOGY_IRI,'')+" ("+inid+')')
+        else:        
+            im = Namespace(image_dict_path)
+            for image in os.listdir(image_dict_path):
+                image_node = getattr(im, image)
+                annotation_path = annotations_dict_path+image.replace(image_ext, annotation_ext)
+                if os.path.exists(annotation_path):
+                    with open(annotation_path) as annotation_file:
+                        annotation = xmltodict.parse(annotation_file.read())['annotation']
+                    size_node = BNode()
+                    size = annotation['size']
+                    ontology.add((image_node, ac.size, size_node))
+                    ontology.add((size_node, ac.width, Literal(int(size['width']))))
+                    ontology.add((size_node, ac.height, Literal(int(size['height']))))
+                    ontology.add((size_node, ac.depth, Literal(int(size['depth']))))
+
+                    if 'object' in annotation:
+                        if type(annotation['object'])==list:
+                            for i, object in enumerate(annotation['object']):
+                                animal_node = getattr(ac, image.replace(image_ext, '_'+str(i)))
+                                define_animal_node(ontology, animal_node, class_node, image_node, ac, object)
+                        else :
+                            animal_node = getattr(ac, image.replace(image_ext,''))
+                            define_animal_node(ontology, animal_node, class_node, image_node, ac, annotation['object'])
+                else:
+                    animal_node = getattr(ac, image.replace(image_ext,''))
+                    define_animal_node(ontology, animal_node, class_node, image_node, ac)
+    return ontology
+
+def define_animal_node(ontology:Graph, node:Node, class_node:Node, 
+                  image_node:Node, prop_ns:Namespace, annotations:dict=None):
+    """define an animal node in the ontology
+
+    Args:
+        ontology (Graph): Ontology to define the node in
+        node (Node): URI Ref of the node to create
+        class_node (Node): Node of the class of the Animal
+        image_node (Node): Node of the image it appears on
+        prop_ns (Namespace): Namespace of the properties
+        annotations (dict, optional): Object in the xml file annoting the image and defining the instance animal on the image. 
+            Defaults to None.
+    """
+    ontology.add((node, RDF.type, class_node))
+    ontology.add((node,FOAF.img,image_node))
+    if annotations :
+        bndbox_node = BNode()
+        bndbox = annotations['bndbox']
+        ontology.add((node, prop_ns.boundingBox, bndbox_node))
+        ontology.add((bndbox_node, prop_ns.xMin, Literal(int(bndbox['xmin']))))
+        ontology.add((bndbox_node, prop_ns.yMin, Literal(int(bndbox['ymin']))))
+        ontology.add((bndbox_node, prop_ns.xMax, Literal(int(bndbox['xmax']))))
+        ontology.add((bndbox_node, prop_ns.yMax, Literal(int(bndbox['ymax']))))
+        ontology.add((node, prop_ns.difficult, Literal(int(annotations['difficult']))))
+        ontology.add((node, prop_ns.pose, Literal(annotations['pose'])))
+        ontology.add((node, prop_ns.truncated, Literal(int(annotations['truncated']))))
+    return      
 
 def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_PATH, 
                                    images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOTATIONS_PATH):
