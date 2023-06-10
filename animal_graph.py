@@ -369,11 +369,11 @@ def get_object_subclass_path(wdid_child:str, wdid_parent:str=ANIMAL_WDID)->list[
                     rdfs:label ?parentLabel
             FILTER (LANG(?parentLabel) = 'en' && LANG(?childLabel) = 'en')  
         }}
-        """.format(child=wdid_child, parent=wdid_parent, prop=sm.SUBCLASS_PROPERTY)
-    result = SPtools.select_query(query, ['parent', 'child', 'parentLabel', 'childLabel'])    
+        """.format(child=wdid_child, parent=wdid_parent, prop=sp.SUBCLASS_PROP)
+    result = sp.select_query(query, ['parent', 'child', 'parentLabel', 'childLabel'])    
     return [{
-            'parent': r['parent'].replace(SPtools.WD_ENTITY_URI, ''),
-            'child': r['child'].replace(SPtools.WD_ENTITY_URI, ''),
+            'parent': r['parent'].replace(sp.WD_ENTITY_URI, ''),
+            'child': r['child'].replace(sp.WD_ENTITY_URI, ''),
             'parentLabel': r['parentLabel'].title(),
             'childLabel': r['childLabel'].title()
         } for r in result]

@@ -1,244 +1,36 @@
 parent,child,parentLabel,childLabel
-Q1756633,Q152,Aquatic Animal,Fish
-Q729,Q1756633,Animal,Aquatic Animal
-Q152,Q7372,Fish,Shark
-Q7372,Q129026,Shark,Great White Shark
-Q7372,Q188212,Shark,Galeocerdo Cuvier
-Q7372,Q726259,Shark,Smooth Hammerhead
-Q152,Q1394029,Fish,Electric Fish
-Q1394029,Q41317,Electric Fish,Electric Ray
-Q41317,Q206675,Electric Ray,Torpedo
-Q57815212,Q178559,Domesticated Bird,Poultry
 Q1797813,Q780,Productive Animal,Chicken
+Q57815212,Q178559,Domesticated Bird,Poultry
+Q729,Q16390140,Animal,Wild Animal
 Q57812559,Q1797813,Captive Animal,Productive Animal
+Q729,Q622852,Animal,Domesticated Animal
+Q178559,Q780,Poultry,Chicken
+Q622852,Q57815212,Domesticated Animal,Domesticated Bird
+Q16390140,Q57812559,Wild Animal,Captive Animal
+Q622852,Q1797813,Domesticated Animal,Productive Animal
 Q780,Q2216236,Chicken,Rooster
 Q178559,Q2216236,Poultry,Rooster
 Q824176,Q2216236,Stud,Rooster
-Q729,Q430,Animal,Dinosaur
-Q430,Q222951,Dinosaur,Gallus
-Q777371,Q19159,Quadruped,Tetrapoda
-Q729,Q777371,Animal,Quadruped
-Q19159,Q222951,Tetrapoda,Gallus
-Q430,Q2576337,Dinosaur,Struthio
-Q19159,Q2576337,Tetrapoda,Struthio
-Q430,Q188877,Dinosaur,Brambling
-Q19159,Q188877,Tetrapoda,Brambling
-Q430,Q27757,Dinosaur,Carduelis
-Q19159,Q27757,Tetrapoda,Carduelis
-Q430,Q374302,Dinosaur,House Finch
-Q19159,Q374302,Tetrapoda,House Finch
-Q430,Q857319,Dinosaur,Junco
-Q19159,Q857319,Tetrapoda,Junco
-Q430,Q1049642,Dinosaur,Indigo Bunting
-Q19159,Q1049642,Tetrapoda,Indigo Bunting
-Q430,Q460967,Dinosaur,American Robin
-Q19159,Q460967,Tetrapoda,American Robin
-Q430,Q188854,Dinosaur,Pycnonotidae
-Q19159,Q188854,Tetrapoda,Pycnonotidae
-Q430,Q311248,Dinosaur,Garrulus
-Q19159,Q311248,Tetrapoda,Garrulus
-Q430,Q271634,Dinosaur,Pica
-Q19159,Q271634,Tetrapoda,Pica
-Q430,Q1075355,Dinosaur,Poecile
-Q19159,Q1075355,Tetrapoda,Poecile
-Q1075355,Q17053748,Poecile,Chickadee
-Q430,Q201831,Dinosaur,White-Throated Dipper
-Q19159,Q201831,Tetrapoda,White-Throated Dipper
-Q430,Q25510,Dinosaur,Accipitridae
-Q19159,Q25510,Tetrapoda,Accipitridae
-Q430,Q127216,Dinosaur,Bald Eagle
-Q19159,Q127216,Tetrapoda,Bald Eagle
-Q430,Q5113,Dinosaur,Birds
-Q19159,Q5113,Tetrapoda,Birds
-Q5113,Q123120,Birds,Vulture
-Q430,Q200724,Dinosaur,Great Grey Owl
-Q19159,Q200724,Tetrapoda,Great Grey Owl
-Q19159,Q26395,Tetrapoda,Fire Salamander
-Q19159,Q10908,Tetrapoda,Amphibia
-Q10908,Q26395,Amphibia,Fire Salamander
-Q19159,Q215247,Tetrapoda,Lissotriton Vulgaris
-Q10908,Q215247,Amphibia,Lissotriton Vulgaris
-Q19159,Q2108247,Tetrapoda,Ambystoma Maculatum
-Q10908,Q2108247,Amphibia,Ambystoma Maculatum
-Q19159,Q22718,Tetrapoda,Axolotl
-Q10908,Q22718,Amphibia,Axolotl
-Q19159,Q159404,Tetrapoda,Bullfrog
-Q10908,Q159404,Amphibia,Bullfrog
-Q19159,Q1144302,Tetrapoda,Tree Frog
-Q10908,Q1144302,Amphibia,Tree Frog
-Q19159,Q2925426,Tetrapoda,Tailed Frog
-Q10908,Q2925426,Amphibia,Tailed Frog
-Q19159,Q203538,Tetrapoda,Hawksbill Sea Turtle
-Q19159,Q120043,Tetrapoda,Leatherback Sea Turtle
-Q19159,Q2500468,Tetrapoda,Mud Turtle
-Q19159,Q1946537,Tetrapoda,Testudinoidea
-Q1946537,Q7703292,Testudinoidea,Terrapin
-Q19159,Q734870,Tetrapoda,Box Turtle
-Q19159,Q215376,Tetrapoda,Green Iguana
-Q19159,Q930252,Tetrapoda,Anolis Carolinensis
-Q19159,Q827111,Tetrapoda,Teiidae
-Q19159,Q1153386,Tetrapoda,Agama
-Q19159,Q501566,Tetrapoda,Frill-Necked Lizard
-Q19159,Q1522299,Tetrapoda,Alligator Lizard
-Q19159,Q207058,Tetrapoda,Gila Monster
-Q19159,Q307047,Tetrapoda,Lacerta Viridis
-Q19159,Q577924,Tetrapoda,Chamaeleo Chamaeleon
-Q19159,Q4504,Tetrapoda,Varanus Komodoensis
-Q19159,Q168745,Tetrapoda,Nile Crocodile
-Q19159,Q193327,Tetrapoda,American Alligator
-Q430,Q14384,Dinosaur,Triceratops
-Q19159,Q14384,Tetrapoda,Triceratops
-Q19159,Q2940133,Tetrapoda,Carphophis Amoenus
-Q19159,Q2704229,Tetrapoda,Ring-Necked Snake
-Q19159,Q369667,Tetrapoda,Bitis Arietans
-Q19159,Q170713,Tetrapoda,Grass Snake
-Q19159,Q1364033,Tetrapoda,Lampropeltis
-Q19159,Q1149509,Tetrapoda,Garter Snake
-Q19159,Q35541230,Tetrapoda,Barred Grass Snake
-Q19159,Q922205,Tetrapoda,Hypsiglena Torquata
-Q19159,Q215388,Tetrapoda,Boa Constrictor
-Q19159,Q764797,Tetrapoda,Python Sebae
-Q19159,Q192754,Tetrapoda,Indian Cobra
-Q19159,Q622805,Tetrapoda,Dendroaspis Angusticeps
-Q19159,Q152504,Tetrapoda,Hydrophis
-Q19159,Q73178,Tetrapoda,Cerastes
-Q19159,Q744532,Tetrapoda,Eastern Diamondback Rattlesnake
-Q19159,Q1366532,Tetrapoda,Crotalus Cerastes
-Q729,Q43806,Animal,Invertebrate
-Q43806,Q1360,Invertebrate,Arthropoda
-Q1360,Q17170,Arthropoda,Trilobita
-Q1360,Q19116,Arthropoda,Opiliones
-Q1360,Q19125,Arthropoda,Scorpion
-Q1360,Q2556499,Arthropoda,Argiope Aurantia
-Q1360,Q1306991,Arthropoda,Barn Spider
-Q1360,Q337509,Arthropoda,Araneus Diadematus
-Q1360,Q113297,Arthropoda,Black Widow Spider
-Q1360,Q213383,Arthropoda,Theraphosidae
-Q1360,Q1059106,Arthropoda,Alopecosa Aculeata
-Q1360,Q10304508,Arthropoda,Ixodida
-Q1360,Q43447,Arthropoda,Centipede
-Q430,Q155878,Dinosaur,Black Grouse
-Q19159,Q155878,Tetrapoda,Black Grouse
-Q430,Q205930,Dinosaur,Rock Ptarmigan
-Q19159,Q205930,Tetrapoda,Rock Ptarmigan
-Q430,Q19058,Dinosaur,Ruffed Grouse
-Q19159,Q19058,Tetrapoda,Ruffed Grouse
-Q430,Q1463540,Dinosaur,Tympanuchus
-Q19159,Q1463540,Tetrapoda,Tympanuchus
-Q430,Q201251,Dinosaur,Peafowl
-Q19159,Q201251,Tetrapoda,Peafowl
 Q1797813,Q6072584,Productive Animal,Quail
 Q26375,Q732775,Phasianidae,Partridge
 Q178559,Q732775,Poultry,Partridge
-Q430,Q220328,Dinosaur,Grey Parrot
-Q19159,Q220328,Tetrapoda,Grey Parrot
-Q430,Q213984,Dinosaur,Ara
-Q19159,Q213984,Tetrapoda,Ara
-Q430,Q207107,Dinosaur,Sulphur-Crested Cockatoo
-Q19159,Q207107,Tetrapoda,Sulphur-Crested Cockatoo
-Q430,Q15274050,Dinosaur,Loriini
-Q19159,Q15274050,Tetrapoda,Loriini
-Q430,Q657775,Dinosaur,Centropus
-Q19159,Q657775,Tetrapoda,Centropus
-Q430,Q183147,Dinosaur,Meropidae
-Q19159,Q183147,Tetrapoda,Meropidae
-Q430,Q26773,Dinosaur,Hornbill
-Q19159,Q26773,Tetrapoda,Hornbill
-Q430,Q43624,Dinosaur,Hummingbird
-Q19159,Q43624,Tetrapoda,Hummingbird
-Q430,Q212942,Dinosaur,Jacamar
-Q19159,Q212942,Tetrapoda,Jacamar
-Q430,Q1325045,Dinosaur,Ramphastidae
-Q19159,Q1325045,Tetrapoda,Ramphastidae
-Q430,Q214264,Dinosaur,Anas
-Q19159,Q214264,Tetrapoda,Anas
-Q430,Q189609,Dinosaur,Red-Breasted Merganser
-Q19159,Q189609,Tetrapoda,Red-Breasted Merganser
 Q1797813,Q16529344,Productive Animal,Goose
-Q729,Q622852,Animal,Domesticated Animal
-Q622852,Q57815212,Domesticated Animal,Domesticated Bird
 Q57815212,Q16529344,Domesticated Bird,Goose
-Q430,Q131044,Dinosaur,Black Swan
-Q19159,Q131044,Tetrapoda,Black Swan
-Q19159,Q21824,Tetrapoda,Tachyglossidae
-Q19159,Q15343,Tetrapoda,Platypus
-Q19159,Q23193,Tetrapoda,Macropodidae
-Q19159,Q431978,Tetrapoda,Phascolarctidae
-Q19159,Q23175,Tetrapoda,Vombatidae
-Q43806,Q25441,Invertebrate,Cnidaria
-Q25441,Q6596143,Cnidaria,Medusozoa
-Q25441,Q147256,Cnidaria,Actiniaria
-Q25441,Q134555,Cnidaria,Faviidae
+Q729,Q43806,Animal,Invertebrate
 Q43806,Q124900,Invertebrate,Platyhelminthes
-Q4867740,Q308841,Gastropoda,Snail
 Q43806,Q7440127,Invertebrate,Sea Slug
-Q1360,Q1936093,Arthropoda,Dungeness Crab
-Q1360,Q590283,Arthropoda,Cancer Irroratus
-Q1360,Q14510079,Arthropoda,Uca Annulipes
-Q1360,Q721171,Arthropoda,Paralithodes Camtschaticus
-Q1360,Q37668,Arthropoda,Homarus Americanus
-Q1360,Q916760,Arthropoda,Palinuridae
-Q1360,Q210959,Arthropoda,Astacus Astacus
-Q1360,Q273291,Arthropoda,Hermit Crab
-Q1360,Q206338,Arthropoda,Isopoda
-Q430,Q25352,Dinosaur,White Stork
-Q19159,Q25352,Tetrapoda,White Stork
-Q430,Q25398,Dinosaur,Black Stork
-Q19159,Q25398,Tetrapoda,Black Stork
-Q430,Q171360,Dinosaur,Eurasian Spoonbill
-Q19159,Q171360,Tetrapoda,Eurasian Spoonbill
-Q430,Q208004,Dinosaur,American Flamingo
-Q19159,Q208004,Tetrapoda,American Flamingo
-Q430,Q371028,Dinosaur,Little Blue Heron
-Q19159,Q371028,Tetrapoda,Little Blue Heron
-Q430,Q27604486,Dinosaur,Ardea Herodias Occidentalis
-Q19159,Q27604486,Tetrapoda,Ardea Herodias Occidentalis
-Q430,Q855133,Dinosaur,Botaurinae
-Q19159,Q855133,Tetrapoda,Botaurinae
-Q430,Q25365,Dinosaur,Gruidae
-Q19159,Q25365,Tetrapoda,Gruidae
-Q430,Q725276,Dinosaur,Aramus Guarauna
-Q19159,Q725276,Tetrapoda,Aramus Guarauna
-Q430,Q187902,Dinosaur,Purple Swamphen
-Q19159,Q187902,Tetrapoda,Purple Swamphen
-Q430,Q470016,Dinosaur,American Coot
-Q19159,Q470016,Tetrapoda,American Coot
-Q430,Q21755,Dinosaur,Otididae
-Q19159,Q21755,Tetrapoda,Otididae
-Q430,Q26892,Dinosaur,Ruddy Turnstone
-Q19159,Q26892,Tetrapoda,Ruddy Turnstone
-Q430,Q106447283,Dinosaur,Erolia Alpina
-Q19159,Q106447283,Tetrapoda,Erolia Alpina
-Q430,Q18859,Dinosaur,Common Redshank
-Q19159,Q18859,Tetrapoda,Common Redshank
-Q430,Q838747,Dinosaur,Dowitcher
-Q19159,Q838747,Tetrapoda,Dowitcher
-Q430,Q25928,Dinosaur,Eurasian Oystercatcher
-Q19159,Q25928,Tetrapoda,Eurasian Oystercatcher
-Q430,Q19413,Dinosaur,Pelecanus
-Q19159,Q19413,Tetrapoda,Pelecanus
-Q430,Q182209,Dinosaur,King Penguin
-Q19159,Q182209,Tetrapoda,King Penguin
-Q430,Q55805,Dinosaur,Albatross
-Q19159,Q55805,Tetrapoda,Albatross
-Q19159,Q179154,Tetrapoda,Gray Whale
-Q19159,Q1231177,Tetrapoda,Ungulate
-Q1231177,Q179154,Ungulate,Gray Whale
 Q3039055,Q382441,Aquatic Mammal,Marine Mammal
-Q110551885,Q3039055,Mammal,Aquatic Mammal
+Q729,Q1756633,Animal,Aquatic Animal
 Q729,Q110551902,Animal,Vertebrate
+Q110551885,Q3039055,Mammal,Aquatic Mammal
 Q382441,Q1865281,Marine Mammal,Whale
-Q1865281,Q144144,Whale,Odontoceti
 Q1756633,Q3039055,Aquatic Animal,Aquatic Mammal
 Q110551902,Q110551885,Vertebrate,Mammal
+Q1865281,Q144144,Whale,Odontoceti
 Q144144,Q26843,Odontoceti,Orca
-Q19159,Q129544,Tetrapoda,Dugong
-Q19159,Q333649,Tetrapoda,South American Sea Lion
-Q622852,Q57814795,Domesticated Animal,Domesticated Mammal
 Q39201,Q144,Pet,Dog
-Q16390140,Q57812559,Wild Animal,Captive Animal
+Q622852,Q57814795,Domesticated Animal,Domesticated Mammal
 Q57812611,Q57814795,Captive Mammal,Domesticated Mammal
-Q729,Q16390140,Animal,Wild Animal
 Q622852,Q39201,Domesticated Animal,Pet
 Q57814795,Q144,Domesticated Mammal,Dog
 Q57812559,Q57812611,Captive Animal,Captive Mammal
@@ -363,9 +155,9 @@ Q39367,Q38706,Dog Breed,Newfoundland Dog
 Q39367,Q37803,Dog Breed,Pyrenean Mountain Dog
 Q39367,Q39002,Dog Breed,Samoyed
 Q144,Q39579,Dog,Pomeranian
+Q854787,Q38655,Spitz,German Spitz
 Q144,Q38655,Dog,German Spitz
 Q144,Q854787,Dog,Spitz
-Q854787,Q38655,Spitz,German Spitz
 Q38655,Q39579,German Spitz,Pomeranian
 Q144,Q29013,Dog,Chow Chow
 Q39367,Q38843,Dog Breed,Keeshond
@@ -376,220 +168,37 @@ Q144,Q29072,Dog,Cardigan Welsh Corgi
 Q144,Q38904,Dog,Poodle
 Q38904,Q11831662,Poodle,Toy Poodle
 Q39367,Q38856,Dog Breed,Mexican Hairless Dog
-Q19159,Q18498,Tetrapoda,Wolf
-Q19159,Q216441,Tetrapoda,Arctic Wolf
-Q19159,Q200442,Tetrapoda,Canis Lupus Rufus
-Q19159,Q44299,Tetrapoda,Coyote
-Q19159,Q38584,Tetrapoda,Dingo
-Q19159,Q132585,Tetrapoda,Dhole
-Q19159,Q173651,Tetrapoda,African Wild Dog
-Q19159,Q42046,Tetrapoda,Hyaena
-Q19159,Q8332,Tetrapoda,Red Fox
-Q19159,Q745751,Tetrapoda,Kit Fox
-Q19159,Q23729171,Tetrapoda,Alopex Lagopus
-Q19159,Q215250,Tetrapoda,Gray Fox
 Q39201,Q146,Pet,House Cat
 Q57814795,Q146,Domesticated Mammal,House Cat
 Q146,Q1474329,House Cat,Tabby Cat
-Q19159,Q194526,Tetrapoda,Tiger Quoll
-Q19159,Q35255,Tetrapoda,Cougar
-Q19159,Q43375,Tetrapoda,Eurasian Lynx
-Q19159,Q34706,Tetrapoda,Leopard
-Q19159,Q30197,Tetrapoda,Panthera Uncia
-Q19159,Q35694,Tetrapoda,Jaguar
-Q19159,Q140,Tetrapoda,Lion
-Q19159,Q19939,Tetrapoda,Tiger
-Q19159,Q481907,Tetrapoda,Acinonyx
 Q729,Q30090244,Animal,Bear
 Q30090244,Q36341,Bear,Brown Bear
-Q19159,Q122783,Tetrapoda,Ursus Americanus
 Q30090244,Q33609,Bear,Polar Bear
-Q19159,Q145016,Tetrapoda,Sloth Bear
-Q19159,Q80479,Tetrapoda,Herpestidae
-Q19159,Q134015,Tetrapoda,Meerkat
-Q1360,Q16718297,Arthropoda,Cicindelidae
-Q1360,Q1390,Arthropoda,Insect
-Q1390,Q16718297,Insect,Cicindelidae
-Q1390,Q22708,Insect,Pterygota
-Q22708,Q16718297,Pterygota,Cicindelidae
-Q1360,Q25327,Arthropoda,Coccinellidae
-Q1390,Q25327,Insect,Coccinellidae
-Q22708,Q25327,Pterygota,Coccinellidae
-Q1360,Q27046,Arthropoda,Carabidae
-Q1390,Q27046,Insect,Carabidae
-Q22708,Q27046,Pterygota,Carabidae
-Q1360,Q1030028,Arthropoda,Morimus Funereus
-Q1390,Q1030028,Insect,Morimus Funereus
-Q22708,Q1030028,Pterygota,Morimus Funereus
-Q1360,Q193407,Arthropoda,Leaf Beetle
-Q1390,Q193407,Insect,Leaf Beetle
-Q22708,Q193407,Pterygota,Leaf Beetle
-Q1360,Q14891382,Arthropoda,Scarabaeus Cristatus
-Q1390,Q14891382,Insect,Scarabaeus Cristatus
-Q22708,Q14891382,Pterygota,Scarabaeus Cristatus
-Q1360,Q14867782,Arthropoda,Oryctes Agamemnon
-Q1390,Q14867782,Insect,Oryctes Agamemnon
-Q22708,Q14867782,Pterygota,Oryctes Agamemnon
-Q1360,Q383963,Arthropoda,Curculionoidea
-Q1390,Q383963,Insect,Curculionoidea
-Q22708,Q383963,Pterygota,Curculionoidea
-Q1360,Q25312,Arthropoda,Diptera
-Q1390,Q25312,Insect,Diptera
-Q22708,Q25312,Pterygota,Diptera
-Q1360,Q102857,Arthropoda,Apis
-Q1390,Q102857,Insect,Apis
-Q1390,Q22651,Insect,Hymenoptera
-Q22651,Q102857,Hymenoptera,Apis
-Q22708,Q102857,Pterygota,Apis
-Q1360,Q7386,Arthropoda,Formicidae
-Q1390,Q7386,Insect,Formicidae
-Q22651,Q7386,Hymenoptera,Formicidae
-Q22708,Q7386,Pterygota,Formicidae
-Q1360,Q167810,Arthropoda,Orthoptera
-Q1390,Q167810,Insect,Orthoptera
-Q22708,Q167810,Pterygota,Orthoptera
-Q1360,Q27711,Arthropoda,Acheta Domestica
-Q1390,Q27711,Insect,Acheta Domestica
-Q22708,Q27711,Pterygota,Acheta Domestica
-Q1360,Q188029,Arthropoda,Phasmatodea
-Q1390,Q188029,Insect,Phasmatodea
-Q22708,Q188029,Pterygota,Phasmatodea
-Q1360,Q1073729,Arthropoda,Gromphadorhina Portentosa
-Q1390,Q1073729,Insect,Gromphadorhina Portentosa
-Q22708,Q1073729,Pterygota,Gromphadorhina Portentosa
-Q1360,Q25309,Arthropoda,Blattodea
-Q1390,Q25309,Insect,Blattodea
-Q22708,Q25309,Pterygota,Blattodea
-Q25309,Q1661828,Blattodea,Cockroach
-Q1360,Q268319,Arthropoda,Mantis Religiosa
-Q1390,Q268319,Insect,Mantis Religiosa
-Q22708,Q268319,Pterygota,Mantis Religiosa
-Q1360,Q130778,Arthropoda,Cicadidae
-Q1390,Q130778,Insect,Cicadidae
-Q22708,Q130778,Pterygota,Cicadidae
-Q1360,Q244452,Arthropoda,Cicadellidae
-Q1390,Q244452,Insect,Cicadellidae
-Q22708,Q244452,Pterygota,Cicadellidae
-Q1360,Q623727,Arthropoda,Chrysopidae
-Q1390,Q623727,Insect,Chrysopidae
-Q22708,Q623727,Pterygota,Chrysopidae
-Q1360,Q80066,Arthropoda,Anisoptera
-Q1390,Q80066,Insect,Anisoptera
-Q22708,Q80066,Pterygota,Anisoptera
-Q1360,Q312476,Arthropoda,Libellula
-Q1390,Q312476,Insect,Libellula
-Q22708,Q312476,Pterygota,Libellula
-Q1360,Q230502,Arthropoda,Zygoptera
-Q1390,Q230502,Insect,Zygoptera
-Q22708,Q230502,Pterygota,Zygoptera
-Q1360,Q161520,Arthropoda,Aphantopus Hyperantus
-Q1390,Q161520,Insect,Aphantopus Hyperantus
-Q22708,Q161520,Pterygota,Aphantopus Hyperantus
-Q1360,Q212398,Arthropoda,Danaus Plexippus
-Q1390,Q212398,Insect,Danaus Plexippus
-Q22708,Q212398,Pterygota,Danaus Plexippus
-Q1360,Q27653,Arthropoda,Pieris Rapae
-Q1390,Q27653,Insect,Pieris Rapae
-Q22708,Q27653,Pterygota,Pieris Rapae
-Q1360,Q2710909,Arthropoda,Phoebis Sennae
-Q1390,Q2710909,Insect,Phoebis Sennae
-Q22708,Q2710909,Pterygota,Phoebis Sennae
-Q1360,Q158717,Arthropoda,Lycaenidae
-Q1390,Q158717,Insect,Lycaenidae
-Q22708,Q158717,Pterygota,Lycaenidae
-Q43806,Q44631,Invertebrate,Echinodermata
-Q44631,Q25349,Echinodermata,Starfish
-Q44631,Q83483,Echinodermata,Sea Urchin
-Q44631,Q1408044,Echinodermata,Holothuria
-Q19159,Q774716,Tetrapoda,Eastern Cottontail
-Q19159,Q852187,Tetrapoda,Burmese Hare
 Q57814795,Q9394,Domesticated Mammal,Rabbit
 Q57814795,Q149017,Domesticated Mammal,Domestic Rabbit
 Q9394,Q149017,Rabbit,Domestic Rabbit
 Q149017,Q12045584,Domestic Rabbit,Rabbit Breed
 Q12045584,Q542500,Rabbit Breed,Angora Rabbit
-Q19159,Q6573,Tetrapoda,Cricetinae
-Q19159,Q6120,Tetrapoda,Hedgehog
-Q19159,Q694296,Tetrapoda,Fox Squirrel
-Q19159,Q131567,Tetrapoda,Marmota
-Q19159,Q47542,Tetrapoda,Beaver
-Q19159,Q79803,Tetrapoda,Cuy
-Q19159,Q32789,Tetrapoda,Zebra
 Q1797813,Q787,Productive Animal,Pig
 Q57814795,Q787,Domesticated Mammal,Pig
-Q19159,Q58697,Tetrapoda,Sus Scrofa
-Q1231177,Q58697,Ungulate,Sus Scrofa
-Q19159,Q183255,Tetrapoda,Phacochoerus Africanus
-Q1231177,Q183255,Ungulate,Phacochoerus Africanus
-Q19159,Q34505,Tetrapoda,Hippopotamus Amphibius
-Q1231177,Q34505,Ungulate,Hippopotamus Amphibius
 Q25497,Q473194,Bovidae,Ox
 Q729,Q16516071,Animal,Castrated Creature
 Q16516071,Q473194,Castrated Creature,Ox
-Q19159,Q42710,Tetrapoda,Water Buffalo
-Q1231177,Q42710,Ungulate,Water Buffalo
-Q19159,Q18099,Tetrapoda,Bison
-Q1231177,Q18099,Ungulate,Bison
 Q59099,Q7368,Herbivore,Sheep
 Q729,Q59099,Animal,Herbivore
 Q1797813,Q7368,Productive Animal,Sheep
 Q57814795,Q7368,Domesticated Mammal,Sheep
-Q622852,Q1797813,Domesticated Animal,Productive Animal
 Q7368,Q2929800,Sheep,Ram
 Q44148,Q2929800,Male Organism,Ram
-Q19159,Q189466,Tetrapoda,Bighorn Sheep
-Q1231177,Q189466,Ungulate,Bighorn Sheep
-Q19159,Q168327,Tetrapoda,Capra Ibex
-Q1231177,Q168327,Ungulate,Capra Ibex
-Q19159,Q622880,Tetrapoda,Hartebeest
-Q1231177,Q622880,Ungulate,Hartebeest
-Q19159,Q132576,Tetrapoda,Impala
-Q1231177,Q132576,Ungulate,Impala
-Q19159,Q190858,Tetrapoda,Gazella
-Q1231177,Q190858,Ungulate,Gazella
-Q19159,Q71516,Tetrapoda,Dromedary
-Q1231177,Q71516,Ungulate,Dromedary
-Q1231177,Q7375,Ungulate,Camelus
-Q7375,Q71516,Camelus,Dromedary
 Q57814795,Q42569,Domesticated Mammal,Lama Glama
-Q19159,Q25311,Tetrapoda,Mustela Nivalis
-Q19159,Q17700,Tetrapoda,Mink
-Q19159,Q26582,Tetrapoda,Mustela Putorius
 Q729,Q81875,Animal,Carnivore
 Q81875,Q402885,Carnivore,Mustela Nigripes
-Q19159,Q200184,Tetrapoda,Lutrinae
-Q19159,Q27888,Tetrapoda,Mustelinae
-Q19159,Q27066,Tetrapoda,European Badger
-Q19159,Q47867,Tetrapoda,Armadillo
-Q47867,Q104840543,Armadillo,Armadillo
-Q19159,Q185167,Tetrapoda,Three-Toed Sloth
-Q19159,Q41050,Tetrapoda,Orangutan
-Q19159,Q737838,Tetrapoda,Gorilla Gorilla
-Q19159,Q4126704,Tetrapoda,Common Chimpanzee
-Q19159,Q878467,Tetrapoda,Hylobates
-Q19159,Q213889,Tetrapoda,Symphalangus Syndactylus
-Q19159,Q255571,Tetrapoda,Guenon
-Q19159,Q504496,Tetrapoda,Patas Monkey
-Q19159,Q159429,Tetrapoda,Papio
-Q19159,Q177601,Tetrapoda,Macaca
-Q19159,Q732737,Tetrapoda,Colobinae
-Q19159,Q358813,Tetrapoda,Black-And-White Colobus
-Q19159,Q192029,Tetrapoda,Proboscis Monkey
-Q19159,Q1064620,Tetrapoda,Callithrix
-Q19159,Q326260,Tetrapoda,Cebinae
-Q19159,Q504247,Tetrapoda,Alouatta
-Q19159,Q19816406,Tetrapoda,Callicebinae
-Q19159,Q388032,Tetrapoda,Ateles Geoffroyi
-Q19159,Q309200,Tetrapoda,Saimiri
-Q19159,Q185385,Tetrapoda,Lemur Catta
-Q19159,Q203868,Tetrapoda,Indri Indri
 Q110551885,Q7378,Mammal,Elephant
 Q7378,Q133006,Elephant,Asian Elephant
 Q133006,Q591305,Asian Elephant,Indian Elephant
 Q7378,Q185038,Elephant,African Elephant
-Q19159,Q41960,Tetrapoda,Ailurus Fulgens
-Q19159,Q33602,Tetrapoda,Giant Panda
 Q600396,Q934874,Fish As Food,Coho Salmon
+Q1756633,Q152,Aquatic Animal,Fish
 Q152,Q2796766,Fish,Salmon
 Q2796766,Q102229488,Salmon,Pacific Salmon
 Q102229488,Q934874,Pacific Salmon,Coho Salmon

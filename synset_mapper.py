@@ -1,17 +1,12 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 import Tools.list_dict_tools as LDtools
-import Tools.sparql_tools as SPtools
+import Tools.sparql_tools as sp
 from nltk.corpus import wordnet as wn
 import os
 import json
 
 SYNSET_INID_PATH = 'Data/LOC_synset_mapping.txt'
 FULL_MAPPING_PATH = 'Data/synset_mapping.json'
-WORDNET_PROPERTY = 'wdt:P8814'
-EXACT_MATCH_PROPERTY = 'wdt:P2888'
-COMMON_NAME_OF_PROPERTY = 'p:P31/pq:P642'
-TAXON_PROPERTY = 'wdt:P171'
-SUBCLASS_PROPERTY = 'wdt:P279'
 
 def get_synset_full_mapping(mapping_path=FULL_MAPPING_PATH)->list[dict]:
     """Get the mapping of each synset in WikiData, ImageNet and WordNet
@@ -107,12 +102,12 @@ def bulk_select_wdids_from_wnids(wnids:list[str], step=400)->list[dict]:
         SELECT ?wdid ?wnid \
         WHERE {{ \
             VALUES ?wnid {{ {} }} \
-            ?wdid '+WORDNET_PROPERTY+' ?wnid \
+            ?wdid '+sp.WORDNET_PROP+' ?wnid \
         }}'
-    mapping = SPtools.bulk_select(wnids, query, ['wdid', 'wnid'], 'str', step)
-    SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
+    mapping = sp.bulk_select(wnids, query, ['wdid', 'wnid'], 'str', step)
+    sp.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
     for m in mapping:
-        m['wdid'] = m['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+        m['wdid'] = m['wdid'].replace(sp.WD_ENTITY_URI, '')
     return mapping
 
 def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
@@ -134,13 +129,13 @@ def bulk_select_wdids_from_inids(inids:list[str], step=400)->list[dict]:
         SELECT ?wdid ?inid \
         WHERE {{ \
             VALUES ?inid {{ {} }}. \
-            ?wdid '+EXACT_MATCH_PROPERTY+' ?inid   \
+            ?wdid '+sp.EXACT_MATCH_PROP+' ?inid   \
         }}'
-    mapping = SPtools.bulk_select([inid.replace('n', '')+'-n' for inid in inids], 
+    mapping = sp.bulk_select([inid.replace('n', '')+'-n' for inid in inids], 
                             prefix_str+query, ['wdid', 'inid'], wn_prefix, step)
-    SPtools.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
+    sp.WD_ENTITY_URI = 'http://www.wikidata.org/entity/'    
     for m in mapping:
-        m['wdid'] = m['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+        m['wdid'] = m['wdid'].replace(sp.WD_ENTITY_URI, '')
         m['inid'] = m['inid'].replace(wn_uri, '').replace('-n', '')
     return mapping
 
@@ -190,7 +185,7 @@ def manual_wdid(synset:list[str])->str:
         elif len(matching_objects) != 0:
             print('\nSynset : '+', '.join(synset))
             for i , object in enumerate(matching_objects):
-                print(i, ': \033]8;;'+SPtools.WD_ENTITY_URI+object['wdid']+'\033\\'+object['desc']+'\033]8;;\033\\')
+                print(i, ': \033]8;;'+sp.WD_ENTITY_URI+object['wdid']+'\033\\'+object['desc']+'\033]8;;\033\\')
             if lemma_i == len(synset)-1:
                 print('-1 : None')
             else:
@@ -224,9 +219,9 @@ def wd_label_search(search:str)->list[dict]:
                 FILTER(LANG(?desc) = "en") 
             }}
             """.format(search=search)
-    result = SPtools.select_query(query, ['wdid', 'desc'])
+    result = sp.select_query(query, ['wdid', 'desc'])
     for r in result:
-        r['wdid'] = r['wdid'].replace(SPtools.WD_ENTITY_URI, '')
+        r['wdid'] = r['wdid'].replace(sp.WD_ENTITY_URI, '')
     return r
 
 def remap_common_name_of(synsets:list[dict], save_file_path:str=FULL_MAPPING_PATH)->list[dict]:
@@ -246,19 +241,19 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str=FULL_MAPPING_PAT
         SELECT ?wdid ?common\
         WHERE {{\
             VALUES ?wdid {{ {} }}\
-            ?wdid '+COMMON_NAME_OF_PROPERTY+' ?common\
-            FILTER NOT EXISTS {{ ?wdid '+TAXON_PROPERTY+' [] }}\
-            FILTER NOT EXISTS {{ ?wdid '+SUBCLASS_PROPERTY+' [] }}\
+            ?wdid '+sp.COMMON_NAME_OF_PROP+' ?common\
+            FILTER NOT EXISTS {{ ?wdid '+sp.TAXON_PROP+' [] }}\
+            FILTER NOT EXISTS {{ ?wdid '+sp.SUBCLASS_PROP+' [] }}\
         }}'
-    common_wdids = SPtools.bulk_select(
+    common_wdids = sp.bulk_select(
             list(set([s['wdid'] for s in synsets if s['wdid']])),
             query, ['wdid', 'common'], 'wd:'
         )
     count=0
     for cw in common_wdids:
         count += 1
-        wdid = cw['wdid'].replace(SPtools.WD_ENTITY_URI, '')
-        common_id = cw['common'].replace(SPtools.WD_ENTITY_URI, '')
+        wdid = cw['wdid'].replace(sp.WD_ENTITY_URI, '')
+        common_id = cw['common'].replace(sp.WD_ENTITY_URI, '')
         replace_index = next((i for i, s in enumerate(synsets) if s['wdid']==wdid), None)
             
         synsets[replace_index]['wdid'] = common_id
@@ -295,13 +290,13 @@ def get_label_mapping(entities:list[str])->list[dict]:
         SELECT ?wdid ?label
         WHERE {{
             VALUES ?wdid {{ {} }}
-            ?wdid rdfs:label ?label
+            ?wdid """+sp.LABEL_PROP+""" ?label
             FILTER ( LANG(?label) = 'en')        
         }}
         """
-    result = SPtools.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
+    result = sp.bulk_select(entities, query, ['wdid', 'label'], 'wd:')
        
     return [{
-        'wdid':r['wdid'].replace(SPtools.WD_ENTITY_URI, ''),
+        'wdid':r['wdid'].replace(sp.WD_ENTITY_URI, ''),
         'label':r['label'].title()
     } for r in result] 

@@ -1,6 +1,13 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 WD_ENTITY_URI = 'http://www.wikidata.org/entity/'
+WORDNET_PROP = 'wdt:P8814'
+EXACT_MATCH_PROP = 'wdt:P2888'
+COMMON_NAME_OF_PROP = 'p:P31/pq:P642'
+TAXON_PROP = 'wdt:P171'
+SUBCLASS_PROP = 'wdt:P279'
+INSTANCE_PROP = 'wdt:P31'
+LABEL_PROP = 'rdfs:label'
 
 def bulk_select(values_list:list[str], unformatted_query:str, return_keys:list[str]
                    , prefix:str=None, step=400, sparql_api_url:str="https://query.wikidata.org/sparql"):
