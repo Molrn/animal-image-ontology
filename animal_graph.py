@@ -1,6 +1,6 @@
 import synset_mapper as sm
 import Tools.list_dict_tools as LDtools
-import Tools.sparql_tools as SPtools
+import Tools.sparql_tools as sp
 from csv import DictReader
 from tqdm import tqdm
 import pandas as pd
@@ -11,6 +11,7 @@ ANIMAL_SYNSETS_PATH = 'Data/animal_synsets.json'
 ANIMAL_PATTERNS_PATH = 'Data/animal_patterns.json'
 GRAPH_ARCS_PATH = 'Data/graph_arcs.csv'
 ANIMAL_WDID = 'Q729'
+EXCLUDED_TAXON = 'Q5173'
 
 def get_animal_mapping(animal_mapping_file_path:str=ANIMAL_SYNSETS_PATH)->list[dict]:
     """Get the animal mapping from its file. If the file doesn't exist, generate it
@@ -73,7 +74,7 @@ def is_animal(wdid:str)->bool:
         return None
     patterns = get_animal_patterns(wdid)
     query = 'ASK WHERE { {'+'}UNION{'.join([patterns[key] for key in patterns])+'} }'
-    return SPtools.ask_query(query)
+    return sp.ask_query(query)
 
 def get_animal_patterns(wdid:str, pattern_file_path:str=ANIMAL_PATTERNS_PATH)->dict:
     """Get all the animal patterns formatted for a specific WikiData object
@@ -130,7 +131,7 @@ def get_object_pattern(wdid:str)->str:
         return None
     patterns = get_animal_patterns(wdid)
     for pat_name, pat in patterns.items():
-        if SPtools.ask_query('ASK WHERE { '+pat+' }') :
+        if sp.ask_query('ASK WHERE { '+pat+' }') :
             return pat_name
     return None
 
@@ -143,7 +144,7 @@ def set_all_animal_path_mapping(mapping_file_path:str=ANIMAL_SYNSETS_PATH, wdid_
             Defaults to sm.FULL_MAPPING_PATH.
         wdid_start (str, optional): WordNet ID of the synsets to start from. Defaults to None.
     """
-    synsets = sm.get_synset_full_mapping(mapping_file_path)
+    synsets = get_animal_mapping(mapping_file_path)
     start_index = 0
     if wdid_start:
         start_index = next((i for i, s in enumerate(synsets) if s['wdid']==wdid_start), 0)
@@ -170,50 +171,77 @@ def animal_path_mapping(wdid:str, animal_pattern:str)->dict:
     Returns:
         dict: dict containing the mapping in format :
             - subclass_instance : { superclass:str }
-            - taxon : { taxon_superclasses:list[str] }
-            - subclass_taxon_subclass : { superclass:str, taxon_superclasses:list[str] }
+            - taxon : { taxon_superclasses:dict[list[str]] }
+            - subclass_taxon_subclass : { superclass:str, taxon_superclasses:dict[list[str]] }
             - subclass : { superclasses:list[str] }
 
     """
     match animal_pattern:
         case 'subclass_instance':
-            result = SPtools.select_query('SELECT ?class WHERE { wd:'+wdid+' wdt:P31 ?class }',['class'])
-            return { 'superclass': result[0]['class'].replace(SPtools.WD_ENTITY_URI, '') }
+            breed_class = 'wd:Q38829'
+            query = """
+                SELECT ?class ?superclass 
+                WHERE {{ 
+                    wd:{obj} {prop1} ?class.
+                    ?class {prop2} ?superclass.
+                    FILTER (?superclass != {excluded_class} ) 
+                }}
+                """.format(obj=wdid, prop1=sp.INSTANCE_PROP, 
+                           prop2=sp.SUBCLASS_PROP, excluded_class=breed_class)
+            result = sp.select_query(query,['class', 'superclass'])[0]
+            return { 
+                    'superclass': result['class'].replace(sp.WD_ENTITY_URI, ''), 
+                    'superclass_parent': result['superclass'].replace(sp.WD_ENTITY_URI, '')
+                }
         
         case 'taxon':
             query = """
-                SELECT ?class 
+                SELECT ?class ?taxon_class
                 WHERE {{ 
-                    wd:{obj_origin} {prop1}* ?class. 
+                    wd:{obj_origin} {prop1}* ?taxon_class. 
+                    ?taxon_class {prop1} ?class. 
                     ?class {prop2}* wd:{obj_dest} 
                 }}
-                """.format(obj_origin=wdid, prop1=sm.TAXON_PROPERTY, prop2=sm.SUBCLASS_PROPERTY, obj_dest=ANIMAL_WDID)
-            result = SPtools.select_query(query, ['class'])
-            return { 'taxon_superclasses':[r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result] }
+                """.format(obj_origin=wdid, prop1=sp.TAXON_PROP, prop2=sp.SUBCLASS_PROP, obj_dest=ANIMAL_WDID)
+            result = sp.select_query(query, ['class', 'taxon_class'])
+            taxon_superclasses = {}
+            for superclass in list(set([r['class'] for r in result])):
+                taxon_superclasses[superclass.replace(sp.WD_ENTITY_URI, '')]=[
+                        r['taxon_class'].replace(sp.WD_ENTITY_URI, '') 
+                            for r in result if r['class'] == superclass
+                    ]     
+            return { 'taxon_superclasses': taxon_superclasses }
         
         case 'subclass_taxon_subclass':
             query = 'SELECT ?class WHERE {{ wd:{obj} {prop} ?class }}'\
-                .format(obj=wdid, prop=sm.SUBCLASS_PROPERTY)
-            result = SPtools.select_query(query, ['class'])
-            superclass = result[0]['class'].replace(SPtools.WD_ENTITY_URI, '')
+                .format(obj=wdid, prop=sp.SUBCLASS_PROP)
+            result = sp.select_query(query, ['class'])
+            parentclass = result[0]['class'].replace(sp.WD_ENTITY_URI, '')
             query = """
-                SELECT ?class 
+                SELECT ?class ?taxon_class
                 WHERE {{ 
-                    wd:{obj_origin} {prop1}* ?class. 
+                    wd:{obj_origin} {prop1}* ?taxon_class. 
+                    ?taxon_class {prop1} ?class. 
                     ?class {prop2}* wd:{obj_dest} 
                 }}
-                """.format(obj_origin=superclass, prop1=sm.TAXON_PROPERTY, prop2=sm.SUBCLASS_PROPERTY, obj_dest=ANIMAL_WDID)
-            result = SPtools.select_query(query, ['class'])
+                """.format(obj_origin=parentclass, prop1=sp.TAXON_PROP, prop2=sp.SUBCLASS_PROP, obj_dest=ANIMAL_WDID)
+            result = sp.select_query(query, ['class', 'taxon_class'])
+            taxon_superclasses = {}
+            for superclass in list(set([r['class'] for r in result])):
+                taxon_superclasses[superclass.replace(sp.WD_ENTITY_URI, '')]=[
+                        r['taxon_class'].replace(sp.WD_ENTITY_URI, '') 
+                            for r in result if r['class'] == superclass
+                    ] 
             return {
-                'superclass': superclass,
-                'taxon_superclasses': [r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result]
+                'superclass': parentclass,
+                'taxon_superclasses': taxon_superclasses
             }
         
         case 'subclass' :
             query = 'SELECT ?class WHERE {{ wd:{obj} {prop} ?class }}'\
-                .format(obj=wdid, prop=sm.SUBCLASS_PROPERTY)
-            result = SPtools.select_query(query, ['class'])
-            return { 'superclasses': [r['class'].replace(SPtools.WD_ENTITY_URI, '') for r in result] }
+                .format(obj=wdid, prop=sp.SUBCLASS_PROP)
+            result = sp.select_query(query, ['class'])
+            return { 'superclasses': [r['class'].replace(sp.WD_ENTITY_URI, '') for r in result] }
         case _ :
             raise ValueError('"'+animal_pattern+'" is not a recognized path pattern (taxon, subclass, subclass_taxon_subclass, subclass_instance)')
 
@@ -253,27 +281,25 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
         return (tree_df['child']==child).any()
         
     def insert_unique(tree_df:pd.DataFrame, parent:str, child:str, parent_label:str=None, child_label:str=None)->bool:
+        def get_label(label:str, tree_df:pd.DataFrame, wdid:str):
+            if not label:
+                label_match = tree_df['childLabel'][tree_df['child']==wdid].values
+                if len(label_match) != 0:
+                    label = label_match[0]
+                if not label:
+                    label = sm.get_label_mapping([wdid])[0]['label']
+            return label
+        
         if ((tree_df['parent']==parent) & (tree_df['child']==child)).any():
             return False
         new_row = {
             'parent': parent,
             'child': child,
-            'parentLabel' : [parent_label, get_entity_label(parent)][parent_label is None],
-            'childLabel'  : [child_label, get_entity_label(child)][child_label is None],
+            'parentLabel' : get_label(parent_label, tree_df, parent),
+            'childLabel'  : get_label(child_label, tree_df, child)
         }
         tree_df.loc[len(tree_df)] = new_row
-        return True
-
-    def get_child_label(arcs:list[dict])->str:
-        parent_nodes = [arc['parent'] for arc in arcs]
-        child_nodes  = [arc['child'] for arc in arcs]
-        for i, node in enumerate(child_nodes):
-            if node not in parent_nodes:
-                return arcs[i]['childLabel'] 
-        return None
-
-    def get_entity_label(wdid):
-        return sm.get_label_mapping([wdid])[0]['label']
+        return True    
 
     if not os.path.exists(tree_structure_file_path):
         tree_df = pd.DataFrame(columns=['parent', 'child', 'parentLabel', 'childLabel'])
@@ -285,13 +311,11 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
             try:
                 match synset['animal_pattern']:
                     case 'subclass_instance':
-                        superclass_label = None
-                        if not child_exists(tree_df, synset['superclass']):
-                            arcs = get_object_subclass_path(synset['superclass'])
+                        if not child_exists(tree_df, synset['superclass_parent']):
+                            arcs = get_object_subclass_path(synset['superclass_parent'])
                             for arc in arcs:
                                 insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel']) 
-                            superclass_label = get_child_label(arcs)
-                        insert_unique(tree_df, synset['superclass'], synset['wdid'], superclass_label, synset['label'])
+                        insert_unique(tree_df, synset['superclass_parent'], synset['wdid'], child_label=synset['label'])
 
                     case 'subclass' :
                         for superclass in synset['superclasses']:
@@ -300,33 +324,32 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
                                 arcs = get_object_subclass_path(superclass)
                                 for arc in arcs:
                                     insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel']) 
-                                superclass_label = get_child_label(arcs)
-                            insert_unique(tree_df, superclass, synset['wdid'], superclass_label, synset['label'])
+                            insert_unique(tree_df, superclass, synset['wdid'], child_label=synset['label'])
 
                     case 'taxon':
-                        for node in synset['taxon_superclasses']:
-                            superclass_label = None
+                        for node, taxons in synset['taxon_superclasses'].items():
                             if not child_exists(tree_df, node):
                                 arcs = get_object_subclass_path(node)
                                 for arc in arcs:
                                     insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel'])
-                                superclass_label = get_child_label(arcs)
-                            if node != master_parent_node:    
-                                insert_unique(tree_df, node, synset['wdid'], superclass_label, synset['label'])
-                        
+                            for taxon in taxons:
+                                if node != master_parent_node and taxon != EXCLUDED_TAXON:    
+                                    insert_unique(tree_df, node, taxon)
+                                    insert_unique(tree_df, taxon, synset['wdid'], child_label=synset['label'])                        
+
+
                     case 'subclass_taxon_subclass':
                         if not child_exists(tree_df, synset['superclass']):
-                            for node in synset['taxon_superclasses']:
-                                superclass_label = None
-                                node_label = get_entity_label(node)
+                            for node, taxons in synset['taxon_superclasses'].items():
                                 if not child_exists(tree_df, node):
                                     arcs = get_object_subclass_path(node)
                                     for arc in arcs:
                                         insert_unique(tree_df, arc['parent'], arc['child'], arc['parentLabel'], arc['childLabel'])
-                                    superclass_label = get_child_label(arcs)
-                                if node != master_parent_node:    
-                                    insert_unique(tree_df, node, synset['superclass'], node_label, superclass_label)
-                        insert_unique(tree_df, synset['superclass'], synset['wdid'], superclass_label, synset['label'])
+                                for taxon in taxons:
+                                    if node != master_parent_node and taxon != EXCLUDED_TAXON:    
+                                        insert_unique(tree_df, node, taxon)
+                                        insert_unique(tree_df, taxon, synset['superclass'])
+                        insert_unique(tree_df, synset['superclass'], synset['wdid'], child_label=synset['label'])                        
 
                     case _ :
                         raise ValueError('Object '+synset['wdid']+' : Pattern "'+synset['animal_pattern']+\

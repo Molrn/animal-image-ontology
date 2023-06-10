@@ -114,8 +114,9 @@ def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEAT
                 all_features[property] = get_subclasses_set(ontology, all_features[property], node)
 
     for feature, class_nodes in all_features.items():
-        for node in list(class_nodes):
-            ontology.add((node, ac.hasMorphFeature, feature))
+        if len(class_nodes) > 1:
+            for node in list(class_nodes):
+                ontology.add((node, ac.hasMorphFeature, feature))
     return ontology
 
 def label_to_node(label:str, namespace:Namespace)->URIRef:

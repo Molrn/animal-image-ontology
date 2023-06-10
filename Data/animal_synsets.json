@@ -8,9 +8,11 @@
         ],
         "wdid": "Q76280",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Tench"
     },
     {
@@ -22,9 +24,11 @@
         ],
         "wdid": "Q123141",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Goldfish"
     },
     {
@@ -39,10 +43,14 @@
         ],
         "wdid": "Q129026",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q7372"
-        ],
+        "taxon_superclasses": {
+            "Q7372": [
+                "Q47969"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Great White Shark"
     },
     {
@@ -54,10 +62,14 @@
         ],
         "wdid": "Q188212",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q7372"
-        ],
+        "taxon_superclasses": {
+            "Q7372": [
+                "Q48178"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Galeocerdo Cuvier"
     },
     {
@@ -69,10 +81,14 @@
         ],
         "wdid": "Q726259",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q7372"
-        ],
+        "taxon_superclasses": {
+            "Q7372": [
+                "Q48178"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Smooth Hammerhead"
     },
     {
@@ -86,10 +102,14 @@
         ],
         "wdid": "Q206675",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q41317"
-        ],
+        "taxon_superclasses": {
+            "Q41317": [
+                "Q3288921"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Torpedo"
     },
     {
@@ -100,9 +120,11 @@
         ],
         "wdid": "Q902487",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Dasyatis"
     },
     {
@@ -128,11 +150,18 @@
         ],
         "wdid": "Q222951",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Gallus"
     },
     {
@@ -144,11 +173,18 @@
         ],
         "wdid": "Q2576337",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Struthio"
     },
     {
@@ -160,11 +196,18 @@
         ],
         "wdid": "Q188877",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Brambling"
     },
     {
@@ -176,11 +219,18 @@
         ],
         "wdid": "Q27757",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Carduelis"
     },
     {
@@ -193,11 +243,18 @@
         ],
         "wdid": "Q374302",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "House Finch"
     },
     {
@@ -209,11 +266,18 @@
         ],
         "wdid": "Q857319",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Junco"
     },
     {
@@ -227,11 +291,18 @@
         ],
         "wdid": "Q1049642",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Indigo Bunting"
     },
     {
@@ -244,11 +315,18 @@
         ],
         "wdid": "Q460967",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "American Robin"
     },
     {
@@ -259,11 +337,18 @@
         ],
         "wdid": "Q188854",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Pycnonotidae"
     },
     {
@@ -274,11 +359,18 @@
         ],
         "wdid": "Q311248",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Garrulus"
     },
     {
@@ -289,11 +381,18 @@
         ],
         "wdid": "Q271634",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Pica"
     },
     {
@@ -305,11 +404,18 @@
         "wdid": "Q17053748",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q1075355",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Chickadee"
     },
     {
@@ -321,11 +427,18 @@
         ],
         "wdid": "Q201831",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "White-Throated Dipper"
     },
     {
@@ -336,11 +449,18 @@
         ],
         "wdid": "Q25510",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Accipitridae"
     },
     {
@@ -353,11 +473,18 @@
         ],
         "wdid": "Q127216",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Bald Eagle"
     },
     {
@@ -369,11 +496,18 @@
         "wdid": "Q123120",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q5113",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Vulture"
     },
     {
@@ -386,11 +520,18 @@
         ],
         "wdid": "Q200724",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Great Grey Owl"
     },
     {
@@ -402,11 +543,18 @@
         ],
         "wdid": "Q26395",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q10908": [
+                "Q134861",
+                "Q53663"
+            ],
+            "Q19159": [
+                "Q10908"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Fire Salamander"
     },
     {
@@ -418,11 +566,18 @@
         ],
         "wdid": "Q215247",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q10908": [
+                "Q134861",
+                "Q53663"
+            ],
+            "Q19159": [
+                "Q10908"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Lissotriton Vulgaris"
     },
     {
@@ -434,11 +589,18 @@
         ],
         "wdid": "Q2108247",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q10908": [
+                "Q134861",
+                "Q53663"
+            ],
+            "Q19159": [
+                "Q10908"
+            ]
+        },
         "label": "Ambystoma Maculatum"
     },
     {
@@ -451,11 +613,18 @@
         ],
         "wdid": "Q22718",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q10908": [
+                "Q134861",
+                "Q53663"
+            ],
+            "Q19159": [
+                "Q10908"
+            ]
+        },
         "label": "Axolotl"
     },
     {
@@ -467,11 +636,18 @@
         ],
         "wdid": "Q159404",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q10908": [
+                "Q134861",
+                "Q53636"
+            ],
+            "Q19159": [
+                "Q10908"
+            ]
+        },
         "label": "Bullfrog"
     },
     {
@@ -483,11 +659,18 @@
         ],
         "wdid": "Q1144302",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q10908": [
+                "Q134861",
+                "Q53636"
+            ],
+            "Q19159": [
+                "Q10908"
+            ]
+        },
         "label": "Tree Frog"
     },
     {
@@ -502,11 +685,18 @@
         ],
         "wdid": "Q2925426",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q10908"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q10908": [
+                "Q134861",
+                "Q53636"
+            ],
+            "Q19159": [
+                "Q10908"
+            ]
+        },
         "label": "Tailed Frog"
     },
     {
@@ -519,10 +709,14 @@
         ],
         "wdid": "Q203538",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Hawksbill Sea Turtle"
     },
     {
@@ -536,10 +730,14 @@
         ],
         "wdid": "Q120043",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Leatherback Sea Turtle"
     },
     {
@@ -550,10 +748,14 @@
         ],
         "wdid": "Q2500468",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Mud Turtle"
     },
     {
@@ -565,10 +767,14 @@
         "wdid": "Q7703292",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q1946537",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Terrapin"
     },
     {
@@ -580,10 +786,14 @@
         ],
         "wdid": "Q734870",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Box Turtle"
     },
     {
@@ -596,10 +806,14 @@
         ],
         "wdid": "Q215376",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Green Iguana"
     },
     {
@@ -612,10 +826,14 @@
         ],
         "wdid": "Q930252",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Anolis Carolinensis"
     },
     {
@@ -627,10 +845,14 @@
         ],
         "wdid": "Q827111",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Teiidae"
     },
     {
@@ -641,10 +863,14 @@
         ],
         "wdid": "Q1153386",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Agama"
     },
     {
@@ -656,10 +882,14 @@
         ],
         "wdid": "Q501566",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683"
+            ]
+        },
         "label": "Frill-Necked Lizard"
     },
     {
@@ -670,10 +900,14 @@
         ],
         "wdid": "Q1522299",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Alligator Lizard"
     },
     {
@@ -685,10 +919,14 @@
         ],
         "wdid": "Q207058",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Gila Monster"
     },
     {
@@ -700,10 +938,14 @@
         ],
         "wdid": "Q307047",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Lacerta Viridis"
     },
     {
@@ -715,10 +957,14 @@
         ],
         "wdid": "Q577924",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Chamaeleo Chamaeleon"
     },
     {
@@ -733,10 +979,14 @@
         ],
         "wdid": "Q4504",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Varanus Komodoensis"
     },
     {
@@ -749,10 +999,14 @@
         ],
         "wdid": "Q168745",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Nile Crocodile"
     },
     {
@@ -764,10 +1018,14 @@
         ],
         "wdid": "Q193327",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "American Alligator"
     },
     {
@@ -778,11 +1036,17 @@
         ],
         "wdid": "Q14384",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q191488"
+            ],
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Triceratops"
     },
     {
@@ -795,10 +1059,14 @@
         ],
         "wdid": "Q2940133",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Carphophis Amoenus"
     },
     {
@@ -811,10 +1079,14 @@
         ],
         "wdid": "Q2704229",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Ring-Necked Snake"
     },
     {
@@ -827,10 +1099,14 @@
         ],
         "wdid": "Q369667",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Bitis Arietans"
     },
     {
@@ -842,10 +1118,14 @@
         ],
         "wdid": "Q170713",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Grass Snake"
     },
     {
@@ -857,10 +1137,14 @@
         ],
         "wdid": "Q1364033",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Lampropeltis"
     },
     {
@@ -872,10 +1156,14 @@
         ],
         "wdid": "Q1149509",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Garter Snake"
     },
     {
@@ -886,10 +1174,14 @@
         ],
         "wdid": "Q35541230",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Barred Grass Snake"
     },
     {
@@ -901,10 +1193,14 @@
         ],
         "wdid": "Q922205",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Hypsiglena Torquata"
     },
     {
@@ -916,10 +1212,14 @@
         ],
         "wdid": "Q215388",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Boa Constrictor"
     },
     {
@@ -932,10 +1232,14 @@
         ],
         "wdid": "Q764797",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Python Sebae"
     },
     {
@@ -947,10 +1251,14 @@
         ],
         "wdid": "Q192754",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Indian Cobra"
     },
     {
@@ -961,10 +1269,14 @@
         ],
         "wdid": "Q622805",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Dendroaspis Angusticeps"
     },
     {
@@ -975,10 +1287,14 @@
         ],
         "wdid": "Q152504",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Hydrophis"
     },
     {
@@ -993,10 +1309,14 @@
         ],
         "wdid": "Q73178",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Cerastes"
     },
     {
@@ -1009,10 +1329,14 @@
         ],
         "wdid": "Q744532",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Eastern Diamondback Rattlesnake"
     },
     {
@@ -1025,10 +1349,14 @@
         ],
         "wdid": "Q1366532",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q134683"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Crotalus Cerastes"
     },
     {
@@ -1039,10 +1367,14 @@
         ],
         "wdid": "Q17170",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q19842587"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Trilobita"
     },
     {
@@ -1055,10 +1387,14 @@
         ],
         "wdid": "Q19116",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Opiliones"
     },
     {
@@ -1069,10 +1405,14 @@
         ],
         "wdid": "Q19125",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Scorpion"
     },
     {
@@ -1084,10 +1424,14 @@
         ],
         "wdid": "Q2556499",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Argiope Aurantia"
     },
     {
@@ -1099,10 +1443,14 @@
         ],
         "wdid": "Q1306991",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Barn Spider"
     },
     {
@@ -1114,10 +1462,14 @@
         ],
         "wdid": "Q337509",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Araneus Diadematus"
     },
     {
@@ -1129,10 +1481,14 @@
         ],
         "wdid": "Q113297",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Black Widow Spider"
     },
     {
@@ -1143,10 +1499,14 @@
         ],
         "wdid": "Q213383",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Theraphosidae"
     },
     {
@@ -1158,10 +1518,14 @@
         ],
         "wdid": "Q1059106",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Alopecosa Aculeata"
     },
     {
@@ -1172,10 +1536,14 @@
         ],
         "wdid": "Q10304508",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1359"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Ixodida"
     },
     {
@@ -1186,10 +1554,14 @@
         ],
         "wdid": "Q43447",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Centipede"
     },
     {
@@ -1200,11 +1572,18 @@
         ],
         "wdid": "Q155878",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Black Grouse"
     },
     {
@@ -1215,11 +1594,18 @@
         ],
         "wdid": "Q205930",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Rock Ptarmigan"
     },
     {
@@ -1232,11 +1618,18 @@
         ],
         "wdid": "Q19058",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Ruffed Grouse"
     },
     {
@@ -1249,11 +1642,18 @@
         ],
         "wdid": "Q1463540",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Tympanuchus"
     },
     {
@@ -1264,11 +1664,18 @@
         ],
         "wdid": "Q201251",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Peafowl"
     },
     {
@@ -1308,11 +1715,18 @@
         ],
         "wdid": "Q220328",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Grey Parrot"
     },
     {
@@ -1323,11 +1737,18 @@
         ],
         "wdid": "Q213984",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Ara"
     },
     {
@@ -1340,11 +1761,18 @@
         ],
         "wdid": "Q207107",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Sulphur-Crested Cockatoo"
     },
     {
@@ -1355,11 +1783,18 @@
         ],
         "wdid": "Q15274050",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Loriini"
     },
     {
@@ -1370,11 +1805,18 @@
         ],
         "wdid": "Q657775",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Centropus"
     },
     {
@@ -1385,11 +1827,18 @@
         ],
         "wdid": "Q183147",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Meropidae"
     },
     {
@@ -1400,11 +1849,18 @@
         ],
         "wdid": "Q26773",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Hornbill"
     },
     {
@@ -1415,11 +1871,18 @@
         ],
         "wdid": "Q43624",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Hummingbird"
     },
     {
@@ -1430,11 +1893,18 @@
         ],
         "wdid": "Q212942",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Jacamar"
     },
     {
@@ -1445,11 +1915,18 @@
         ],
         "wdid": "Q1325045",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Ramphastidae"
     },
     {
@@ -1460,11 +1937,18 @@
         ],
         "wdid": "Q214264",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Anas"
     },
     {
@@ -1476,11 +1960,18 @@
         ],
         "wdid": "Q189609",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Red-Breasted Merganser"
     },
     {
@@ -1506,11 +1997,18 @@
         ],
         "wdid": "Q131044",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Black Swan"
     },
     {
@@ -1523,10 +2021,16 @@
         ],
         "wdid": "Q21824",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Tachyglossidae"
     },
     {
@@ -1541,10 +2045,16 @@
         ],
         "wdid": "Q15343",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Platypus"
     },
     {
@@ -1556,10 +2066,16 @@
         ],
         "wdid": "Q23193",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Macropodidae"
     },
     {
@@ -1574,10 +2090,16 @@
         ],
         "wdid": "Q431978",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Phascolarctidae"
     },
     {
@@ -1588,10 +2110,16 @@
         ],
         "wdid": "Q23175",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Vombatidae"
     },
     {
@@ -1602,10 +2130,15 @@
         ],
         "wdid": "Q6596143",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q25441"
-        ],
+        "taxon_superclasses": {
+            "Q25441": [
+                "Q6596143"
+            ],
+            "Q729": [
+                "Q151542",
+                "Q5174"
+            ]
+        },
         "label": "Medusozoa"
     },
     {
@@ -1617,10 +2150,15 @@
         ],
         "wdid": "Q147256",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q25441"
-        ],
+        "taxon_superclasses": {
+            "Q25441": [
+                "Q28524"
+            ],
+            "Q729": [
+                "Q151542",
+                "Q5174"
+            ]
+        },
         "label": "Actiniaria"
     },
     {
@@ -1631,10 +2169,15 @@
         ],
         "wdid": "Q134555",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q25441"
-        ],
+        "taxon_superclasses": {
+            "Q25441": [
+                "Q28524"
+            ],
+            "Q729": [
+                "Q151542",
+                "Q5174"
+            ]
+        },
         "label": "Faviidae"
     },
     {
@@ -1661,9 +2204,11 @@
         ],
         "wdid": "Q5185",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Nematoda"
     },
     {
@@ -1675,9 +2220,11 @@
         "wdid": "Q308841",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q4867740",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Snail"
     },
     {
@@ -1705,9 +2252,11 @@
         ],
         "wdid": "Q188906",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Polyplacophora"
     },
     {
@@ -1720,9 +2269,11 @@
         ],
         "wdid": "Q223939",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Nautilidae"
     },
     {
@@ -1734,10 +2285,15 @@
         ],
         "wdid": "Q1936093",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Dungeness Crab"
     },
     {
@@ -1749,10 +2305,15 @@
         ],
         "wdid": "Q590283",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Cancer Irroratus"
     },
     {
@@ -1763,10 +2324,15 @@
         ],
         "wdid": "Q14510079",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Uca Annulipes"
     },
     {
@@ -1781,10 +2347,15 @@
         ],
         "wdid": "Q721171",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Paralithodes Camtschaticus"
     },
     {
@@ -1798,10 +2369,15 @@
         ],
         "wdid": "Q37668",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Homarus Americanus"
     },
     {
@@ -1817,10 +2393,15 @@
         ],
         "wdid": "Q916760",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Palinuridae"
     },
     {
@@ -1834,10 +2415,15 @@
         ],
         "wdid": "Q210959",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Astacus Astacus"
     },
     {
@@ -1848,10 +2434,15 @@
         ],
         "wdid": "Q273291",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Hermit Crab"
     },
     {
@@ -1862,10 +2453,15 @@
         ],
         "wdid": "Q206338",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360"
-        ],
+        "taxon_superclasses": {
+            "Q1360": [
+                "Q1633496",
+                "Q25364"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Isopoda"
     },
     {
@@ -1877,11 +2473,18 @@
         ],
         "wdid": "Q25352",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "White Stork"
     },
     {
@@ -1893,11 +2496,18 @@
         ],
         "wdid": "Q25398",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Black Stork"
     },
     {
@@ -1908,11 +2518,18 @@
         ],
         "wdid": "Q171360",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Eurasian Spoonbill"
     },
     {
@@ -1923,11 +2540,18 @@
         ],
         "wdid": "Q208004",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "American Flamingo"
     },
     {
@@ -1939,11 +2563,18 @@
         ],
         "wdid": "Q371028",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Little Blue Heron"
     },
     {
@@ -1956,11 +2587,18 @@
         ],
         "wdid": "Q27604486",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Ardea Herodias Occidentalis"
     },
     {
@@ -1971,11 +2609,18 @@
         ],
         "wdid": "Q855133",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Botaurinae"
     },
     {
@@ -1986,11 +2631,18 @@
         ],
         "wdid": "Q25365",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Gruidae"
     },
     {
@@ -2002,11 +2654,18 @@
         ],
         "wdid": "Q725276",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Aramus Guarauna"
     },
     {
@@ -2018,11 +2677,18 @@
         ],
         "wdid": "Q187902",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Purple Swamphen"
     },
     {
@@ -2037,11 +2703,18 @@
         ],
         "wdid": "Q470016",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "American Coot"
     },
     {
@@ -2052,11 +2725,18 @@
         ],
         "wdid": "Q21755",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q430": [
+                "Q186334"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ]
+        },
         "label": "Otididae"
     },
     {
@@ -2068,11 +2748,18 @@
         ],
         "wdid": "Q26892",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Ruddy Turnstone"
     },
     {
@@ -2085,11 +2772,18 @@
         ],
         "wdid": "Q106447283",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Erolia Alpina"
     },
     {
@@ -2101,11 +2795,18 @@
         ],
         "wdid": "Q18859",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Common Redshank"
     },
     {
@@ -2116,11 +2817,18 @@
         ],
         "wdid": "Q838747",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Dowitcher"
     },
     {
@@ -2132,11 +2840,18 @@
         ],
         "wdid": "Q25928",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Eurasian Oystercatcher"
     },
     {
@@ -2147,11 +2862,18 @@
         ],
         "wdid": "Q19413",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Pelecanus"
     },
     {
@@ -2163,11 +2885,18 @@
         ],
         "wdid": "Q182209",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "King Penguin"
     },
     {
@@ -2179,11 +2908,18 @@
         ],
         "wdid": "Q55805",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q430",
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q134683",
+                "Q5113"
+            ],
+            "Q430": [
+                "Q186334"
+            ]
+        },
         "label": "Albatross"
     },
     {
@@ -2198,11 +2934,19 @@
         ],
         "wdid": "Q179154",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Gray Whale"
     },
     {
@@ -2232,10 +2976,16 @@
         ],
         "wdid": "Q129544",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Dugong"
     },
     {
@@ -2246,10 +2996,16 @@
         ],
         "wdid": "Q333649",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "South American Sea Lion"
     },
     {
@@ -2274,7 +3030,8 @@
         "wdid": "Q38146",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Japanese Chin"
+        "label": "Japanese Chin",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02085936",
@@ -2302,7 +3059,8 @@
         "wdid": "Q38959",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Pekingese"
+        "label": "Pekingese",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02086240",
@@ -2313,7 +3071,8 @@
         "wdid": "Q39357",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Shih Tzu"
+        "label": "Shih Tzu",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02086910",
@@ -2324,7 +3083,8 @@
         "wdid": "Q38115",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Papillon"
+        "label": "Papillon",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02087394",
@@ -2363,7 +3123,8 @@
         "wdid": "Q37716",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Basset Hound"
+        "label": "Basset Hound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02088364",
@@ -2482,7 +3243,8 @@
         "wdid": "Q38668",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Irish Wolfhound"
+        "label": "Irish Wolfhound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02091032",
@@ -2493,7 +3255,8 @@
         "wdid": "Q38503",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Italian Greyhound"
+        "label": "Italian Greyhound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02091134",
@@ -2504,7 +3267,8 @@
         "wdid": "Q39122",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Whippet"
+        "label": "Whippet",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02091244",
@@ -2530,7 +3294,8 @@
         "wdid": "Q38803",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Norwegian Elkhound"
+        "label": "Norwegian Elkhound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02091635",
@@ -2542,7 +3307,8 @@
         "wdid": "Q38922",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Otterhound"
+        "label": "Otterhound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02091831",
@@ -2554,7 +3320,8 @@
         "wdid": "Q39108",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Saluki"
+        "label": "Saluki",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02092002",
@@ -2566,7 +3333,8 @@
         "wdid": "Q37929",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Scottish Deerhound"
+        "label": "Scottish Deerhound",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02092339",
@@ -2577,7 +3345,8 @@
         "wdid": "Q38965",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Weimaraner"
+        "label": "Weimaraner",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02093256",
@@ -2618,7 +3387,8 @@
         "wdid": "Q37582",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Bedlington Terrier"
+        "label": "Bedlington Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02093754",
@@ -2629,7 +3399,8 @@
         "wdid": "Q37558",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Border Terrier"
+        "label": "Border Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02093859",
@@ -2640,7 +3411,8 @@
         "wdid": "Q38025",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Kerry Blue Terrier"
+        "label": "Kerry Blue Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02093991",
@@ -2651,7 +3423,8 @@
         "wdid": "Q38644",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Irish Terrier"
+        "label": "Irish Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02094114",
@@ -2662,7 +3435,8 @@
         "wdid": "Q38940",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Norfolk Terrier"
+        "label": "Norfolk Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02094258",
@@ -2673,7 +3447,8 @@
         "wdid": "Q38934",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Norwich Terrier"
+        "label": "Norwich Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02094433",
@@ -2697,7 +3472,8 @@
         "wdid": "Q38110",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Lakeland Terrier"
+        "label": "Lakeland Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02095889",
@@ -2709,7 +3485,8 @@
         "wdid": "Q39068",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Sealyham Terrier"
+        "label": "Sealyham Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02096051",
@@ -2749,7 +3526,8 @@
         "wdid": "Q37530",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Australian Terrier"
+        "label": "Australian Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02096437",
@@ -2761,7 +3539,8 @@
         "wdid": "Q38336",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Dandie Dinmont Terrier"
+        "label": "Dandie Dinmont Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02096585",
@@ -2773,7 +3552,8 @@
         "wdid": "Q37550",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Boston Terrier"
+        "label": "Boston Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02097047",
@@ -2839,7 +3619,8 @@
         "wdid": "Q38796",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Tibetan Terrier"
+        "label": "Tibetan Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02097658",
@@ -2851,7 +3632,8 @@
         "wdid": "Q37524",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Australian Silky Terrier"
+        "label": "Australian Silky Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02098105",
@@ -2862,7 +3644,8 @@
         "wdid": "Q38047",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Soft-Coated Wheaten Terrier"
+        "label": "Soft-Coated Wheaten Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02098286",
@@ -2873,7 +3656,8 @@
         "wdid": "Q17510",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "West Highland White Terrier"
+        "label": "West Highland White Terrier",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02098413",
@@ -2885,7 +3669,8 @@
         "wdid": "Q38352",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Lhasa Apso"
+        "label": "Lhasa Apso",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02099267",
@@ -2909,7 +3694,8 @@
         "wdid": "Q38375",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Curly Coated Retriever"
+        "label": "Curly Coated Retriever",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02099601",
@@ -2962,7 +3748,8 @@
         "wdid": "Q38819",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Vizsla"
+        "label": "Vizsla",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02100735",
@@ -2987,7 +3774,8 @@
         "wdid": "Q38761",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Irish Setter"
+        "label": "Irish Setter",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02101006",
@@ -2998,7 +3786,8 @@
         "wdid": "Q38301",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Gordon Setter"
+        "label": "Gordon Setter",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02101388",
@@ -3009,7 +3798,8 @@
         "wdid": "Q38156",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Brittany"
+        "label": "Brittany",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02101556",
@@ -3021,7 +3811,8 @@
         "wdid": "Q37851",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Clumber Spaniel"
+        "label": "Clumber Spaniel",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02102040",
@@ -3046,7 +3837,8 @@
         "wdid": "Q39047",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Welsh Springer Spaniel"
+        "label": "Welsh Springer Spaniel",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02102318",
@@ -3072,7 +3864,8 @@
         "wdid": "Q39138",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Sussex Spaniel"
+        "label": "Sussex Spaniel",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02102973",
@@ -3083,7 +3876,8 @@
         "wdid": "Q38162",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Irish Water Spaniel"
+        "label": "Irish Water Spaniel",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02104029",
@@ -3094,7 +3888,8 @@
         "wdid": "Q38467",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Kuvasz"
+        "label": "Kuvasz",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02104365",
@@ -3105,7 +3900,8 @@
         "wdid": "Q39010",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Schipperke"
+        "label": "Schipperke",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02105056",
@@ -3142,7 +3938,8 @@
         "wdid": "Q37821",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Briard"
+        "label": "Briard",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02105412",
@@ -3153,7 +3950,8 @@
         "wdid": "Q37520",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Australian Kelpie"
+        "label": "Australian Kelpie",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02105505",
@@ -3164,7 +3962,8 @@
         "wdid": "Q38675",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Komondor"
+        "label": "Komondor",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02105641",
@@ -3176,7 +3975,8 @@
         "wdid": "Q37704",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Old English Sheepdog"
+        "label": "Old English Sheepdog",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02105855",
@@ -3229,7 +4029,8 @@
         "wdid": "Q37896",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Bouvier Des Flandres"
+        "label": "Bouvier Des Flandres",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02106550",
@@ -3283,7 +4084,8 @@
         "wdid": "Q38990",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Miniature Pinscher"
+        "label": "Miniature Pinscher",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02107574",
@@ -3372,7 +4174,8 @@
         "wdid": "Q39322",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Tibetan Mastiff"
+        "label": "Tibetan Mastiff",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02108915",
@@ -3438,7 +4241,8 @@
         "wdid": "Q39295",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Siberian Husky"
+        "label": "Siberian Husky",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02110341",
@@ -3479,7 +4283,8 @@
         "wdid": "Q37871",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Basenji"
+        "label": "Basenji",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02110958",
@@ -3505,7 +4310,8 @@
         "wdid": "Q38487",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Leonberger"
+        "label": "Leonberger",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02111277",
@@ -3517,7 +4323,8 @@
         "wdid": "Q38706",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Newfoundland Dog"
+        "label": "Newfoundland Dog",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02111500",
@@ -3528,7 +4335,8 @@
         "wdid": "Q37803",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Pyrenean Mountain Dog"
+        "label": "Pyrenean Mountain Dog",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02111889",
@@ -3540,7 +4348,8 @@
         "wdid": "Q39002",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Samoyed"
+        "label": "Samoyed",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02112018",
@@ -3579,7 +4388,8 @@
         "wdid": "Q38843",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Keeshond"
+        "label": "Keeshond",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02112706",
@@ -3604,7 +4414,8 @@
         "wdid": "Q38783",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Pembroke Welsh Corgi"
+        "label": "Pembroke Welsh Corgi",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02113186",
@@ -3655,7 +4466,8 @@
         "wdid": "Q38856",
         "animal_pattern": "subclass_instance",
         "superclass": "Q39367",
-        "label": "Mexican Hairless Dog"
+        "label": "Mexican Hairless Dog",
+        "superclass_parent": "Q144"
     },
     {
         "inid": "n02114367",
@@ -3668,10 +4480,16 @@
         ],
         "wdid": "Q18498",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Wolf"
     },
     {
@@ -3684,10 +4502,16 @@
         ],
         "wdid": "Q216441",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Arctic Wolf"
     },
     {
@@ -3701,10 +4525,16 @@
         ],
         "wdid": "Q200442",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Canis Lupus Rufus"
     },
     {
@@ -3718,10 +4548,16 @@
         ],
         "wdid": "Q44299",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Coyote"
     },
     {
@@ -3735,10 +4571,16 @@
         ],
         "wdid": "Q38584",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Dingo"
     },
     {
@@ -3750,10 +4592,16 @@
         ],
         "wdid": "Q132585",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Dhole"
     },
     {
@@ -3767,10 +4615,16 @@
         ],
         "wdid": "Q173651",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "African Wild Dog"
     },
     {
@@ -3782,10 +4636,16 @@
         ],
         "wdid": "Q42046",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Hyaena"
     },
     {
@@ -3797,10 +4657,16 @@
         ],
         "wdid": "Q8332",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Red Fox"
     },
     {
@@ -3812,10 +4678,16 @@
         ],
         "wdid": "Q745751",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Kit Fox"
     },
     {
@@ -3828,10 +4700,16 @@
         ],
         "wdid": "Q23729171",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Alopex Lagopus"
     },
     {
@@ -3844,10 +4722,16 @@
         ],
         "wdid": "Q215250",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Gray Fox"
     },
     {
@@ -3872,10 +4756,16 @@
         ],
         "wdid": "Q194526",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Tiger Quoll"
     },
     {
@@ -3892,10 +4782,16 @@
         ],
         "wdid": "Q35255",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Cougar"
     },
     {
@@ -3907,10 +4803,16 @@
         ],
         "wdid": "Q43375",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Eurasian Lynx"
     },
     {
@@ -3922,10 +4824,16 @@
         ],
         "wdid": "Q34706",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Leopard"
     },
     {
@@ -3938,10 +4846,16 @@
         ],
         "wdid": "Q30197",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Panthera Uncia"
     },
     {
@@ -3955,10 +4869,16 @@
         ],
         "wdid": "Q35694",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Jaguar"
     },
     {
@@ -3971,10 +4891,16 @@
         ],
         "wdid": "Q140",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Lion"
     },
     {
@@ -3986,10 +4912,16 @@
         ],
         "wdid": "Q19939",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Tiger"
     },
     {
@@ -4002,10 +4934,16 @@
         ],
         "wdid": "Q481907",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Acinonyx"
     },
     {
@@ -4034,10 +4972,16 @@
         ],
         "wdid": "Q122783",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Ursus Americanus"
     },
     {
@@ -4066,10 +5010,16 @@
         ],
         "wdid": "Q145016",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Sloth Bear"
     },
     {
@@ -4080,10 +5030,16 @@
         ],
         "wdid": "Q80479",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Herpestidae"
     },
     {
@@ -4095,10 +5051,16 @@
         ],
         "wdid": "Q134015",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Meerkat"
     },
     {
@@ -4109,12 +5071,23 @@
         ],
         "wdid": "Q16718297",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Cicindelidae"
     },
     {
@@ -4129,12 +5102,23 @@
         ],
         "wdid": "Q25327",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Coccinellidae"
     },
     {
@@ -4146,12 +5130,23 @@
         ],
         "wdid": "Q27046",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Carabidae"
     },
     {
@@ -4164,12 +5159,23 @@
         ],
         "wdid": "Q1030028",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Morimus Funereus"
     },
     {
@@ -4181,12 +5187,23 @@
         ],
         "wdid": "Q193407",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Leaf Beetle"
     },
     {
@@ -4197,12 +5214,23 @@
         ],
         "wdid": "Q14891382",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Scarabaeus Cristatus"
     },
     {
@@ -4213,12 +5241,23 @@
         ],
         "wdid": "Q14867782",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Oryctes Agamemnon"
     },
     {
@@ -4229,12 +5268,23 @@
         ],
         "wdid": "Q383963",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q2982449",
+                "Q1925093"
+            ]
+        },
         "label": "Curculionoidea"
     },
     {
@@ -4245,12 +5295,22 @@
         ],
         "wdid": "Q25312",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Diptera"
     },
     {
@@ -4261,13 +5321,25 @@
         ],
         "wdid": "Q102857",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22651",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ],
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q22651": [
+                "Q22864"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ]
+        },
         "label": "Apis"
     },
     {
@@ -4280,13 +5352,25 @@
         ],
         "wdid": "Q7386",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22651",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ],
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q22651": [
+                "Q22864"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ]
+        },
         "label": "Formicidae"
     },
     {
@@ -4298,12 +5382,22 @@
         ],
         "wdid": "Q167810",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Orthoptera"
     },
     {
@@ -4314,12 +5408,22 @@
         ],
         "wdid": "Q27711",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Acheta Domestica"
     },
     {
@@ -4332,12 +5436,22 @@
         ],
         "wdid": "Q188029",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Phasmatodea"
     },
     {
@@ -4349,12 +5463,22 @@
         ],
         "wdid": "Q1073729",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Gromphadorhina Portentosa"
     },
     {
@@ -4367,12 +5491,22 @@
         "wdid": "Q1661828",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q25309",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Cockroach"
     },
     {
@@ -4384,12 +5518,22 @@
         ],
         "wdid": "Q268319",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Mantis Religiosa"
     },
     {
@@ -4401,12 +5545,22 @@
         ],
         "wdid": "Q130778",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Cicadidae"
     },
     {
@@ -4417,12 +5571,22 @@
         ],
         "wdid": "Q244452",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Cicadellidae"
     },
     {
@@ -4434,12 +5598,22 @@
         ],
         "wdid": "Q623727",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093"
+            ]
+        },
         "label": "Chrysopidae"
     },
     {
@@ -4457,12 +5631,22 @@
         ],
         "wdid": "Q80066",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q927351"
+            ]
+        },
         "label": "Anisoptera"
     },
     {
@@ -4480,12 +5664,22 @@
         ],
         "wdid": "Q312476",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q927351"
+            ]
+        },
         "label": "Libellula"
     },
     {
@@ -4496,12 +5690,22 @@
         ],
         "wdid": "Q230502",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q927351"
+            ]
+        },
         "label": "Zygoptera"
     },
     {
@@ -4513,12 +5717,23 @@
         ],
         "wdid": "Q161520",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093",
+                "Q594224"
+            ]
+        },
         "label": "Aphantopus Hyperantus"
     },
     {
@@ -4532,12 +5747,23 @@
         ],
         "wdid": "Q212398",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093",
+                "Q594224"
+            ]
+        },
         "label": "Danaus Plexippus"
     },
     {
@@ -4548,12 +5774,23 @@
         ],
         "wdid": "Q27653",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093",
+                "Q594224"
+            ]
+        },
         "label": "Pieris Rapae"
     },
     {
@@ -4565,12 +5802,23 @@
         ],
         "wdid": "Q2710909",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093",
+                "Q594224"
+            ]
+        },
         "label": "Phoebis Sennae"
     },
     {
@@ -4582,12 +5830,23 @@
         ],
         "wdid": "Q158717",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q1360",
-            "Q1390",
-            "Q22708"
-        ],
+        "taxon_superclasses": {
+            "Q1390": [
+                "Q1210274",
+                "Q22708"
+            ],
+            "Q729": [
+                "Q5173"
+            ],
+            "Q1360": [
+                "Q1633496",
+                "Q105146"
+            ],
+            "Q22708": [
+                "Q1925093",
+                "Q594224"
+            ]
+        },
         "label": "Lycaenidae"
     },
     {
@@ -4599,10 +5858,14 @@
         ],
         "wdid": "Q25349",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q44631"
-        ],
+        "taxon_superclasses": {
+            "Q44631": [
+                "Q25349"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Starfish"
     },
     {
@@ -4613,10 +5876,14 @@
         ],
         "wdid": "Q83483",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q44631"
-        ],
+        "taxon_superclasses": {
+            "Q44631": [
+                "Q83483"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Sea Urchin"
     },
     {
@@ -4628,10 +5895,14 @@
         ],
         "wdid": "Q1408044",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q44631"
-        ],
+        "taxon_superclasses": {
+            "Q44631": [
+                "Q2698547"
+            ],
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Holothuria"
     },
     {
@@ -4644,10 +5915,16 @@
         ],
         "wdid": "Q774716",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Eastern Cottontail"
     },
     {
@@ -4658,10 +5935,16 @@
         ],
         "wdid": "Q852187",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Burmese Hare"
     },
     {
@@ -4674,7 +5957,8 @@
         "wdid": "Q542500",
         "animal_pattern": "subclass_instance",
         "superclass": "Q12045584",
-        "label": "Angora Rabbit"
+        "label": "Angora Rabbit",
+        "superclass_parent": "Q149017"
     },
     {
         "inid": "n02342885",
@@ -4684,10 +5968,16 @@
         ],
         "wdid": "Q6573",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Cricetinae"
     },
     {
@@ -4699,10 +5989,16 @@
         ],
         "wdid": "Q6120",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Hedgehog"
     },
     {
@@ -4715,10 +6011,16 @@
         ],
         "wdid": "Q694296",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Fox Squirrel"
     },
     {
@@ -4729,10 +6031,16 @@
         ],
         "wdid": "Q131567",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Marmota"
     },
     {
@@ -4743,10 +6051,16 @@
         ],
         "wdid": "Q47542",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Beaver"
     },
     {
@@ -4758,10 +6072,16 @@
         ],
         "wdid": "Q79803",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Cuy"
     },
     {
@@ -4772,10 +6092,16 @@
         ],
         "wdid": "Q32789",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Zebra"
     },
     {
@@ -4806,11 +6132,19 @@
         ],
         "wdid": "Q58697",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Sus Scrofa"
     },
     {
@@ -4821,11 +6155,19 @@
         ],
         "wdid": "Q183255",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Phacochoerus Africanus"
     },
     {
@@ -4839,11 +6181,19 @@
         ],
         "wdid": "Q34505",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Hippopotamus Amphibius"
     },
     {
@@ -4871,11 +6221,19 @@
         ],
         "wdid": "Q42710",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Water Buffalo"
     },
     {
@@ -4886,11 +6244,19 @@
         ],
         "wdid": "Q18099",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Bison"
     },
     {
@@ -4921,11 +6287,19 @@
         ],
         "wdid": "Q189466",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Bighorn Sheep"
     },
     {
@@ -4937,11 +6311,19 @@
         ],
         "wdid": "Q168327",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Capra Ibex"
     },
     {
@@ -4952,11 +6334,19 @@
         ],
         "wdid": "Q622880",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Hartebeest"
     },
     {
@@ -4968,11 +6358,19 @@
         ],
         "wdid": "Q132576",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Impala"
     },
     {
@@ -4983,11 +6381,19 @@
         ],
         "wdid": "Q190858",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Gazella"
     },
     {
@@ -5000,12 +6406,22 @@
         ],
         "wdid": "Q71516",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159",
-            "Q1231177",
-            "Q7375"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q7375": [
+                "Q71516"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ],
+            "Q1231177": [
+                "Q25329"
+            ]
+        },
         "label": "Dromedary"
     },
     {
@@ -5029,10 +6445,16 @@
         ],
         "wdid": "Q25311",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Mustela Nivalis"
     },
     {
@@ -5043,10 +6465,16 @@
         ],
         "wdid": "Q17700",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Mink"
     },
     {
@@ -5061,10 +6489,16 @@
         ],
         "wdid": "Q26582",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Mustela Putorius"
     },
     {
@@ -5090,10 +6524,16 @@
         ],
         "wdid": "Q200184",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Lutrinae"
     },
     {
@@ -5106,10 +6546,16 @@
         ],
         "wdid": "Q27888",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Mustelinae"
     },
     {
@@ -5120,10 +6566,16 @@
         ],
         "wdid": "Q27066",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "European Badger"
     },
     {
@@ -5135,10 +6587,16 @@
         "wdid": "Q104840543",
         "animal_pattern": "subclass_taxon_subclass",
         "superclass": "Q47867",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Armadillo"
     },
     {
@@ -5151,10 +6609,16 @@
         ],
         "wdid": "Q185167",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Three-Toed Sloth"
     },
     {
@@ -5168,10 +6632,16 @@
         ],
         "wdid": "Q41050",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Orangutan"
     },
     {
@@ -5183,10 +6653,16 @@
         ],
         "wdid": "Q737838",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Gorilla Gorilla"
     },
     {
@@ -5199,10 +6675,16 @@
         ],
         "wdid": "Q4126704",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Common Chimpanzee"
     },
     {
@@ -5214,10 +6696,16 @@
         ],
         "wdid": "Q878467",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Hylobates"
     },
     {
@@ -5230,10 +6718,16 @@
         ],
         "wdid": "Q213889",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Symphalangus Syndactylus"
     },
     {
@@ -5245,10 +6739,16 @@
         ],
         "wdid": "Q255571",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Guenon"
     },
     {
@@ -5261,10 +6761,16 @@
         ],
         "wdid": "Q504496",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Patas Monkey"
     },
     {
@@ -5275,10 +6781,16 @@
         ],
         "wdid": "Q159429",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Papio"
     },
     {
@@ -5289,10 +6801,16 @@
         ],
         "wdid": "Q177601",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Macaca"
     },
     {
@@ -5303,10 +6821,16 @@
         ],
         "wdid": "Q732737",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Colobinae"
     },
     {
@@ -5318,10 +6842,16 @@
         ],
         "wdid": "Q358813",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Black-And-White Colobus"
     },
     {
@@ -5333,10 +6863,16 @@
         ],
         "wdid": "Q192029",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Proboscis Monkey"
     },
     {
@@ -5347,10 +6883,16 @@
         ],
         "wdid": "Q1064620",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Callithrix"
     },
     {
@@ -5363,10 +6905,16 @@
         ],
         "wdid": "Q326260",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Cebinae"
     },
     {
@@ -5378,10 +6926,16 @@
         ],
         "wdid": "Q504247",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Alouatta"
     },
     {
@@ -5393,10 +6947,16 @@
         ],
         "wdid": "Q19816406",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Callicebinae"
     },
     {
@@ -5408,10 +6968,16 @@
         ],
         "wdid": "Q388032",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Ateles Geoffroyi"
     },
     {
@@ -5423,10 +6989,16 @@
         ],
         "wdid": "Q309200",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Saimiri"
     },
     {
@@ -5439,10 +7011,16 @@
         ],
         "wdid": "Q185385",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Lemur Catta"
     },
     {
@@ -5456,10 +7034,16 @@
         ],
         "wdid": "Q203868",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Indri Indri"
     },
     {
@@ -5503,10 +7087,16 @@
         ],
         "wdid": "Q41960",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Ailurus Fulgens"
     },
     {
@@ -5521,10 +7111,16 @@
         ],
         "wdid": "Q33602",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729",
-            "Q19159"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ],
+            "Q19159": [
+                "Q21353733",
+                "Q134683",
+                "Q7377"
+            ]
+        },
         "label": "Giant Panda"
     },
     {
@@ -5536,9 +7132,11 @@
         ],
         "wdid": "Q2306485",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Great Barracuda"
     },
     {
@@ -5549,9 +7147,11 @@
         ],
         "wdid": "Q128685",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Anguilliformes"
     },
     {
@@ -5582,9 +7182,11 @@
         ],
         "wdid": "Q729897",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Rock Beauty"
     },
     {
@@ -5608,9 +7210,11 @@
         ],
         "wdid": "Q300955",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "European Sea Sturgeon"
     },
     {
@@ -5625,9 +7229,11 @@
         ],
         "wdid": "Q3280549",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Dermogenys"
     },
     {
@@ -5638,9 +7244,11 @@
         ],
         "wdid": "Q475711",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Pterois"
     },
     {
@@ -5654,9 +7262,11 @@
         ],
         "wdid": "Q201701",
         "animal_pattern": "taxon",
-        "taxon_superclasses": [
-            "Q729"
-        ],
+        "taxon_superclasses": {
+            "Q729": [
+                "Q5173"
+            ]
+        },
         "label": "Tetraodontidae"
     }
 ]
