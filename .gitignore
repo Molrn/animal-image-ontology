@@ -4,4 +4,4 @@ kaggle.json
 imagenet-object-localization-challenge.zip
 Data/Images/**
 Data/Annotations/**
-Data/animal_ontology.ttl
+*.ttl

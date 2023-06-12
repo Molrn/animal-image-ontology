@@ -19,18 +19,64 @@ MORPH_FEATURES_PATH = 'Data/animal_features.json'
 ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
 ANIMAL_LABEL        = 'Animal'
 
-def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH, 
-                        graph_file_path:str=GRAPH_ARCS_PATH,
+def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
+                    graph_file_path:str=GRAPH_ARCS_PATH,
+                    morph_features_file_path:str=MORPH_FEATURES_PATH,
+                    master_node_label:str=ANIMAL_LABEL)->Graph:
+    """User interface to create the ontology. it is saved in Turtle format in an output file 
+
+    Args:
+        output_file_path (str, optional): Path to store the ontology file at. Defaults to ONTOLOGY_FILE_PATH.
+        graph_file_path (str, optional): Path of the csv file containing the graph arcs. Defaults to GRAPH_ARCS_PATH.
+        morph_features_file_path (str, optional): Path of the json file containing the features per animal class. Defaults to MORPH_FEATURES_PATH.
+        master_node_label (str, optional): Label of the master node of the ontology. Defaults to 'Animal'.
+
+    Returns:
+        Graph: Created ontology
+    """
+    print('Initializing the structure...', end='')
+    ontology = initialize_ontology_structure(graph_file_path, morph_features_file_path, master_node_label)
+    print('Done')
+    populate = input('Populate the ontology (5 minutes per 100 animal classes)? (y/N)')
+    if populate == 'y':
+        unzipped = input('Have you unzipped the challenge images zip file ? (y/N)')
+        if unzipped != 'y':  
+            downloaded = input('Have you downloaded the challenge images zip file ? (y/N)')
+            if downloaded != 'y':
+                print('Ontology can not be populated without the challenge zip file, please download it before going any further')
+                print('\nTo download the zip file containing the animal_images :')
+                print('\t1) Go to https://www.kaggle.com/competitions/imagenet-object-localization-challenge/rules and accept the rules')
+                print('\t2) Go to https://www.kaggle.com/settings/account and generate an API token')
+                print('\t3) Place the generated kaggle.json file in this diectory')
+                print('\t4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge')
+                ontology.serialize(output_file_path)
+                print('Structure ontology saved to file "'+output_file_path+'"')
+                return ontology
+            zip_file_path = input(f'Zip file path (default: {ZIP_FILE_PATH}) : ')
+            if zip_file_path == 'default':
+                zip_file_path = ZIP_FILE_PATH
+            ac = Namespace(ONTOLOGY_IRI)
+            ontology_inids = [inid for _, _, inid in ontology.triples((None, ac.inid, None))]
+            print('Unzipping images and annotations...')
+            unzip_images_annotations_files(ontology_inids, zip_file_path)
+
+        print('Populating the ontology...')
+        ontology = populate_ontology(ontology)
+    print('Saving the ontology to file "'+output_file_path+'"...', end='')
+    ontology.serialize(output_file_path)
+    print('Done')
+    return ontology
+
+def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
                         morph_features_file_path:str=MORPH_FEATURES_PATH,
                         master_node_label:str=ANIMAL_LABEL):
-    """Pipeline initializing the ontology step by step
+    """Pipeline initializing the ontology structure step by step
 
     Args:
         graph_file_path (str, optional): Path of the csv file containing the graph. Defaults to 'Data/graph_arcs.csv'.
         morph_features_file_path (str, optional): Path of the file containing the morphological features dictionnary. Defaults to MORPH_FEATURES_PATH.
         master_node_label (str, optional): Label of the master node of the graph. Defaults to ANIMAL_LABEL.
     """
-    print('Creating ontology structure...')
     ontology = Graph()
     ac = Namespace(ONTOLOGY_IRI)
     wd = Namespace(WD_ENTITY_URI)
@@ -54,22 +100,14 @@ def initialize_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH,
         ))    
 
     # define the ImageNed ID and WikiData ID of each node
-    inid_nb = 0
     for synset in get_animal_mapping():
         if synset['label'] in class_labels :
             node = label_to_node(synset['label'], ac)
             ontology.add((node, ac.inid, Literal(synset['inid'])))
             ontology.add((node, ac.wdid, getattr(wd, synset['wdid'])))
-            inid_nb += 1
 
     ontology = define_morphological_features(ontology, morph_features_file_path)
-    print('Ontology structure created\n')
-    print('Populating the ontology ('+inid_nb+' classes)...')
-    ontology = populate_ontology(ontology)
-
-    print('Ontology populated\nSaving it to file "'+ontology_file_path+'"...')
-    ontology.serialize(ontology_file_path)
-    print('Ontology saved')
+    return ontology
 
 def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
     """Load the ontology from a local file. If it doesn't exist, intialize the ontology.
@@ -82,7 +120,8 @@ def get_ontology(ontology_file_path:str=ONTOLOGY_FILE_PATH)->Graph:
         Graph: Full animal ontology
     """
     if not os.path.exists(ontology_file_path):
-        initialize_ontology()
+        print('No file at path "'+ontology_file_path+'", creating the ontology instead')
+        return create_ontology(ontology_file_path)
     ontology = Graph()
     ontology.parse(ontology_file_path)
     return ontology
@@ -205,17 +244,33 @@ def get_subclasses_set(ontology:Graph, subclass_node_set:set[URIRef], node:Node)
     return subclass_node_set
 
 def populate_ontology(ontology:Graph)->Graph: 
+    """Populate the ontology with objects from the images of each class
+        The link from images to ontology class is made through the Image Net ID
+
+    Args:
+        ontology (Graph): Ontology with the structure initialized
+
+    Returns:
+        Graph: Populated ontology
+    """
     ac = Namespace(ONTOLOGY_IRI)
     image_ext = '.JPEG'
     annotation_ext = '.xml'
-    for class_node, _, inid in tqdm(ontology.triples((None, ac.inid, None))):
+
+    nb_classes = len([inid for _, _, inid in ontology.triples((None, ac.inid, None))])
+    pbar = tqdm(ontology.triples((None, ac.inid, None)), 'test', total=nb_classes)
+    for class_node, _, inid in pbar:
+        
         image_dict_path = IMAGES_PATH+inid+'/'
         annotations_dict_path = ANNOTATIONS_PATH+inid+'/'
         if not os.path.exists(image_dict_path):
             print('Warning : no images for class '+str(class_node).replace(ONTOLOGY_IRI,'')+" ("+inid+')')
         else:        
             im = Namespace(image_dict_path)
-            for image in os.listdir(image_dict_path):
+            images = os.listdir(image_dict_path)
+            nb_img = len(images)
+            for img_index, image in enumerate(images):
+                pbar.set_description(f"Processing {inid} ({img_index}/{nb_img})")
                 image_node = getattr(im, image)
                 annotation_path = annotations_dict_path+image.replace(image_ext, annotation_ext)
                 if os.path.exists(annotation_path):
