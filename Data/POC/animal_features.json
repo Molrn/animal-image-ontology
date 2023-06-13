@@ -1,0 +1,22 @@
+{
+    "Aquatic Animal": ["Fins", "Gills"],
+    "Bald Eagle": ["Feathered head", "Hooked beak"],
+    "Birds": ["Wings", "Feathers"],
+    "Canidae": ["Muzzle", "Pointed ears"],
+    "Caniformia": ["Dog-like shape"],
+    "Canis": ["Pointed snout", "Sharp teeth"],
+    "Carnivora": ["Sharp teeth", "Claws"],
+    "Dinosaur": ["Bipedal stance", "Scales"],
+    "Fish": ["Scales", "Fins"],
+    "Goldfish": ["Colorful scales", "Rounded body"],
+    "Great White Shark": ["Dorsal fin", "Jaws with multiple rows of teeth"],
+    "Indigo Bunting": ["Vibrant plumage", "Beak"],
+    "Quadruped": ["Four legs"],
+    "Shark": ["Cartilaginous skeleton", "Powerful jaws"],
+    "Tetrapoda": ["Four limbs", "Lungs"],
+    "Theropod": ["Clawed hands", "Sharp teeth"],
+    "Ursidae": ["Powerful paws", "Thick fur"],
+    "Ursus Americanus": ["Brown fur", "Shoulder hump"],
+    "Vertebrata": ["Backbone", "Spinal cord"],
+    "Wolf": ["Canine teeth", "Bushy tail"]
+}

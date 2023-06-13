@@ -1,0 +1,6 @@
+n02114367 timber wolf, grey wolf, gray wolf, Canis lupus
+n01484850 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+n01614925 bald eagle, American eagle, Haliaeetus leucocephalus
+n02133161 American black bear, black bear, Ursus americanus, Euarctos americanus
+n01537544 indigo bunting, indigo finch, indigo bird, Passerina cyanea
+n01443537 goldfish, Carassius auratus

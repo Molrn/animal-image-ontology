@@ -8,7 +8,8 @@ from tqdm import tqdm
 def apply_to_all_dicts(dict_list:list[dict], function:Callable, 
                         arg_keys:list[str], return_key:str=None, 
                         error_save_path:str='Data/temp_dict_list.json',
-                        start_index:int=0, stop_index:int=None, delay:float=None)->list[dict]:
+                        start_index:int=0, stop_index:int=None, 
+                        delay:float=None, progress_bar:bool=True)->list[dict]:
     """Apply a function to all the dicts of a list. 
         If an error occurs, the list is saved into a temporary file
 
@@ -28,12 +29,13 @@ def apply_to_all_dicts(dict_list:list[dict], function:Callable,
         start_index (int, optional): index of the list to start the search from. Defaults to 0.
         stop_index (int, optional): index of the list to stop the search at. Defaults to None.
         delay (float, optional): time between each run, in seconds. Defaults to None.
-
+        progress_bar (bool, optional): if true, displays a tqdm progress bar of the task. Defaults to True. 
+        
     Returns:
         list[dict]: list of dicts with the function applied to each dict 
     """
     run_nb = 0
-    for dic in tqdm(dict_list[start_index:stop_index]):
+    for dic in tqdm(dict_list[start_index:stop_index]) if progress_bar else dict_list[start_index:stop_index]:
         if return_key is None or return_key not in dic or dic[return_key] is None:
             run_nb += 1
             arg_dict = {}

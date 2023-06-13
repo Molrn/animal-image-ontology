@@ -43,22 +43,27 @@ def generate_synset_full_mapping(input_path=SYNSET_INID_PATH, output_path=FULL_M
         synset = synset.split(', ') 
         synsets.append({
             'inid' : str(inid),
-            'wnid' : get_new_wnid(synset, wn_version),
+            'wnid' : None if wn_version < '3.1' else get_new_wnid(synset, wn_version),
             'synset' : synset
         })
-    wnwd_map = bulk_select_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
-    synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
-    synsets_wn = [s for s in synsets if s['wdid'] is not None]
-    synsets_in = [s for s in synsets if s['wdid'] is None]
-    for s in synsets_in:
-        del s['wdid']
-    inwd_map = bulk_select_wdids_from_inids([s['inid'] for s in synsets_in])
-    synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
-    synsets = synsets_wn+synsets_in
+    if wn_version < '3.1':
+        print('Warning : Current wordnet version ('+wn_version+') does not allow to fetch data from WikiData using the WordNet 3.1 ID property (P8814)\n'+
+              'Automatic WikiData synset mapping is only done using the "exact match" property (P2888)')
+        inwd_map = bulk_select_wdids_from_inids([s['inid'] for s in synsets])
+        synsets = LDtools.ld_join(synsets, inwd_map, 'inid', 'left')
+    else:
+        wnwd_map = bulk_select_wdids_from_wnids(list(set([s['wnid'] for s in synsets])))
+        synsets = LDtools.ld_join(synsets, wnwd_map, 'wnid', 'left')
+        synsets_wn = [s for s in synsets if s['wdid'] is not None]
+        synsets_in = [s for s in synsets if s['wdid'] is None]
+        for s in synsets_in:
+            del s['wdid']
+        inwd_map = bulk_select_wdids_from_inids([s['inid'] for s in synsets_in])
+        synsets_in = LDtools.ld_join(synsets_in, inwd_map, 'inid', 'left')
+        synsets = synsets_wn+synsets_in
 
-    output_file = open(output_path, 'w')
-    json.dump(synsets,output_file)
-    output_file.close()
+    with open(output_path, 'w') as output_file:
+        json.dump(synsets,output_file)
 
 def get_new_wnid(synset:list[str], wn_version=None):
     """Get the WordNet ID of a synset in format WordNet 3.1
@@ -158,7 +163,8 @@ def set_all_synsets_manual_wdid(mapping_path:str=FULL_MAPPING_PATH, inid_start:s
         ['synset'],
         'wdid',
         mapping_path,
-        start_index)
+        start_index,
+        progress_bar=False)
 
     file = open(mapping_path, 'w')
     json.dump(synsets, file)
@@ -210,7 +216,7 @@ def wd_label_search(search:str)->list[dict]:
         list[dict]: list of dicts in format wdid:str, desc:str}. 
             Each dict contains the ID and the description of one of the object found
     """
-    query = """
+    query = f"""
             SELECT ?wdid ?desc
             WHERE {{
                 VALUES ?prop {{ skos:altLabel rdfs:label }}
@@ -218,7 +224,7 @@ def wd_label_search(search:str)->list[dict]:
                 schema:description ?desc.
                 FILTER(LANG(?desc) = "en") 
             }}
-            """.format(search=search)
+            """
     result = sp.select_query(query, ['wdid', 'desc'])
     for r in result:
         r['wdid'] = r['wdid'].replace(sp.WD_ENTITY_URI, '')
@@ -258,9 +264,8 @@ def remap_common_name_of(synsets:list[dict], save_file_path:str=FULL_MAPPING_PAT
             
         synsets[replace_index]['wdid'] = common_id
     if save_file_path:
-        mapping_file = open(save_file_path, 'w')
-        json.dump(synsets, mapping_file)
-        mapping_file.close()
+        with open(save_file_path, 'w') as mapping_file:
+            json.dump(synsets, mapping_file)
     return synsets
 
 def set_all_labels(mapping_file_path:str=FULL_MAPPING_PATH):

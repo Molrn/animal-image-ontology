@@ -1,0 +1,78 @@
+[
+    {
+        "inid": "n02114367",
+        "wnid": "02117019-n",
+        "synset": [
+            "timber wolf",
+            "grey wolf",
+            "gray wolf",
+            "Canis lupus"
+        ],
+        "wdid": "Q18498",
+        "animal_pattern": "taxon",
+        "label": "Wolf"
+    },
+    {
+        "inid": "n01484850",
+        "wnid": "01487491-n",
+        "synset": [
+            "great white shark",
+            "white shark",
+            "man-eater",
+            "man-eating shark",
+            "Carcharodon carcharias"
+        ],
+        "wdid": "Q129026",
+        "animal_pattern": "taxon",
+        "label": "Great White Shark"
+    },
+    {
+        "inid": "n01614925",
+        "wnid": "01617566-n",
+        "synset": [
+            "bald eagle",
+            "American eagle",
+            "Haliaeetus leucocephalus"
+        ],
+        "wdid": "Q127216",
+        "animal_pattern": "taxon",
+        "label": "Bald Eagle"
+    },
+    {
+        "inid": "n02133161",
+        "wnid": "02135813-n",
+        "synset": [
+            "American black bear",
+            "black bear",
+            "Ursus americanus",
+            "Euarctos americanus"
+        ],
+        "wdid": "Q122783",
+        "animal_pattern": "taxon",
+        "label": "Ursus Americanus"
+    },
+    {
+        "inid": "n01537544",
+        "wnid": "01540185-n",
+        "synset": [
+            "indigo bunting",
+            "indigo finch",
+            "indigo bird",
+            "Passerina cyanea"
+        ],
+        "wdid": "Q1049642",
+        "animal_pattern": "taxon",
+        "label": "Indigo Bunting"
+    },
+    {
+        "inid": "n01443537",
+        "wnid": "01446178-n",
+        "synset": [
+            "goldfish",
+            "Carassius auratus"
+        ],
+        "animal_pattern": "taxon",        
+        "wdid": "Q123141",
+        "label": "Goldfish"
+    }
+]

@@ -1,0 +1,44 @@
+parent,child,parentLabel,childLabel
+Q729,Q25241,Animal,Vertebrata
+Q729,Q777371,Animal,Quadruped
+Q777371,Q19159,Quadruped,Tetrapoda
+Q25241,Q19159,Vertebrata,Tetrapoda
+Q19159,Q5113,Tetrapoda,Birds
+Q25241,Q152,Vertebrata,Fish
+Q1756633,Q152,Aquatic Animal,Fish
+Q188438,Q5113,Theropod,Birds
+Q430,Q188438,Dinosaur,Theropod
+Q729,Q1756633,Animal,Aquatic Animal
+Q19159,Q25306,Tetrapoda,Carnivora
+Q25241,Q25306,Vertebrata,Carnivora
+Q25306,Q27414,Carnivora,Caniformia
+Q27414,Q18498,Caniformia,Wolf
+Q19159,Q25324,Tetrapoda,Canidae
+Q25241,Q25324,Vertebrata,Canidae
+Q25306,Q25324,Carnivora,Canidae
+Q27414,Q25324,Caniformia,Canidae
+Q25324,Q149892,Canidae,Canis
+Q149892,Q18498,Canis,Wolf
+Q19159,Q18498,Tetrapoda,Wolf
+Q25241,Q18498,Vertebrata,Wolf
+Q25306,Q18498,Carnivora,Wolf
+Q25324,Q18498,Canidae,Wolf
+Q152,Q7372,Fish,Shark
+Q7372,Q129026,Shark,Great White Shark
+Q25241,Q129026,Vertebrata,Great White Shark
+Q729,Q430,Animal,Dinosaur
+Q430,Q127216,Dinosaur,Bald Eagle
+Q5113,Q127216,Birds,Bald Eagle
+Q19159,Q127216,Tetrapoda,Bald Eagle
+Q25241,Q127216,Vertebrata,Bald Eagle
+Q25306,Q11788,Carnivora,Ursidae
+Q11788,Q122783,Ursidae,Ursus Americanus
+Q19159,Q122783,Tetrapoda,Ursus Americanus
+Q25241,Q122783,Vertebrata,Ursus Americanus
+Q25306,Q122783,Carnivora,Ursus Americanus
+Q27414,Q122783,Caniformia,Ursus Americanus
+Q430,Q1049642,Dinosaur,Indigo Bunting
+Q5113,Q1049642,Birds,Indigo Bunting
+Q19159,Q1049642,Tetrapoda,Indigo Bunting
+Q25241,Q1049642,Vertebrata,Indigo Bunting
+Q25241,Q123141,Vertebrata,Goldfish
