@@ -5,8 +5,8 @@ from nltk.corpus import wordnet as wn
 import os
 import json
 
-SYNSET_INID_PATH = 'Data/LOC_synset_mapping.txt'
-FULL_MAPPING_PATH = 'Data/synset_mapping.json'
+SYNSET_INID_PATH = 'Data/KaggleChallenge/LOC_synset_mapping.txt'
+FULL_MAPPING_PATH = 'Data/KaggleChallenge/synset_mapping.json'
 
 def get_synset_full_mapping(mapping_path=FULL_MAPPING_PATH)->list[dict]:
     """Get the mapping of each synset in WikiData, ImageNet and WordNet

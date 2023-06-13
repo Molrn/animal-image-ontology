@@ -7,10 +7,9 @@ import pandas as pd
 import json
 import os
 
-ANIMAL_PATTERNS_PATH = 'Data/animal_patterns.json'
-GRAPH_ARCS_PATH = 'Data/graph_arcs.csv'
+ANIMAL_PATTERNS_PATH = 'animal_patterns.json'
+GRAPH_ARCS_PATH = 'Data/KaggleChallenge/graph_arcs.csv'
 ANIMAL_WDID = 'Q729'
-EXCLUDED_TAXON = 'Q5173'
 
 def get_animal_mapping(mapping_file_path:str=sm.FULL_MAPPING_PATH)->list[dict]:
     """Get the animal mapping from its file. If the file doesn't exist, generate it
