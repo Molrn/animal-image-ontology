@@ -4,6 +4,7 @@ from shutil import rmtree
 import os
 from Tools.sparql_tools import WD_ENTITY_URI
 from animal_graph import get_graph_arcs, get_animal_mapping, GRAPH_ARCS_PATH
+from synset_mapper import FULL_MAPPING_PATH
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDFS, RDF, XSD, FOAF
 from rdflib.term import Node, BNode
@@ -22,6 +23,7 @@ ANIMAL_LABEL        = 'Animal'
 def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
                     graph_file_path:str=GRAPH_ARCS_PATH,
                     morph_features_file_path:str=MORPH_FEATURES_PATH,
+                    mapping_file_path:str=FULL_MAPPING_PATH,
                     master_node_label:str=ANIMAL_LABEL)->Graph:
     """User interface to create the ontology. it is saved in Turtle format in an output file 
 
@@ -35,7 +37,7 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
         Graph: Created ontology
     """
     print('Initializing the structure...', end='')
-    ontology = initialize_ontology_structure(graph_file_path, morph_features_file_path, master_node_label)
+    ontology = initialize_ontology_structure(graph_file_path, morph_features_file_path, mapping_file_path, master_node_label)
     print('Done')
     populate = input('Populate the ontology (5 minutes per 100 animal classes)? (y/N)')
     if populate == 'y':
@@ -69,6 +71,7 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
 
 def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
                         morph_features_file_path:str=MORPH_FEATURES_PATH,
+                        mapping_file_path:str=FULL_MAPPING_PATH,
                         master_node_label:str=ANIMAL_LABEL):
     """Pipeline initializing the ontology structure step by step
 
@@ -93,14 +96,24 @@ def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
 
     # define the subclass of features (=structure of the graph)
     for arc in graph_arcs:
-        ontology.add((
-            label_to_node(arc['childLabel'], ac), 
-            RDFS.subClassOf, 
-            label_to_node(arc['parentLabel'], ac)
-        ))    
+        child_node = label_to_node(arc['childLabel'], ac)
+        parent_node = label_to_node(arc['parentLabel'], ac)
+        ontology.add((child_node, RDFS.subClassOf, parent_node))    
+        
+    for node in [label_to_node(label, ac) for label in class_labels]:
+        parents = [o for _, _, o in ontology.triples((node, RDFS.subClassOf, None))]        
+        removed = set([])
+        for parent1 in parents:
+            parent1_parents = [parent for parent in ontology.transitive_objects(parent1, RDFS.subClassOf)] 
+            for parent2 in parents:
+                if parent1 != parent2 and parent2 not in removed and parent1 not in removed:
+                    #parent2_parents = [o for _, _, o in ontology.triples((parent2, RDFS.subClassOf, None))] 
+                    if parent2 in parent1_parents:
+                        ontology.remove((node, RDFS.subClassOf, parent2))
+                        removed.add(parent2)
 
     # define the ImageNed ID and WikiData ID of each node
-    for synset in get_animal_mapping():
+    for synset in get_animal_mapping(mapping_file_path):
         if synset['label'] in class_labels :
             node = label_to_node(synset['label'], ac)
             ontology.add((node, ac.inid, Literal(synset['inid'])))
