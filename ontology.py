@@ -11,14 +11,23 @@ from rdflib.term import Node, BNode
 import json
 import xmltodict
 from tqdm import tqdm
+import random
 
 ZIP_FILE_PATH       = 'imagenet-object-localization-challenge.zip'
 IMAGES_PATH         = 'Data/Images/'
-ANNOTATIONS_PATH    = 'Data/Annotations/' 
+ANNOT_PATH          = 'Data/Annotations/' 
+TEST_DIR            = 'Test/'
+TRAIN_DIR           = 'Train/'
+ANNOT_TRAIN_PATH    = ANNOT_PATH+TRAIN_DIR
+ANNOT_TEST_PATH     = ANNOT_PATH+TEST_DIR
+IMAGES_TRAIN_PATH   = IMAGES_PATH+TRAIN_DIR
+IMAGES_TEST_PATH    = IMAGES_PATH+TEST_DIR
 ONTOLOGY_FILE_PATH  = 'Data/animal_ontology.ttl'
 MORPH_FEATURES_PATH = 'Data/animal_features.json'
 ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
 ANIMAL_LABEL        = 'Animal'
+IMAGE_FILE_EXT      = '.JPEG'
+ANNOT_FILE_EXT      = '.xml'
 
 def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
                     graph_file_path:str=GRAPH_ARCS_PATH,
@@ -41,26 +50,32 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
     print('Done')
     populate = input('Populate the ontology (5 minutes per 100 animal classes)? (y/N)')
     if populate == 'y':
-        unzipped = input('Have you unzipped the challenge images zip file ? (y/N)')
-        if unzipped != 'y':  
-            downloaded = input('Have you downloaded the challenge images zip file ? (y/N)')
-            if downloaded != 'y':
-                print('Ontology can not be populated without the challenge zip file, please download it before going any further')
-                print('\nTo download the zip file containing the animal_images :')
-                print('\t1) Go to https://www.kaggle.com/competitions/imagenet-object-localization-challenge/rules and accept the rules')
-                print('\t2) Go to https://www.kaggle.com/settings/account and generate an API token')
-                print('\t3) Place the generated kaggle.json file in this diectory')
-                print('\t4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge')
-                ontology.serialize(output_file_path)
-                print('Structure ontology saved to file "'+output_file_path+'"')
-                return ontology
-            zip_file_path = input(f'Zip file path (default: {ZIP_FILE_PATH}) : ')
-            if zip_file_path == 'default':
-                zip_file_path = ZIP_FILE_PATH
-            ac = Namespace(ONTOLOGY_IRI)
-            ontology_inids = [inid for _, _, inid in ontology.triples((None, ac.inid, None))]
-            print('Unzipping images and annotations...')
-            unzip_images_annotations_files(ontology_inids, zip_file_path)
+        splitted = input('Have you splitted the Images/Annotations files into train and test ? (y/N)')
+        if splitted != 'y':
+            unzipped = input('Have you unzipped the challenge images zip file ? (y/N)')
+            if unzipped != 'y':  
+                downloaded = input('Have you downloaded the challenge images zip file ? (y/N)')
+                if downloaded != 'y':
+                    print('Ontology can not be populated without the challenge zip file, please download it before going any further')
+                    print('\nTo download the zip file containing the animal_images :')
+                    print('\t1) Go to https://www.kaggle.com/competitions/imagenet-object-localization-challenge/rules and accept the rules')
+                    print('\t2) Go to https://www.kaggle.com/settings/account and generate an API token')
+                    print('\t3) Place the generated kaggle.json file in this diectory')
+                    print('\t4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge')
+                    ontology.serialize(output_file_path)
+                    print('Structure ontology saved to file "'+output_file_path+'"')
+                    return ontology
+                zip_file_path = input(f'Zip file path (default: {ZIP_FILE_PATH}) : ')
+                if zip_file_path == 'default':
+                    zip_file_path = ZIP_FILE_PATH
+                ac = Namespace(ONTOLOGY_IRI)
+                ontology_inids = [inid for _, _, inid in ontology.triples((None, ac.inid, None))]
+                print('Unzipping images and annotations...')
+                unzip_images_annotations_files(ontology_inids, zip_file_path)
+
+            rate = input('Test splitting rate (0<rate<1): ')            
+            print('Splitting files into train and test')
+            train_test_split(float(rate))
 
         print('Populating the ontology...')
         ontology = populate_ontology(ontology)
@@ -256,36 +271,36 @@ def get_subclasses_set(ontology:Graph, subclass_node_set:set[URIRef], node:Node)
             subclass_node_set = get_subclasses_set(ontology, subclass_node_set, subject)
     return subclass_node_set
 
-def populate_ontology(ontology:Graph)->Graph: 
+def populate_ontology(ontology:Graph, images_dir_path:str=IMAGES_TRAIN_PATH, annot_dir_path:str=ANNOT_TRAIN_PATH)->Graph: 
     """Populate the ontology with objects from the images of each class
         The link from images to ontology class is made through the Image Net ID
 
     Args:
         ontology (Graph): Ontology with the structure initialized
+        images_dir_path (str, optional): Path of the directory containing the images. Defaults to IMAGES_TRAIN_PATH.
+        annot_dir_path (str, optional): Path of the directory containing the annotations. Defaults to ANNOT_TRAIN_PATH.
 
     Returns:
         Graph: Populated ontology
     """
     ac = Namespace(ONTOLOGY_IRI)
-    image_ext = '.JPEG'
-    annotation_ext = '.xml'
 
     nb_classes = len([inid for _, _, inid in ontology.triples((None, ac.inid, None))])
     pbar = tqdm(ontology.triples((None, ac.inid, None)), 'test', total=nb_classes)
     for class_node, _, inid in pbar:
         
-        image_dict_path = IMAGES_PATH+inid+'/'
-        annotations_dict_path = ANNOTATIONS_PATH+inid+'/'
-        if not os.path.exists(image_dict_path):
+        animal_img_dir_path = images_dir_path+inid+'/'
+        animal_annot_dir_path = annot_dir_path+inid+'/'
+        if not os.path.exists(animal_img_dir_path):
             print('Warning : no images for class '+str(class_node).replace(ONTOLOGY_IRI,'')+" ("+inid+')')
         else:        
-            im = Namespace(image_dict_path)
-            images = os.listdir(image_dict_path)
+            im = Namespace(animal_img_dir_path)
+            images = os.listdir(animal_img_dir_path)
             nb_img = len(images)
             for img_index, image in enumerate(images):
                 pbar.set_description(f"Processing {inid} ({img_index}/{nb_img})")
                 image_node = getattr(im, image)
-                annotation_path = annotations_dict_path+image.replace(image_ext, annotation_ext)
+                annotation_path = animal_annot_dir_path+image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT)
                 if os.path.exists(annotation_path):
                     with open(annotation_path) as annotation_file:
                         annotation = xmltodict.parse(annotation_file.read())['annotation']
@@ -299,13 +314,13 @@ def populate_ontology(ontology:Graph)->Graph:
                     if 'object' in annotation:
                         if type(annotation['object'])==list:
                             for i, object in enumerate(annotation['object']):
-                                animal_node = getattr(ac, image.replace(image_ext, '_'+str(i)))
+                                animal_node = getattr(ac, image.replace(IMAGE_FILE_EXT, '_'+str(i)))
                                 define_animal_node(ontology, animal_node, class_node, image_node, ac, object)
                         else :
-                            animal_node = getattr(ac, image.replace(image_ext,''))
+                            animal_node = getattr(ac, image.replace(IMAGE_FILE_EXT,''))
                             define_animal_node(ontology, animal_node, class_node, image_node, ac, annotation['object'])
                 else:
-                    animal_node = getattr(ac, image.replace(image_ext,''))
+                    animal_node = getattr(ac, image.replace(IMAGE_FILE_EXT,''))
                     define_animal_node(ontology, animal_node, class_node, image_node, ac)
     return ontology
 
@@ -338,14 +353,14 @@ def define_animal_node(ontology:Graph, node:Node, class_node:Node,
     return      
 
 def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_PATH, 
-                                   images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOTATIONS_PATH):
+                                   images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOT_PATH):
     """Unzip the images and annotations files of the selected ids from the Kaggle Challenge Zip file
 
     Args:
         inids (list[str]): list of ImageNet IDs of the resources to extract
         zip_file_path (str, optional): path of the Kaggle Challenge Zip file. Defaults to ZIP_FILE_PATH.
         images_dest_path (str, optional): Path of the Images destination directory. Defaults to IMAGES_PATH.
-        annotations_dest_path (str, optional): Path of the Images destination directory. Defaults to ANNOTATIONS_PATH.
+        annotations_dest_path (str, optional): Path of the Images destination directory. Defaults to ANNOT_PATH.
 
     Raises:
         ValueError: Raised if the path 'zip_file_path' doesn't exist. If so, the procedure to download the zip file is explained
@@ -357,12 +372,12 @@ def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_P
                          '\t2) Go to https://www.kaggle.com/settings/account and generate an API token'+
                          '\t3) Place the generated kaggle.json file in this diectory'+ 
                          '\t4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge')
-    zip_annotations_path = 'ILSVRC/Annotations/CLS-LOC/train/'
+    zip_annot_path = 'ILSVRC/Annotations/CLS-LOC/train/'
     zip_images_path =  'ILSVRC/Data/CLS-LOC/train/'
     with ZipFile(zip_file_path, 'r') as zip_file:
         for inid in tqdm(inids):
             for zip_subdirectory, destination_path in [
-                    (os.path.join(zip_annotations_path,inid), os.path.join(annotations_dest_path,inid)),
+                    (os.path.join(zip_annot_path,inid), os.path.join(annotations_dest_path,inid)),
                     (os.path.join(zip_images_path, inid), os.path.join(images_dest_path,inid))                    
                 ]:
                 if not os.path.exists(destination_path):
@@ -371,6 +386,69 @@ def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_P
                         zip_file.extract(file_name, destination_path)
                         os.rename(os.path.join(destination_path, file_name), extracted_path)
                     rmtree(os.path.join(destination_path, 'ILSVRC')) 
+
+def train_test_split(
+            test_rate           :float,
+            images_origin_path  :str=IMAGES_PATH, 
+            annot_origin_path   :str=ANNOT_PATH,
+            images_train_path   :str=IMAGES_TRAIN_PATH,
+            annot_train_path    :str=ANNOT_TRAIN_PATH,
+            images_test_path    :str=IMAGES_TEST_PATH,
+            annot_test_path     :str=ANNOT_TEST_PATH
+        ):
+    """Split the annotations and images into train and test directories according to a test_rate  
+
+    Args:
+        test_rate (float): Rate according to which an image is added to the test directory. 0 < test_size < 1. 
+        images_origin_path (str, optional): Path of the directory containing the images. Defaults to IMAGES_PATH.
+        annot_origin_path (str, optional): Path of the directory containing the annotations. Defaults to ANNOT_PATH.
+        images_train_path (str, optional): Path of the directory into which the training images will be moved. Defaults to IMAGES_TRAIN_PATH.
+        annot_train_path (str, optional): Path of the directory into which the training annotations will be moved. Defaults to ANNOT_TRAIN_PATH.
+        images_test_path (str, optional): Path of the directory into which the testing images will be moved. Defaults to IMAGES_TEST_PATH.
+        annot_test_path (str, optional): Path of the directory into which the testing images will be moved. Defaults to ANNOT_TEST_PATH.
+
+    Raises:
+        ValueError: if the directory at images_origin_path doesn't exist
+    """
+    
+    for path in [images_origin_path, annot_origin_path]:
+        if not os.path.exists(path):
+            raise ValueError('Path '+path+'doesn\'t exist\n'+
+                'If you haven\'t done it, unzip the required images from the challenge Zip file at this location\n'+
+                'You can do so by running the function "unzip_images_annotations_files"')
+    try:
+        os.mkdir(images_train_path)
+        os.mkdir(images_test_path)
+        os.mkdir(annot_train_path)
+        os.mkdir(annot_test_path)
+    except FileExistsError:
+        None
+    for inid in tqdm(os.listdir(images_origin_path)):
+        animal_image_dir = os.path.join(images_origin_path, inid)
+        animal_annot_dir = os.path.join(annot_origin_path, inid)
+        if os.path.normpath(animal_image_dir) not in [
+                        os.path.normpath(images_test_path), 
+                        os.path.normpath(images_train_path)]:   
+            try:
+                os.mkdir(os.path.join(images_train_path, inid))
+                os.mkdir(os.path.join(images_test_path, inid))
+                os.mkdir(os.path.join(annot_train_path, inid))
+                os.mkdir(os.path.join(annot_test_path, inid))
+            except FileExistsError:
+                None
+            for image in os.listdir(animal_image_dir):
+                if random.random() > test_rate:
+                    image_dest_path = os.path.join(images_train_path, inid, image)
+                    annot_dest_path = os.path.join(annot_train_path, inid, image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT))
+                else:
+                    image_dest_path = os.path.join(images_test_path, inid, image)
+                    annot_dest_path = os.path.join(annot_test_path, inid, image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT))
+                os.rename(os.path.join(animal_image_dir, image), image_dest_path)
+                annot_file_path = os.path.join(animal_annot_dir, image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT))
+                if os.path.exists(annot_file_path):
+                    os.rename(annot_file_path, annot_dest_path)
+            os.rmdir(animal_image_dir)
+            os.rmdir(animal_annot_dir)
 
 def graphs():
     # TODO Display the ontology into graphs
