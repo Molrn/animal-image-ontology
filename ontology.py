@@ -24,7 +24,8 @@ IMAGES_TRAIN_PATH   = IMAGES_PATH+TRAIN_DIR
 IMAGES_TEST_PATH    = IMAGES_PATH+TEST_DIR
 ONTOLOGY_FILE_PATH  = 'Data/KaggleChallenge/animal_ontology.ttl'
 MORPH_FEATURES_PATH = 'Data/KaggleChallenge/animal_features.json'
-ONTOLOGY_IRI        = 'http://example.com/ontology/animal-challenge/'
+SCHEMA_IRI          = 'http://schema.org/'
+ONTOLOGY_IRI        = 'http://www.semanticweb.org/youri/ontologies/2023/5/animal-challenge/'
 ANIMAL_LABEL        = 'Animal'
 IMAGE_FILE_EXT      = '.JPEG'
 ANNOT_FILE_EXT      = '.xml'
@@ -98,8 +99,10 @@ def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
     ontology = Graph()
     ac = Namespace(ONTOLOGY_IRI)
     wd = Namespace(WD_ENTITY_URI)
+    schema = Namespace(SCHEMA_IRI)
     ontology.bind('ac', ac)
     ontology.bind('wd', wd)
+    ontology.bind('schema', schema)
     
     ontology = define_properties(ontology, ac)
 
@@ -176,9 +179,6 @@ def define_properties(ontology:Graph, ns:Namespace)->Graph:
         ontology.add((getattr(ns, size_prop), RDFS.domain, ns.size))
 
     ontology.add((ns.inid, RDFS.range, XSD.string))
-    ontology.add((ns.difficult, RDFS.range, XSD.integer))
-    ontology.add((ns.truncated, RDFS.range, XSD.integer))
-    ontology.add((ns.pose, RDFS.range, XSD.string))
     ontology.add((ns.hasMorphFeature, RDFS.range, ns.MorphFeature))
 
     return ontology
@@ -284,32 +284,28 @@ def populate_ontology(ontology:Graph, images_dir_path:str=IMAGES_TRAIN_PATH, ann
         Graph: Populated ontology
     """
     ac = Namespace(ONTOLOGY_IRI)
+    schema = Namespace(SCHEMA_IRI)
 
     nb_classes = len([inid for _, _, inid in ontology.triples((None, ac.inid, None))])
-    pbar = tqdm(ontology.triples((None, ac.inid, None)), 'test', total=nb_classes)
+    pbar = tqdm(ontology.triples((None, ac.inid, None)), total=nb_classes)
     for class_node, _, inid in pbar:
-        
-        animal_img_dir_path = images_dir_path+inid+'/'
-        animal_annot_dir_path = annot_dir_path+inid+'/'
+        animal_img_dir_path = images_dir_path+inid
+        animal_annot_dir_path = os.path.join(annot_dir_path, inid)
         if not os.path.exists(animal_img_dir_path):
             print('Warning : no images for class '+str(class_node).replace(ONTOLOGY_IRI,'')+" ("+inid+')')
         else:        
-            im = Namespace(animal_img_dir_path)
+            im = Namespace('file:///'+os.path.abspath(animal_img_dir_path).replace('\\', '/')+'/')
             images = os.listdir(animal_img_dir_path)
             nb_img = len(images)
             for img_index, image in enumerate(images):
                 pbar.set_description(f"Processing {inid} ({img_index}/{nb_img})")
-                image_node = getattr(im, image)
-                annotation_path = animal_annot_dir_path+image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT)
+                image_path_node = getattr(im, image)
+                image_node = getattr(ac, 'IMG_'+image.replace(IMAGE_FILE_EXT, ''))
+                annotation_path = os.path.join(animal_annot_dir_path, image.replace(IMAGE_FILE_EXT, ANNOT_FILE_EXT))
                 if os.path.exists(annotation_path):
                     with open(annotation_path) as annotation_file:
                         annotation = xmltodict.parse(annotation_file.read())['annotation']
-                    size_node = BNode()
-                    size = annotation['size']
-                    ontology.add((image_node, ac.size, size_node))
-                    ontology.add((size_node, ac.width, Literal(int(size['width']))))
-                    ontology.add((size_node, ac.height, Literal(int(size['height']))))
-                    ontology.add((size_node, ac.depth, Literal(int(size['depth']))))
+                    define_image_node(ontology, image_node, image_path_node, ac, schema, annotation['size'])
 
                     if 'object' in annotation:
                         if type(annotation['object'])==list:
@@ -320,6 +316,7 @@ def populate_ontology(ontology:Graph, images_dir_path:str=IMAGES_TRAIN_PATH, ann
                             animal_node = getattr(ac, image.replace(IMAGE_FILE_EXT,''))
                             define_animal_node(ontology, animal_node, class_node, image_node, ac, annotation['object'])
                 else:
+                    define_image_node(ontology, image_node, image_path_node, ac, schema)
                     animal_node = getattr(ac, image.replace(IMAGE_FILE_EXT,''))
                     define_animal_node(ontology, animal_node, class_node, image_node, ac)
     return ontology
@@ -347,10 +344,22 @@ def define_animal_node(ontology:Graph, node:Node, class_node:Node,
         ontology.add((bndbox_node, prop_ns.yMin, Literal(int(bndbox['ymin']))))
         ontology.add((bndbox_node, prop_ns.xMax, Literal(int(bndbox['xmax']))))
         ontology.add((bndbox_node, prop_ns.yMax, Literal(int(bndbox['ymax']))))
-        ontology.add((node, prop_ns.difficult, Literal(int(annotations['difficult']))))
-        ontology.add((node, prop_ns.pose, Literal(annotations['pose'])))
-        ontology.add((node, prop_ns.truncated, Literal(int(annotations['truncated']))))
-    return      
+
+def define_image_node(ontology:Graph, image_node:Node, image_path_node:Node, 
+                      ac:Namespace, schema:Namespace, size:dict=None):
+
+    ontology.add((image_node, RDF.type, schema.ImageObject))
+    image_url = BNode()
+    ontology.add((image_node, schema.image, image_url))
+    ontology.add((image_url, RDF.type, schema.URL))
+    ontology.add((image_url, schema.value, image_path_node))
+
+    if size:
+        size_node = BNode()
+        ontology.add((image_node, ac.size, size_node))
+        ontology.add((size_node, ac.width, Literal(int(size['width']))))
+        ontology.add((size_node, ac.height, Literal(int(size['height']))))
+        ontology.add((size_node, ac.depth, Literal(int(size['depth']))))
 
 def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_PATH, 
                                    images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOT_PATH):
