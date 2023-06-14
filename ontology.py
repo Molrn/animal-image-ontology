@@ -171,7 +171,7 @@ def define_properties(ontology:Graph, ns:Namespace)->Graph:
         ontology.add((getattr(ns, property), RDF.type, RDF.Property))
 
     for bnd_prop in ['xMin', 'xMax', 'yMin', 'yMax']:
-        ontology.add((getattr(ns, bnd_prop), RDFS.range, XSD.positiveInteger))
+        ontology.add((getattr(ns, bnd_prop), RDFS.range, XSD.nonNegativeInteger))
         ontology.add((getattr(ns, bnd_prop), RDFS.domain, ns.boundingBox))
 
     for size_prop in ['height', 'width', 'depth']:
