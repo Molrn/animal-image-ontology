@@ -166,7 +166,7 @@ def define_properties(ontology:Graph, ns:Namespace)->Graph:
     """
     properties = [ 'inid', 'wdid', 'boundingBox', 'xMin', 'xMax', 'yMin', 'yMax', 
                   'difficult', 'pose', 'truncated', 'hasMorphFeature',
-                  'size', 'height', 'width', 'depth' ]
+                  'size', 'height', 'width' ]
     for property in properties :
         ontology.add((getattr(ns, property), RDF.type, RDF.Property))
 
@@ -174,7 +174,7 @@ def define_properties(ontology:Graph, ns:Namespace)->Graph:
         ontology.add((getattr(ns, bnd_prop), RDFS.range, XSD.nonNegativeInteger))
         ontology.add((getattr(ns, bnd_prop), RDFS.domain, ns.boundingBox))
 
-    for size_prop in ['height', 'width', 'depth']:
+    for size_prop in ['height', 'width']:
         ontology.add((getattr(ns, size_prop), RDFS.range, XSD.positiveInteger))
         ontology.add((getattr(ns, size_prop), RDFS.domain, ns.size))
 
@@ -359,7 +359,6 @@ def define_image_node(ontology:Graph, image_node:Node, image_path_node:Node,
         ontology.add((image_node, ac.size, size_node))
         ontology.add((size_node, ac.width, Literal(int(size['width']))))
         ontology.add((size_node, ac.height, Literal(int(size['height']))))
-        ontology.add((size_node, ac.depth, Literal(int(size['depth']))))
 
 def unzip_images_annotations_files(inids:list[str], zip_file_path:str=ZIP_FILE_PATH, 
                                    images_dest_path:str=IMAGES_PATH, annotations_dest_path:str=ANNOT_PATH):
