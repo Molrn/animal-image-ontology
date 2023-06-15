@@ -204,7 +204,7 @@ def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEAT
         raise ValueError('File "'+morph_features_path+'" not found\n'+
                          'If you don\'t have one, generate it manually as a json file in format dict { "Animal Class Name" : list[str] }\n'+
                          'The animal class name is then matched as the english label found in WikiData')
-    with open(MORPH_FEATURES_PATH) as morph_file:
+    with open(morph_features_path) as morph_file:
         animal_features = json.load(morph_file)
 
     all_features = {}
@@ -221,10 +221,9 @@ def define_morphological_features(ontology:Graph, morph_features_path=MORPH_FEAT
 
     ontology.add((ac.MorphFeature, RDF.type, RDFS.Class))
     for feature, class_nodes in all_features.items():
-        if len(class_nodes) > 1:
-            ontology.add((feature, RDF.type, ac.MorphFeature))
-            for node in list(class_nodes):
-                ontology.add((node, ac.hasMorphFeature, feature))
+        ontology.add((feature, RDF.type, ac.MorphFeature))
+        for node in list(class_nodes):
+            ontology.add((node, ac.hasMorphFeature, feature))
     return ontology
 
 def label_to_node(label:str, namespace:Namespace)->URIRef:

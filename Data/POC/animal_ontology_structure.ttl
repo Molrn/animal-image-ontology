@@ -7,120 +7,139 @@
 ac:Animal a rdfs:Class .
 
 ac:AquaticAnimal a rdfs:Class ;
-    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
-        ac:livesInWater ;
+    ac:hasMorphFeature ac:fins,
+        ac:gills ;
     rdfs:subClassOf ac:Animal .
 
 ac:BaldEagle a rdfs:Class ;
-    ac:hasMorphFeature ac:beak,
-        ac:claws,
+    ac:hasMorphFeature ac:backbone,
+        ac:bipedalStance,
+        ac:clawedHands,
+        ac:featheredHead,
         ac:feathers,
-        ac:fourLegged,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
+        ac:hookedBeak,
         ac:lungs,
         ac:scales,
-        ac:teeth,
-        ac:vertebralColumn,
-        ac:walksOnAllFours,
+        ac:sharpTeeth,
+        ac:spinalCord,
         ac:wings ;
     ac:inid "n01614925" ;
     ac:wdid wd:Q127216 ;
     rdfs:subClassOf ac:Birds .
 
 ac:Birds a rdfs:Class ;
-    ac:hasMorphFeature ac:claws,
-        ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:bipedalStance,
+        ac:clawedHands,
+        ac:feathers,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
         ac:scales,
-        ac:teeth,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:sharpTeeth,
+        ac:spinalCord,
+        ac:wings ;
     rdfs:subClassOf ac:Tetrapoda,
         ac:Theropod .
 
 ac:Canidae a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:claws,
+        ac:dogLikeShape,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:muzzle,
+        ac:pointedEars,
+        ac:sharpTeeth,
+        ac:spinalCord ;
     rdfs:subClassOf ac:Caniformia .
 
 ac:Caniformia a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:claws,
+        ac:dogLikeShape,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:sharpTeeth,
+        ac:spinalCord ;
     rdfs:subClassOf ac:Carnivora .
 
 ac:Canis a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:claws,
+        ac:dogLikeShape,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:muzzle,
+        ac:pointedEars,
+        ac:pointedSnout,
+        ac:sharpTeeth,
+        ac:spinalCord ;
     rdfs:subClassOf ac:Canidae .
 
 ac:Carnivora a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:claws,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:spinalCord ;
     rdfs:subClassOf ac:Tetrapoda .
 
 ac:Dinosaur a rdfs:Class ;
-    ac:hasMorphFeature ac:teeth ;
+    ac:hasMorphFeature ac:bipedalStance,
+        ac:scales ;
     rdfs:subClassOf ac:Animal .
 
 ac:Fish a rdfs:Class ;
-    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+    ac:hasMorphFeature ac:backbone,
         ac:fins,
         ac:gills,
-        ac:gillsOrLungs,
-        ac:livesInWater,
-        ac:scales ;
+        ac:spinalCord ;
     rdfs:subClassOf ac:AquaticAnimal,
         ac:Vertebrata .
 
 ac:Goldfish a rdfs:Class ;
+    ac:hasMorphFeature ac:backbone,
+        ac:colorfulScales,
+        ac:roundedBody,
+        ac:spinalCord ;
     ac:inid "n01443537" ;
     ac:wdid wd:Q123141 ;
     rdfs:subClassOf ac:Vertebrata .
 
 ac:GreatWhiteShark a rdfs:Class ;
-    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+    ac:hasMorphFeature ac:backbone,
         ac:cartilaginousSkeleton,
+        ac:dorsalFin,
         ac:fins,
         ac:gills,
-        ac:gillsOrLungs,
-        ac:livesInWater,
+        ac:jawsWithMultipleRowsOfTeeth,
+        ac:powerfulJaws,
         ac:scales,
-        ac:teeth ;
+        ac:spinalCord ;
     ac:inid "n01484850" ;
     ac:wdid wd:Q129026 ;
     rdfs:subClassOf ac:Shark .
 
 ac:IndigoBunting a rdfs:Class ;
-    ac:hasMorphFeature ac:beak,
-        ac:claws,
+    ac:hasMorphFeature ac:backbone,
+        ac:beak,
+        ac:bipedalStance,
+        ac:clawedHands,
         ac:feathers,
-        ac:fourLegged,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
         ac:scales,
-        ac:teeth,
-        ac:vertebralColumn,
-        ac:walksOnAllFours,
+        ac:sharpTeeth,
+        ac:spinalCord,
+        ac:vibrantPlumage,
         ac:wings ;
     ac:inid "n01537544" ;
     ac:wdid wd:Q1049642 ;
@@ -129,80 +148,86 @@ ac:IndigoBunting a rdfs:Class ;
 ac:MorphFeature a rdfs:Class .
 
 ac:Quadruped a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
-        ac:limbsAdaptedForDifferentPurposes,
-        ac:walksOnAllFours ;
+    ac:hasMorphFeature ac:fourLegs ;
     rdfs:subClassOf ac:Animal .
 
 ac:Shark a rdfs:Class ;
-    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+    ac:hasMorphFeature ac:backbone,
         ac:cartilaginousSkeleton,
         ac:fins,
         ac:gills,
-        ac:gillsOrLungs,
-        ac:livesInWater,
-        ac:scales ;
+        ac:powerfulJaws,
+        ac:scales,
+        ac:spinalCord ;
     rdfs:subClassOf ac:Fish .
 
 ac:Tetrapoda a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:spinalCord ;
     rdfs:subClassOf ac:Quadruped,
         ac:Vertebrata .
 
 ac:Theropod a rdfs:Class ;
-    ac:hasMorphFeature ac:claws,
-        ac:scales,
-        ac:teeth ;
+    ac:hasMorphFeature ac:bipedalStance,
+        ac:clawedHands,
+        ac:scales ;
     rdfs:subClassOf ac:Dinosaur .
 
 ac:Ursidae a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:claws,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:powerfulPaws,
+        ac:sharpTeeth,
+        ac:spinalCord,
+        ac:thickFur ;
     rdfs:subClassOf ac:Carnivora .
 
 ac:UrsusAmericanus a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:brownFur,
+        ac:claws,
+        ac:dogLikeShape,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:powerfulPaws,
+        ac:sharpTeeth,
+        ac:shoulderHump,
+        ac:spinalCord,
+        ac:thickFur ;
     ac:inid "n02133161" ;
     ac:wdid wd:Q122783 ;
     rdfs:subClassOf ac:Caniformia,
         ac:Ursidae .
 
 ac:Vertebrata a rdfs:Class ;
+    ac:hasMorphFeature ac:backbone,
+        ac:spinalCord ;
     rdfs:subClassOf ac:Animal .
 
 ac:Wolf a rdfs:Class ;
-    ac:hasMorphFeature ac:fourLegged,
+    ac:hasMorphFeature ac:backbone,
+        ac:bushyTail,
+        ac:canineTeeth,
+        ac:claws,
+        ac:dogLikeShape,
+        ac:fourLegs,
         ac:fourLimbs,
-        ac:limbsAdaptedForDifferentPurposes,
         ac:lungs,
-        ac:vertebralColumn,
-        ac:walksOnAllFours ;
+        ac:muzzle,
+        ac:pointedEars,
+        ac:pointedSnout,
+        ac:sharpTeeth,
+        ac:spinalCord ;
     ac:inid "n02114367" ;
     ac:wdid wd:Q18498 ;
     rdfs:subClassOf ac:Canis .
-
-ac:Amphibia ac:hasMorphFeature ac:gillsOrLungs .
-
-ac:Chicken ac:hasMorphFeature ac:beak,
-        ac:feathers .
-
-ac:HouseCat ac:hasMorphFeature ac:claws .
-
-ac:Insect ac:hasMorphFeature ac:wings .
 
 ac:difficult a rdf:Property .
 
@@ -242,43 +267,75 @@ ac:yMin a rdf:Property ;
     rdfs:domain ac:boundingBox ;
     rdfs:range xsd:nonNegativeInteger .
 
+ac:beak a ac:MorphFeature .
+
+ac:brownFur a ac:MorphFeature .
+
+ac:bushyTail a ac:MorphFeature .
+
+ac:canineTeeth a ac:MorphFeature .
+
+ac:colorfulScales a ac:MorphFeature .
+
+ac:dorsalFin a ac:MorphFeature .
+
+ac:featheredHead a ac:MorphFeature .
+
+ac:hookedBeak a ac:MorphFeature .
+
+ac:jawsWithMultipleRowsOfTeeth a ac:MorphFeature .
+
+ac:roundedBody a ac:MorphFeature .
+
+ac:shoulderHump a ac:MorphFeature .
+
+ac:vibrantPlumage a ac:MorphFeature .
+
 ac:cartilaginousSkeleton a ac:MorphFeature .
+
+ac:pointedSnout a ac:MorphFeature .
+
+ac:powerfulJaws a ac:MorphFeature .
+
+ac:powerfulPaws a ac:MorphFeature .
 
 ac:size a rdf:Property .
 
-ac:beak a ac:MorphFeature .
+ac:thickFur a ac:MorphFeature .
 
 ac:feathers a ac:MorphFeature .
+
+ac:muzzle a ac:MorphFeature .
+
+ac:pointedEars a ac:MorphFeature .
+
+ac:wings a ac:MorphFeature .
+
+ac:boundingBox a rdf:Property .
+
+ac:clawedHands a ac:MorphFeature .
 
 ac:fins a ac:MorphFeature .
 
 ac:gills a ac:MorphFeature .
 
-ac:wings a ac:MorphFeature .
+ac:bipedalStance a ac:MorphFeature .
 
-ac:adaptedForUnderwaterLocomotion a ac:MorphFeature .
-
-ac:boundingBox a rdf:Property .
-
-ac:gillsOrLungs a ac:MorphFeature .
-
-ac:livesInWater a ac:MorphFeature .
+ac:dogLikeShape a ac:MorphFeature .
 
 ac:claws a ac:MorphFeature .
 
-ac:teeth a ac:MorphFeature .
-
 ac:scales a ac:MorphFeature .
+
+ac:sharpTeeth a ac:MorphFeature .
 
 ac:fourLimbs a ac:MorphFeature .
 
 ac:lungs a ac:MorphFeature .
 
-ac:vertebralColumn a ac:MorphFeature .
+ac:fourLegs a ac:MorphFeature .
 
-ac:fourLegged a ac:MorphFeature .
+ac:backbone a ac:MorphFeature .
 
-ac:limbsAdaptedForDifferentPurposes a ac:MorphFeature .
-
-ac:walksOnAllFours a ac:MorphFeature .
+ac:spinalCord a ac:MorphFeature .
 
