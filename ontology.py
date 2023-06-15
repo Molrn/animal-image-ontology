@@ -116,7 +116,8 @@ def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
     for arc in graph_arcs:
         child_node = label_to_node(arc['childLabel'], ac)
         parent_node = label_to_node(arc['parentLabel'], ac)
-        ontology.add((child_node, RDFS.subClassOf, parent_node))    
+        if child_node != parent_node:
+            ontology.add((child_node, RDFS.subClassOf, parent_node))    
         
     for node in [label_to_node(label, ac) for label in class_labels]:
         parents = [o for _, _, o in ontology.triples((node, RDFS.subClassOf, None))]        

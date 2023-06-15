@@ -32,8 +32,8 @@ Q178559,Q780,Poultry,Chicken
 Q622852,Q57815212,Domesticated Animal,Domesticated Bird
 Q16390140,Q57812559,Wild Animal,Captive Animal
 Q622852,Q1797813,Domesticated Animal,Productive Animal
-Q780,Q2216236,chicken,Rooster
-Q178559,Q2216236,poultry,Rooster
+Q780,Q2216236,Chicken,Rooster
+Q178559,Q2216236,Poultry,Rooster
 Q729,Q430,Animal,Dinosaur
 Q430,Q222951,Dinosaur,Gallus
 Q5113,Q222951,Birds,Gallus
@@ -96,7 +96,7 @@ Q430,Q127216,Dinosaur,Bald Eagle
 Q5113,Q127216,Birds,Bald Eagle
 Q19159,Q127216,Tetrapoda,Bald Eagle
 Q25241,Q127216,Vertebrata,Bald Eagle
-Q5113,Q123120,birds,Vulture
+Q5113,Q123120,Birds,Vulture
 Q430,Q200724,Dinosaur,Great Grey Owl
 Q25241,Q200724,Vertebrata,Great Grey Owl
 Q5113,Q200724,Birds,Great Grey Owl
@@ -244,8 +244,8 @@ Q430,Q201251,Dinosaur,Peafowl
 Q5113,Q201251,Birds,Peafowl
 Q19159,Q201251,Tetrapoda,Peafowl
 Q25241,Q201251,Vertebrata,Peafowl
-Q1797813,Q6072584,productive animal,Quail
-Q178559,Q732775,poultry,Partridge
+Q1797813,Q6072584,Productive Animal,Quail
+Q178559,Q732775,Poultry,Partridge
 Q430,Q220328,Dinosaur,Grey Parrot
 Q5113,Q220328,Birds,Grey Parrot
 Q19159,Q220328,Tetrapoda,Grey Parrot
@@ -294,8 +294,8 @@ Q430,Q189609,Dinosaur,Red-Breasted Merganser
 Q5113,Q189609,Birds,Red-Breasted Merganser
 Q19159,Q189609,Tetrapoda,Red-Breasted Merganser
 Q25241,Q189609,Vertebrata,Red-Breasted Merganser
-Q1797813,Q16529344,productive animal,Goose
-Q57815212,Q16529344,domesticated bird,Goose
+Q1797813,Q16529344,Productive Animal,Goose
+Q57815212,Q16529344,Domesticated Bird,Goose
 Q430,Q131044,Dinosaur,Black Swan
 Q5113,Q131044,Birds,Black Swan
 Q19159,Q131044,Tetrapoda,Black Swan
@@ -314,9 +314,10 @@ Q43806,Q25441,Invertebrate,Cnidaria
 Q25441,Q6596143,Cnidaria,Medusozoa
 Q25441,Q147256,Cnidaria,Actiniaria
 Q25441,Q134555,Cnidaria,Faviidae
-Q43806,Q124900,invertebrate,Platyhelminthes
+Q43806,Q124900,Invertebrate,Platyhelminthes
+Q729,Q4867740,Animal,Gastropoda
 Q4867740,Q308841,Gastropoda,Snail
-Q43806,Q7440127,invertebrate,Sea Slug
+Q43806,Q7440127,Invertebrate,Sea Slug
 Q1360,Q1936093,Arthropoda,Dungeness Crab
 Q1360,Q590283,Arthropoda,Cancer Irroratus
 Q1360,Q14510079,Arthropoda,Uca Annulipes
@@ -439,137 +440,137 @@ Q622852,Q39201,Domesticated Animal,Pet
 Q57814795,Q144,Domesticated Mammal,Dog
 Q57812559,Q57812611,Captive Animal,Captive Mammal
 Q110551885,Q57812611,Mammal,Captive Mammal
-Q144,Q653,dog,Chihuahua
-Q144,Q38146,dog,Japanese Chin
-Q144,Q38751,dog,Maltese
-Q144,Q38959,dog,Pekingese
-Q144,Q39357,dog,Shih Tzu
-Q144,Q38115,dog,Papillon
-Q144,Q39026,dog,Rhodesian Ridgeback
-Q144,Q21080,dog,Afghan Hound
-Q144,Q37716,dog,Basset Hound
+Q144,Q653,Dog,Chihuahua
+Q144,Q38146,Dog,Japanese Chin
+Q144,Q38751,Dog,Maltese
+Q144,Q38959,Dog,Pekingese
+Q144,Q39357,Dog,Shih Tzu
+Q144,Q38115,Dog,Papillon
+Q144,Q39026,Dog,Rhodesian Ridgeback
+Q144,Q21080,Dog,Afghan Hound
+Q144,Q37716,Dog,Basset Hound
 Q144,Q38774,Dog,Hunting Dog
-Q38774,Q21102,hunting dog,Beagle
-Q38774,Q21098,hunting dog,Bloodhound
-Q38774,Q39401,hunting dog,Scent Hound
+Q38774,Q21102,Hunting Dog,Beagle
+Q38774,Q21098,Hunting Dog,Bloodhound
+Q38774,Q39401,Hunting Dog,Scent Hound
 Q144,Q38923,Dog,Hound
-Q38923,Q39401,hound,Scent Hound
+Q38923,Q39401,Hound,Scent Hound
 Q144,Q39367,Dog,Dog Breed
 Q39367,Q37766,Dog Breed,Coonhound
 Q39401,Q37766,Scent Hound,Coonhound
 Q37766,Q37568,Coonhound,Bluetick Coonhound
 Q37766,Q37537,Coonhound,Black And Tan Coonhound
-Q144,Q37789,dog,English Foxhound
-Q144,Q38820,dog,Redbone Coonhound
-Q144,Q37866,dog,Borzoi
-Q144,Q38668,dog,Irish Wolfhound
-Q144,Q38503,dog,Italian Greyhound
-Q144,Q39122,dog,Whippet
+Q144,Q37789,Dog,English Foxhound
+Q144,Q38820,Dog,Redbone Coonhound
+Q144,Q37866,Dog,Borzoi
+Q144,Q38668,Dog,Irish Wolfhound
+Q144,Q38503,Dog,Italian Greyhound
+Q144,Q39122,Dog,Whippet
 Q38774,Q39253,Hunting Dog,Podenco
 Q39253,Q37755,Podenco,Ibizan Hound
-Q144,Q38803,dog,Norwegian Elkhound
-Q144,Q38922,dog,Otterhound
-Q144,Q39108,dog,Saluki
-Q144,Q37929,dog,Scottish Deerhound
-Q144,Q38965,dog,Weimaraner
-Q144,Q39285,dog,Staffordshire Bull Terrier
-Q144,Q37688,dog,American Staffordshire Terrier
-Q144,Q37582,dog,Bedlington Terrier
-Q144,Q37558,dog,Border Terrier
-Q144,Q38025,dog,Kerry Blue Terrier
-Q144,Q38644,dog,Irish Terrier
-Q144,Q38940,dog,Norfolk Terrier
-Q144,Q38934,dog,Norwich Terrier
-Q144,Q39330,dog,Yorkshire Terrier
-Q144,Q38110,dog,Lakeland Terrier
-Q144,Q39068,dog,Sealyham Terrier
-Q144,Q37617,dog,Airedale Terrier
-Q144,Q37888,dog,Cairn Terrier
+Q144,Q38803,Dog,Norwegian Elkhound
+Q144,Q38922,Dog,Otterhound
+Q144,Q39108,Dog,Saluki
+Q144,Q37929,Dog,Scottish Deerhound
+Q144,Q38965,Dog,Weimaraner
+Q144,Q39285,Dog,Staffordshire Bull Terrier
+Q144,Q37688,Dog,American Staffordshire Terrier
+Q144,Q37582,Dog,Bedlington Terrier
+Q144,Q37558,Dog,Border Terrier
+Q144,Q38025,Dog,Kerry Blue Terrier
+Q144,Q38644,Dog,Irish Terrier
+Q144,Q38940,Dog,Norfolk Terrier
+Q144,Q38934,Dog,Norwich Terrier
+Q144,Q39330,Dog,Yorkshire Terrier
+Q144,Q38110,Dog,Lakeland Terrier
+Q144,Q39068,Dog,Sealyham Terrier
+Q144,Q37617,Dog,Airedale Terrier
+Q144,Q37888,Dog,Cairn Terrier
 Q38774,Q38984,Hunting Dog,Terrier
 Q38984,Q37888,Terrier,Cairn Terrier
-Q144,Q37530,dog,Australian Terrier
-Q144,Q38336,dog,Dandie Dinmont Terrier
-Q144,Q37550,dog,Boston Terrier
+Q144,Q37530,Dog,Australian Terrier
+Q144,Q38336,Dog,Dandie Dinmont Terrier
+Q144,Q37550,Dog,Boston Terrier
 Q38984,Q38421,Terrier,Schnauzer
 Q38421,Q38999,Schnauzer,Miniature Schnauzer
 Q38421,Q38688,Schnauzer,Giant Schnauzer
 Q38421,Q39605,Schnauzer,Standard Schnauzer
-Q144,Q39035,dog,Scottish Terrier
-Q144,Q38796,dog,Tibetan Terrier
-Q144,Q37524,dog,Australian Silky Terrier
-Q144,Q38047,dog,Soft-Coated Wheaten Terrier
-Q144,Q17510,dog,West Highland White Terrier
-Q144,Q38352,dog,Lhasa Apso
-Q144,Q29200,dog,Flat-Coated Retriever
-Q144,Q38375,dog,Curly Coated Retriever
-Q144,Q38686,dog,Golden Retriever
-Q144,Q38726,dog,Labrador Retriever
-Q144,Q29084,dog,Chesapeake Bay Retriever
-Q144,Q38819,dog,Vizsla
-Q144,Q38309,dog,English Setter
-Q144,Q38761,dog,Irish Setter
-Q144,Q38301,dog,Gordon Setter
-Q144,Q38156,dog,Brittany
-Q144,Q37851,dog,Clumber Spaniel
-Q144,Q29022,dog,English Springer Spaniel
-Q144,Q39047,dog,Welsh Springer Spaniel
-Q144,Q38533,dog,English Cocker Spaniel
-Q144,Q39138,dog,Sussex Spaniel
-Q144,Q38162,dog,Irish Water Spaniel
-Q144,Q38467,dog,Kuvasz
-Q144,Q39010,dog,Schipperke
+Q144,Q39035,Dog,Scottish Terrier
+Q144,Q38796,Dog,Tibetan Terrier
+Q144,Q37524,Dog,Australian Silky Terrier
+Q144,Q38047,Dog,Soft-Coated Wheaten Terrier
+Q144,Q17510,Dog,West Highland White Terrier
+Q144,Q38352,Dog,Lhasa Apso
+Q144,Q29200,Dog,Flat-Coated Retriever
+Q144,Q38375,Dog,Curly Coated Retriever
+Q144,Q38686,Dog,Golden Retriever
+Q144,Q38726,Dog,Labrador Retriever
+Q144,Q29084,Dog,Chesapeake Bay Retriever
+Q144,Q38819,Dog,Vizsla
+Q144,Q38309,Dog,English Setter
+Q144,Q38761,Dog,Irish Setter
+Q144,Q38301,Dog,Gordon Setter
+Q144,Q38156,Dog,Brittany
+Q144,Q37851,Dog,Clumber Spaniel
+Q144,Q29022,Dog,English Springer Spaniel
+Q144,Q39047,Dog,Welsh Springer Spaniel
+Q144,Q38533,Dog,English Cocker Spaniel
+Q144,Q39138,Dog,Sussex Spaniel
+Q144,Q38162,Dog,Irish Water Spaniel
+Q144,Q38467,Dog,Kuvasz
+Q144,Q39010,Dog,Schipperke
 Q144,Q37624,Dog,Belgian Shepherd
 Q37624,Q38399,Belgian Shepherd,Groenendael
 Q37624,Q38494,Belgian Shepherd,Belgian Malinois
-Q144,Q37821,dog,Briard
-Q144,Q37520,dog,Australian Kelpie
-Q144,Q38675,dog,Komondor
-Q144,Q37704,dog,Old English Sheepdog
-Q144,Q39058,dog,Shetland Sheepdog
-Q144,Q1196071,dog,Collie
-Q144,Q37710,dog,Border Collie
-Q144,Q37896,dog,Bouvier Des Flandres
-Q144,Q39093,dog,Rottweiler
-Q144,Q38280,dog,German Shepherd
-Q144,Q38358,dog,Dobermann
-Q144,Q38990,dog,Miniature Pinscher
+Q144,Q37821,Dog,Briard
+Q144,Q37520,Dog,Australian Kelpie
+Q144,Q38675,Dog,Komondor
+Q144,Q37704,Dog,Old English Sheepdog
+Q144,Q39058,Dog,Shetland Sheepdog
+Q144,Q1196071,Dog,Collie
+Q144,Q37710,Dog,Border Collie
+Q144,Q37896,Dog,Bouvier Des Flandres
+Q144,Q39093,Dog,Rottweiler
+Q144,Q38280,Dog,German Shepherd
+Q144,Q38358,Dog,Dobermann
+Q144,Q38990,Dog,Miniature Pinscher
 Q144,Q246603,Dog,Swiss Mountain Dogs
-Q246603,Q38121,Swiss mountain dogs,Greater Swiss Mountain Dog
-Q246603,Q37608,Swiss mountain dogs,Bernese Mountain Dog
-Q246603,Q37697,Swiss mountain dogs,Appenzeller Sennenhund
-Q246603,Q37986,Swiss mountain dogs,Entlebucher Mountain Dog
-Q144,Q38496,dog,Boxer
-Q144,Q38080,dog,Bullmastiff
-Q144,Q39322,dog,Tibetan Mastiff
-Q144,Q29149,dog,French Bulldog
-Q144,Q5414,dog,Great Dane
-Q144,Q38090,dog,St. Bernard
-Q144,Q21206,dog,Alaskan Malamute
-Q144,Q39295,dog,Siberian Husky
-Q144,Q17504,dog,Dalmatian
-Q144,Q7254,dog,Affenpinscher
-Q144,Q37871,dog,Basenji
-Q144,Q38698,dog,Pug
+Q246603,Q38121,Swiss Mountain Dogs,Greater Swiss Mountain Dog
+Q246603,Q37608,Swiss Mountain Dogs,Bernese Mountain Dog
+Q246603,Q37697,Swiss Mountain Dogs,Appenzeller Sennenhund
+Q246603,Q37986,Swiss Mountain Dogs,Entlebucher Mountain Dog
+Q144,Q38496,Dog,Boxer
+Q144,Q38080,Dog,Bullmastiff
+Q144,Q39322,Dog,Tibetan Mastiff
+Q144,Q29149,Dog,French Bulldog
+Q144,Q5414,Dog,Great Dane
+Q144,Q38090,Dog,St. Bernard
+Q144,Q21206,Dog,Alaskan Malamute
+Q144,Q39295,Dog,Siberian Husky
+Q144,Q17504,Dog,Dalmatian
+Q144,Q7254,Dog,Affenpinscher
+Q144,Q37871,Dog,Basenji
+Q144,Q38698,Dog,Pug
 Q144,Q2991480,Dog,Toy Dog
-Q2991480,Q38698,toy dog,Pug
-Q144,Q38487,dog,Leonberger
-Q144,Q38706,dog,Newfoundland Dog
-Q144,Q37803,dog,Pyrenean Mountain Dog
-Q144,Q39002,dog,Samoyed
-Q144,Q39579,dog,Pomeranian
+Q2991480,Q38698,Toy Dog,Pug
+Q144,Q38487,Dog,Leonberger
+Q144,Q38706,Dog,Newfoundland Dog
+Q144,Q37803,Dog,Pyrenean Mountain Dog
+Q144,Q39002,Dog,Samoyed
+Q144,Q39579,Dog,Pomeranian
 Q854787,Q38655,Spitz,German Spitz
 Q144,Q854787,Dog,Spitz
 Q144,Q38655,Dog,German Spitz
 Q38655,Q39579,German Spitz,Pomeranian
-Q144,Q29013,dog,Chow Chow
-Q144,Q38843,dog,Keeshond
+Q144,Q29013,Dog,Chow Chow
+Q144,Q38843,Dog,Keeshond
 Q2991480,Q7546516,Toy Dog,Smousje
 Q7546516,Q38889,Smousje,Griffon Bruxellois
-Q144,Q38783,dog,Pembroke Welsh Corgi
-Q144,Q29072,dog,Cardigan Welsh Corgi
+Q144,Q38783,Dog,Pembroke Welsh Corgi
+Q144,Q29072,Dog,Cardigan Welsh Corgi
 Q144,Q38904,Dog,Poodle
-Q38904,Q11831662,poodle,Toy Poodle
-Q144,Q38856,dog,Mexican Hairless Dog
+Q38904,Q11831662,Poodle,Toy Poodle
+Q144,Q38856,Dog,Mexican Hairless Dog
 Q27414,Q18498,Caniformia,Wolf
 Q19159,Q25324,Tetrapoda,Canidae
 Q25241,Q25324,Vertebrata,Canidae
@@ -645,7 +646,7 @@ Q25324,Q215250,Canidae,Gray Fox
 Q27414,Q215250,Caniformia,Gray Fox
 Q39201,Q146,Pet,House Cat
 Q57814795,Q146,Domesticated Mammal,House Cat
-Q146,Q1474329,house cat,Tabby Cat
+Q146,Q1474329,House Cat,Tabby Cat
 Q19159,Q194526,Tetrapoda,Tiger Quoll
 Q25241,Q194526,Vertebrata,Tiger Quoll
 Q7377,Q25336,Mammals,Marsupial
@@ -694,14 +695,14 @@ Q25265,Q481907,Felidae,Acinonyx
 Q25306,Q481907,Carnivora,Acinonyx
 Q27070,Q481907,Feliformia,Acinonyx
 Q729,Q30090244,Animal,Bear
-Q30090244,Q36341,bear,Brown Bear
+Q30090244,Q36341,Bear,Brown Bear
 Q25306,Q11788,Carnivora,Ursidae
 Q11788,Q122783,Ursidae,Ursus Americanus
 Q19159,Q122783,Tetrapoda,Ursus Americanus
 Q25241,Q122783,Vertebrata,Ursus Americanus
 Q25306,Q122783,Carnivora,Ursus Americanus
 Q27414,Q122783,Caniformia,Ursus Americanus
-Q30090244,Q33609,bear,Polar Bear
+Q30090244,Q33609,Bear,Polar Bear
 Q11788,Q145016,Ursidae,Sloth Bear
 Q19159,Q145016,Tetrapoda,Sloth Bear
 Q25241,Q145016,Vertebrata,Sloth Bear
@@ -816,7 +817,7 @@ Q25241,Q852187,Vertebrata,Burmese Hare
 Q57814795,Q9394,Domesticated Mammal,Rabbit
 Q57814795,Q149017,Domesticated Mammal,Domestic Rabbit
 Q9394,Q149017,Rabbit,Domestic Rabbit
-Q149017,Q542500,domestic rabbit,Angora Rabbit
+Q149017,Q542500,Domestic Rabbit,Angora Rabbit
 Q19159,Q193061,Tetrapoda,Cricetidae
 Q25241,Q193061,Vertebrata,Cricetidae
 Q19159,Q212242,Tetrapoda,Myomorpha
@@ -843,8 +844,8 @@ Q19159,Q32789,Tetrapoda,Zebra
 Q25241,Q32789,Vertebrata,Zebra
 Q7377,Q25374,Mammals,Odd-Toed Ungulate
 Q25374,Q32789,Odd-Toed Ungulate,Zebra
-Q1797813,Q787,productive animal,Pig
-Q57814795,Q787,domesticated mammal,Pig
+Q1797813,Q787,Productive Animal,Pig
+Q57814795,Q787,Domesticated Mammal,Pig
 Q19159,Q58697,Tetrapoda,Sus Scrofa
 Q25241,Q58697,Vertebrata,Sus Scrofa
 Q1231177,Q58697,Ungulate,Sus Scrofa
@@ -855,7 +856,7 @@ Q19159,Q34505,Tetrapoda,Hippopotamus Amphibius
 Q25241,Q34505,Vertebrata,Hippopotamus Amphibius
 Q1231177,Q34505,Ungulate,Hippopotamus Amphibius
 Q729,Q16516071,Animal,Castrated Creature
-Q16516071,Q473194,castrated creature,Ox
+Q16516071,Q473194,Castrated Creature,Ox
 Q19159,Q42710,Tetrapoda,Water Buffalo
 Q25241,Q42710,Vertebrata,Water Buffalo
 Q1231177,Q42710,Ungulate,Water Buffalo
@@ -866,7 +867,7 @@ Q59099,Q7368,Herbivore,Sheep
 Q729,Q59099,Animal,Herbivore
 Q1797813,Q7368,Productive Animal,Sheep
 Q57814795,Q7368,Domesticated Mammal,Sheep
-Q7368,Q2929800,sheep,Ram
+Q7368,Q2929800,Sheep,Ram
 Q19159,Q189466,Tetrapoda,Bighorn Sheep
 Q25241,Q189466,Vertebrata,Bighorn Sheep
 Q1231177,Q189466,Ungulate,Bighorn Sheep
@@ -887,7 +888,7 @@ Q7375,Q71516,Camelus,Dromedary
 Q19159,Q71516,Tetrapoda,Dromedary
 Q25241,Q71516,Vertebrata,Dromedary
 Q1231177,Q71516,Ungulate,Dromedary
-Q57814795,Q42569,domesticated mammal,Lama Glama
+Q57814795,Q42569,Domesticated Mammal,Lama Glama
 Q19159,Q25311,Tetrapoda,Mustela Nivalis
 Q25241,Q25311,Vertebrata,Mustela Nivalis
 Q25306,Q25311,Carnivora,Mustela Nivalis
@@ -901,7 +902,7 @@ Q25241,Q26582,Vertebrata,Mustela Putorius
 Q25306,Q26582,Carnivora,Mustela Putorius
 Q27414,Q26582,Caniformia,Mustela Putorius
 Q729,Q81875,Animal,Carnivore
-Q81875,Q402885,carnivore,Mustela Nigripes
+Q81875,Q402885,Carnivore,Mustela Nigripes
 Q19159,Q200184,Tetrapoda,Lutrinae
 Q25241,Q200184,Vertebrata,Lutrinae
 Q25306,Q200184,Carnivora,Lutrinae
@@ -914,9 +915,9 @@ Q19159,Q27066,Tetrapoda,European Badger
 Q25241,Q27066,Vertebrata,European Badger
 Q25306,Q27066,Carnivora,European Badger
 Q27414,Q27066,Caniformia,European Badger
-Q19159,Q47867,Tetrapoda,armadillo
-Q25241,Q47867,Vertebrata,armadillo
-Q47867,Q104840543,armadillo,Armadillo
+Q19159,Q47867,Tetrapoda,Armadillo
+Q25241,Q47867,Vertebrata,Armadillo
+Q47867,Q104840543,Armadillo,Armadillo
 Q19159,Q185167,Tetrapoda,Three-Toed Sloth
 Q25241,Q185167,Vertebrata,Three-Toed Sloth
 Q19159,Q41050,Tetrapoda,Orangutan
@@ -961,8 +962,8 @@ Q19159,Q203868,Tetrapoda,Indri Indri
 Q25241,Q203868,Vertebrata,Indri Indri
 Q110551885,Q7378,Mammal,Elephant
 Q7378,Q133006,Elephant,Asian Elephant
-Q133006,Q591305,Asian elephant,Indian Elephant
-Q7378,Q185038,elephant,African Elephant
+Q133006,Q591305,Asian Elephant,Indian Elephant
+Q7378,Q185038,Elephant,African Elephant
 Q19159,Q41960,Tetrapoda,Ailurus Fulgens
 Q25241,Q41960,Vertebrata,Ailurus Fulgens
 Q25306,Q41960,Carnivora,Ailurus Fulgens
@@ -976,9 +977,9 @@ Q25241,Q2306485,Vertebrata,Great Barracuda
 Q25241,Q128685,Vertebrata,Anguilliformes
 Q152,Q2796766,Fish,Salmon
 Q2796766,Q102229488,Salmon,Pacific Salmon
-Q102229488,Q934874,Pacific salmon,Coho Salmon
+Q102229488,Q934874,Pacific Salmon,Coho Salmon
 Q25241,Q729897,Vertebrata,Rock Beauty
-Q152,Q472616,fish,Amphiprioninae
+Q152,Q472616,Fish,Amphiprioninae
 Q25241,Q300955,Vertebrata,European Sea Sturgeon
 Q25241,Q3280549,Vertebrata,Dermogenys
 Q25241,Q475711,Vertebrata,Pterois

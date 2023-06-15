@@ -133,8 +133,8 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
         new_row = {
             'parent': parent,
             'child': child,
-            'parentLabel' : get_label(parent_label, tree_df, parent),
-            'childLabel'  : get_label(child_label, tree_df, child)
+            'parentLabel' : get_label(parent_label, tree_df, parent).title(),
+            'childLabel'  : get_label(child_label, tree_df, child).title()
         }
         tree_df.loc[len(tree_df)] = new_row
         return True    
@@ -254,7 +254,8 @@ def create_graph_arcs(synsets:list[dict], tree_structure_file_path:str=GRAPH_ARC
                             }}"""
                         superclass = sp.select_query(query, ['class', 'classLabel'])[0]
                         superclass_entity = superclass['class'].replace(sp.WD_ENTITY_URI,'')
-                        add_taxon_path(tree_df, superclass_entity, superclass['classLabel'], not_animal_classes, False)
+                        if not add_taxon_path(tree_df, superclass_entity, superclass['classLabel'], not_animal_classes, False):
+                            check_insert(tree_df, master_parent_node, superclass_entity, child_label=superclass['classLabel'])                        
                         check_insert(tree_df, superclass_entity, synset['wdid'], superclass['classLabel'], synset['label'])                        
                         
                     case _ :
