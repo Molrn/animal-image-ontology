@@ -5,3 +5,4 @@ imagenet-object-localization-challenge.zip
 Data/Images/**
 Data/Annotations/**
 *.ttl
+!*structure.ttl

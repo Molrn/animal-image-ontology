@@ -1,0 +1,6176 @@
+@prefix ac: <http://www.semanticweb.org/youri/ontologies/2023/5/animal-challenge/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ac:Accipitridae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01608432" ;
+    ac:wdid wd:Q25510 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AchetaDomestica a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02229544" ;
+    ac:wdid wd:Q27711 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Acinonyx a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02130308" ;
+    ac:wdid wd:Q481907 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:Actiniaria a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:polypOrMedusaBodyForm,
+        ac:radialSymmetry,
+        ac:tentacles ;
+    ac:inid "n01914609" ;
+    ac:wdid wd:Q147256 ;
+    rdfs:subClassOf ac:Cnidaria .
+
+ac:Affenpinscher a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110627" ;
+    ac:wdid wd:Q7254 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:AfghanHound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088094" ;
+    ac:wdid wd:Q21080 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:AfricanElephant a rdfs:Class ;
+    ac:hasMorphFeature ac:largeEars,
+        ac:trunk,
+        ac:tusks ;
+    ac:inid "n02504458" ;
+    ac:wdid wd:Q185038 ;
+    rdfs:subClassOf ac:Elephant .
+
+ac:AfricanWildDog a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02116738" ;
+    ac:wdid wd:Q173651 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:Agama a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01687978" ;
+    ac:wdid wd:Q1153386 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:AilurusFulgens a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02509815" ;
+    ac:wdid wd:Q41960 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:AiredaleTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02096051" ;
+    ac:wdid wd:Q37617 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:AlaskanMalamute a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110063" ;
+    ac:wdid wd:Q21206 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Albatross a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02058221" ;
+    ac:wdid wd:Q55805 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Alligator a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Reptilia .
+
+ac:AlligatorLizard a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01689811" ;
+    ac:wdid wd:Q1522299 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:AlopecosaAculeata a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01775062" ;
+    ac:wdid wd:Q1059106 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:AlopexLagopus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02120079" ;
+    ac:wdid wd:Q23729171 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:Alouatta a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02492660" ;
+    ac:wdid wd:Q504247 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:AmbystomaMaculatum a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01632458" ;
+    ac:wdid wd:Q2108247 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:AmericanAlligator a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01698640" ;
+    ac:wdid wd:Q193327 ;
+    rdfs:subClassOf ac:Alligator .
+
+ac:AmericanCoot a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02018207" ;
+    ac:wdid wd:Q470016 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AmericanFlamingo a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02007558" ;
+    ac:wdid wd:Q208004 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AmericanRobin a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01558993" ;
+    ac:wdid wd:Q460967 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AmericanStaffordshireTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093428" ;
+    ac:wdid wd:Q37688 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Amphibia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Amphiprioninae a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales ;
+    ac:inid "n02607072" ;
+    ac:wdid wd:Q472616 ;
+    rdfs:subClassOf ac:Fish .
+
+ac:Anas a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01847000" ;
+    ac:wdid wd:Q214264 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AngoraRabbit a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:hindLegsForHopping,
+        ac:hoppingGait,
+        ac:incisors,
+        ac:longEars,
+        ac:softFur ;
+    ac:inid "n02328150" ;
+    ac:wdid wd:Q542500 ;
+    rdfs:subClassOf ac:DomesticRabbit .
+
+ac:Anguilliformes a rdfs:Class ;
+    ac:inid "n02526121" ;
+    ac:wdid wd:Q128685 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Animal a rdfs:Class .
+
+ac:Anisoptera a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02268443" ;
+    ac:wdid wd:Q80066 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:AnolisCarolinensis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01682714" ;
+    ac:wdid wd:Q930252 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:AphantopusHyperantus a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02277742" ;
+    ac:wdid wd:Q161520 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Apis a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:stingers,
+        ac:wings ;
+    ac:inid "n02206856" ;
+    ac:wdid wd:Q102857 ;
+    rdfs:subClassOf ac:Hymenoptera,
+        ac:Pterygota .
+
+ac:AppenzellerSennenhund a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseDoubleCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:largeSize,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02107908" ;
+    ac:wdid wd:Q37697 ;
+    rdfs:subClassOf ac:SwissMountainDogs .
+
+ac:AquaticAnimal a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:livesInWater ;
+    rdfs:subClassOf ac:Animal .
+
+ac:AquaticMammal a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:gillsOrLungs,
+        ac:livesInWater ;
+    rdfs:subClassOf ac:AquaticAnimal,
+        ac:Mammal .
+
+ac:Ara a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01818515" ;
+    ac:wdid wd:Q213984 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AramusGuarauna a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02013706" ;
+    ac:wdid wd:Q725276 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:AraneusDiadematus a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01773797" ;
+    ac:wdid wd:Q337509 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:ArcticWolf a rdfs:Class ;
+    ac:hasMorphFeature ac:denseFur,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:largeAndPredatoryBuild,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02114548" ;
+    ac:wdid wd:Q216441 ;
+    rdfs:subClassOf ac:Wolf .
+
+ac:ArdeaHerodiasOccidentalis a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02009912" ;
+    ac:wdid wd:Q27604486 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:ArgiopeAurantia a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01773157" ;
+    ac:wdid wd:Q2556499 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Armadillo a rdfs:Class ;
+    ac:inid "n02454379" ;
+    ac:wdid wd:Q104840543 ;
+    rdfs:subClassOf ac:Armadillo .
+
+ac:Arthropoda a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    rdfs:subClassOf ac:Invertebrate .
+
+ac:AsianElephant a rdfs:Class ;
+    ac:hasMorphFeature ac:largeEars,
+        ac:largeSize,
+        ac:prominentEars,
+        ac:trunk,
+        ac:trunkWithOneFingerLikeProjection,
+        ac:tusks ;
+    rdfs:subClassOf ac:Elephant .
+
+ac:AstacusAstacus a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01985128" ;
+    ac:wdid wd:Q210959 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:AtelesGeoffroyi a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02493793" ;
+    ac:wdid wd:Q388032 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:AustralianKelpie a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105412" ;
+    ac:wdid wd:Q37520 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:AustralianSilkyTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097658" ;
+    ac:wdid wd:Q37524 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:AustralianTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02096294" ;
+    ac:wdid wd:Q37530 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Axolotl a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01632777" ;
+    ac:wdid wd:Q22718 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:BaldEagle a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01614925" ;
+    ac:wdid wd:Q127216 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:BarnSpider a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01773549" ;
+    ac:wdid wd:Q1306991 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:BarredGrassSnake a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01737021" ;
+    ac:wdid wd:Q35541230 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Basenji a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110806" ;
+    ac:wdid wd:Q37871 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BassetHound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088238" ;
+    ac:wdid wd:Q37716 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Beagle a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088364" ;
+    ac:wdid wd:Q21102 ;
+    rdfs:subClassOf ac:HuntingDog .
+
+ac:Bear a rdfs:Class ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Beaver a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02363005" ;
+    ac:wdid wd:Q47542 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:BedlingtonTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:curlyCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093647" ;
+    ac:wdid wd:Q37582 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BelgianMalinois a rdfs:Class ;
+    ac:hasMorphFeature ac:alertExpression,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:doubleCoat,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBody,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105162" ;
+    ac:wdid wd:Q38494 ;
+    rdfs:subClassOf ac:BelgianShepherd .
+
+ac:BelgianShepherd a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:doubleCoat,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBody,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BerneseMountainDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseDoubleCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:largeSize,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02107683" ;
+    ac:wdid wd:Q37608 ;
+    rdfs:subClassOf ac:SwissMountainDogs .
+
+ac:BigCat a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:BighornSheep a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02415577" ;
+    ac:wdid wd:Q189466 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:Birds a rdfs:Class ;
+    ac:hasMorphFeature ac:claws,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda,
+        ac:Theropod .
+
+ac:Bison a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02410509" ;
+    ac:wdid wd:Q18099 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:BitisArietans a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01729322" ;
+    ac:wdid wd:Q369667 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:BlackAndTanCoonhound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:deepVoice,
+        ac:distinctiveBreedTraits,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:keenSenseOfSmell,
+        ac:longEars,
+        ac:muzzle,
+        ac:paws,
+        ac:physicalConformation,
+        ac:scentHound,
+        ac:sharpTeeth,
+        ac:sleekBody,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02089078" ;
+    ac:wdid wd:Q37537 ;
+    rdfs:subClassOf ac:Coonhound .
+
+ac:BlackAndWhiteColobus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02488702" ;
+    ac:wdid wd:Q358813 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:BlackGrouse a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01795545" ;
+    ac:wdid wd:Q155878 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:BlackStork a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02002724" ;
+    ac:wdid wd:Q25398 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:BlackSwan a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01860187" ;
+    ac:wdid wd:Q131044 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:BlackWidowSpider a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01774384" ;
+    ac:wdid wd:Q113297 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Blattodea a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:fastRunning,
+        ac:flattenedBody,
+        ac:jointedAppendages,
+        ac:longAntennae,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Bloodhound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088466" ;
+    ac:wdid wd:Q21098 ;
+    rdfs:subClassOf ac:HuntingDog .
+
+ac:BluetickCoonhound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:deepVoice,
+        ac:distinctiveBreedTraits,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:keenSenseOfSmell,
+        ac:longEars,
+        ac:muzzle,
+        ac:paws,
+        ac:physicalConformation,
+        ac:scentHound,
+        ac:sharpTeeth,
+        ac:sleekBody,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088632" ;
+    ac:wdid wd:Q37568 ;
+    rdfs:subClassOf ac:Coonhound .
+
+ac:BoaConstrictor a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01742172" ;
+    ac:wdid wd:Q215388 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:BorderCollie a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02106166" ;
+    ac:wdid wd:Q37710 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BorderTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093754" ;
+    ac:wdid wd:Q37558 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Borzoi a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02090622" ;
+    ac:wdid wd:Q37866 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BostonTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02096585" ;
+    ac:wdid wd:Q37550 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Botaurinae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02011460" ;
+    ac:wdid wd:Q855133 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:BouvierDesFlandres a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02106382" ;
+    ac:wdid wd:Q37896 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BoxTurtle a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01669191" ;
+    ac:wdid wd:Q734870 ;
+    rdfs:subClassOf ac:Turtle .
+
+ac:Boxer a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02108089" ;
+    ac:wdid wd:Q38496 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Brambling a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01530575" ;
+    ac:wdid wd:Q188877 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Briard a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105251" ;
+    ac:wdid wd:Q37821 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Brittany a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02101388" ;
+    ac:wdid wd:Q38156 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BrownBear a rdfs:Class ;
+    ac:inid "n02132136" ;
+    ac:wdid wd:Q36341 ;
+    rdfs:subClassOf ac:Bear .
+
+ac:Bullfrog a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01641577" ;
+    ac:wdid wd:Q159404 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:Bullmastiff a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02108422" ;
+    ac:wdid wd:Q38080 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:BurmeseHare a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02326432" ;
+    ac:wdid wd:Q852187 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:CairnTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02096177" ;
+    ac:wdid wd:Q37888 ;
+    rdfs:subClassOf ac:Terrier .
+
+ac:Callicebinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02493509" ;
+    ac:wdid wd:Q19816406 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Callithrix a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02490219" ;
+    ac:wdid wd:Q1064620 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Camelus a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:hump,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:longNeck,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:CancerIrroratus a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01978455" ;
+    ac:wdid wd:Q590283 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Canidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:Caniformia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Carnivora .
+
+ac:Canis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:CanisLupusRufus a rdfs:Class ;
+    ac:hasMorphFeature ac:denseFur,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:largeAndPredatoryBuild,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02114712" ;
+    ac:wdid wd:Q200442 ;
+    rdfs:subClassOf ac:Wolf .
+
+ac:CapraIbex a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02417914" ;
+    ac:wdid wd:Q168327 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:CaptiveAnimal a rdfs:Class ;
+    rdfs:subClassOf ac:WildAnimal .
+
+ac:CaptiveMammal a rdfs:Class ;
+    rdfs:subClassOf ac:CaptiveAnimal,
+        ac:Mammal .
+
+ac:Carabidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02167151" ;
+    ac:wdid wd:Q27046 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:CardiganWelshCorgi a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02113186" ;
+    ac:wdid wd:Q29072 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Carduelis a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01531178" ;
+    ac:wdid wd:Q27757 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Carnivora a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Placentalia .
+
+ac:Carnivore a rdfs:Class ;
+    ac:hasMorphFeature ac:meatEating ;
+    rdfs:subClassOf ac:Animal .
+
+ac:CarphophisAmoenus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01728572" ;
+    ac:wdid wd:Q2940133 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:CastratedCreature a rdfs:Class ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Cebinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02492035" ;
+    ac:wdid wd:Q326260 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Centipede a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01784675" ;
+    ac:wdid wd:Q43447 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Centropus a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01824575" ;
+    ac:wdid wd:Q657775 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Cerastes a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01753488" ;
+    ac:wdid wd:Q73178 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:ChamaeleoChamaeleon a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01694178" ;
+    ac:wdid wd:Q577924 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:ChesapeakeBayRetriever a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02099849" ;
+    ac:wdid wd:Q29084 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Chickadee a rdfs:Class ;
+    ac:hasMorphFeature ac:agileFlight,
+        ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:shortBeak,
+        ac:smallSize,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01592084" ;
+    ac:wdid wd:Q17053748 ;
+    rdfs:subClassOf ac:Poecile .
+
+ac:Chicken a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:beak,
+        ac:bredByHumans,
+        ac:comb,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:featheredBodies,
+        ac:feathers,
+        ac:highYieldOfProducts,
+        ac:raisedForResources,
+        ac:wings ;
+    rdfs:subClassOf ac:Poultry,
+        ac:ProductiveAnimal .
+
+ac:Chihuahua a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02085620" ;
+    ac:wdid wd:Q653 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:ChowChow a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02112137" ;
+    ac:wdid wd:Q29013 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Chrysopidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02264363" ;
+    ac:wdid wd:Q623727 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Cicadellidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02259212" ;
+    ac:wdid wd:Q244452 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Cicadidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02256656" ;
+    ac:wdid wd:Q130778 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Cicindelidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02165105" ;
+    ac:wdid wd:Q16718297 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:ClumberSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02101556" ;
+    ac:wdid wd:Q37851 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Cnidaria a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:polypOrMedusaBodyForm,
+        ac:radialSymmetry,
+        ac:tentacles ;
+    rdfs:subClassOf ac:Invertebrate .
+
+ac:Coccinellidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02165456" ;
+    ac:wdid wd:Q25327 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Cockroach a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:fastRunning,
+        ac:flattenedBody,
+        ac:jointedAppendages,
+        ac:longAntennae,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02233338" ;
+    ac:wdid wd:Q1661828 ;
+    rdfs:subClassOf ac:Blattodea .
+
+ac:CohoSalmon a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fattyFins,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:streamlinedBody ;
+    ac:inid "n02536864" ;
+    ac:wdid wd:Q934874 ;
+    rdfs:subClassOf ac:PacificSalmon .
+
+ac:Collie a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:elegant,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02106030" ;
+    ac:wdid wd:Q1196071 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Colobinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02488291" ;
+    ac:wdid wd:Q732737 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:CommonChimpanzee a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02481823" ;
+    ac:wdid wd:Q4126704 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:CommonRedshank a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02028035" ;
+    ac:wdid wd:Q18859 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Coonhound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:deepVoice,
+        ac:distinctiveBreedTraits,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:keenSenseOfSmell,
+        ac:longEars,
+        ac:muzzle,
+        ac:paws,
+        ac:physicalConformation,
+        ac:scentHound,
+        ac:sharpTeeth,
+        ac:sleekBody,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:DogBreed,
+        ac:ScentHound .
+
+ac:Cougar a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02125311" ;
+    ac:wdid wd:Q35255 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:Coyote a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02114855" ;
+    ac:wdid wd:Q44299 ;
+    rdfs:subClassOf ac:Canis .
+
+ac:Cricetidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Muroidea .
+
+ac:Cricetinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02342885" ;
+    ac:wdid wd:Q6573 ;
+    rdfs:subClassOf ac:Cricetidae .
+
+ac:CrotalusCerastes a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01756291" ;
+    ac:wdid wd:Q1366532 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Curculionoidea a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02177972" ;
+    ac:wdid wd:Q383963 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:CurlyCoatedRetriever a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02099429" ;
+    ac:wdid wd:Q38375 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Cuy a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02364673" ;
+    ac:wdid wd:Q79803 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Dalmatian a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110341" ;
+    ac:wdid wd:Q17504 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:DanausPlexippus a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02279972" ;
+    ac:wdid wd:Q212398 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:DandieDinmontTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02096437" ;
+    ac:wdid wd:Q38336 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Dasyatis a rdfs:Class ;
+    ac:inid "n01498041" ;
+    ac:wdid wd:Q902487 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:DendroaspisAngusticeps a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01749939" ;
+    ac:wdid wd:Q622805 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Dermogenys a rdfs:Class ;
+    ac:inid "n02641379" ;
+    ac:wdid wd:Q3280549 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Dhole a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02115913" ;
+    ac:wdid wd:Q132585 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:Dingo a rdfs:Class ;
+    ac:hasMorphFeature ac:denseFur,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:largeAndPredatoryBuild,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02115641" ;
+    ac:wdid wd:Q38584 ;
+    rdfs:subClassOf ac:Wolf .
+
+ac:Dinosaur a rdfs:Class ;
+    ac:hasMorphFeature ac:teeth ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Diptera a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02190166" ;
+    ac:wdid wd:Q25312 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Dobermann a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02107142" ;
+    ac:wdid wd:Q38358 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Dog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:DomesticatedMammal,
+        ac:Pet .
+
+ac:DogBreed a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:distinctiveBreedTraits,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:physicalConformation,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:DomesticRabbit a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:hindLegsForHopping,
+        ac:hoppingGait,
+        ac:incisors,
+        ac:longEars,
+        ac:softFur ;
+    rdfs:subClassOf ac:Rabbit .
+
+ac:DomesticatedAnimal a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome ;
+    rdfs:subClassOf ac:Animal .
+
+ac:DomesticatedBird a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome ;
+    rdfs:subClassOf ac:DomesticatedAnimal .
+
+ac:DomesticatedMammal a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome ;
+    rdfs:subClassOf ac:CaptiveMammal,
+        ac:DomesticatedAnimal .
+
+ac:Dowitcher a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02033041" ;
+    ac:wdid wd:Q838747 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Dromedary a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:hump,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:longNeck,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02437312" ;
+    ac:wdid wd:Q71516 ;
+    rdfs:subClassOf ac:Camelus .
+
+ac:Dugong a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02074367" ;
+    ac:wdid wd:Q129544 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:DungenessCrab a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01978287" ;
+    ac:wdid wd:Q1936093 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:EasternCottontail a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02325366" ;
+    ac:wdid wd:Q774716 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:EasternDiamondbackRattlesnake a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01755581" ;
+    ac:wdid wd:Q744532 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Echinodermata a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:spinySkin,
+        ac:waterVascularSystem ;
+    rdfs:subClassOf ac:Invertebrate .
+
+ac:ElectricFish a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:specializedCells ;
+    rdfs:subClassOf ac:Fish .
+
+ac:ElectricRay a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:electricOrgans,
+        ac:fins,
+        ac:flatBody,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:pectoralFins,
+        ac:scales,
+        ac:specializedCells ;
+    rdfs:subClassOf ac:ElectricFish .
+
+ac:Elephant a rdfs:Class ;
+    ac:hasMorphFeature ac:largeEars,
+        ac:trunk,
+        ac:tusks ;
+    rdfs:subClassOf ac:Mammal .
+
+ac:EnglishCockerSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02102318" ;
+    ac:wdid wd:Q38533 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:EnglishFoxhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02089973" ;
+    ac:wdid wd:Q37789 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:EnglishSetter a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02100735" ;
+    ac:wdid wd:Q38309 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:EnglishSpringerSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02102040" ;
+    ac:wdid wd:Q29022 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:EntlebucherMountainDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseDoubleCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:largeSize,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02108000" ;
+    ac:wdid wd:Q37986 ;
+    rdfs:subClassOf ac:SwissMountainDogs .
+
+ac:EroliaAlpina a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02027492" ;
+    ac:wdid wd:Q106447283 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:EurasianLynx a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02127052" ;
+    ac:wdid wd:Q43375 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:EurasianOystercatcher a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02037110" ;
+    ac:wdid wd:Q25928 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:EurasianSpoonbill a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02006656" ;
+    ac:wdid wd:Q171360 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:EuropeanBadger a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02447366" ;
+    ac:wdid wd:Q27066 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:EuropeanSeaSturgeon a rdfs:Class ;
+    ac:inid "n02640242" ;
+    ac:wdid wd:Q300955 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Faviidae a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:polypOrMedusaBodyForm,
+        ac:radialSymmetry,
+        ac:tentacles ;
+    ac:inid "n01917289" ;
+    ac:wdid wd:Q134555 ;
+    rdfs:subClassOf ac:Cnidaria .
+
+ac:Felidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Feliformia .
+
+ac:Feliformia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Carnivora .
+
+ac:FireSalamander a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01629819" ;
+    ac:wdid wd:Q26395 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:Fish a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales ;
+    rdfs:subClassOf ac:AquaticAnimal,
+        ac:Vertebrata .
+
+ac:FlatCoatedRetriever a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02099267" ;
+    ac:wdid wd:Q29200 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Formicidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:stingers,
+        ac:wings ;
+    ac:inid "n02219486" ;
+    ac:wdid wd:Q7386 ;
+    rdfs:subClassOf ac:Hymenoptera,
+        ac:Pterygota .
+
+ac:FoxSquirrel a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02356798" ;
+    ac:wdid wd:Q694296 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:FrenchBulldog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02108915" ;
+    ac:wdid wd:Q29149 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:FrillNeckedLizard a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01688243" ;
+    ac:wdid wd:Q501566 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:GaleocerdoCuvier a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:cartilaginousSkeleton,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:teeth ;
+    ac:inid "n01491361" ;
+    ac:wdid wd:Q188212 ;
+    rdfs:subClassOf ac:Shark .
+
+ac:Gallus a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01514859" ;
+    ac:wdid wd:Q222951 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Garrulus a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01580077" ;
+    ac:wdid wd:Q311248 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:GarterSnake a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01735189" ;
+    ac:wdid wd:Q1149509 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Gazella a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02423022" ;
+    ac:wdid wd:Q190858 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:GermanShepherd a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02106662" ;
+    ac:wdid wd:Q38280 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:GermanSpitz a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:curledTail,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:foxLikeFace,
+        ac:muzzle,
+        ac:paws,
+        ac:pointedEars,
+        ac:tail,
+        ac:tailCarriedOverTheBack,
+        ac:thickCoat,
+        ac:thickDoubleCoat,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Spitz .
+
+ac:GiantPanda a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02510455" ;
+    ac:wdid wd:Q33602 ;
+    rdfs:subClassOf ac:Caniformia,
+        ac:Ursidae .
+
+ac:GiantSchnauzer a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:beardedMuzzle,
+        ac:bredByHumans,
+        ac:bushyEyebrows,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:sturdyBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097130" ;
+    ac:wdid wd:Q38688 ;
+    rdfs:subClassOf ac:Schnauzer .
+
+ac:GilaMonster a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01692333" ;
+    ac:wdid wd:Q207058 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:GoldenRetriever a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02099601" ;
+    ac:wdid wd:Q38686 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Goldfish a rdfs:Class ;
+    ac:inid "n01443537" ;
+    ac:wdid wd:Q123141 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Goose a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:raisedForResources ;
+    ac:inid "n01855672" ;
+    ac:wdid wd:Q16529344 ;
+    rdfs:subClassOf ac:DomesticatedBird,
+        ac:ProductiveAnimal .
+
+ac:GordonSetter a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02101006" ;
+    ac:wdid wd:Q38301 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:GorillaGorilla a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02480855" ;
+    ac:wdid wd:Q737838 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:GrassSnake a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01729977" ;
+    ac:wdid wd:Q170713 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:GrayFox a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02120505" ;
+    ac:wdid wd:Q215250 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:GrayWhale a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02066245" ;
+    ac:wdid wd:Q179154 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:GreatBarracuda a rdfs:Class ;
+    ac:inid "n02514041" ;
+    ac:wdid wd:Q2306485 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:GreatDane a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02109047" ;
+    ac:wdid wd:Q5414 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:GreatGreyOwl a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01622779" ;
+    ac:wdid wd:Q200724 ;
+    rdfs:subClassOf ac:Strigidae .
+
+ac:GreatWhiteShark a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:cartilaginousSkeleton,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:teeth ;
+    ac:inid "n01484850" ;
+    ac:wdid wd:Q129026 ;
+    rdfs:subClassOf ac:Shark .
+
+ac:GreaterSwissMountainDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseDoubleCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:largeSize,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02107574" ;
+    ac:wdid wd:Q38121 ;
+    rdfs:subClassOf ac:SwissMountainDogs .
+
+ac:GreenIguana a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01677366" ;
+    ac:wdid wd:Q215376 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:GreyParrot a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01817953" ;
+    ac:wdid wd:Q220328 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:GriffonBruxellois a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02112706" ;
+    ac:wdid wd:Q38889 ;
+    rdfs:subClassOf ac:Smousje .
+
+ac:Groenendael a rdfs:Class ;
+    ac:hasMorphFeature ac:alertExpression,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:doubleCoat,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBody,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105056" ;
+    ac:wdid wd:Q38399 ;
+    rdfs:subClassOf ac:BelgianShepherd .
+
+ac:GromphadorhinaPortentosa a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02233338" ;
+    ac:wdid wd:Q1073729 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Gruidae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02012849" ;
+    ac:wdid wd:Q25365 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Guenon a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02484975" ;
+    ac:wdid wd:Q255571 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Hartebeest a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02422106" ;
+    ac:wdid wd:Q622880 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:HawksbillSeaTurtle a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01664065" ;
+    ac:wdid wd:Q203538 ;
+    rdfs:subClassOf ac:Turtle .
+
+ac:Hedgehog a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02346627" ;
+    ac:wdid wd:Q6120 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Herbivore a rdfs:Class ;
+    ac:hasMorphFeature ac:complexDigestiveSystem,
+        ac:incisorsForCroppingVegetation,
+        ac:plantEating ;
+    rdfs:subClassOf ac:Animal .
+
+ac:HermitCrab a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01986214" ;
+    ac:wdid wd:Q273291 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Herpestidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02137549" ;
+    ac:wdid wd:Q80479 ;
+    rdfs:subClassOf ac:Feliformia .
+
+ac:HippopotamusAmphibius a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02398521" ;
+    ac:wdid wd:Q34505 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:Holothuria a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:radialSymmetry,
+        ac:spinySkin,
+        ac:waterVascularSystem ;
+    ac:inid "n02321529" ;
+    ac:wdid wd:Q1408044 ;
+    rdfs:subClassOf ac:Echinodermata .
+
+ac:HomarusAmericanus a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01983481" ;
+    ac:wdid wd:Q37668 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Hornbill a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01829413" ;
+    ac:wdid wd:Q26773 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Hound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:keenSenseOfSmell,
+        ac:muzzle,
+        ac:paws,
+        ac:sleekBody,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:HouseCat a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:claws,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:variationsInSizeAndCoat,
+        ac:whiskers ;
+    rdfs:subClassOf ac:DomesticatedMammal,
+        ac:Pet .
+
+ac:HouseFinch a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01532829" ;
+    ac:wdid wd:Q374302 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Hummingbird a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01833805" ;
+    ac:wdid wd:Q43624 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:HuntingDog a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Hyaena a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02117135" ;
+    ac:wdid wd:Q42046 ;
+    rdfs:subClassOf ac:Feliformia .
+
+ac:Hydrophis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01751748" ;
+    ac:wdid wd:Q152504 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Hylobates a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02483362" ;
+    ac:wdid wd:Q878467 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Hymenoptera a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:stingers,
+        ac:wings ;
+    rdfs:subClassOf ac:Insect .
+
+ac:HypsiglenaTorquata a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01740131" ;
+    ac:wdid wd:Q922205 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:IbizanHound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:agileRunner,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:pointedEars,
+        ac:sharpTeeth,
+        ac:slimBuild,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091244" ;
+    ac:wdid wd:Q37755 ;
+    rdfs:subClassOf ac:Podenco .
+
+ac:Impala a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02422699" ;
+    ac:wdid wd:Q132576 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:IndianCobra a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01748264" ;
+    ac:wdid wd:Q192754 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:IndianElephant a rdfs:Class ;
+    ac:hasMorphFeature ac:largeEars,
+        ac:largeSize,
+        ac:prominentEars,
+        ac:trunk,
+        ac:trunkWithOneFingerLikeProjection,
+        ac:tusks ;
+    ac:inid "n02504013" ;
+    ac:wdid wd:Q591305 ;
+    rdfs:subClassOf ac:AsianElephant .
+
+ac:IndigoBunting a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01537544" ;
+    ac:wdid wd:Q1049642 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:IndriIndri a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02500267" ;
+    ac:wdid wd:Q203868 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Insect a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Invertebrate a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:noBackbone ;
+    rdfs:subClassOf ac:Animal .
+
+ac:IrishSetter a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02100877" ;
+    ac:wdid wd:Q38761 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:IrishTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093991" ;
+    ac:wdid wd:Q38644 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:IrishWaterSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02102973" ;
+    ac:wdid wd:Q38162 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:IrishWolfhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02090721" ;
+    ac:wdid wd:Q38668 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Isopoda a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01990800" ;
+    ac:wdid wd:Q206338 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:ItalianGreyhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091032" ;
+    ac:wdid wd:Q38503 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Ixodida a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01776313" ;
+    ac:wdid wd:Q10304508 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Jacamar a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01843065" ;
+    ac:wdid wd:Q212942 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Jaguar a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02128925" ;
+    ac:wdid wd:Q35694 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:JapaneseChin a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02085782" ;
+    ac:wdid wd:Q38146 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Junco a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01534433" ;
+    ac:wdid wd:Q857319 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Keeshond a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02112350" ;
+    ac:wdid wd:Q38843 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:KerryBlueTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093859" ;
+    ac:wdid wd:Q38025 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:KingPenguin a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02056570" ;
+    ac:wdid wd:Q182209 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:KitFox a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02119789" ;
+    ac:wdid wd:Q745751 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:Komondor a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105505" ;
+    ac:wdid wd:Q38675 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Kuvasz a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02104029" ;
+    ac:wdid wd:Q38467 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:LabradorRetriever a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02099712" ;
+    ac:wdid wd:Q38726 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:LacertaViridis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01693334" ;
+    ac:wdid wd:Q307047 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:LakelandTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02095570" ;
+    ac:wdid wd:Q38110 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:LamaGlama a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome ;
+    ac:inid "n02437616" ;
+    ac:wdid wd:Q42569 ;
+    rdfs:subClassOf ac:DomesticatedMammal .
+
+ac:Lampropeltis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01734418" ;
+    ac:wdid wd:Q1364033 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:LeafBeetle a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02169497" ;
+    ac:wdid wd:Q193407 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:LeatherbackSeaTurtle a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01665541" ;
+    ac:wdid wd:Q120043 ;
+    rdfs:subClassOf ac:Turtle .
+
+ac:LemurCatta a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02497673" ;
+    ac:wdid wd:Q185385 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Leonberger a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02111129" ;
+    ac:wdid wd:Q38487 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Leopard a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02128385" ;
+    ac:wdid wd:Q34706 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:LhasaApso a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02098413" ;
+    ac:wdid wd:Q38352 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Libellula a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02268443" ;
+    ac:wdid wd:Q312476 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Lion a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02129165" ;
+    ac:wdid wd:Q140 ;
+    rdfs:subClassOf ac:BigCat .
+
+ac:LissotritonVulgaris a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01630670" ;
+    ac:wdid wd:Q215247 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:LittleBlueHeron a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02009229" ;
+    ac:wdid wd:Q371028 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Loriini a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01820546" ;
+    ac:wdid wd:Q15274050 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Lutrinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02444819" ;
+    ac:wdid wd:Q200184 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:Lycaenidae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02281787" ;
+    ac:wdid wd:Q158717 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Macaca a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02487347" ;
+    ac:wdid wd:Q177601 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Macropodidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01877812" ;
+    ac:wdid wd:Q23193 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Maltese a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02085936" ;
+    ac:wdid wd:Q38751 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Mammal a rdfs:Class ;
+    rdfs:subClassOf ac:Vertebrate .
+
+ac:Mammals a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:MantisReligiosa a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02236044" ;
+    ac:wdid wd:Q268319 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:MarineMammal a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:flippers,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:streamlinedBody ;
+    rdfs:subClassOf ac:AquaticMammal .
+
+ac:Marmota a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02361337" ;
+    ac:wdid wd:Q131567 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Marsupial a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Mammals .
+
+ac:Medusozoa a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:polypOrMedusaBodyForm,
+        ac:radialSymmetry,
+        ac:tentacles ;
+    ac:inid "n01910747" ;
+    ac:wdid wd:Q6596143 ;
+    rdfs:subClassOf ac:Cnidaria .
+
+ac:Meerkat a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02138441" ;
+    ac:wdid wd:Q134015 ;
+    rdfs:subClassOf ac:Feliformia .
+
+ac:Meropidae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01828970" ;
+    ac:wdid wd:Q183147 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:MexicanHairlessDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02113978" ;
+    ac:wdid wd:Q38856 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:MiniaturePinscher a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02107312" ;
+    ac:wdid wd:Q38990 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:MiniatureSchnauzer a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:beardedMuzzle,
+        ac:bredByHumans,
+        ac:bushyEyebrows,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:sturdyBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097047" ;
+    ac:wdid wd:Q38999 ;
+    rdfs:subClassOf ac:Schnauzer .
+
+ac:Mink a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02442845" ;
+    ac:wdid wd:Q17700 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:MorimusFunereus a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02168699" ;
+    ac:wdid wd:Q1030028 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:MorphFeature a rdfs:Class .
+
+ac:MudTurtle a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01667114" ;
+    ac:wdid wd:Q2500468 ;
+    rdfs:subClassOf ac:Turtle .
+
+ac:Muroidea a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Myomorpha .
+
+ac:MustelaNigripes a rdfs:Class ;
+    ac:hasMorphFeature ac:claws,
+        ac:meatEating,
+        ac:sharpTeeth ;
+    ac:inid "n02443484" ;
+    ac:wdid wd:Q402885 ;
+    rdfs:subClassOf ac:Carnivore .
+
+ac:MustelaNivalis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02441942" ;
+    ac:wdid wd:Q25311 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:MustelaPutorius a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02443114" ;
+    ac:wdid wd:Q26582 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:Mustelinae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02445715" ;
+    ac:wdid wd:Q27888 ;
+    rdfs:subClassOf ac:Caniformia .
+
+ac:Myomorpha a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:NewfoundlandDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02111277" ;
+    ac:wdid wd:Q38706 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:NileCrocodile a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01697457" ;
+    ac:wdid wd:Q168745 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:NorfolkTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02094114" ;
+    ac:wdid wd:Q38940 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:NorwegianElkhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091467" ;
+    ac:wdid wd:Q38803 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:NorwichTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02094258" ;
+    ac:wdid wd:Q38934 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:OddToedUngulate a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Mammals .
+
+ac:Odontoceti a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:blowhole,
+        ac:flippers,
+        ac:flukesForPropulsion,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:streamlinedBodies,
+        ac:streamlinedBody,
+        ac:toothedWhales ;
+    rdfs:subClassOf ac:Whale .
+
+ac:OldEnglishSheepdog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105641" ;
+    ac:wdid wd:Q37704 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Opiliones a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01770081" ;
+    ac:wdid wd:Q19116 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Orangutan a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02480495" ;
+    ac:wdid wd:Q41050 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Orca a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:blowhole,
+        ac:flippers,
+        ac:flukesForPropulsion,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:streamlinedBodies,
+        ac:streamlinedBody,
+        ac:toothedWhales ;
+    ac:inid "n02071294" ;
+    ac:wdid wd:Q26843 ;
+    rdfs:subClassOf ac:Odontoceti .
+
+ac:Orthoptera a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02226429" ;
+    ac:wdid wd:Q167810 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:OryctesAgamemnon a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02174001" ;
+    ac:wdid wd:Q14867782 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Otididae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02018795" ;
+    ac:wdid wd:Q21755 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Otterhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091635" ;
+    ac:wdid wd:Q38922 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Ox a rdfs:Class ;
+    ac:inid "n02403003" ;
+    ac:wdid wd:Q473194 ;
+    rdfs:subClassOf ac:CastratedCreature .
+
+ac:PacificSalmon a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fattyFins,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:streamlinedBody ;
+    rdfs:subClassOf ac:Salmon .
+
+ac:Palinuridae a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01984695" ;
+    ac:wdid wd:Q916760 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:PantheraUncia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02128757" ;
+    ac:wdid wd:Q30197 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:Papillon a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02086910" ;
+    ac:wdid wd:Q38115 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Papio a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02486410" ;
+    ac:wdid wd:Q159429 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:ParalithodesCamtschaticus a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01981276" ;
+    ac:wdid wd:Q721171 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Partridge a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:beak,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:featheredBodies,
+        ac:wings ;
+    ac:inid "n01807496" ;
+    ac:wdid wd:Q732775 ;
+    rdfs:subClassOf ac:Poultry .
+
+ac:PatasMonkey a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02486261" ;
+    ac:wdid wd:Q504496 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Peafowl a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01806143" ;
+    ac:wdid wd:Q201251 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Pekingese a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02086079" ;
+    ac:wdid wd:Q38959 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Pelecanus a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02051845" ;
+    ac:wdid wd:Q19413 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:PembrokeWelshCorgi a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02113023" ;
+    ac:wdid wd:Q38783 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Pet a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:DomesticatedAnimal .
+
+ac:PhacochoerusAfricanus a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02397096" ;
+    ac:wdid wd:Q183255 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:Phascolarctidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01882714" ;
+    ac:wdid wd:Q431978 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Phasmatodea a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02231487" ;
+    ac:wdid wd:Q188029 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:PhoebisSennae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02281406" ;
+    ac:wdid wd:Q2710909 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Pica a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01582220" ;
+    ac:wdid wd:Q271634 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:PierisRapae a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02280649" ;
+    ac:wdid wd:Q27653 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:Pig a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:raisedForResources ;
+    ac:inid "n02395406" ;
+    ac:wdid wd:Q787 ;
+    rdfs:subClassOf ac:DomesticatedMammal,
+        ac:ProductiveAnimal .
+
+ac:Pinnipedia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Mammals .
+
+ac:Placentalia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Platyhelminthes a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone ;
+    ac:inid "n01924916" ;
+    ac:wdid wd:Q124900 ;
+    rdfs:subClassOf ac:Invertebrate .
+
+ac:Platypus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01873310" ;
+    ac:wdid wd:Q15343 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Podenco a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:agileRunner,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:pointedEars,
+        ac:sharpTeeth,
+        ac:slimBuild,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:HuntingDog .
+
+ac:Poecile a rdfs:Class ;
+    ac:hasMorphFeature ac:agileFlight,
+        ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:shortBeak,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    rdfs:subClassOf ac:Birds .
+
+ac:PolarBear a rdfs:Class ;
+    ac:inid "n02134084" ;
+    ac:wdid wd:Q33609 ;
+    rdfs:subClassOf ac:Bear .
+
+ac:Pomeranian a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:curledTail,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:foxLikeFace,
+        ac:muzzle,
+        ac:paws,
+        ac:pointedEars,
+        ac:tail,
+        ac:tailCarriedOverTheBack,
+        ac:thickCoat,
+        ac:thickDoubleCoat,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02112018" ;
+    ac:wdid wd:Q39579 ;
+    rdfs:subClassOf ac:GermanSpitz .
+
+ac:Poodle a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02113799" ;
+    ac:wdid wd:Q38904 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Poultry a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:featheredBodies ;
+    rdfs:subClassOf ac:DomesticatedBird .
+
+ac:ProboscisMonkey a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02489166" ;
+    ac:wdid wd:Q192029 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:ProductiveAnimal a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:raisedForResources ;
+    rdfs:subClassOf ac:CaptiveAnimal,
+        ac:DomesticatedAnimal .
+
+ac:Pterois a rdfs:Class ;
+    ac:inid "n02643566" ;
+    ac:wdid wd:Q475711 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Pterygota a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    rdfs:subClassOf ac:Insect .
+
+ac:Pug a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110958" ;
+    ac:wdid wd:Q38698 ;
+    rdfs:subClassOf ac:ToyDog .
+
+ac:PurpleSwamphen a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02017213" ;
+    ac:wdid wd:Q187902 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Pycnonotidae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01560419" ;
+    ac:wdid wd:Q188854 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:PyreneanMountainDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02111500" ;
+    ac:wdid wd:Q37803 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:PythonSebae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01744401" ;
+    ac:wdid wd:Q764797 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Quadruped a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Quail a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:raisedForResources ;
+    ac:inid "n01806567" ;
+    ac:wdid wd:Q6072584 ;
+    rdfs:subClassOf ac:ProductiveAnimal .
+
+ac:Rabbit a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:domesticationSyndrome,
+        ac:hoppingGait,
+        ac:incisors,
+        ac:longEars ;
+    rdfs:subClassOf ac:DomesticatedMammal .
+
+ac:Ram a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:complexDigestiveSystem,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:hooves,
+        ac:horns,
+        ac:incisorsForCroppingVegetation,
+        ac:plantEating,
+        ac:raisedForResources,
+        ac:wool ;
+    ac:inid "n02412080" ;
+    ac:wdid wd:Q2929800 ;
+    rdfs:subClassOf ac:Sheep .
+
+ac:Ramphastidae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01843383" ;
+    ac:wdid wd:Q1325045 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:RedBreastedMerganser a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01855032" ;
+    ac:wdid wd:Q189609 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:RedFox a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02119022" ;
+    ac:wdid wd:Q8332 ;
+    rdfs:subClassOf ac:Canidae .
+
+ac:RedboneCoonhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02090379" ;
+    ac:wdid wd:Q38820 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Reptilia a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:RhodesianRidgeback a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:athleticBuild,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02087394" ;
+    ac:wdid wd:Q39026 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:RingNeckedSnake a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01728920" ;
+    ac:wdid wd:Q2704229 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:RockBeauty a rdfs:Class ;
+    ac:inid "n02606052" ;
+    ac:wdid wd:Q729897 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:RockPtarmigan a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01796340" ;
+    ac:wdid wd:Q205930 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Rooster a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:beak,
+        ac:bredByHumans,
+        ac:comb,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:featheredBodies,
+        ac:feathers,
+        ac:highYieldOfProducts,
+        ac:raisedForResources,
+        ac:wings ;
+    ac:inid "n01514668" ;
+    ac:wdid wd:Q2216236 ;
+    rdfs:subClassOf ac:Chicken .
+
+ac:Rottweiler a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02106550" ;
+    ac:wdid wd:Q39093 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:RuddyTurnstone a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02025239" ;
+    ac:wdid wd:Q26892 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:RuffedGrouse a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01797886" ;
+    ac:wdid wd:Q19058 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Saimiri a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02494079" ;
+    ac:wdid wd:Q309200 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Salmon a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:fattyFins,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales ;
+    rdfs:subClassOf ac:Fish .
+
+ac:Saluki a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091831" ;
+    ac:wdid wd:Q39108 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Samoyed a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02111889" ;
+    ac:wdid wd:Q39002 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:ScarabaeusCristatus a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02172182" ;
+    ac:wdid wd:Q14891382 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:ScentHound a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:keenSenseOfSmell,
+        ac:longEars,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:sleekBody,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02088466" ;
+    ac:wdid wd:Q39401 ;
+    rdfs:subClassOf ac:Hound,
+        ac:HuntingDog .
+
+ac:Schipperke a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02104365" ;
+    ac:wdid wd:Q39010 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Schnauzer a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:beardedMuzzle,
+        ac:bredByHumans,
+        ac:bushyEyebrows,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:sturdyBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Terrier .
+
+ac:Scorpion a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01770393" ;
+    ac:wdid wd:Q19125 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:ScottishDeerhound a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02092002" ;
+    ac:wdid wd:Q37929 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:ScottishTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097298" ;
+    ac:wdid wd:Q39035 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SeaSlug a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone ;
+    ac:inid "n01950731" ;
+    ac:wdid wd:Q7440127 ;
+    rdfs:subClassOf ac:Invertebrate .
+
+ac:SeaUrchin a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:radialSymmetry,
+        ac:spinySkin,
+        ac:waterVascularSystem ;
+    ac:inid "n02319095" ;
+    ac:wdid wd:Q83483 ;
+    rdfs:subClassOf ac:Echinodermata .
+
+ac:SealyhamTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02095889" ;
+    ac:wdid wd:Q39068 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Shark a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:cartilaginousSkeleton,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales ;
+    rdfs:subClassOf ac:Fish .
+
+ac:Sheep a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:complexDigestiveSystem,
+        ac:domesticationSyndrome,
+        ac:domesticationTraits,
+        ac:highYieldOfProducts,
+        ac:hooves,
+        ac:horns,
+        ac:incisorsForCroppingVegetation,
+        ac:plantEating,
+        ac:raisedForResources,
+        ac:wool ;
+    rdfs:subClassOf ac:DomesticatedMammal,
+        ac:Herbivore,
+        ac:ProductiveAnimal .
+
+ac:ShetlandSheepdog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02105855" ;
+    ac:wdid wd:Q39058 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:ShihTzu a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02086240" ;
+    ac:wdid wd:Q39357 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SiberianHusky a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02110185" ;
+    ac:wdid wd:Q39295 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SlothBear a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02134418" ;
+    ac:wdid wd:Q145016 ;
+    rdfs:subClassOf ac:Caniformia,
+        ac:Ursidae .
+
+ac:SmoothHammerhead a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:cartilaginousSkeleton,
+        ac:fins,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:scales,
+        ac:teeth ;
+    ac:inid "n01494475" ;
+    ac:wdid wd:Q726259 ;
+    rdfs:subClassOf ac:Shark .
+
+ac:Smousje a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:ToyDog .
+
+ac:Snail a rdfs:Class ;
+    ac:inid "n01944390" ;
+    ac:wdid wd:Q308841 ;
+    rdfs:subClassOf ac:Gastropoda .
+
+ac:SoftCoatedWheatenTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02098105" ;
+    ac:wdid wd:Q38047 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SouthAmericanSeaLion a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02077923" ;
+    ac:wdid wd:Q333649 ;
+    rdfs:subClassOf ac:Caniformia,
+        ac:Pinnipedia .
+
+ac:Spitz a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:tailCarriedOverTheBack,
+        ac:thickDoubleCoat,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:St.Bernard a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02109525" ;
+    ac:wdid wd:Q38090 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:StaffordshireBullTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02093256" ;
+    ac:wdid wd:Q39285 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:StandardSchnauzer a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:beardedMuzzle,
+        ac:bredByHumans,
+        ac:bushyEyebrows,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:sturdyBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097209" ;
+    ac:wdid wd:Q39605 ;
+    rdfs:subClassOf ac:Schnauzer .
+
+ac:Starfish a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:noBackbone,
+        ac:radialSymmetry,
+        ac:spinySkin,
+        ac:waterVascularSystem ;
+    ac:inid "n02317335" ;
+    ac:wdid wd:Q25349 ;
+    rdfs:subClassOf ac:Echinodermata .
+
+ac:Strigidae a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    rdfs:subClassOf ac:Strigiformes .
+
+ac:Strigiformes a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    rdfs:subClassOf ac:Birds .
+
+ac:Struthio a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01518878" ;
+    ac:wdid wd:Q2576337 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:SulphurCrestedCockatoo a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01819313" ;
+    ac:wdid wd:Q207107 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:SusScrofa a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02396427" ;
+    ac:wdid wd:Q58697 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:SussexSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02102480" ;
+    ac:wdid wd:Q39138 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SwissMountainDogs a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseDoubleCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:strongBuild,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:SymphalangusSyndactylus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02483708" ;
+    ac:wdid wd:Q213889 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:TabbyCat a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:claws,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:tail,
+        ac:variationsInSizeAndCoat,
+        ac:whiskers ;
+    ac:inid "n02123045" ;
+    ac:wdid wd:Q1474329 ;
+    rdfs:subClassOf ac:HouseCat .
+
+ac:Tachyglossidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01872401" ;
+    ac:wdid wd:Q21824 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:TailedFrog a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01644900" ;
+    ac:wdid wd:Q2925426 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:Teiidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01685808" ;
+    ac:wdid wd:Q827111 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Tench a rdfs:Class ;
+    ac:inid "n01440764" ;
+    ac:wdid wd:Q76280 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Terrapin a rdfs:Class ;
+    ac:hasMorphFeature ac:beakLikeMouth,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:protectiveShell,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01667778" ;
+    ac:wdid wd:Q7703292 ;
+    rdfs:subClassOf ac:Testudinoidea .
+
+ac:Terrier a rdfs:Class ;
+    ac:hasMorphFeature ac:agileBody,
+        ac:alertExpression,
+        ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:denseCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:sharpTeeth,
+        ac:smallSize,
+        ac:strongJaws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:HuntingDog .
+
+ac:Testudinoidea a rdfs:Class ;
+    ac:hasMorphFeature ac:beakLikeMouth,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:protectiveShell,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Turtle .
+
+ac:Tetraodontidae a rdfs:Class ;
+    ac:inid "n02655020" ;
+    ac:wdid wd:Q201701 ;
+    rdfs:subClassOf ac:Vertebrata .
+
+ac:Tetrapoda a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Quadruped,
+        ac:Vertebrata .
+
+ac:Theraphosidae a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01774750" ;
+    ac:wdid wd:Q213383 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Theropod a rdfs:Class ;
+    ac:hasMorphFeature ac:claws,
+        ac:scales,
+        ac:teeth ;
+    rdfs:subClassOf ac:Dinosaur .
+
+ac:ThreeToedSloth a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02457408" ;
+    ac:wdid wd:Q185167 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:TibetanMastiff a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02108551" ;
+    ac:wdid wd:Q39322 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:TibetanTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02097474" ;
+    ac:wdid wd:Q38796 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Tiger a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02129604" ;
+    ac:wdid wd:Q19939 ;
+    rdfs:subClassOf ac:Felidae .
+
+ac:TigerQuoll a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02123159" ;
+    ac:wdid wd:Q194526 ;
+    rdfs:subClassOf ac:Marsupial .
+
+ac:Torpedo a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:electricOrgans,
+        ac:fins,
+        ac:flatBody,
+        ac:gills,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:pectoralFins,
+        ac:scales,
+        ac:specializedCells ;
+    ac:inid "n01496331" ;
+    ac:wdid wd:Q206675 ;
+    rdfs:subClassOf ac:ElectricRay .
+
+ac:ToyDog a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    rdfs:subClassOf ac:Dog .
+
+ac:ToyPoodle a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:athleticBuild,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:curlyCoat,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:elegant,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02113624" ;
+    ac:wdid wd:Q11831662 ;
+    rdfs:subClassOf ac:Poodle .
+
+ac:TreeFrog a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:gillsOrLungs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:moistSkin,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:webbedFeet ;
+    ac:inid "n01644373" ;
+    ac:wdid wd:Q1144302 ;
+    rdfs:subClassOf ac:Amphibia .
+
+ac:Triceratops a rdfs:Class ;
+    ac:hasMorphFeature ac:claws,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01704323" ;
+    ac:wdid wd:Q14384 ;
+    rdfs:subClassOf ac:Dinosaur,
+        ac:Tetrapoda .
+
+ac:Trilobita a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01768244" ;
+    ac:wdid wd:Q17170 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Turtle a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Turtles .
+
+ac:Turtles a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Reptilia .
+
+ac:Tympanuchus a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01798484" ;
+    ac:wdid wd:Q1463540 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:UcaAnnulipes a rdfs:Class ;
+    ac:hasMorphFeature ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody ;
+    ac:inid "n01980166" ;
+    ac:wdid wd:Q14510079 ;
+    rdfs:subClassOf ac:Arthropoda .
+
+ac:Ungulate a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Ursidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    rdfs:subClassOf ac:Carnivora .
+
+ac:UrsusAmericanus a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02133161" ;
+    ac:wdid wd:Q122783 ;
+    rdfs:subClassOf ac:Caniformia,
+        ac:Ursidae .
+
+ac:VaranusKomodoensis a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01695060" ;
+    ac:wdid wd:Q4504 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Vertebrata a rdfs:Class ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Vertebrate a rdfs:Class ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Vizsla a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02100583" ;
+    ac:wdid wd:Q38819 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Vombatidae a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n01883070" ;
+    ac:wdid wd:Q23175 ;
+    rdfs:subClassOf ac:Tetrapoda .
+
+ac:Vulture a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01616318" ;
+    ac:wdid wd:Q123120 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:WaterBuffalo a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForRunning,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:herbivorous,
+        ac:hooves,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02408429" ;
+    ac:wdid wd:Q42710 ;
+    rdfs:subClassOf ac:Ungulate .
+
+ac:Weimaraner a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02092339" ;
+    ac:wdid wd:Q38965 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:WelshSpringerSpaniel a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02102177" ;
+    ac:wdid wd:Q39047 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:WestHighlandWhiteTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02098286" ;
+    ac:wdid wd:Q17510 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Whale a rdfs:Class ;
+    ac:hasMorphFeature ac:adaptedForUnderwaterLocomotion,
+        ac:aquaticAdaptation,
+        ac:flippers,
+        ac:flukesForPropulsion,
+        ac:gillsOrLungs,
+        ac:livesInWater,
+        ac:streamlinedBody ;
+    rdfs:subClassOf ac:MarineMammal .
+
+ac:Whippet a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02091134" ;
+    ac:wdid wd:Q39122 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:WhiteStork a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n02002556" ;
+    ac:wdid wd:Q25352 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:WhiteThroatedDipper a rdfs:Class ;
+    ac:hasMorphFeature ac:beak,
+        ac:claws,
+        ac:feathers,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:scales,
+        ac:teeth,
+        ac:vertebralColumn,
+        ac:walksOnAllFours,
+        ac:wings ;
+    ac:inid "n01601694" ;
+    ac:wdid wd:Q201831 ;
+    rdfs:subClassOf ac:Birds .
+
+ac:WildAnimal a rdfs:Class ;
+    rdfs:subClassOf ac:Animal .
+
+ac:Wolf a rdfs:Class ;
+    ac:hasMorphFeature ac:denseFur,
+        ac:fourLegged,
+        ac:fourLimbs,
+        ac:largeAndPredatoryBuild,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02114367" ;
+    ac:wdid wd:Q18498 ;
+    rdfs:subClassOf ac:Canis .
+
+ac:YorkshireTerrier a rdfs:Class ;
+    ac:hasMorphFeature ac:alteredTraits,
+        ac:bredByHumans,
+        ac:companionship,
+        ac:domesticated,
+        ac:domesticationSyndrome,
+        ac:muzzle,
+        ac:paws,
+        ac:tail,
+        ac:variationsInSizeAndCoat ;
+    ac:inid "n02094433" ;
+    ac:wdid wd:Q39330 ;
+    rdfs:subClassOf ac:Dog .
+
+ac:Zebra a rdfs:Class ;
+    ac:hasMorphFeature ac:fourLegged,
+        ac:fourLimbs,
+        ac:limbsAdaptedForDifferentPurposes,
+        ac:lungs,
+        ac:vertebralColumn,
+        ac:walksOnAllFours ;
+    ac:inid "n02391049" ;
+    ac:wdid wd:Q32789 ;
+    rdfs:subClassOf ac:OddToedUngulate .
+
+ac:Zygoptera a rdfs:Class ;
+    ac:hasMorphFeature ac:antennae,
+        ac:diverseBodyForms,
+        ac:exoskeleton,
+        ac:jointedAppendages,
+        ac:noBackbone,
+        ac:segmentedBody,
+        ac:sixLegs,
+        ac:wings ;
+    ac:inid "n02268853" ;
+    ac:wdid wd:Q230502 ;
+    rdfs:subClassOf ac:Pterygota .
+
+ac:difficult a rdf:Property .
+
+ac:hasMorphFeature a rdf:Property ;
+    rdfs:range ac:MorphFeature .
+
+ac:height a rdf:Property ;
+    rdfs:domain ac:size ;
+    rdfs:range xsd:positiveInteger .
+
+ac:inid a rdf:Property ;
+    rdfs:range xsd:string .
+
+ac:pose a rdf:Property .
+
+ac:truncated a rdf:Property .
+
+ac:wdid a rdf:Property .
+
+ac:width a rdf:Property ;
+    rdfs:domain ac:size ;
+    rdfs:range xsd:positiveInteger .
+
+ac:xMax a rdf:Property ;
+    rdfs:domain ac:boundingBox ;
+    rdfs:range xsd:nonNegativeInteger .
+
+ac:xMin a rdf:Property ;
+    rdfs:domain ac:boundingBox ;
+    rdfs:range xsd:nonNegativeInteger .
+
+ac:yMax a rdf:Property ;
+    rdfs:domain ac:boundingBox ;
+    rdfs:range xsd:nonNegativeInteger .
+
+ac:yMin a rdf:Property ;
+    rdfs:domain ac:boundingBox ;
+    rdfs:range xsd:nonNegativeInteger .
+
+ac:agileFlight a ac:MorphFeature .
+
+ac:agileRunner a ac:MorphFeature .
+
+ac:athleticBuild a ac:MorphFeature .
+
+ac:beakLikeMouth a ac:MorphFeature .
+
+ac:blowhole a ac:MorphFeature .
+
+ac:comb a ac:MorphFeature .
+
+ac:curledTail a ac:MorphFeature .
+
+ac:curlyCoat a ac:MorphFeature .
+
+ac:electricOrgans a ac:MorphFeature .
+
+ac:elegant a ac:MorphFeature .
+
+ac:fastRunning a ac:MorphFeature .
+
+ac:flatBody a ac:MorphFeature .
+
+ac:flattenedBody a ac:MorphFeature .
+
+ac:foxLikeFace a ac:MorphFeature .
+
+ac:hindLegsForHopping a ac:MorphFeature .
+
+ac:horns a ac:MorphFeature .
+
+ac:hump a ac:MorphFeature .
+
+ac:longAntennae a ac:MorphFeature .
+
+ac:longNeck a ac:MorphFeature .
+
+ac:meatEating a ac:MorphFeature .
+
+ac:pectoralFins a ac:MorphFeature .
+
+ac:prominentEars a ac:MorphFeature .
+
+ac:protectiveShell a ac:MorphFeature .
+
+ac:shortBeak a ac:MorphFeature .
+
+ac:size a rdf:Property .
+
+ac:slimBuild a ac:MorphFeature .
+
+ac:softFur a ac:MorphFeature .
+
+ac:streamlinedBodies a ac:MorphFeature .
+
+ac:thickCoat a ac:MorphFeature .
+
+ac:toothedWhales a ac:MorphFeature .
+
+ac:trunkWithOneFingerLikeProjection a ac:MorphFeature .
+
+ac:whiskers a ac:MorphFeature .
+
+ac:wool a ac:MorphFeature .
+
+ac:complexDigestiveSystem a ac:MorphFeature .
+
+ac:deepVoice a ac:MorphFeature .
+
+ac:doubleCoat a ac:MorphFeature .
+
+ac:fattyFins a ac:MorphFeature .
+
+ac:flukesForPropulsion a ac:MorphFeature .
+
+ac:hoppingGait a ac:MorphFeature .
+
+ac:incisors a ac:MorphFeature .
+
+ac:incisorsForCroppingVegetation a ac:MorphFeature .
+
+ac:plantEating a ac:MorphFeature .
+
+ac:scentHound a ac:MorphFeature .
+
+ac:specializedCells a ac:MorphFeature .
+
+ac:stingers a ac:MorphFeature .
+
+ac:strongBody a ac:MorphFeature .
+
+ac:tailCarriedOverTheBack a ac:MorphFeature .
+
+ac:thickDoubleCoat a ac:MorphFeature .
+
+ac:beardedMuzzle a ac:MorphFeature .
+
+ac:boundingBox a rdf:Property .
+
+ac:bushyEyebrows a ac:MorphFeature .
+
+ac:cartilaginousSkeleton a ac:MorphFeature .
+
+ac:denseFur a ac:MorphFeature .
+
+ac:distinctiveBreedTraits a ac:MorphFeature .
+
+ac:featheredBodies a ac:MorphFeature .
+
+ac:flippers a ac:MorphFeature .
+
+ac:largeAndPredatoryBuild a ac:MorphFeature .
+
+ac:largeEars a ac:MorphFeature .
+
+ac:physicalConformation a ac:MorphFeature .
+
+ac:pointedEars a ac:MorphFeature .
+
+ac:polypOrMedusaBodyForm a ac:MorphFeature .
+
+ac:spinySkin a ac:MorphFeature .
+
+ac:sturdyBuild a ac:MorphFeature .
+
+ac:tentacles a ac:MorphFeature .
+
+ac:trunk a ac:MorphFeature .
+
+ac:tusks a ac:MorphFeature .
+
+ac:waterVascularSystem a ac:MorphFeature .
+
+ac:denseDoubleCoat a ac:MorphFeature .
+
+ac:keenSenseOfSmell a ac:MorphFeature .
+
+ac:sleekBody a ac:MorphFeature .
+
+ac:strongBuild a ac:MorphFeature .
+
+ac:aquaticAdaptation a ac:MorphFeature .
+
+ac:denseCoat a ac:MorphFeature .
+
+ac:largeSize a ac:MorphFeature .
+
+ac:streamlinedBody a ac:MorphFeature .
+
+ac:longEars a ac:MorphFeature .
+
+ac:radialSymmetry a ac:MorphFeature .
+
+ac:smallSize a ac:MorphFeature .
+
+ac:alertExpression a ac:MorphFeature .
+
+ac:domesticationTraits a ac:MorphFeature .
+
+ac:highYieldOfProducts a ac:MorphFeature .
+
+ac:moistSkin a ac:MorphFeature .
+
+ac:raisedForResources a ac:MorphFeature .
+
+ac:webbedFeet a ac:MorphFeature .
+
+ac:fins a ac:MorphFeature .
+
+ac:gills a ac:MorphFeature .
+
+ac:adaptedForRunning a ac:MorphFeature .
+
+ac:herbivorous a ac:MorphFeature .
+
+ac:agileBody a ac:MorphFeature .
+
+ac:hooves a ac:MorphFeature .
+
+ac:strongJaws a ac:MorphFeature .
+
+ac:sharpTeeth a ac:MorphFeature .
+
+ac:adaptedForUnderwaterLocomotion a ac:MorphFeature .
+
+ac:livesInWater a ac:MorphFeature .
+
+ac:gillsOrLungs a ac:MorphFeature .
+
+ac:antennae a ac:MorphFeature .
+
+ac:sixLegs a ac:MorphFeature .
+
+ac:jointedAppendages a ac:MorphFeature .
+
+ac:segmentedBody a ac:MorphFeature .
+
+ac:feathers a ac:MorphFeature .
+
+ac:beak a ac:MorphFeature .
+
+ac:exoskeleton a ac:MorphFeature .
+
+ac:claws a ac:MorphFeature .
+
+ac:diverseBodyForms a ac:MorphFeature .
+
+ac:noBackbone a ac:MorphFeature .
+
+ac:teeth a ac:MorphFeature .
+
+ac:scales a ac:MorphFeature .
+
+ac:wings a ac:MorphFeature .
+
+ac:muzzle a ac:MorphFeature .
+
+ac:paws a ac:MorphFeature .
+
+ac:tail a ac:MorphFeature .
+
+ac:companionship a ac:MorphFeature .
+
+ac:domesticated a ac:MorphFeature .
+
+ac:variationsInSizeAndCoat a ac:MorphFeature .
+
+ac:alteredTraits a ac:MorphFeature .
+
+ac:bredByHumans a ac:MorphFeature .
+
+ac:domesticationSyndrome a ac:MorphFeature .
+
+ac:fourLimbs a ac:MorphFeature .
+
+ac:lungs a ac:MorphFeature .
+
+ac:vertebralColumn a ac:MorphFeature .
+
+ac:fourLegged a ac:MorphFeature .
+
+ac:limbsAdaptedForDifferentPurposes a ac:MorphFeature .
+
+ac:walksOnAllFours a ac:MorphFeature .
+
