@@ -6,3 +6,4 @@ Data/Images/**
 Data/Annotations/**
 *.ttl
 !*structure.ttl
+README.pdf

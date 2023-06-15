@@ -23,19 +23,20 @@ def full_commented_pipeline():
     synsets = sm.get_synset_full_mapping()
     sm.remap_common_name_of(synsets)
 
-    # 4 : All the label of each WikiData object
-    sm.set_all_labels()
-
     # B : Build Animal graph structure
-    # Using WikiData's SubClassOf and ParentTaxon properties, create a tree with as root the Animal class and as leaves the objects WikiData objects of our synsets
-    
-    ## 1 : Set the patterns to the Animal class for all the objects
+    # Using WikiData's SubClassOf and ParentTaxon properties, create a tree with as root the Animal class and as leaves the WikiData objects of our synsets
+
+    ## 1 : Set the label of each WikiData object
+    # For more clarity, the graph is built using the labels of the objects instead of their ID
+    sm.set_all_labels()        
+
+    ## 2 : Set the patterns to the Animal class for all the objects
     # There are 4 distinct patterns : subclass, taxon, subclass_instance and subclass_taxon_subclass
     # Not animal synsets get a None value, which allows us to identify the animal an not animal synsets 
     # Has to be ran multiple times for API limitation reasons 
     ag.set_all_animal_pattern()
-    
-    ## 2 : Generate the graph Arcs
+
+    ## 3 : Generate the graph Arcs
     # Create a CSV file containing two columns, parent and child, and their label, at path Data/KaggleChallenge/graph_arcs.csv
     # Also has to run multiple times for API limitation reasons
     ag.create_graph_arcs(ag.get_animal_mapping())
@@ -60,7 +61,7 @@ def full_commented_pipeline():
     ### a : Download the file from Kaggle
     # 1) Go to https://www.kaggle.com/competitions/imagenet-object-localization-challenge/rules and accept the rules
     # 2) Go to https://www.kaggle.com/settings/account and generate an API token
-    # 3) Place the generated kaggle.json file in this diectory
+    # 3) Place the generated kaggle.json file in this directory
     # 4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge  
     
     ### b : Unzip the Animal resources to 'Data/Annotations' and 'Data/Images' directories 
