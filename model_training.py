@@ -2,6 +2,7 @@ from ontology import ONTOLOGY_IRI, get_ontology, IMAGES_TEST_PATH, IMAGES_TRAIN_
 from rdflib import Graph, Namespace
 from rdflib.namespace import RDFS, RDF
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.neural_network import MLPClassifier
 from sklearn.base import BaseEstimator
 from pandas import DataFrame, Series, read_csv
 import cv2
@@ -26,9 +27,9 @@ def image_recognition_model(
         features_prediction_file_path (str, optional): Path of the file to save the features prediction Dataframe into. 
             Defaults to FEATURES_PREDICTION_FILE_PATH.
         animal_classifier (BaseEstimator, optional): Classifier used to train and evaluate the model. 
-            Defaults to RandomForestClassifier.
+            Defaults to MLPClassifier.
         morph_features_prediction_classifier (BaseEstimator, optional): Classifier used to predict the morphological features of the test images. 
-            Defaults to RandomForestClassifier.
+            Defaults to MLPClassifier.
     """
     ontology = get_ontology(ontology_file_path)
     ac = Namespace(ONTOLOGY_IRI)
@@ -65,7 +66,7 @@ def image_recognition_model(
         x_test_morph_features = read_csv(features_prediction_file_path)
 
     if not animal_classifier:
-        animal_classifier = RandomForestClassifier()
+        animal_classifier = MLPClassifier(max_iter=1000, solver='lbfgs', alpha=1e-5)
     print('Training model...', end='')
     animal_classifier.fit(x_morph_features, y_morph_features)
     print('Done')
@@ -171,7 +172,7 @@ def predict_all_columns_df(x_to_predict:DataFrame,
         if train_val not in from_uniques:
             raise ValueError('Target "y_train" contains a value ('+train_val+') which is not in the "y_from_predict" target')
     if not classifier:
-        classifier = RandomForestClassifier()
+        classifier = MLPClassifier(max_iter=1000, solver='lbfgs', alpha=1e-5)
     predicted_df = DataFrame()
     progress_bar = tqdm(x_from_predict.columns)
     for column in progress_bar:
