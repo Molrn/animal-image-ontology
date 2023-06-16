@@ -166,7 +166,7 @@ Populating the ontology starts by downloading the images dataset. To do so:
 1. Go to the [challenge rules page](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/rules) and accept the rules
 1. Go to [your account page](https://www.kaggle.com/settings/account) and generate an API token
 1. Place the generated kaggle.json file in the directory of the project
-1. execute this command: `kaggle competitions download -c imagenet-object-localization-challenge`  
+1. Execute this command: `kaggle competitions download -c imagenet-object-localization-challenge`  
     
 Once the zip file is downloaded, the program unzips the resources of the animals in the ontology, and splits the resources into a testing and a training dataset. The ontology will be populated with the training dataset, while the testing one will be used to evaluate the performances of the model. Considering the amount of resources available, 1% of the resources being used for testing is considered to be enough.  
 
@@ -213,10 +213,10 @@ On the POC dataset, this method isn't that efficient, and has a 0.80 accuracy, w
 - The intermediate predicted dataset generates some noise
 - As there are very few animal classes in the POC dataset, most of the features only are applied to one animal. Therefore, training a model on this feature is pretty similar to training a model directly on the labels. With that few features, there is no way the model could understand what each feature actually represents.  
 
-There are a lot of ways to improve this model. 
+There are many ways to improve this model. 
 - As mentioned earlier, a model based on the entire ontology would most likely have better performances. 
-- Having more detailed, more precise, more linked features would help the model understand the similarities and differences of each animal.
+- Having more detailed, more precise, more linked features would help the model understand the similarities and differences between animals.
 - The extraction of numerical features from the images could be improved.
 - Other models than the MCP might prove to be more efficient.  
 
-This project provides a template pipeline in which steps can easily be modified and improved. The tools and data it contains would make it easier to look for the best image recognition model. 
+This project provides a template pipeline in which steps can easily be modified and improved. The tools and data it contains would make it easier to look for the best image recognition model.
