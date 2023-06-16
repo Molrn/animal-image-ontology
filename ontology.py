@@ -23,6 +23,7 @@ ANNOT_TEST_PATH     = ANNOT_PATH+TEST_DIR
 IMAGES_TRAIN_PATH   = IMAGES_PATH+TRAIN_DIR
 IMAGES_TEST_PATH    = IMAGES_PATH+TEST_DIR
 ONTOLOGY_FILE_PATH  = 'Data/KaggleChallenge/animal_ontology.ttl'
+ONTOLOGY_STRUCTURE_FILE_PATH  = 'Data/KaggleChallenge/animal_ontology_structure.ttl'
 MORPH_FEATURES_PATH = 'Data/KaggleChallenge/animal_features.json'
 SCHEMA_IRI          = 'http://schema.org/'
 ONTOLOGY_IRI        = 'http://www.semanticweb.org/youri/ontologies/2023/5/animal-challenge/'
@@ -31,6 +32,7 @@ IMAGE_FILE_EXT      = '.JPEG'
 ANNOT_FILE_EXT      = '.xml'
 
 def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
+                    structure_output_file_path:str=ONTOLOGY_STRUCTURE_FILE_PATH,
                     graph_file_path:str=GRAPH_ARCS_PATH,
                     morph_features_file_path:str=MORPH_FEATURES_PATH,
                     mapping_file_path:str=FULL_MAPPING_PATH,
@@ -49,6 +51,8 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
     print('Initializing the structure...', end='')
     ontology = initialize_ontology_structure(graph_file_path, morph_features_file_path, mapping_file_path, master_node_label)
     print('Done')
+    ontology.serialize(structure_output_file_path)
+    print('Structure ontology saved to file "'+structure_output_file_path+'"')
     populate = input('Populate the ontology (5 minutes per 100 animal classes)? (y/N)')
     if populate == 'y':
         splitted = input('Have you splitted the Images/Annotations files into train and test ? (y/N)')
@@ -63,8 +67,6 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
                     print('\t2) Go to https://www.kaggle.com/settings/account and generate an API token')
                     print('\t3) Place the generated kaggle.json file in this diectory')
                     print('\t4) execute this command : kaggle competitions download -c imagenet-object-localization-challenge')
-                    ontology.serialize(output_file_path)
-                    print('Structure ontology saved to file "'+output_file_path+'"')
                     return ontology
                 zip_file_path = input(f'Zip file path (default: {ZIP_FILE_PATH}) : ')
                 if zip_file_path == 'default':
@@ -80,9 +82,9 @@ def create_ontology(output_file_path:str=ONTOLOGY_FILE_PATH,
 
         print('Populating the ontology...')
         ontology = populate_ontology(ontology)
-    print('Saving the ontology to file "'+output_file_path+'"...', end='')
-    ontology.serialize(output_file_path)
-    print('Done')
+        print('Saving the ontology to file "'+output_file_path+'"...', end='')
+        ontology.serialize(output_file_path)
+        print('Done')
     return ontology
 
 def initialize_ontology_structure(graph_file_path:str=GRAPH_ARCS_PATH,
