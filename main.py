@@ -2,6 +2,7 @@ import synset_mapper as sm
 import animal_graph as ag
 import ontology as onto
 import model_training as mt
+from sklearn.ensemble import RandomForestClassifier
 
 
 def full_commented_pipeline():
@@ -73,18 +74,38 @@ def full_commented_pipeline():
 
     ### d : Populate the ontology with training images
     ontology = onto.get_ontology()
-    onto.populate_ontology(ontology)
-    ontology.serialize('Data/KaggleChallenge/animal_ontology.ttl')
+    ontology = onto.populate_ontology(ontology)
 
     # D : Train a model on the ontology
+    # All the steps can be run at once using mt.image_recognition_model()
+    ## 1 : build a dataset containing the features of each animal class
+    morph_features_df = mt.build_class_morph_features_df(ontology)  
+    
+    ## 2 : Extract from every image a set of features
+    # Save the result into a training and a testing datasets
+    x_train, x_test, y_train, y_test = mt.get_images_test_train()
 
-def poc_full_pipeline():
-    loc_mapping = 'Data/POC/LOC_synset_mapping.txt'
-    mapping_path = 'Data/POC/synset_mapping.json'
-    graph_path = 'Data/POC/graph_arcs.csv'
-    animal_features_path = 'Data/POC/animal_features.json'
-    animal_ontology_path = 'Data/POC/animal_ontology.ttl'
+    ## 3 : Predict the morphological features of the test dataset
+    # Result of the prediction is saved in the 'features_prediction.csv' file
+    x_morph_features = morph_features_df[morph_features_df.columns.drop('inid')]
+    y_morph_features = morph_features_df['inid']
+    x_test_morph_features = mt.predict_all_columns_df(x_test, x_train, y_train, x_morph_features, y_morph_features)
 
+    ## 4 : Train a classifier using the class morph features
+    # Evaluate it using the dataset of predicted features and the testing Target
+    animal_classifier = RandomForestClassifier()
+    animal_classifier.fit(x_morph_features, y_morph_features)
+    animal_classifier.score(x_test_morph_features, y_test)
+
+
+def full_pipeline(pipeline_dir:str='Data/POC/'):
+    loc_mapping = pipeline_dir + 'LOC_synset_mapping.txt'
+    mapping_path = pipeline_dir + 'synset_mapping.json'
+    graph_path = pipeline_dir + 'graph_arcs.csv'
+    animal_features_path = pipeline_dir + 'animal_features.json'
+    animal_ontology_path = pipeline_dir + 'animal_ontology.ttl'
+    ontology_structure_path = pipeline_dir + 'animal_ontology_structure.ttl'
+    features_prediction_path = pipeline_dir + 'features_prediction.csv'
     print('Automatically map synsets to WikiData object')
     sm.generate_synset_full_mapping(loc_mapping, mapping_path)
     print('Initialize manually the WikiData object of the remaining synsets')
@@ -97,7 +118,9 @@ def poc_full_pipeline():
     synsets = ag.get_animal_mapping(mapping_path)
     ag.create_graph_arcs(synsets, graph_path)
     print('Create the ontology')
-    onto.create_ontology(animal_ontology_path, graph_path, animal_features_path, mapping_path)
-    
+    onto.create_ontology(animal_ontology_path, ontology_structure_path, graph_path, animal_features_path, mapping_path)
+    print('Train and evaluate the image recognition module')
+    mt.image_recognition_model(ontology_structure_path, features_prediction_file_path=features_prediction_path)
+
 if __name__=='__main__':
-    poc_full_pipeline()
+    full_pipeline()

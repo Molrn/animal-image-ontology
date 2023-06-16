@@ -15,6 +15,8 @@ The project is fully written in python. Here are the modules to install :
 - pandas
 - xmltodict
 - rdflib  
+- sklearn
+- cv2
 
 We organized the project as a pipeline generating the image recognition model step by step. The input of the pipeline is a file containing a list of synsets mapped to their ImageNet ID. By default, there are 2 different pipeline inputs:
 1. [All of the synsets from the Kaggle challenge](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data?select=LOC_synset_mapping.txt) 
@@ -26,7 +28,9 @@ The input of the pipeline is a file named [LOC_synset_mapping.txt](https://githu
 - [synset_mapping.json](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/synset_mapping.json)
 - [graph_arcs.csv](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/graph_arcs.csv)
 - [animal_features.json](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/animal_features.json)
+- [animal_ontology_structure.ttl](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/animal_ontology_structure.csv)
 - `animal_ontology.ttl`
+- [features_prediction.csv](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/features_prediction.csv)
 
 The ontology file isn't in the repository, but it can easily be generated from the 3 first files. If you want to rerun a specific step of the pipeline, delete the file it generates and run the function of the step. 
 
@@ -139,26 +143,17 @@ It is more and more common to see supervised learning models trained with AI gen
 All of the features are then defined as instances of a class `MorphFeature`, and added as features of the matching class and all of its subclasses. For example, here is the generated definition of the Wolf class: 
 ```Turtle
 ac:Wolf a rdfs:Class ;
-    ac:hasMorphFeature ac:backbone,
-        ac:bushyTail,
-        ac:canineTeeth,
-        ac:claws,
-        ac:dogLikeShape,
-        ac:fourLegs,
-        ac:fourLimbs,
-        ac:lungs,
-        ac:muzzle,
-        ac:pointedEars,
-        ac:pointedSnout,
-        ac:sharpTeeth,
-        ac:spinalCord ;
+    ac:hasMorphFeature 
+        ac:backbone, ac:bushyTail, ac:canineTeeth, ac:claws, ac:dogLikeShape,
+        ac:fourLegs, ac:fourLimbs, ac:lungs, ac:muzzle, ac:pointedEars,
+        ac:pointedSnout, ac:sharpTeeth, ac:spinalCord ;
     ac:inid "n02114367" ;
     ac:wdid wd:Q18498 ;
     rdfs:subClassOf ac:Canis .
 ```
 This step could be majorly improved, especially by creating sub-classes of the `MorphFeature` class, correspunding to different parts of the body (furr, mouth, legs, ears, tail, etc...) and instances of these classes being a specific feature of this part of the body (size, color, etc...). This would most likely be a huge help for the supervised learning model, but with a large amount of classes, it would be much harder to match the features to the animals.  
 
-Once the ontology structure is generated, it is possible to visualize it using ontology editing tools, like [Protégé](https://protege.stanford.edu/).  
+Once the ontology structure is generated, it is saved in the [animal_ontology_structure.ttl](https://github.com/Molrn/animal-image-ontology/blob/main/Data/KaggleChallenge/animal_ontology_structure.ttl) file. It then is possible to visualize it using ontology editing tools, like [Protégé](https://protege.stanford.edu/).  
 
 ![Structure of the POC ontology in Protégé](Exports/POC_protege_ontology_structure.png "Structure of the POC ontology in Protégé")
 
@@ -184,19 +179,44 @@ Each entity is an animal of the class present on the image. Each object contains
 Here is how the images and animal instances are represented in the ontology:
 ```Turtle
 ac:n02114367_10043 a ac:Wolf ;
-    ac:boundingBox [ ac:xMax 350 ;
-            ac:xMin 4 ;
-            ac:yMax 276 ;
-            ac:yMin 82 ] ;
+    ac:boundingBox [ ac:xMax 350 ; ac:xMin 4 ; ac:yMax 276 ; ac:yMin 82 ] ;
     foaf:img ac:IMG_n02114367_10043 .
 
 ac:IMG_n02114367_10043 a schema:ImageObject ;
     schema1:image [ a schema:URL ;
             schema:value <file:///{project_path}/Data/Images/Train/n02114367/n02114367_10043.JPEG> ] ;
-    ac:size [ ac:height 347 ; 
-            ac:width 500 ] .
+    ac:size [ ac:height 347 ; ac:width 500 ] .
 ```
 
 An instance of the animal class is created per object in the declared in the Annotations file. It has as property the image on which it appears and (if an annotation file exists for the image) the bounding box in which it appears. The image is defined as an instance of the class [schema:ImageObject](https://schema.org/ImageObject) having as parameters the absolute path of the file and (if the image is annoted) its size in pixels.  
 
 As the images aren't available online resources, the populated ontology isn't easily sharable, which is why it isn't available in this repository. Once created, the ontology is saved into a file named `animal_ontology.ttl`.
+
+### Model training
+
+There are multiple ways to train a model using the ontology we created. We chose a way that only uses the ontology structure and not its population. Another model, built using the entire structure of the ontology, would probably produce a better result.  
+
+The model we created only relies on the morphological features of the animals. The features are listed for each leaf animal class in a boolean matrix. Here is what that matrix looks like with the main features of the POC dataset.  
+
+![Morphological features matrix](Exports/morph_features_matrix.png)  
+
+All of the images are processed in a way that only keeps 512 numerical values per image. These processed images are placed with their labels (ImageNet ID, name of the image directory) in 2 DataFrames: one for training and one for testing. Then, a prediction of the morphological features of each image is made by going through the following process:  
+1. Extract one column of the morphological features matrix
+1. Map that column to the target of the image DataFrame using the target of the morphological matrix to create a new image target. For example, if the value of the `Beck` column for object `n01614925` (Bald Eagle) is `True`, then all of the images of bald eagles in the image dataset will have as new target `True`
+1. Train a classifying model with as features the images and as target the new target column
+1. Using the trained model, predict the boolean value of this morphological feature for each image of the training dataset
+1. Redo these steps for every feature of the morphological features matrix
+
+This generates a prediction matrix which is saved in the [features_prediction.csv](https://github.com/Molrn/animal-image-ontology/blob/main/Data/POC/features_prediction.csv) file. From this matrix, all it takes is to train another model based on the class morphological features DataFrame, and predict each training image's label from the prediction matrix. By default, this model is a Multi Layer Perception (MCP) classifier.  
+
+On the POC dataset, this method isn't that efficient, and has a 0.80 accuracy, which is less than what could be achieved with a model only using the images and their labels. It can be explained by 2 reasons: 
+- The intermediate predicted dataset generates some noise
+- As there are very few animal classes in the POC dataset, most of the features only are applied to one animal. Therefore, training a model on this feature is pretty similar to training a model directly on the labels. With that few features, there is no way the model could understand what each feature actually represents.  
+
+There are a lot of ways to improve this model. 
+- As mentioned earlier, a model based on the entire ontology would most likely have better performances. 
+- Having more detailed, more precise, more linked features would help the model understand the similarities and differences of each animal.
+- The extraction of numerical features from the images could be improved.
+- Other models than the MCP might prove to be more efficient.  
+
+This project provides a template pipeline in which steps can easily be modified and improved. The tools and data it contains would make it easier to look for the best image recognition model. 
